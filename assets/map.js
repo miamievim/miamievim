@@ -94,6 +94,7 @@
   function setCounty(c) {
     state.county = c;
     updateMarkers();
+    if (svgEl) { fitSvg(COUNTY_BOUNDS[c]); return; }
     if (map) {
       var wide = window.matchMedia('(min-width: 901px)').matches;
       map.fitBounds(COUNTY_BOUNDS[c], { padding: wide ? { top: 140, bottom: 110, left: 60, right: 440 } : 30, duration: 1100 });
@@ -113,9 +114,109 @@
     };
   }
 
+
+  // ---- Şematik yedek harita (MapLibre veya harita karoları yüklenemezse) ----
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  var K = Math.cos(26 * Math.PI / 180);
+  function px(lng) { return (lng + 80.55) * K * 1000; }
+  function py(lat) { return (26.47 - lat) * 1000; }
+  function pts(arr) { return arr.map(function (p) { return px(p[1]).toFixed(1) + ',' + py(p[0]).toFixed(1); }).join(' '); }
+  var svgEl = null;
+  var LAND = [[27.6, -80.03], [26.47, -80.053], [26.35, -80.066], [26.26, -80.079], [26.12, -80.098], [26.0, -80.112], [25.93, -80.118], [25.905, -80.12],
+    [25.905, -80.15], [25.87, -80.165], [25.83, -80.18], [25.79, -80.188], [25.76, -80.19], [25.73, -80.225], [25.70, -80.255], [25.65, -80.285],
+    [25.58, -80.315], [25.45, -80.33], [24.4, -80.45], [24.4, -82.5], [27.6, -82.5]];
+  var MIAMI_BEACH = [[25.905, -80.132], [25.84, -80.132], [25.79, -80.145], [25.763, -80.145], [25.763, -80.127], [25.80, -80.121], [25.87, -80.117], [25.905, -80.117]];
+  var KEY_BISCAYNE = [[25.738, -80.168], [25.70, -80.172], [25.663, -80.162], [25.668, -80.150], [25.72, -80.153]];
+
+  function el(tag, attrs, parent) {
+    var e = document.createElementNS(SVGNS, tag);
+    Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); });
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+
+  var svgBounds = null;
+  function freeArea(W) {
+    if (W <= 900) return { l: 16, r: 16, t: 250, b: 30 };
+    if (W <= 1180) return { l: 40, r: 460, t: 230, b: 110 };
+    return { l: 590, r: 470, t: 50, b: 50 };
+  }
+  function fitSvg(bounds) {
+    if (!svgEl) return;
+    svgBounds = bounds || svgBounds;
+    var host = $('#map'), W = host.clientWidth || 1, H = host.clientHeight || 1, f = freeArea(W);
+    var bx = px(svgBounds[0][0]), bw = px(svgBounds[1][0]) - bx, by = py(svgBounds[1][1]), bh = py(svgBounds[0][1]) - by;
+    var fw = Math.max(W - f.l - f.r, 120), fh = Math.max(H - f.t - f.b, 120);
+    var sc = Math.min(fw / bw, fh / bh);
+    var vx = bx - (f.l + (fw - bw * sc) / 2) / sc, vy = by - (f.t + (fh - bh * sc) / 2) / sc;
+    svgEl.setAttribute('viewBox', vx.toFixed(1) + ' ' + vy.toFixed(1) + ' ' + (W / sc).toFixed(1) + ' ' + (H / sc).toFixed(1));
+    svgEl.style.setProperty('--sv', (1 / sc).toFixed(3));
+    Array.prototype.forEach.call(svgEl.querySelectorAll('.sv-left'), function (t) { t.setAttribute('x', (bx + 4 / sc).toFixed(1)); });
+    sizeLabels();
+  }
+
+  var labels = [];
+  function sizeLabels() {
+    labels.forEach(function (l) {
+      var bb; try { bb = l[0].getBBox(); } catch (e) { return; }
+      var padX = bb.height * 0.5, gap = bb.height * 0.9;
+      var x = l[2] ? -(bb.width + gap + padX) : gap + padX;
+      l[0].setAttribute('x', x); l[0].setAttribute('y', 0);
+      l[1].setAttribute('x', x - padX); l[1].setAttribute('y', -bb.height * 0.75);
+      l[1].setAttribute('width', bb.width + 2 * padX); l[1].setAttribute('height', bb.height * 1.5);
+    });
+  }
+  window.addEventListener('resize', function () { if (svgEl) { fitSvg(); sizeLabels(); } });
+
+  function renderSchematic() {
+    labels = [];
+    var host = $('#map'), shell = $('.map-shell');
+    if (!host) return;
+    if (map) { try { map.remove(); } catch (e) {} map = null; }
+    markers = {}; countyLabels = {};
+    host.innerHTML = '';
+    if (shell) { shell.classList.remove('no-map'); shell.classList.add('schematic'); }
+    svgEl = el('svg', { 'class': 'schematic-map', role: 'img', 'aria-label': 'Güney Florida mahalle haritası (şematik)', preserveAspectRatio: 'none' }, host);
+    el('rect', { x: -2000, y: -2000, width: 6000, height: 6000, 'class': 'sv-sea' }, svgEl);
+    el('polygon', { points: pts(LAND), 'class': 'sv-land' }, svgEl);
+    el('polygon', { points: pts(MIAMI_BEACH), 'class': 'sv-land' }, svgEl);
+    el('polygon', { points: pts(KEY_BISCAYNE), 'class': 'sv-land' }, svgEl);
+    [PB_BR, BR_MD].forEach(function (lat) {
+      el('line', { x1: px(-80.56), x2: px(-80.10), y1: py(lat), y2: py(lat), 'class': 'sv-county-line' }, svgEl);
+    });
+    [['Palm Beach', 26.40], ['Broward', 26.20], ['Miami-Dade', 25.90]].forEach(function (c) {
+      var t = el('text', { x: px(-80.53), y: py(c[1]), 'class': 'sv-county sv-left' }, svgEl);
+      t.textContent = c[0];
+      countyLabels[c[0]] = { getElement: function () { return t; } };
+    });
+    el('text', { x: px(-80.02), y: py(26.05), 'class': 'sv-ocean' }, svgEl).textContent = 'Atlantik';
+    HOODS.forEach(function (h) {
+      var g = el('g', { 'class': 'sv-hood', tabindex: '0', role: 'button', 'aria-label': h.name, transform: 'translate(' + px(h.lng).toFixed(1) + ',' + py(h.lat).toFixed(1) + ')' }, svgEl);
+      el('circle', { r: 1, 'class': 'sv-hit' }, g);
+      el('circle', { r: 1, 'class': 'sv-dot' }, g);
+      var right = h.lng > -80.2;
+      var bg = el('rect', { 'class': 'sv-lbl-bg' }, g);
+      var t = el('text', { 'class': 'sv-lbl', 'dominant-baseline': 'central' }, g);
+      t.textContent = h.name;
+      labels.push([t, bg, right]);
+      function go() { select(h.id); }
+      g.addEventListener('click', go);
+      g.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); go(); } });
+      markers[h.id] = { getElement: function () { return g; } };
+    });
+    sizeLabels();
+    var note = document.createElement('p');
+    note.className = 'schematic-note';
+    note.textContent = 'Şematik görünüm';
+    host.appendChild(note);
+    fitSvg(COUNTY_BOUNDS[state.county === 'All' ? 'Miami-Dade' : state.county]);
+    updateMarkers();
+  }
+
   function initMap() {
     var shell = $('.map-shell');
-    if (!window.maplibregl || !$('#map')) { if (shell) shell.classList.add('no-map'); return; }
+    if (!$('#map')) return;
+    if (!window.maplibregl) { renderSchematic(); return; }
     try {
       map = new maplibregl.Map({
         container: 'map',
@@ -128,12 +229,16 @@
         minZoom: 7
       });
     } catch (e) {
-      if (shell) shell.classList.add('no-map');
+      renderSchematic();
       return;
     }
+    var loaded = false;
+    map.on('error', function () { setTimeout(function () { if (!loaded && map && !map.isStyleLoaded()) renderSchematic(); }, 4000); });
+    setTimeout(function () { if (!loaded && map && !map.isStyleLoaded()) renderSchematic(); }, 20000);
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
 
     map.on('load', function () {
+      loaded = true;
       var g = countyGeo();
       map.addSource('county-shade', { type: 'geojson', data: g.shade });
       map.addLayer({ id: 'county-shade', type: 'fill', source: 'county-shade', paint: { 'fill-color': '#000000', 'fill-opacity': 0 } });

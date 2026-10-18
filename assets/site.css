@@ -255,3 +255,25 @@ h2 em,h1 em{font-style:italic}
 @media (max-width:1080px) and (min-width:901px){.nav{gap:16px;font-size:11px;letter-spacing:.1em}.brand img{height:72px}}
 @media (max-width:1000px) and (min-width:901px){.hero-body{padding-top:210px}}
 .grid-3{grid-template-columns:repeat(auto-fit,minmax(max(260px,28%),1fr))}
+/* Şematik yedek harita */
+.schematic-map{position:absolute;inset:0;width:100%;height:100%}
+.sv-sea{fill:#0B0B0B}
+.sv-land{fill:#1A1A1A;stroke:#3A3733;stroke-width:calc(1px * var(--sv,1))}
+.sv-county-line{stroke:#8A8378;stroke-width:calc(1.4px * var(--sv,1));stroke-dasharray:calc(6px * var(--sv,1)) calc(5px * var(--sv,1))}
+.sv-county{font-family:var(--sans);font-size:calc(13px * var(--sv,1));letter-spacing:.45em;text-transform:uppercase;fill:#8A8378}
+.sv-county.on{fill:var(--ivory)}
+.sv-ocean{font-family:var(--serif);font-style:italic;font-size:calc(20px * var(--sv,1));fill:#3A3733}
+.sv-hood{cursor:pointer;outline:none}
+.sv-hit{fill:transparent;r:calc(16px * var(--sv,1))}
+.sv-dot{r:calc(5.5px * var(--sv,1));fill:#BDB6AA;stroke:rgba(247,244,238,.18);stroke-width:calc(3px * var(--sv,1))}
+.sv-lbl,.sv-lbl-bg{visibility:hidden}
+.sv-lbl{font-family:var(--sans);font-size:calc(12px * var(--sv,1));letter-spacing:.06em;fill:#E6E1D8}
+.sv-lbl-bg{fill:rgba(15,15,15,.88)}
+.sv-hood:hover .sv-lbl,.sv-hood:hover .sv-lbl-bg,.sv-hood:focus .sv-lbl,.sv-hood:focus .sv-lbl-bg{visibility:visible}
+.sv-hood.on .sv-dot{r:calc(9px * var(--sv,1));fill:var(--ivory);stroke:rgba(247,244,238,.3);stroke-width:calc(6px * var(--sv,1))}
+.sv-hood.on .sv-lbl,.sv-hood.on .sv-lbl-bg{visibility:visible}
+.sv-hood.on .sv-lbl-bg{fill:var(--ivory)}
+.sv-hood.on .sv-lbl{fill:var(--ink)}
+.sv-hood.dim{opacity:.3}
+.schematic-note{position:absolute;right:470px;bottom:16px;margin:0;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#6E675E}
+@media (max-width:900px){.schematic-note{right:auto;left:16px;bottom:4px}}
