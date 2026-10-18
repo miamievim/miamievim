@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Miami Mahalle Raporları: 22 Mahalle, Her Pazartesi | Aleyna Bozoklar</title>
-<meta name="description" content="Miami, Fort Lauderdale ve Boca Raton'da 22 mahalle için her pazartesi yeni rapor: satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Türkçe ve kaynaklı.">
+<title>Miami Mahalle Raporları: 22 Mahalle, Ücretsiz | Aleyna Bozoklar</title>
+<meta name="description" content="Miami, Fort Lauderdale ve Boca Raton'da 22 mahallenin ücretsiz raporu: satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Kaynaklarıyla, Türkçe.">
 <link rel="canonical" href="https://miamievim.com/mahalle-raporlari/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="tr_TR">
-<meta property="og:title" content="Miami Mahalle Raporları · her pazartesi">
-<meta property="og:description" content="22 mahalle, her pazartesi bir rapor: fiyat, kira, aidat, sigorta, sel bölgesi.">
+<meta property="og:title" content="Miami Mahalle Raporları · 22 mahalle, ücretsiz">
+<meta property="og:description" content="Fiyat, kira, aidat, sigorta, sel bölgesi ve ulaşım; 22 mahalle kaynaklarıyla.">
 <meta property="og:url" content="https://miamievim.com/mahalle-raporlari/">
 <meta property="og:image" content="https://miamievim.com/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -22,15 +22,14 @@
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 .rlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
-.rrow{display:grid;grid-template-columns:90px minmax(0,1fr) 170px 190px;gap:24px;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}
-.rrow .no{font-family:var(--serif);font-style:italic;font-size:20px;color:var(--stone)}
-.rrow h3{font-size:28px;line-height:1.1}
+.rrow{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between;padding:26px 0;border-bottom:1px solid var(--line)}
+.rmain{flex:1 1 420px;min-width:0}
+.rrow .county{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--stone)}
+.rrow h3{font-size:30px;line-height:1.1;margin-top:6px}
 .rrow p{margin:6px 0 0;font-size:15px;font-weight:300;color:var(--text)}
-.rrow time{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--stone)}
-.rrow .status{justify-self:end;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--stone);border:1px solid var(--line);padding:12px 16px;text-align:center}
-.rrow a.status{color:var(--white);background:var(--ink);border-color:var(--ink);text-decoration:none}
-.rrow:target{background:var(--bone)}
-@media (max-width:900px){.rrow{grid-template-columns:56px minmax(0,1fr);gap:8px 16px}.rrow time,.rrow .status{grid-column:2;justify-self:start}}
+.rrow .get{min-height:48px;padding:0 24px;font-size:11px}
+.rrow:target{background:var(--bone);padding-left:16px;padding-right:16px}
+.gate{position:relative}
 </style>
 </head>
 <body>
@@ -45,7 +44,7 @@
       <a href="/yatirim/">Yatırım</a>
       <a href="/#hizmetler">Hizmetler</a>
       <a href="/rehberler/">Rehberler</a>
-      <a href="/#hakkimda">Hakkımda</a>
+      <a href="/hakkimda/">Hakkımda</a>
       <a href="/mahalle-raporlari/" aria-current="page">Mahalleler</a>
     </nav>
     <div class="header-right">
@@ -58,165 +57,177 @@
 <main id="main">
   <section class="page-hero">
     <div class="wrap">
-      <p class="eyebrow">Mahalle raporları · her pazartesi</p>
-      <h1>22 mahalle, 22 hafta. <em>Her biri rakamlarıyla.</em></h1>
-      <p class="lead">Her pazartesi bir mahalle: karakteri, bilinen mekânları ve gizli köşeleri, satış fiyatları ve kiralar, aidat, sigorta ve sel bölgesi, ulaşım ve yeni projeler. Her rakam kaynağı ve ayıyla verilir.</p>
+      <p class="eyebrow">Mahalle raporları · ücretsiz</p>
+      <h1>Bir mahalleyi seçmeden önce <em>bilmeniz gereken her şey.</em></h1>
+      <p class="lead">22 mahalle, aynı dokuz başlık: karakteri, bilinen mekânlar ve gizli köşeler, satış fiyatları ve kiralar, aidat, sigorta ve sel bölgesi, ulaşım ve yeni projeler. Her rakam kaynağı ve ayıyla verilir.</p>
       <div class="hero-ctas" style="margin-top:32px">
-        <a class="btn" href="/mahalle-rehberi/" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Her rapor e-postanıza gelsin</a>
+        <a class="btn" href="#rapor-formu" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Raporunuzu alın</a>
         <a class="btn btn-line" href="/mahalle-testi/">Hangi mahalle size uygun?</a>
       </div>
     </div>
   </section>
+
+  <section class="dark guide-band gate" id="rapor-formu" aria-labelledby="gate-title">
+    <div class="wrap" style="padding-top:88px;padding-bottom:88px">
+      <div class="copy">
+        <p class="eyebrow">Ücretsiz erişim</p>
+        <h2 id="gate-title">Raporu seçin, <em>hemen okuyun.</em></h2>
+        <p class="lead">Adınızı ve e-postanızı bırakın; seçtiğiniz mahallenin raporu açılsın. Raporun bir kopyası ve güncellemeleri e-postanıza gelir.</p>
+      </div>
+      <form class="form" id="gate-form" name="mahalle-raporu" method="POST" action="/mahalle-raporlari/gonderildi/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="mahalle-raporu">
+        <p class="hp"><label>Bu alanı boş bırakın <input name="bot-field"></label></p>
+        <label class="field">Mahalle<select name="mahalle" id="gate-hood">
+            <option value="tumu">Tüm mahalleler</option>
+            <option value="coral-gables">Coral Gables</option>
+            <option value="coconut-grove">Coconut Grove</option>
+            <option value="pinecrest">South Miami &amp; Pinecrest</option>
+            <option value="key-biscayne">Key Biscayne</option>
+            <option value="south-beach">South Beach</option>
+            <option value="wynwood">Wynwood &amp; Design District</option>
+            <option value="brickell">Brickell</option>
+            <option value="edgewater">Downtown &amp; Edgewater</option>
+            <option value="little-havana">Little Havana</option>
+            <option value="doral">Doral</option>
+            <option value="north-beach">Mid-Beach &amp; North Beach</option>
+            <option value="bal-harbour">Surfside &amp; Bal Harbour</option>
+            <option value="sunny-isles">Sunny Isles Beach</option>
+            <option value="aventura">Aventura</option>
+            <option value="hallandale">Hallandale Beach</option>
+            <option value="hollywood">Hollywood</option>
+            <option value="weston">Weston</option>
+            <option value="fort-lauderdale">Fort Lauderdale</option>
+            <option value="wilton-manors">Wilton Manors</option>
+            <option value="pompano">Lighthouse Point &amp; Pompano</option>
+            <option value="deerfield">Deerfield Beach</option>
+            <option value="boca-raton">Boca Raton</option>
+          </select></label>
+        <div class="row">
+          <label class="field">Ad soyad<input type="text" name="ad" autocomplete="name" required></label>
+          <label class="field">E-posta<input type="email" name="email" autocomplete="email" required></label>
+        </div>
+        <label class="consent"><input type="checkbox" name="izin" value="evet" required><span>Raporun ve mahalle güncellemelerinin bana e-postayla gönderilmesini kabul ediyorum. Bilgilerim üçüncü kişilerle paylaşılmaz. <a href="/gizlilik/" style="color:inherit">Gizlilik politikası</a></span></label>
+        <button class="btn" type="submit">Raporu açın</button>
+      </form>
+    </div>
+  </section>
+
   <section class="section">
     <div class="wrap">
+      <div class="section-head">
+        <div class="stack">
+          <p class="eyebrow">Miami-Dade · Broward · Palm Beach</p>
+          <h2>22 mahalle <em>raporu</em></h2>
+        </div>
+      </div>
       <ol class="rlist">
-        <li class="rrow" id="coral-gables" data-date="2026-11-02">
-          <span class="no">No. 01</span>
-          <div class="rmain"><h3>Coral Gables</h3><p>Miami-Dade · Ağaçlıklı sokaklar, yürünebilir bir merkez ve Akdeniz tarzı evler.</p></div>
-          <time datetime="2026-11-02">2 Kasım 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/coral-gables/">Yayın: 2 Kasım</span>
+        <li class="rrow" id="coral-gables">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Coral Gables</h3><p>Ağaçlıklı sokaklar, yürünebilir bir merkez ve Akdeniz tarzı evler.</p></div>
+          <button type="button" class="btn btn-line get" data-id="coral-gables">Raporu alın</button>
         </li>
-        <li class="rrow" id="coconut-grove" data-date="2026-11-09">
-          <span class="no">No. 02</span>
-          <div class="rmain"><h3>Coconut Grove</h3><p>Miami-Dade · Marinalar, körfez parkları ve köy sakinliği.</p></div>
-          <time datetime="2026-11-09">9 Kasım 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/coconut-grove/">Yayın: 9 Kasım</span>
+        <li class="rrow" id="coconut-grove">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Coconut Grove</h3><p>Marinalar, körfez parkları ve köy sakinliği.</p></div>
+          <button type="button" class="btn btn-line get" data-id="coconut-grove">Raporu alın</button>
         </li>
-        <li class="rrow" id="pinecrest" data-date="2026-11-16">
-          <span class="no">No. 03</span>
-          <div class="rmain"><h3>South Miami &amp; Pinecrest</h3><p>Miami-Dade · Geniş arsalar ve bahçeli müstakil evler.</p></div>
-          <time datetime="2026-11-16">16 Kasım 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/pinecrest/">Yayın: 16 Kasım</span>
+        <li class="rrow" id="pinecrest">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>South Miami &amp; Pinecrest</h3><p>Geniş arsalar ve bahçeli müstakil evler.</p></div>
+          <button type="button" class="btn btn-line get" data-id="pinecrest">Raporu alın</button>
         </li>
-        <li class="rrow" id="key-biscayne" data-date="2026-11-23">
-          <span class="no">No. 04</span>
-          <div class="rmain"><h3>Key Biscayne</h3><p>Miami-Dade · Şehir merkezine tek bir köprüyle bağlı ada hayatı.</p></div>
-          <time datetime="2026-11-23">23 Kasım 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/key-biscayne/">Yayın: 23 Kasım</span>
+        <li class="rrow" id="key-biscayne">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Key Biscayne</h3><p>Şehir merkezine tek bir köprüyle bağlı ada hayatı.</p></div>
+          <button type="button" class="btn btn-line get" data-id="key-biscayne">Raporu alın</button>
         </li>
-        <li class="rrow" id="south-beach" data-date="2026-11-30">
-          <span class="no">No. 05</span>
-          <div class="rmain"><h3>South Beach</h3><p>Miami-Dade · Art Deco binalar, plaj ve Ocean Drive’ın enerjisi.</p></div>
-          <time datetime="2026-11-30">30 Kasım 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/south-beach/">Yayın: 30 Kasım</span>
+        <li class="rrow" id="south-beach">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>South Beach</h3><p>Art Deco binalar, plaj ve Ocean Drive’ın enerjisi.</p></div>
+          <button type="button" class="btn btn-line get" data-id="south-beach">Raporu alın</button>
         </li>
-        <li class="rrow" id="wynwood" data-date="2026-12-07">
-          <span class="no">No. 06</span>
-          <div class="rmain"><h3>Wynwood &amp; Design District</h3><p>Miami-Dade · Duvar resimleri, galeriler ve lüks butikler.</p></div>
-          <time datetime="2026-12-07">7 Aralık 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/wynwood/">Yayın: 7 Aralık</span>
+        <li class="rrow" id="wynwood">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Wynwood &amp; Design District</h3><p>Duvar resimleri, galeriler ve lüks butikler.</p></div>
+          <button type="button" class="btn btn-line get" data-id="wynwood">Raporu alın</button>
         </li>
-        <li class="rrow" id="brickell" data-date="2026-12-14">
-          <span class="no">No. 07</span>
-          <div class="rmain"><h3>Brickell</h3><p>Miami-Dade · Miami’nin finans merkezi; arabasız yaşamın mümkün olduğu yer.</p></div>
-          <time datetime="2026-12-14">14 Aralık 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/brickell/">Yayın: 14 Aralık</span>
+        <li class="rrow" id="brickell">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Brickell</h3><p>Miami’nin finans merkezi; arabasız yaşamın mümkün olduğu yer.</p></div>
+          <button type="button" class="btn btn-line get" data-id="brickell">Raporu alın</button>
         </li>
-        <li class="rrow" id="edgewater" data-date="2026-12-21">
-          <span class="no">No. 08</span>
-          <div class="rmain"><h3>Downtown &amp; Edgewater</h3><p>Miami-Dade · Biscayne Körfezi’nde en hızlı değişen silüet.</p></div>
-          <time datetime="2026-12-21">21 Aralık 2026</time>
-          <span class="status" data-href="/mahalle-raporlari/edgewater/">Yayın: 21 Aralık</span>
+        <li class="rrow" id="edgewater">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Downtown &amp; Edgewater</h3><p>Biscayne Körfezi’nde en hızlı değişen silüet.</p></div>
+          <button type="button" class="btn btn-line get" data-id="edgewater">Raporu alın</button>
         </li>
-        <li class="rrow" id="little-havana" data-date="2027-01-04">
-          <span class="no">No. 09</span>
-          <div class="rmain"><h3>Little Havana</h3><p>Miami-Dade · Calle Ocho ve Miami’nin Latin kalbi.</p></div>
-          <time datetime="2027-01-04">4 Ocak 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/little-havana/">Yayın: 4 Ocak</span>
+        <li class="rrow" id="little-havana">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Little Havana</h3><p>Calle Ocho ve Miami’nin Latin kalbi.</p></div>
+          <button type="button" class="btn btn-line get" data-id="little-havana">Raporu alın</button>
         </li>
-        <li class="rrow" id="doral" data-date="2027-01-11">
-          <span class="no">No. 10</span>
-          <div class="rmain"><h3>Doral</h3><p>Miami-Dade · Yeni yapılar, golf sahaları ve havalimanına hızlı erişim.</p></div>
-          <time datetime="2027-01-11">11 Ocak 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/doral/">Yayın: 11 Ocak</span>
+        <li class="rrow" id="doral">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Doral</h3><p>Yeni yapılar, golf sahaları ve havalimanına hızlı erişim.</p></div>
+          <button type="button" class="btn btn-line get" data-id="doral">Raporu alın</button>
         </li>
-        <li class="rrow" id="north-beach" data-date="2027-01-18">
-          <span class="no">No. 11</span>
-          <div class="rmain"><h3>Mid-Beach &amp; North Beach</h3><p>Miami-Dade · Miami Beach’in daha sakin yüzü.</p></div>
-          <time datetime="2027-01-18">18 Ocak 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/north-beach/">Yayın: 18 Ocak</span>
+        <li class="rrow" id="north-beach">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Mid-Beach &amp; North Beach</h3><p>Miami Beach’in daha sakin yüzü.</p></div>
+          <button type="button" class="btn btn-line get" data-id="north-beach">Raporu alın</button>
         </li>
-        <li class="rrow" id="bal-harbour" data-date="2027-01-25">
-          <span class="no">No. 12</span>
-          <div class="rmain"><h3>Surfside &amp; Bal Harbour</h3><p>Miami-Dade · Sakin sahil sokakları ve Bal Harbour Shops.</p></div>
-          <time datetime="2027-01-25">25 Ocak 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/bal-harbour/">Yayın: 25 Ocak</span>
+        <li class="rrow" id="bal-harbour">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Surfside &amp; Bal Harbour</h3><p>Sakin sahil sokakları ve Bal Harbour Shops.</p></div>
+          <button type="button" class="btn btn-line get" data-id="bal-harbour">Raporu alın</button>
         </li>
-        <li class="rrow" id="sunny-isles" data-date="2027-02-01">
-          <span class="no">No. 13</span>
-          <div class="rmain"><h3>Sunny Isles Beach</h3><p>Miami-Dade · Okyanus kıyısında kuleler ve markalı rezidanslar.</p></div>
-          <time datetime="2027-02-01">1 Şubat 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/sunny-isles/">Yayın: 1 Şubat</span>
+        <li class="rrow" id="sunny-isles">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Sunny Isles Beach</h3><p>Okyanus kıyısında kuleler ve markalı rezidanslar.</p></div>
+          <button type="button" class="btn btn-line get" data-id="sunny-isles">Raporu alın</button>
         </li>
-        <li class="rrow" id="aventura" data-date="2027-02-08">
-          <span class="no">No. 14</span>
-          <div class="rmain"><h3>Aventura</h3><p>Miami-Dade · Alışveriş, marinalar ve Intracoastal kıyısında yaşam.</p></div>
-          <time datetime="2027-02-08">8 Şubat 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/aventura/">Yayın: 8 Şubat</span>
+        <li class="rrow" id="aventura">
+          <div class="rmain"><span class="county">Miami-Dade</span><h3>Aventura</h3><p>Alışveriş, marinalar ve Intracoastal kıyısında yaşam.</p></div>
+          <button type="button" class="btn btn-line get" data-id="aventura">Raporu alın</button>
         </li>
-        <li class="rrow" id="hallandale" data-date="2027-02-15">
-          <span class="no">No. 15</span>
-          <div class="rmain"><h3>Hallandale Beach</h3><p>Broward · Miami’ye yakın, Broward fiyatlarında.</p></div>
-          <time datetime="2027-02-15">15 Şubat 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/hallandale/">Yayın: 15 Şubat</span>
+        <li class="rrow" id="hallandale">
+          <div class="rmain"><span class="county">Broward</span><h3>Hallandale Beach</h3><p>Miami’ye yakın, Broward fiyatlarında.</p></div>
+          <button type="button" class="btn btn-line get" data-id="hallandale">Raporu alın</button>
         </li>
-        <li class="rrow" id="hollywood" data-date="2027-02-22">
-          <span class="no">No. 16</span>
-          <div class="rmain"><h3>Hollywood</h3><p>Broward · Broadwalk boyunca bisikletle sahil hayatı.</p></div>
-          <time datetime="2027-02-22">22 Şubat 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/hollywood/">Yayın: 22 Şubat</span>
+        <li class="rrow" id="hollywood">
+          <div class="rmain"><span class="county">Broward</span><h3>Hollywood</h3><p>Broadwalk boyunca bisikletle sahil hayatı.</p></div>
+          <button type="button" class="btn btn-line get" data-id="hollywood">Raporu alın</button>
         </li>
-        <li class="rrow" id="weston" data-date="2027-03-01">
-          <span class="no">No. 17</span>
-          <div class="rmain"><h3>Weston</h3><p>Broward · Göller, geniş evler ve sakin sokaklar.</p></div>
-          <time datetime="2027-03-01">1 Mart 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/weston/">Yayın: 1 Mart</span>
+        <li class="rrow" id="weston">
+          <div class="rmain"><span class="county">Broward</span><h3>Weston</h3><p>Göller, geniş evler ve sakin sokaklar.</p></div>
+          <button type="button" class="btn btn-line get" data-id="weston">Raporu alın</button>
         </li>
-        <li class="rrow" id="fort-lauderdale" data-date="2027-03-08">
-          <span class="no">No. 18</span>
-          <div class="rmain"><h3>Fort Lauderdale</h3><p>Broward · Las Olas, Victoria Park ve kanal kenarında yaşam.</p></div>
-          <time datetime="2027-03-08">8 Mart 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/fort-lauderdale/">Yayın: 8 Mart</span>
+        <li class="rrow" id="fort-lauderdale">
+          <div class="rmain"><span class="county">Broward</span><h3>Fort Lauderdale</h3><p>Las Olas, Victoria Park ve kanal kenarında yaşam.</p></div>
+          <button type="button" class="btn btn-line get" data-id="fort-lauderdale">Raporu alın</button>
         </li>
-        <li class="rrow" id="wilton-manors" data-date="2027-03-15">
-          <span class="no">No. 19</span>
-          <div class="rmain"><h3>Wilton Manors</h3><p>Broward · Fort Lauderdale’e dakikalar mesafede renkli, küçük bir şehir.</p></div>
-          <time datetime="2027-03-15">15 Mart 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/wilton-manors/">Yayın: 15 Mart</span>
+        <li class="rrow" id="wilton-manors">
+          <div class="rmain"><span class="county">Broward</span><h3>Wilton Manors</h3><p>Fort Lauderdale’e dakikalar mesafede renkli, küçük bir şehir.</p></div>
+          <button type="button" class="btn btn-line get" data-id="wilton-manors">Raporu alın</button>
         </li>
-        <li class="rrow" id="pompano" data-date="2027-03-22">
-          <span class="no">No. 20</span>
-          <div class="rmain"><h3>Lighthouse Point &amp; Pompano</h3><p>Broward · Derin su kanalları ve tekne sahipleri için evler.</p></div>
-          <time datetime="2027-03-22">22 Mart 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/pompano/">Yayın: 22 Mart</span>
+        <li class="rrow" id="pompano">
+          <div class="rmain"><span class="county">Broward</span><h3>Lighthouse Point &amp; Pompano</h3><p>Derin su kanalları ve tekne sahipleri için evler.</p></div>
+          <button type="button" class="btn btn-line get" data-id="pompano">Raporu alın</button>
         </li>
-        <li class="rrow" id="deerfield" data-date="2027-03-29">
-          <span class="no">No. 21</span>
-          <div class="rmain"><h3>Deerfield Beach</h3><p>Broward · İki büyük şehrin arasında sahil kasabası hissi.</p></div>
-          <time datetime="2027-03-29">29 Mart 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/deerfield/">Yayın: 29 Mart</span>
+        <li class="rrow" id="deerfield">
+          <div class="rmain"><span class="county">Broward</span><h3>Deerfield Beach</h3><p>İki büyük şehrin arasında sahil kasabası hissi.</p></div>
+          <button type="button" class="btn btn-line get" data-id="deerfield">Raporu alın</button>
         </li>
-        <li class="rrow" id="boca-raton" data-date="2027-04-05">
-          <span class="no">No. 22</span>
-          <div class="rmain"><h3>Boca Raton</h3><p>Palm Beach · Golf sahaları, plajlar ve bakımlı bir şehir merkezi.</p></div>
-          <time datetime="2027-04-05">5 Nisan 2027</time>
-          <span class="status" data-href="/mahalle-raporlari/boca-raton/">Yayın: 5 Nisan</span>
+        <li class="rrow" id="boca-raton">
+          <div class="rmain"><span class="county">Palm Beach</span><h3>Boca Raton</h3><p>Golf sahaları, plajlar ve bakımlı bir şehir merkezi.</p></div>
+          <button type="button" class="btn btn-line get" data-id="boca-raton">Raporu alın</button>
         </li>
       </ol>
-      <p style="margin:32px 0 0;font-size:13px;font-weight:300;color:var(--stone);max-width:760px">Raporlar mahalleleri insan gruplarına göre değil; konut tipi, fiyat, ulaşım ve yaşam tarzı gibi özelliklerine göre anlatır. Okul ve güvenlik konularında resmi kaynaklara bağlantı verilir.</p>
+      <p style="margin:32px 0 0;font-size:13px;font-weight:300;color:var(--stone);max-width:760px">Raporlar mahalleleri insan gruplarına göre değil; konut tipi, fiyat, ulaşım ve yaşam tarzı gibi özelliklerine göre anlatır. Okul ve güvenlik konularında resmi kaynaklara bağlantı verilir. Listede olmayan bir bölge için <a href="/#iletisim">bize yazın</a>.</p>
     </div>
   </section>
 </main>
 
 <script>
 (function () {
-  var today = new Date().toISOString().slice(0, 10);
-  Array.prototype.forEach.call(document.querySelectorAll('.rrow'), function (row) {
-    var s = row.querySelector('.status');
-    if (row.getAttribute('data-date') <= today && row.hasAttribute('data-live')) {
-      var a = document.createElement('a'); a.className = 'status'; a.href = s.getAttribute('data-href'); a.textContent = 'Raporu oku';
-      s.replaceWith(a);
-    }
+  var sel = document.getElementById('gate-hood');
+  var form = document.getElementById('gate-form');
+  function pick(id) { if (sel) sel.value = id; }
+  Array.prototype.forEach.call(document.querySelectorAll('.get'), function (b) {
+    b.addEventListener('click', function () { pick(b.getAttribute('data-id')); document.getElementById('rapor-formu').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  });
+  var h = (location.hash || '').slice(1);
+  if (h && document.querySelector('.get[data-id="' + h + '"]')) pick(h);
+  form.addEventListener('submit', function () {
+    var id = sel.value, row = document.getElementById(id);
+    form.action = (row && row.hasAttribute('data-live')) ? '/mahalle-raporlari/' + id + '/' : '/mahalle-raporlari/gonderildi/';
   });
 })();
 </script>

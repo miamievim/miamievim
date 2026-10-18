@@ -20,13 +20,14 @@ Son güncelleme: 2026-10-18
 - [Ana sayfa](https://miamievim.com/): hizmetler, mahalle haritası, sık sorulan sorular
 - [Ücretsiz Miami Mahalle Rehberi](https://miamievim.com/mahalle-rehberi/): 22 mahallenin kira, fiyat, aidat, sigorta, sel bölgesi ve ulaşım karşılaştırması (Türkçe)
 - [Miami'de emlak yatırımı](https://miamievim.com/yatirim/): net getiri hesaplayıcısı; aidat, emlak vergisi, sigorta, kira kuralları ve FIRPTA
-- [Mahalle testi](https://miamievim.com/mahalle-testi/): 7 soruda size uygun üç Miami mahallesi
-- [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 22 mahalle, her pazartesi bir rapor
+- [Mahalle testi](https://miamievim.com/mahalle-testi/): 9 soruda size uygun üç Miami mahallesi
+- [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 22 mahallenin ücretsiz raporu (ad ve e-posta ile erişim)
+- [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
 - [Yeni projeler](https://miamievim.com/yeni-projeler/): proje aşamasındaki ve markalı rezidanslar için danışmanlık
 
 ## Mahalle raporları
-Her pazartesi bir mahalle raporu yayınlanır. Seri 2 Kasım 2026'da Coral Gables ile başlar, Nisan 2027'de Boca Raton ile biter. Raporlardaki rakamlar kaynak ve ay bilgisiyle verilir.
+22 mahallenin her biri için ayrı rapor: karakter, satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Rakamlar kaynak ve ay bilgisiyle verilir.
 
 ## Diğer profiller
 - İngilizce site: https://aleynabozoklar.com/
