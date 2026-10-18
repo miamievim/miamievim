@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miami'de Ev Almak | Türkçe Emlak Danışmanı Aleyna Bozoklar</title>
+<meta name="description" content="Miami, Fort Lauderdale ve Boca Raton'da satılık, kiralık ve yeni projeler için Türkçe konuşan lisanslı Realtor®. 22 mahalle rehberi, her pazartesi yeni rapor, ücretsiz tanışma görüşmesi.">
+<link rel="canonical" href="https://miamievim.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="Miami Evim · Aleyna Bozoklar">
+<meta property="og:title" content="Miami'de ev almak, kendi dilinizde · Aleyna Bozoklar">
+<meta property="og:description" content="Türkçe konuşan lisanslı Realtor® ile Miami'de satılık, kiralık ve yeni projeler. 22 mahalle, haftalık raporlar, ücretsiz rehber.">
+<meta property="og:url" content="https://miamievim.com/">
+<meta property="og:image" content="https://miamievim.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0F0F0F">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" defer></script>
+<script src="/assets/map.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://miamievim.com/#aleyna",
+      "name": "Aleyna Bozoklar",
+      "jobTitle": "Realtor® Associate",
+      "description": "Miami, Fort Lauderdale ve Boca Raton'da Türkçe, İngilizce ve Fransızca hizmet veren lisanslı emlak danışmanı. Satın alma, satış, kiralama ve yeni projeler.",
+      "url": "https://miamievim.com/",
+      "image": "https://miamievim.com/assets/og-image.png",
+      "logo": "https://miamievim.com/assets/logo-black.png",
+      "telephone": "+1-305-924-8551",
+      "email": "Aleynab@cervera.com",
+      "address": {"@type": "PostalAddress", "streetAddress": "20 Biscayne Blvd.", "addressLocality": "Miami", "addressRegion": "FL", "postalCode": "33132", "addressCountry": "US"},
+      "areaServed": [
+        {"@type": "AdministrativeArea", "name": "Miami-Dade County, FL"},
+        {"@type": "AdministrativeArea", "name": "Broward County, FL"},
+        {"@type": "AdministrativeArea", "name": "Palm Beach County, FL"}
+      ],
+      "knowsLanguage": ["tr", "en", "fr"],
+      "identifier": {"@type": "PropertyValue", "name": "Florida license", "value": "3629947"},
+      "alumniOf": [
+        {"@type": "CollegeOrUniversity", "name": "İstanbul Bilgi Üniversitesi"},
+        {"@type": "CollegeOrUniversity", "name": "Vanderbilt University"},
+        {"@type": "CollegeOrUniversity", "name": "Istituto Marangoni"}
+      ],
+      "parentOrganization": {"@type": "RealEstateAgent", "name": "Cervera Real Estate", "foundingDate": "1969", "url": "https://www.cervera.com/"},
+      "sameAs": ["https://www.instagram.com/aleynabozoklarr/", "https://www.linkedin.com/in/aleynabozoklar", "https://aleynabozoklar.com/"]
+    },
+    {"@type": "WebSite", "@id": "https://miamievim.com/#site", "url": "https://miamievim.com/", "name": "Miami Evim", "inLanguage": "tr", "publisher": {"@id": "https://miamievim.com/#aleyna"}},
+    {
+      "@type": "FAQPage",
+      "inLanguage": "tr",
+      "mainEntity": [
+        {"@type": "Question", "name": "Yabancılar Miami'de ev satın alabilir mi?", "acceptedAnswer": {"@type": "Answer", "text": "Evet. ABD'de yabancı uyrukluların konut satın almasına genel bir yasak yoktur; Türk vatandaşları Miami'de vatandaşlık, oturum izni veya ABD'de ikamet şartı olmadan ev satın alabilir. Finansman, vergi ve tapunun kimin adına tutulacağı ise alımdan önce planlanmalıdır."}},
+        {"@type": "Question", "name": "Miami'de ev almak oturum izni veya vize sağlar mı?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Ev sahibi olmak tek başına vize, oturum izni veya yeşil kart sağlamaz. Vize başvuruları ayrı bir süreçtir ve bir göçmenlik avukatıyla planlanmalıdır."}},
+        {"@type": "Question", "name": "Miami'de ev alırken ilan fiyatı dışında hangi masraflar vardır?", "acceptedAnswer": {"@type": "Answer", "text": "Kapanışta tapu sigortası (title insurance), kapanış ve kayıt ücretleri ödenir. Sonrasında her yıl emlak vergisi ve konut sigortası vardır; dairelerde buna aylık aidat (HOA) ve gerektiğinde özel aidatlar (special assessment) eklenir. Sel bölgesindeki evlerde sel sigortası da gerekebilir."}},
+        {"@type": "Question", "name": "Yabancı olarak Miami'de konut kredisi kullanabilir miyim?", "acceptedAnswer": {"@type": "Answer", "text": "Evet. Bazı bankalar yabancı uyruklulara özel (foreign national) konut kredisi verir. Bu krediler genellikle ABD'de yaşayan alıcılara göre daha yüksek peşinat ister; şartlar bankaya ve alıcının gelir belgelerine göre değişir."}},
+        {"@type": "Question", "name": "Türkiye'den uzaktan Miami'de ev alabilir miyim?", "acceptedAnswer": {"@type": "Answer", "text": "Evet. Görüntülü ev turları, elektronik imza ve uzaktan kapanış imkânlarıyla süreç büyük ölçüde Türkiye'den yürütülebilir. Bazı belgeler için noter onayı veya apostil gerekebilir."}},
+        {"@type": "Question", "name": "Miami'de Türkçe konuşan bir emlak danışmanıyla çalışabilir miyim?", "acceptedAnswer": {"@type": "Answer", "text": "Evet. Aleyna Bozoklar, Cervera Real Estate bünyesinde çalışan lisanslı bir Realtor® Associate'tir; mahalle seçiminden teklif, ekspertiz ve kapanışa kadar süreci Türkçe yürütür, gerektiğinde İngilizce ve Fransızca da hizmet verir."}},
+        {"@type": "Question", "name": "Hangi bölgelerde hizmet veriyorsunuz?", "acceptedAnswer": {"@type": "Answer", "text": "Miami-Dade, Broward ve Palm Beach'in tamamında hizmet verilir. Haftalık mahalle raporlarında 22 mahalle ayrıntılı olarak işlenir; listede olmayan bölgeler için de danışmanlık verilir."}},
+        {"@type": "Question", "name": "Mahalle raporları ne zaman yayınlanıyor?", "acceptedAnswer": {"@type": "Answer", "text": "Her pazartesi bir mahalle raporu yayınlanır. Seri 2 Kasım 2026'da Coral Gables ile başlar ve Nisan 2027'de Boca Raton ile tamamlanır."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+
+<section class="hero" aria-label="Giriş">
+  <!-- Video hazır olduğunda:
+  <video class="hero-media" autoplay muted loop playsinline poster="/assets/hero.jpg"><source src="/assets/hero.mp4" type="video/mp4"></video>
+  -->
+  <div class="hero-pattern" aria-hidden="true"></div>
+  <div class="hero-veil" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Aleyna Bozoklar — ana sayfa"><img src="/assets/logo-white.png" alt="Aleyna Bozoklar — Miami Luxury Real Estate Specialist" width="1133" height="824"></a>
+      <nav class="nav" aria-label="Ana menü">
+      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Satılık</a>
+      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Kiralık</a>
+      <a href="/yeni-projeler/">Yeni Projeler</a>
+      <a href="/yatirim/">Yatırım</a>
+      <a href="/#hizmetler">Hizmetler</a>
+      <a href="/rehberler/">Rehberler</a>
+      <a href="/#hakkimda">Hakkımda</a>
+      <a href="/mahalle-raporlari/">Mahalleler</a>
+    </nav>
+      <div class="header-right">
+        <div class="lang" aria-label="Dil seçimi">
+          <a href="/" aria-current="true" lang="tr">TR</a>
+          <a href="https://aleynabozoklar.com/" lang="en" hreflang="en">EN</a>
+        </div>
+        <a class="btn btn-line header-cta" href="/#iletisim">İletişim</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="hero-body" id="main">
+    <div class="wrap">
+      <p class="hero-eyebrow">Miami emlak danışmanlığı · Türkçe</p>
+      <h1>Miami'de ev değil,<br><em>hayat seçiyorsunuz.</em></h1>
+      <p class="hero-sub">Miami'de ev almak, kiralamak ve yatırım yapmak için Türkçe konuşan lisanslı bir Realtor®. Doğru mahalleden net getiriye kadar her rakamı kaynağıyla, her adımı kendi dilinizde konuşuyoruz.</p>
+      <div class="hero-ctas">
+        <a class="btn" href="#iletisim">Ücretsiz tanışma görüşmesi</a>
+        <a class="btn btn-line" href="/mahalle-testi/">Hangi mahalle size uygun? Testi çözün</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-strip">
+    <div class="wrap">
+      <span>Florida lisanslı Realtor® · No. 3629947</span>
+      <span>Cervera Real Estate · Miami, 1969'dan beri</span>
+      <span>Leading Real Estate Companies of the World® ağı</span>
+      <span>Türkçe · English · Français</span>
+    </div>
+  </div>
+</section>
+
+<section class="map-section dark" id="mahalleler" aria-labelledby="map-title">
+  <div class="map-intro">
+    <div class="wrap">
+      <div style="display:flex;flex-direction:column;gap:16px;max-width:760px">
+        <p class="eyebrow">Miami mahalleleri</p>
+        <h2 id="map-title">Önce mahalleyi seçin, <em>ev kendiliğinden gelir.</em></h2>
+      </div>
+      <p class="note">Miami'de aynı bütçe, iki mahalle arasında bambaşka bir hayat demek. Haritada bir mahalleye dokunun ya da <a href="/mahalle-testi/" style="color:var(--white)">2 dakikalık testi çözün</a>; size en uygun üç mahalleyi görün.</p>
+    </div>
+  </div>
+
+  <div class="map-shell">
+    <div id="map" role="region" aria-label="Güney Florida mahalle haritası"></div>
+    <div class="map-fallback"><p>Harita bu tarayıcıda yüklenemedi. Aşağıdaki listeden bir mahalle seçebilirsiniz.</p></div>
+
+    <form class="map-search" id="map-search" role="search">
+      <label class="chip" style="display:flex;align-items:center;gap:14px;min-height:60px;padding:0 20px;cursor:text">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CFCAC2" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
+        <span class="sr-only">Mahalle ara</span>
+        <input type="search" placeholder="Mahalle ara: Brickell, Coral Gables…" style="flex:1 1 auto;font-family:inherit;font-size:16px;font-weight:300;border:0;background:transparent;color:#fff;min-height:44px;outline-offset:6px">
+      </label>
+      <div class="map-chips">
+        <button type="button" class="chip" data-hood="brickell" aria-pressed="true">Brickell</button>
+        <button type="button" class="chip" data-hood="coral-gables" aria-pressed="false">Coral Gables</button>
+        <button type="button" class="chip" data-hood="sunny-isles" aria-pressed="false">Sunny Isles</button>
+        <button type="button" class="chip" data-hood="fort-lauderdale" aria-pressed="false">Fort Lauderdale</button>
+        <button type="button" class="chip" data-hood="boca-raton" aria-pressed="false">Boca Raton</button>
+        <button type="button" class="chip" data-hood="weston" aria-pressed="false">Weston</button>
+      </div>
+    </form>
+
+    <div class="counties" role="group" aria-label="Bölge seçin">
+      <button type="button" data-county="All" aria-pressed="true">Tüm bölgeler</button>
+      <button type="button" data-county="Miami-Dade" aria-pressed="false">Miami-Dade</button>
+      <button type="button" data-county="Broward" aria-pressed="false">Broward</button>
+      <button type="button" data-county="Palm Beach" aria-pressed="false">Palm Beach</button>
+    </div>
+
+    <aside class="hood-card" id="hood-card" aria-live="polite">
+      <span class="county">Miami-Dade</span>
+      <h3>Brickell</h3>
+      <p>Miami’nin finans merkezi; arabasız yaşamın gerçekten mümkün olduğu yer.</p>
+      <div class="report"><span>Mahalle raporu</span><strong>14 Aralık</strong></div>
+      <div class="actions">
+        <a class="btn" href="/mahalle-rehberi/">Rehberi alın</a>
+        <a class="btn btn-line" href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Bu bölgede ev arayın</a>
+      </div>
+    </aside>
+  </div>
+
+  <div class="hood-index">
+    <div class="wrap">
+      <h3><a href="/mahalle-raporlari/" style="color:inherit">22 mahalle · rapor tarihleri</a></h3>
+      <ul>
+        <li><button type="button" data-hood="coral-gables">Coral Gables <span>2 Kas</span></button></li>
+        <li><button type="button" data-hood="coconut-grove">Coconut Grove <span>9 Kas</span></button></li>
+        <li><button type="button" data-hood="pinecrest">South Miami &amp; Pinecrest <span>16 Kas</span></button></li>
+        <li><button type="button" data-hood="key-biscayne">Key Biscayne <span>23 Kas</span></button></li>
+        <li><button type="button" data-hood="south-beach">South Beach <span>30 Kas</span></button></li>
+        <li><button type="button" data-hood="wynwood">Wynwood &amp; Design District <span>7 Ara</span></button></li>
+        <li><button type="button" data-hood="brickell">Brickell <span>14 Ara</span></button></li>
+        <li><button type="button" data-hood="edgewater">Downtown &amp; Edgewater <span>21 Ara</span></button></li>
+        <li><button type="button" data-hood="little-havana">Little Havana <span>4 Oca</span></button></li>
+        <li><button type="button" data-hood="doral">Doral <span>11 Oca</span></button></li>
+        <li><button type="button" data-hood="north-beach">Mid-Beach &amp; North Beach <span>18 Oca</span></button></li>
+        <li><button type="button" data-hood="bal-harbour">Surfside &amp; Bal Harbour <span>25 Oca</span></button></li>
+        <li><button type="button" data-hood="sunny-isles">Sunny Isles Beach <span>1 Şub</span></button></li>
+        <li><button type="button" data-hood="aventura">Aventura <span>8 Şub</span></button></li>
+        <li><button type="button" data-hood="hallandale">Hallandale Beach <span>15 Şub</span></button></li>
+        <li><button type="button" data-hood="hollywood">Hollywood <span>22 Şub</span></button></li>
+        <li><button type="button" data-hood="weston">Weston <span>1 Mar</span></button></li>
+        <li><button type="button" data-hood="fort-lauderdale">Fort Lauderdale <span>8 Mar</span></button></li>
+        <li><button type="button" data-hood="wilton-manors">Wilton Manors <span>15 Mar</span></button></li>
+        <li><button type="button" data-hood="pompano">Lighthouse Point &amp; Pompano <span>22 Mar</span></button></li>
+        <li><button type="button" data-hood="deerfield">Deerfield Beach <span>29 Mar</span></button></li>
+        <li><button type="button" data-hood="boca-raton">Boca Raton <span>5 Nis</span></button></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="hizmetler" aria-labelledby="services-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="stack">
+        <p class="eyebrow">Hizmetler</p>
+        <h2 id="services-title">Almak, satmak, kiralamak: <em>tek ve aynı muhatap.</em></h2>
+        <p class="lead">Miami'de bir işlemde onlarca kişi yer alır: ilan sahibi, banka, sigortacı, kapanış şirketi, bina yönetimi. Siz tek bir kişiyle, kendi dilinizde konuşursunuz.</p>
+      </div>
+    </div>
+    <div class="grid-4">
+      <div class="ruled"><span class="num">01</span><h3>Satın alma</h3><p>Bütçenize ve hayatınıza uyan mahalleyi birlikte seçeriz. İlanları sizin yerinize eler, binaların aidat ve sigorta geçmişini sorar; teklif, ekspertiz ve kapanışı Türkçe yönetirim. Türkiye'den uzaktan alım dahil.</p></div>
+      <div class="ruled"><span class="num">02</span><h3>Yatırım ve yeni projeler</h3><p>Proje aşamasındaki ve markalı rezidansları depozito takvimi, teslim tarihi, aidat ve kira kurallarıyla yan yana koyarım. Broşürde yazmayanları geliştiriciye ben sorarım. Her yatırım için net getiriyi, emsal kiralarla hesaplarım.</p><a class="link-caps" href="/yatirim/">Net getirinizi hesaplayın</a></div>
+      <div class="ruled"><span class="num">03</span><h3>Kiralama</h3><p>Miami'ye taşınmadan önce doğru kiralık evi bulmak, başvuru ve sözleşme süreci. Mülkünü kiraya vermek isteyen ev sahipleri için kiracı bulma.</p></div>
+      <div class="ruled"><span class="num">04</span><h3>Satış</h3><p>Lüks marka pazarlamasından gelen bir yaklaşım: doğru fiyat, profesyonel fotoğraf ve video, hedefli dijital pazarlama ve Cervera'nın uluslararası alıcı ağı. Yurtdışında yaşayan mülk sahipleri için de.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section bone" id="surec" aria-labelledby="process-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="stack">
+        <p class="eyebrow">Nasıl çalışıyoruz</p>
+        <h2 id="process-title">İlk görüşmeden anahtara, <em>dört adım.</em></h2>
+      </div>
+      <a class="btn" href="#iletisim">İlk adımı atın</a>
+    </div>
+    <ol class="grid-4" style="list-style:none;margin:0;padding:0">
+      <li class="ruled"><span class="num">01</span><h3>15 dakikalık tanışma</h3><p>Bütçenizi, zamanlamanızı ve Miami'de nasıl bir hayat istediğinizi konuşuruz. Ücretsizdir, bağlayıcı değildir.</p></li>
+      <li class="ruled"><span class="num">02</span><h3>Mahalle ve bütçe planı</h3><p>Size uyan 2–3 mahalleyi; fiyat, kira, aidat, sigorta ve ulaşım rakamlarıyla yazılı olarak karşılaştırırım.</p></li>
+      <li class="ruled"><span class="num">03</span><h3>Seçili evler ve turlar</h3><p>Uygun ilanları elerim; yerinde ya da görüntülü turla gezeriz. Beğendiğiniz ev için emsal satışları birlikte inceleriz.</p></li>
+      <li class="ruled"><span class="num">04</span><h3>Teklif, ekspertiz, kapanış</h3><p>Pazarlık, ekspertiz, sigorta ve kapanış şirketiyle tüm yazışmaları yürütürüm; her belgeyi imzadan önce Türkçe anlatırım.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="raporlar" aria-labelledby="reports-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="stack">
+        <p class="eyebrow">Mahalle raporları · her pazartesi</p>
+        <h2 id="reports-title">Her pazartesi bir mahalle, <em>rakamlarıyla.</em></h2>
+      </div>
+      <a class="link-caps" href="/mahalle-raporlari/">Tüm raporlar ve tarihler</a>
+    </div>
+    <div class="reports-grid">
+      <article class="report-feature" style="background:var(--white)">
+        <span class="when">İlk rapor · 2 Kasım 2026, Pazartesi</span>
+        <h3>Coral Gables</h3>
+        <p>Her raporda aynı dokuz başlık: mahallenin karakteri, bilinen mekânlar ve gizli köşeler, satış fiyatları, kiralar, aidat, sigorta ve sel bölgesi gibi gizli maliyetler, ulaşım ve yeni projeler. Her rakam kaynağı ve ayıyla birlikte.</p>
+        <a class="btn" href="/mahalle-rehberi/" style="align-self:flex-start;margin-top:8px">Her pazartesi e-postanıza gelsin</a>
+      </article>
+      <ol class="report-list" aria-label="Yaklaşan raporlar">
+        <li><span class="n">Coconut Grove</span><span class="d">9 Kasım</span></li>
+        <li><span class="n">South Miami &amp; Pinecrest</span><span class="d">16 Kasım</span></li>
+        <li><span class="n">Key Biscayne</span><span class="d">23 Kasım</span></li>
+        <li><span class="n">South Beach</span><span class="d">30 Kasım</span></li>
+        <li><span class="n">Wynwood &amp; Design District</span><span class="d">7 Aralık</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section white" id="hakkimda" aria-labelledby="about-title">
+  <div class="wrap about">
+    <div class="about-statement">
+      <p class="eyebrow" style="margin-bottom:22px">Aleyna Bozoklar ile tanışın</p>
+      <h2 id="about-title">Lüks marka yönetiminden, Miami'deki <em>danışmanınıza.</em></h2>
+    </div>
+    <div class="about-body">
+      <p>İstanbul Bilgi Üniversitesi'nde işletme ve ekonomi, Vanderbilt'te pazarlama, Istituto Marangoni'de lüks marka yönetimi okudum. Emlağa geçmeden önce kendi dijital pazarlama ajansımı kurdum ve yönettim.</p>
+      <p>Bugün Miami'nin 1969'dan beri faaliyet gösteren köklü firması Cervera Real Estate bünyesinde, Türkiye'den gelen ailelere ve yatırımcılara Miami'yi kendi dillerinde anlatıyorum.</p>
+      <p style="font-family:var(--serif);font-size:24px;line-height:1.4;color:var(--ink)">Size üç söz veriyorum: kaynağını gösteremediğim bir rakam söylemem, anlamadığınız bir belgeyi imzalatmam ve kararı her zaman size bırakırım.</p>
+      <dl class="facts">
+        <div><dt>Lisans</dt><dd>Florida Realtor® · No. 3629947</dd></div>
+        <div><dt>Firma</dt><dd>Cervera Real Estate, 1969'dan beri</dd></div>
+        <div><dt>Diller</dt><dd>Türkçe, İngilizce, Fransızca</dd></div>
+        <div><dt>Bölgeler</dt><dd>Miami-Dade, Broward, Palm Beach</dd></div>
+      </dl>
+      <div style="display:flex;flex-wrap:wrap;gap:14px">
+        <a class="btn" href="#iletisim">Tanışma görüşmesi planlayın</a>
+        <a class="btn btn-line" href="https://www.instagram.com/aleynabozoklarr/" target="_blank" rel="noopener">Instagram'da takip edin</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="neden-miami" aria-labelledby="why-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="stack">
+        <p class="eyebrow">Neden Miami</p>
+        <h2 id="why-title">Okyanus kıyısında <em>küresel bir şehir.</em></h2>
+      </div>
+    </div>
+    <div class="grid-3">
+      <div class="ruled"><span class="big">%0</span><h3>Eyalet gelir vergisi</h3><p>Florida'da eyalet düzeyinde kişisel gelir vergisi yoktur. Aileleri ve şirketleri Miami'ye çeken başlıca nedenlerden biri.</p></div>
+      <div class="ruled"><span class="big">IST–MIA</span><h3>Direkt uçuş</h3><p>İstanbul ile Miami arasında direkt uçuşlar var. Aileyi ve işi iki şehir arasında yürütmek, düşündüğünüzden kolay.</p></div>
+      <div class="ruled"><span class="big">1</span><h3>Hızlı tren hattı</h3><p>Brightline; Miami'yi Fort Lauderdale, Boca Raton ve Orlando'ya arabasız bağlar. Broward ve Palm Beach'teki evler de Miami'ye yakın.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark guide-band" id="rehber" aria-labelledby="guide-title">
+  <div class="wrap">
+    <div class="copy">
+      <p class="eyebrow">Ücretsiz · Türkçe · 22 mahalle</p>
+      <h2 id="guide-title">İlan fiyatı, bir evin <em>gerçek maliyetini anlatmaz.</em></h2>
+      <p class="lead">Aidat, sigorta, emlak vergisi ve sel bölgesi; aynı fiyattaki iki evin yıllık maliyetini çok farklı kılar. Miami Mahalle Rehberi, 22 mahalleyi bu başlıklarla yan yana koyar.</p>
+      <ul class="checklist">
+        <li>Satış fiyatları ve kiralar</li>
+        <li>Aidat, sigorta ve sel bölgesi</li>
+        <li>Ulaşım ve günlük hayat</li>
+        <li>Yaşam tarzı ve sosyal hayat</li>
+        <li>Yeni projeler ve gelecek</li>
+        <li>Her rakam kaynağı ve ayıyla</li>
+      </ul>
+    </div>
+    <form class="form" name="rehber" method="POST" action="/tesekkurler/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="rehber">
+      <input type="hidden" name="kaynak" value="anasayfa">
+      <p class="hp"><label>Bu alanı boş bırakın <input name="bot-field"></label></p>
+      <div class="row">
+        <label class="field">Ad soyad<input type="text" name="ad" autocomplete="name" required></label>
+        <label class="field">E-posta<input type="email" name="email" autocomplete="email" required></label>
+      </div>
+      <div class="row">
+        <label class="field">WhatsApp (isteğe bağlı)<input type="tel" name="whatsapp" autocomplete="tel" placeholder="+90 …"></label>
+        <label class="field">İlginiz<select name="ilgi"><option>Satın alma</option><option>Kiralama</option><option>Yatırım</option><option>Henüz araştırıyorum</option></select></label>
+      </div>
+      <label class="consent"><input type="checkbox" name="izin" value="evet" required><span>Rehberin ve mahalle raporlarının bana e-posta, telefon veya WhatsApp ile gönderilmesini kabul ediyorum. Bilgilerim üçüncü kişilerle paylaşılmaz. <a href="/gizlilik/" style="color:inherit">Gizlilik politikası</a></span></label>
+      <button class="btn" type="submit">Rehberi gönderin</button>
+      <p style="margin:0;font-size:13px;font-weight:300;color:var(--mute-dark)">İlk sürüm 26 Ekim'de e-postanıza gelir ve her ay güncellenir.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section" id="sss" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="stack">
+        <p class="eyebrow">Sık sorulan sorular</p>
+        <h2 id="faq-title">Miami'de ev almak: <em>kısa ve net cevaplar.</em></h2>
+      </div>
+    </div>
+    <div class="faq">
+      <details open><summary>Yabancılar Miami'de ev satın alabilir mi?</summary><div class="a"><p>Evet. ABD'de yabancı uyrukluların konut satın almasına genel bir yasak yoktur; Türk vatandaşları Miami'de vatandaşlık, oturum izni veya ABD'de ikamet şartı olmadan ev satın alabilir. Finansman, vergi ve tapunun kimin adına tutulacağı ise alımdan önce planlanmalıdır.</p></div></details>
+      <details><summary>Miami'de ev almak oturum izni veya vize sağlar mı?</summary><div class="a"><p>Hayır. Ev sahibi olmak tek başına vize, oturum izni veya yeşil kart sağlamaz. Vize başvuruları ayrı bir süreçtir ve bir göçmenlik avukatıyla planlanmalıdır.</p></div></details>
+      <details><summary>Ev alırken ilan fiyatı dışında hangi masraflar var?</summary><div class="a"><p>Kapanışta tapu sigortası (title insurance), kapanış ve kayıt ücretleri ödenir. Sonrasında her yıl emlak vergisi ve konut sigortası vardır; dairelerde buna aylık aidat (HOA) ve gerektiğinde özel aidatlar (special assessment) eklenir. Sel bölgesindeki evlerde sel sigortası da gerekebilir.</p><p>Bu kalemlerin mahalle mahalle karşılaştırması <a href="/mahalle-rehberi/">Miami Mahalle Rehberi</a>'nde.</p></div></details>
+      <details><summary>Yabancı olarak konut kredisi kullanabilir miyim?</summary><div class="a"><p>Evet. Bazı bankalar yabancı uyruklulara özel (foreign national) konut kredisi verir. Bu krediler genellikle ABD'de yaşayan alıcılara göre daha yüksek peşinat ister; şartlar bankaya ve gelir belgelerinize göre değişir.</p></div></details>
+      <details><summary>Türkiye'den uzaktan ev alabilir miyim?</summary><div class="a"><p>Evet. Görüntülü ev turları, elektronik imza ve uzaktan kapanış imkânlarıyla süreç büyük ölçüde Türkiye'den yürütülebilir. Bazı belgeler için noter onayı veya apostil gerekebilir.</p></div></details>
+      <details><summary>Miami'de Türkçe konuşan bir emlak danışmanıyla çalışabilir miyim?</summary><div class="a"><p>Evet. Cervera Real Estate bünyesinde lisanslı bir Realtor® Associate olarak mahalle seçiminden teklif, ekspertiz ve kapanışa kadar süreci Türkçe yürütüyorum; gerektiğinde İngilizce ve Fransızca da hizmet veriyorum.</p></div></details>
+      <details><summary>Hangi bölgelerde hizmet veriyorsunuz?</summary><div class="a"><p>Miami-Dade, Broward ve Palm Beach'in tamamında. Haftalık raporlarda 22 mahalleyi ayrıntılı işliyorum; listede olmayan bir bölgede ev arıyorsanız orada da yanınızdayım.</p></div></details>
+      <details><summary>Mahalle raporları ne zaman yayınlanıyor?</summary><div class="a"><p>Her pazartesi bir mahalle raporu yayınlanır. Seri 2 Kasım 2026'da Coral Gables ile başlar ve Nisan 2027'de Boca Raton ile tamamlanır.</p></div></details>
+    </div>
+    <p style="margin:32px 0 0;font-size:13px;font-weight:300;color:var(--stone);max-width:760px">Bu cevaplar genel bilgilendirme amaçlıdır; hukuki, vergi veya finansal tavsiye değildir. Kendi durumunuz için bir avukat veya vergi danışmanına başvurun.</p>
+  </div>
+</section>
+
+<section class="section white" id="iletisim" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="stack">
+        <p class="eyebrow">Ücretsiz tanışma görüşmesi</p>
+        <h2 id="contact-title">Miami planınızı <em>birlikte netleştirelim.</em></h2>
+        <p class="lead">15 dakikada bütçenizi, zamanlamanızı ve aklınızdaki mahalleleri konuşalım; size uygun bir yol haritası çıkaralım. Ücretsizdir, bağlayıcı değildir.</p>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="info">
+        <div><div class="label">WhatsApp</div><a href="https://wa.me/13059248551?text=Merhaba%20Aleyna%2C%20Miami%27de%20ev%20konusunda%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyorum." target="_blank" rel="noopener">+1 (305) 924-8551</a></div>
+        <div><div class="label">E-posta</div><a href="mailto:Aleynab@cervera.com">Aleynab@cervera.com</a></div>
+        <div><div class="label">Ofis</div><span style="font-family:var(--serif);font-size:22px">Cervera Real Estate<br>20 Biscayne Blvd., Miami, FL 33132</span></div>
+        <div><div class="label">Instagram</div><a href="https://www.instagram.com/aleynabozoklarr/" target="_blank" rel="noopener">@aleynabozoklarr</a></div>
+        <p style="margin:0;font-size:14px;font-weight:300;color:var(--stone)">Mesajlara en geç bir iş günü içinde dönüş yaparım. Türkiye saatiyle görüşme planlayabiliriz.</p>
+      </div>
+      <form class="form" name="iletisim" method="POST" action="/tesekkurler/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="iletisim">
+        <p class="hp"><label>Bu alanı boş bırakın <input name="bot-field"></label></p>
+        <div class="row">
+          <label class="field">Ad soyad<input type="text" name="ad" autocomplete="name" required></label>
+          <label class="field">E-posta<input type="email" name="email" autocomplete="email" required></label>
+        </div>
+        <div class="row">
+          <label class="field">Telefon / WhatsApp<input type="tel" name="telefon" autocomplete="tel" placeholder="+90 …"></label>
+          <label class="field">Konu<select name="konu"><option>Ev satın almak</option><option>Ev kiralamak</option><option>Yeni proje</option><option>Mülkümü satmak / kiraya vermek</option><option>Diğer</option></select></label>
+        </div>
+        <div class="row">
+          <label class="field">Bütçe<select name="butce"><option>Henüz belli değil</option><option>500 bin $ altı</option><option>500 bin – 1 milyon $</option><option>1 – 3 milyon $</option><option>3 milyon $ üzeri</option></select></label>
+          <label class="field">Zamanlama<select name="zaman"><option>0–3 ay</option><option>3–12 ay</option><option>1 yıldan sonra</option><option>Belli değil</option></select></label>
+        </div>
+        <label class="field">Mesajınız<textarea name="mesaj" placeholder="Aklınızdaki bölgeler, oda sayısı, taşınma tarihi…"></textarea></label>
+        <label class="consent"><input type="checkbox" name="izin" value="evet" required><span>Benimle e-posta, telefon veya WhatsApp üzerinden iletişime geçilmesini kabul ediyorum. <a href="/gizlilik/" style="color:inherit">Gizlilik politikası</a></span></label>
+        <button class="btn" type="submit">Görüşme talep edin</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-top">
+    <div class="footer-brand">
+      <img src="/assets/logo-white.png" alt="Aleyna Bozoklar — Miami Luxury Real Estate Specialist" width="1133" height="824" loading="lazy">
+      <address>
+        <span>Aleyna Bozoklar, Realtor® Associate</span>
+        <span>Cervera Real Estate · 20 Biscayne Blvd., Miami, FL 33132</span>
+        <a href="tel:+13059248551">+1 (305) 924-8551</a>
+        <a href="mailto:Aleynab@cervera.com">Aleynab@cervera.com</a>
+      </address>
+    </div>
+    <nav class="footer-nav" aria-label="Alt menü">
+      <a href="#mahalleler">Mahalleler</a>
+      <a href="/mahalle-raporlari/">Mahalle raporları</a>
+      <a href="/mahalle-testi/">Mahalle testi</a>
+      <a href="/yatirim/">Yatırım</a>
+      <a href="/mahalle-rehberi/">Ücretsiz rehber</a>
+      <a href="/rehberler/">Rehberler</a>
+      <a href="/yeni-projeler/">Yeni projeler</a>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#hakkimda">Hakkımda</a>
+      <a href="#sss">SSS</a>
+      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">İlan ara</a>
+      <a href="https://www.instagram.com/aleynabozoklarr/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.linkedin.com/in/aleynabozoklar" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+  <div class="compliance">
+    <div class="wrap">
+      <div class="logos">
+        <img class="cervera" src="/assets/cervera.png" alt="Cervera Real Estate, 1969 · Leading Real Estate Companies of the World · Luxury Portfolio International" width="843" height="363">
+        <img class="mark" src="/assets/realtor-black.png" alt="REALTOR®" width="236" height="275">
+        <img class="mark" src="/assets/equal-housing-black.png" alt="Equal Housing Opportunity" width="300" height="320">
+      </div>
+      <div class="legal">
+        <p>Aleyna Bozoklar, Cervera Real Estate bünyesinde lisanslı bir Realtor® Associate'tir (Florida lisans no. 3629947). Cervera Real Estate, 20 Biscayne Blvd., Miami, FL 33132.</p>
+        <p>Bu sitedeki bilgiler genel bilgilendirme amaçlıdır; hukuki, vergi veya finansal tavsiye değildir. Fiyat ve piyasa verileri kaynağı ve tarihiyle verilir ve değişebilir. Konut fırsatlarında ayrımcılık yapılmaz (Equal Housing Opportunity).</p>
+        <p>© 2026 Aleyna Bozoklar · <a href="/gizlilik/">Gizlilik politikası</a> · <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank" rel="noopener">Fair Housing</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/13059248551?text=Merhaba%20Aleyna%2C%20Miami%27de%20ev%20konusunda%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyorum." target="_blank" rel="noopener" aria-label="WhatsApp'tan yazın">
+  <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg>
+</a>
+</body>
+</html>

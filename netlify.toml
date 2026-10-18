@@ -1,0 +1,24 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "https://www.miamievim.com/*"
+  to = "https://miamievim.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rehber/*"
+  to = "/mahalle-rehberi/"
+  status = 301
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

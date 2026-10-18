@@ -1,16 +1,14 @@
-## Hi there 👋
+# miamievim.com
 
-<!--
-**miamievim/miamievim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Aleyna Bozoklar'ın Türkçe emlak sitesi (Realtor®, Cervera Real Estate). Statik HTML; Netlify üzerinden yayınlanır, formlar Netlify Forms ile çalışır.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Yapı
+- `index.html` — ana sayfa (canlı harita: MapLibre + OpenFreeMap)
+- `mahalle-testi/` — "Hangi mahalle size uygun?" testi
+- `yatirim/` — yatırım sayfası ve net getiri hesaplayıcısı
+- `mahalle-raporlari/` — 22 mahallenin haftalık rapor listesi; her rapor `mahalle-raporlari/<mahalle>/` altında yayınlanır
+- `rehberler/` — haftalık rehber yazıları
+- `mahalle-rehberi/` — ücretsiz Mahalle Rehberi (lead formu)
+- `yeni-projeler/`, `gizlilik/`, `tesekkurler/`, `404.html`
+- `assets/` — stil, harita kodu, logolar
+- `robots.txt`, `sitemap.xml`, `llms.txt` — SEO ve yapay zekâ görünürlüğü

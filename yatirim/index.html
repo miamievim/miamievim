@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miami'de Emlak Yatırımı: Net Getiri Hesaplama ve Riskler | Aleyna Bozoklar</title>
+<meta name="description" content="Miami'de emlak yatırımı yapmadan önce net getiriyi hesaplayın: aidat, emlak vergisi, sigorta, kira kuralları ve satışta FIRPTA. Ücretsiz hesaplayıcı ve Türkçe yatırım analizi.">
+<link rel="canonical" href="https://miamievim.com/yatirim/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="Miami'de emlak yatırımı: brüt değil, net getiri">
+<meta property="og:description" content="Ücretsiz net getiri hesaplayıcısı ve yatırımdan önce bakılması gereken altı konu.">
+<meta property="og:url" content="https://miamievim.com/yatirim/">
+<meta property="og:image" content="https://miamievim.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0F0F0F">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.calc{display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start}
+.calc-in{flex:999 1 520px;min-width:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px 32px}
+.calc-out{flex:1 1 340px;min-width:0;background:var(--ink);color:var(--white);padding:36px;display:flex;flex-direction:column;gap:22px;position:sticky;top:24px}
+.calc-out .k{font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--mute-dark)}
+.calc-out .v{font-family:var(--serif);font-size:44px;line-height:1.05;font-variant-numeric:tabular-nums}
+.calc-out .v.big{font-size:64px}
+.calc-out .row2{display:grid;grid-template-columns:1fr 1fr;gap:18px;border-top:1px solid #333;padding-top:20px}
+.calc-out p{margin:0;font-size:13px;font-weight:300;color:var(--text-dark)}
+.field .unit{font-size:12px;letter-spacing:.06em;text-transform:none;color:var(--stone)}
+.breakdown{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.breakdown td{padding:8px 0;border-bottom:1px solid #2A2A2A;color:var(--text-dark)}
+.breakdown td:last-child{text-align:right;color:var(--white)}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "tr",
+  "mainEntity": [
+    {"@type": "Question", "name": "Miami'de emlak yatırımında brüt getiri ile net getiri arasındaki fark nedir?", "acceptedAnswer": {"@type": "Answer", "text": "Brüt getiri yıllık kiranın satın alma fiyatına oranıdır. Net getiri ise aidat, emlak vergisi, sigorta, yönetim, bakım ve boş kalınan ayları düştükten sonra kalan gelirin fiyata oranıdır. Miami'de özellikle dairelerde aidat ve sigorta nedeniyle net getiri, brüt getiriden belirgin biçimde düşük olabilir."}},
+    {"@type": "Question", "name": "Yabancı bir yatırımcı Miami'deki mülkünü satarken FIRPTA nedir?", "acceptedAnswer": {"@type": "Answer", "text": "FIRPTA, yabancı uyruklu bir satıcının ABD'deki gayrimenkulünü sattığında, alıcının satış bedelinin genellikle yüzde 15'ini kesip ABD vergi idaresine (IRS) yatırmasını öngören bir düzenlemedir. Bazı durumlarda oran düşebilir; fazla kesilen tutar vergi beyannamesiyle geri istenebilir."}},
+    {"@type": "Question", "name": "Miami'de her daire kısa dönem (Airbnb) kiraya verilebilir mi?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Kısa dönem kiralama kuralları şehre, imar bölgesine ve binanın kendi yönetmeliğine göre değişir; birçok bina ve bölge kısa dönem kiralamayı yasaklar veya sınırlar. Satın almadan önce hem belediye kuralları hem bina yönetmeliği kontrol edilmelidir."}},
+    {"@type": "Question", "name": "Florida'daki condo güvenlik yasası yatırımcıyı nasıl etkiler?", "acceptedAnswer": {"@type": "Answer", "text": "2022'den sonra Florida'da üç kat ve üzeri condo binalarında yapısal denetimler ve yapısal rezerv çalışması zorunlu hale geldi. Bu düzenleme bazı binalarda aidatları ve özel aidatları (special assessment) artırdı; alımdan önce binanın denetim ve rezerv durumu incelenmelidir."}}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#hesapla">Hesaplayıcıya geç</a>
+<header class="site-header solid">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Aleyna Bozoklar — ana sayfa"><img src="/assets/logo-white.png" alt="Aleyna Bozoklar — Miami Luxury Real Estate Specialist" width="1133" height="824"></a>
+    <nav class="nav" aria-label="Ana menü">
+      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Satılık</a>
+      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Kiralık</a>
+      <a href="/yeni-projeler/">Yeni Projeler</a>
+      <a href="/yatirim/" aria-current="page">Yatırım</a>
+      <a href="/#hizmetler">Hizmetler</a>
+      <a href="/rehberler/">Rehberler</a>
+      <a href="/#hakkimda">Hakkımda</a>
+      <a href="/mahalle-raporlari/">Mahalleler</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang" aria-label="Dil seçimi"><a href="/" aria-current="true" lang="tr">TR</a><a href="https://aleynabozoklar.com/" lang="en" hreflang="en">EN</a></div>
+      <a class="btn btn-line header-cta" href="/#iletisim">İletişim</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow">Miami'de emlak yatırımı</p>
+      <h1>Brüt getiri ilanda yazar. <em>Net getiriyi biz hesaplarız.</em></h1>
+      <p class="lead">Miami'de bir yatırımın gerçek getirisi; aidat, emlak vergisi, sigorta, kira kuralları ve satıştaki vergi kesintisiyle belirlenir. Rakamları satın almadan önce, Türkçe ve kaynağıyla görün.</p>
+      <div class="hero-ctas" style="margin-top:32px">
+        <a class="btn" href="#hesapla" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Net getirinizi hesaplayın</a>
+        <a class="btn btn-line" href="#analiz">Ücretsiz yatırım analizi isteyin</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="hesapla" aria-labelledby="calc-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="stack">
+          <p class="eyebrow">Net getiri hesaplayıcısı</p>
+          <h2 id="calc-title">Aynı daire, <em>iki farklı getiri.</em></h2>
+          <p class="lead">Aşağıdaki değerler örnektir, gerçek bir ilanı göstermez. Kendi rakamlarınızı girin; sonuç anında değişir.</p>
+        </div>
+      </div>
+      <div class="calc">
+        <form class="calc-in" id="calc" onsubmit="return false">
+          <label class="field">Satın alma fiyatı <span class="unit">ABD doları</span><input type="number" id="c-price" value="650000" min="0" step="1000" inputmode="numeric"></label>
+          <label class="field">Aylık kira <span class="unit">ABD doları</span><input type="number" id="c-rent" value="4200" min="0" step="50" inputmode="numeric"></label>
+          <label class="field">Aylık aidat (HOA) <span class="unit">ABD doları</span><input type="number" id="c-hoa" value="900" min="0" step="10" inputmode="numeric"></label>
+          <label class="field">Emlak vergisi <span class="unit">fiyatın yıllık yüzdesi</span><input type="number" id="c-tax" value="1.9" min="0" step="0.1" inputmode="decimal"></label>
+          <label class="field">Yıllık sigorta <span class="unit">ABD doları</span><input type="number" id="c-ins" value="3000" min="0" step="100" inputmode="numeric"></label>
+          <label class="field">Yönetim ücreti <span class="unit">kiranın yüzdesi</span><input type="number" id="c-mgmt" value="8" min="0" step="1" inputmode="decimal"></label>
+          <label class="field">Bakım ve onarım <span class="unit">kiranın yüzdesi</span><input type="number" id="c-maint" value="5" min="0" step="1" inputmode="decimal"></label>
+          <label class="field">Boş kalınan süre <span class="unit">yılda ay</span><input type="number" id="c-vac" value="1" min="0" max="12" step="0.5" inputmode="decimal"></label>
+        </form>
+        <aside class="calc-out" aria-live="polite">
+          <div><div class="k">Net getiri (yıllık)</div><div class="v big" id="o-net">—</div></div>
+          <div class="row2">
+            <div><div class="k">Brüt getiri</div><div class="v" id="o-gross" style="font-size:30px">—</div></div>
+            <div><div class="k">Yıllık net gelir</div><div class="v" id="o-noi" style="font-size:30px">—</div></div>
+          </div>
+          <table class="breakdown" aria-label="Yıllık gider dökümü">
+            <tbody>
+              <tr><td>Tahsil edilen kira</td><td id="o-rent">—</td></tr>
+              <tr><td>Aidat</td><td id="o-hoa">—</td></tr>
+              <tr><td>Emlak vergisi</td><td id="o-tax">—</td></tr>
+              <tr><td>Sigorta</td><td id="o-ins">—</td></tr>
+              <tr><td>Yönetim ve bakım</td><td id="o-mm">—</td></tr>
+            </tbody>
+          </table>
+          <p>Kredi, kapanış masrafları, gelir vergisi ve değer artışı dahil değildir. Sonuç bir tahmindir; yatırım tavsiyesi değildir.</p>
+          <a class="btn" href="#analiz" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Gerçek bir ilan için hesaplatın</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bone" aria-labelledby="six-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="stack">
+          <p class="eyebrow">Satın almadan önce</p>
+          <h2 id="six-title">Her yatırımda baktığım <em>altı konu.</em></h2>
+        </div>
+      </div>
+      <div class="grid-3" style="gap:48px 56px">
+        <div class="ruled"><h3>Net getiri</h3><p>Brüt kira değil; aidat, vergi, sigorta, yönetim ve boş aylar düşüldükten sonra elinizde kalan. Her ilan için emsal kiralarla hesaplanır.</p></div>
+        <div class="ruled"><h3>Bina sağlığı</h3><p>2022'den sonra Florida'da üç kat ve üzeri condo binalarında yapısal denetim ve rezerv çalışması zorunlu. Binanın denetim sonucu ve rezerv durumu, gelecekteki özel aidatları belirler.</p></div>
+        <div class="ruled"><h3>Kira kuralları</h3><p>Kısa dönem kiralama şehre, imar bölgesine ve bina yönetmeliğine göre değişir. Bazı binalar ilk yıl kiraya vermeyi ya da yılda kiralama sayısını sınırlar.</p></div>
+        <div class="ruled"><h3>Emlak vergisi</h3><p>Yatırım mülkleri, Florida'nın oturum muafiyetinden (homestead) yararlanamaz. Satın aldıktan sonra vergi değeri yeniden belirlenir; önceki sahibin vergi tutarı size rehber olmaz.</p></div>
+        <div class="ruled"><h3>Sigorta ve sel bölgesi</h3><p>Rüzgâr ve kasırga sigortası Florida'da önemli bir maliyet kalemi. FEMA sel bölgesindeki mülklerde sel sigortası da gerekebilir.</p></div>
+        <div class="ruled"><h3>Çıkış: satış ve FIRPTA</h3><p>Yabancı uyruklu satıcıda alıcı, satış bedelinin genellikle yüzde 15'ini kesip vergi idaresine yatırır. Fazlası beyannameyle geri alınabilir; bunu baştan planlamak gerekir.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="strat-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="stack">
+          <p class="eyebrow">Stratejiler</p>
+          <h2 id="strat-title">Hangi yatırım <em>size uygun?</em></h2>
+        </div>
+      </div>
+      <div class="grid-3">
+        <div class="ruled"><h3>Uzun dönem kiralama</h3><p>Yıllık kira sözleşmesiyle düzenli gelir. Yönetimi kolay; binanın kira kuralları ve aidatı getiriyi belirler.</p></div>
+        <div class="ruled"><h3>Proje aşamasından alım</h3><p>Ödemeler inşaat boyunca taksitlenir, teslimde yeni bir daireniz olur. Depozito takvimi, geliştiricinin geçmişi ve teslim sonrası kira kuralları kritik. <a href="/yeni-projeler/">Yeni projeler</a></p></div>
+        <div class="ruled"><h3>Sezonluk ikinci ev</h3><p>Yılın bir bölümünde kendiniz kullanır, kalan aylarda kiraya verirsiniz. Bina izin veriyorsa esnek; vergi ve sigorta planlaması önemli.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark guide-band" id="analiz" aria-labelledby="analysis-title">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow">Ücretsiz yatırım analizi</p>
+        <h2 id="analysis-title">Bütçenizi yazın, <em>rakamları ben çıkarayım.</em></h2>
+        <p class="lead">Bütçenize ve stratejinize uygun mülkler için tek sayfalık bir analiz hazırlarım: toplam alım maliyeti, yıllık giderler, emsal kiralar, net getiri, bina ve kira kuralları, satıştaki vergi kesintisi.</p>
+        <ul class="checklist">
+          <li>Kapanış dahil toplam maliyet</li>
+          <li>Emsal kiralarla net getiri</li>
+          <li>Bina denetimi ve rezerv durumu</li>
+          <li>Kira ve kısa dönem kuralları</li>
+          <li>Sigorta ve sel bölgesi</li>
+          <li>Çıkış senaryosu ve FIRPTA</li>
+        </ul>
+      </div>
+      <form class="form" name="yatirim" method="POST" action="/tesekkurler/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="yatirim">
+        <p class="hp"><label>Bu alanı boş bırakın <input name="bot-field"></label></p>
+        <div class="row">
+          <label class="field">Ad soyad<input type="text" name="ad" autocomplete="name" required></label>
+          <label class="field">E-posta<input type="email" name="email" autocomplete="email" required></label>
+        </div>
+        <div class="row">
+          <label class="field">WhatsApp (isteğe bağlı)<input type="tel" name="whatsapp" autocomplete="tel" placeholder="+90 …"></label>
+          <label class="field">Bütçe<select name="butce"><option>500 bin $ altı</option><option>500 bin – 1 milyon $</option><option>1 – 3 milyon $</option><option>3 milyon $ üzeri</option></select></label>
+        </div>
+        <div class="row">
+          <label class="field">Strateji<select name="strateji"><option>Uzun dönem kiralama</option><option>Proje aşamasından alım</option><option>Sezonluk ikinci ev</option><option>Henüz karar vermedim</option></select></label>
+          <label class="field">Zamanlama<select name="zaman"><option>0–3 ay</option><option>3–12 ay</option><option>1 yıldan sonra</option></select></label>
+        </div>
+        <label class="consent"><input type="checkbox" name="izin" value="evet" required><span>Benimle e-posta, telefon veya WhatsApp üzerinden iletişime geçilmesini kabul ediyorum. <a href="/gizlilik/" style="color:inherit">Gizlilik politikası</a></span></label>
+        <button class="btn" type="submit">Analiz talep edin</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="ifaq-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="stack">
+          <p class="eyebrow">Yatırımcıların sorduğu</p>
+          <h2 id="ifaq-title">Kısa ve <em>net cevaplar.</em></h2>
+        </div>
+      </div>
+      <div class="faq">
+        <details open><summary>Brüt getiri ile net getiri arasındaki fark nedir?</summary><div class="a"><p>Brüt getiri yıllık kiranın satın alma fiyatına oranıdır. Net getiri ise aidat, emlak vergisi, sigorta, yönetim, bakım ve boş kalınan ayları düştükten sonra kalan gelirin fiyata oranıdır. Miami'de özellikle dairelerde aidat ve sigorta nedeniyle net getiri, brüt getiriden belirgin biçimde düşük olabilir.</p></div></details>
+        <details><summary>Satarken FIRPTA nedir?</summary><div class="a"><p>Yabancı uyruklu bir satıcı ABD'deki gayrimenkulünü sattığında, alıcı satış bedelinin genellikle yüzde 15'ini kesip ABD vergi idaresine (IRS) yatırır. Bazı durumlarda oran düşebilir; fazla kesilen tutar vergi beyannamesiyle geri istenebilir.</p></div></details>
+        <details><summary>Her daire Airbnb'ye verilebilir mi?</summary><div class="a"><p>Hayır. Kısa dönem kiralama kuralları şehre, imar bölgesine ve binanın yönetmeliğine göre değişir; birçok bina ve bölge yasaklar veya sınırlar. Satın almadan önce ikisini de kontrol ederim.</p></div></details>
+        <details><summary>Condo güvenlik yasası yatırımcıyı nasıl etkiler?</summary><div class="a"><p>2022'den sonra üç kat ve üzeri condo binalarında yapısal denetim ve rezerv çalışması zorunlu hale geldi. Bu, bazı binalarda aidatları ve özel aidatları artırdı; alımdan önce binanın denetim ve rezerv durumu incelenmelidir.</p></div></details>
+      </div>
+      <p style="margin:32px 0 0;font-size:13px;font-weight:300;color:var(--stone);max-width:760px">Bu sayfa genel bilgilendirme amaçlıdır; yatırım, hukuki veya vergi tavsiyesi değildir. Getiri garanti edilmez. Vergi ve yapılandırma kararları için bir vergi danışmanına veya avukata başvurun.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" style="padding-top:0">
+  <div class="compliance">
+    <div class="wrap">
+      <div class="logos">
+        <img class="cervera" src="/assets/cervera.png" alt="Cervera Real Estate, 1969 · Leading Real Estate Companies of the World · Luxury Portfolio International" width="843" height="363">
+        <img class="mark" src="/assets/realtor-black.png" alt="REALTOR®" width="236" height="275">
+        <img class="mark" src="/assets/equal-housing-black.png" alt="Equal Housing Opportunity" width="300" height="320">
+      </div>
+      <div class="legal">
+        <p>Aleyna Bozoklar, Cervera Real Estate bünyesinde lisanslı bir Realtor® Associate'tir (Florida lisans no. 3629947). Cervera Real Estate, 20 Biscayne Blvd., Miami, FL 33132.</p>
+        <p>© 2026 Aleyna Bozoklar · <a href="/">miamievim.com</a> · <a href="/gizlilik/">Gizlilik politikası</a> · <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank" rel="noopener">Fair Housing</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<a class="wa" href="https://wa.me/13059248551?text=Merhaba%20Aleyna%2C%20Miami%27de%20yat%C4%B1r%C4%B1m%20hakk%C4%B1nda%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyorum." target="_blank" rel="noopener" aria-label="WhatsApp'tan yazın"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg></a>
+
+<script>
+(function () {
+  'use strict';
+  var ids = ['price', 'rent', 'hoa', 'tax', 'ins', 'mgmt', 'maint', 'vac'];
+  function num(id) { var v = parseFloat(document.getElementById('c-' + id).value); return isFinite(v) && v >= 0 ? v : 0; }
+  var usd = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+  var pct = function (x) { return '%' + x.toLocaleString('tr-TR', { minimumFractionDigits: 1, maximumFractionDigits: 1 }); };
+  function calc() {
+    var price = num('price'), rent = num('rent'), vac = Math.min(num('vac'), 12);
+    var collected = rent * (12 - vac);
+    var hoa = num('hoa') * 12;
+    var tax = price * num('tax') / 100;
+    var ins = num('ins');
+    var mm = collected * (num('mgmt') + num('maint')) / 100;
+    var noi = collected - hoa - tax - ins - mm;
+    var gross = price ? rent * 12 / price * 100 : 0;
+    var net = price ? noi / price * 100 : 0;
+    document.getElementById('o-net').textContent = price ? pct(net) : '—';
+    document.getElementById('o-gross').textContent = price ? pct(gross) : '—';
+    document.getElementById('o-noi').textContent = usd.format(noi);
+    document.getElementById('o-rent').textContent = usd.format(collected);
+    document.getElementById('o-hoa').textContent = '− ' + usd.format(hoa);
+    document.getElementById('o-tax').textContent = '− ' + usd.format(tax);
+    document.getElementById('o-ins').textContent = '− ' + usd.format(ins);
+    document.getElementById('o-mm').textContent = '− ' + usd.format(mm);
+  }
+  ids.forEach(function (id) { document.getElementById('c-' + id).addEventListener('input', calc); });
+  calc();
+})();
+</script>
+</body>
+</html>
