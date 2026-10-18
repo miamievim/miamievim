@@ -53,3 +53,19 @@
   .costs,.pc{grid-template-columns:1fr}
   .sources{columns:1}
 }
+/* Rapor listesi ve kilitli bölüm */
+.rlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.rrow{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between;padding:26px 0;border-bottom:1px solid var(--line)}
+.rmain{flex:1 1 420px;min-width:0}
+.rrow .county{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--stone)}
+.rrow h3{font-size:30px;line-height:1.1;margin-top:6px}
+.rgate{border-bottom:0}
+.rgate .eyebrow{margin-bottom:12px}
+.locked li strong svg{color:var(--stone);margin-right:6px;vertical-align:-1px}
+.gate-inline{margin-top:36px;padding:36px;background:var(--ink);color:var(--white);display:flex;flex-direction:column;gap:22px}
+.gate-inline .field{color:var(--mute-dark)}
+.gate-inline .field input{color:var(--white)}
+.gate-inline .consent{color:var(--text-dark)}
+.gate-inline .btn{background:var(--ivory);color:var(--ink);border-color:var(--ivory);align-self:flex-start}
+.gate-inline .hp{display:none}
+@media (max-width:900px){.gate-inline{padding:24px}}

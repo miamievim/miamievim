@@ -27,7 +27,8 @@
 .rrow .county{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--stone)}
 .rrow h3{font-size:30px;line-height:1.1;margin-top:6px}
 .rrow p{margin:6px 0 0;font-size:15px;font-weight:300;color:var(--text)}
-.rrow .get{min-height:48px;padding:0 24px;font-size:11px}
+.rrow .get,.rrow .prev{min-height:48px;padding:0 24px;font-size:11px}
+.racts{display:flex;flex-wrap:wrap;gap:10px}
 .rrow:target{background:var(--bone);padding-left:16px;padding-right:16px}
 .gate{position:relative}
 </style>
@@ -59,9 +60,9 @@
     <div class="wrap">
       <p class="eyebrow">Mahalle raporları · ücretsiz</p>
       <h1>Bir mahalleyi seçmeden önce <em>bilmeniz gereken her şey.</em></h1>
-      <p class="lead">22 mahalle, aynı dokuz başlık: karakteri, bilinen mekânlar ve gizli köşeler, satış fiyatları ve kiralar, aidat, sigorta ve sel bölgesi, ulaşım ve yeni projeler. Her rakam kaynağı ve ayıyla verilir.</p>
+      <p class="lead">22 mahalle, aynı dokuz başlık: karakteri, bilinen mekânlar ve gizli köşeler, satış fiyatları ve kiralar, aidat, sigorta ve sel bölgesi, ulaşım ve yeni projeler. Önizlemeler herkese açık; detaylı rapor ad ve e-postanızla hemen açılır. Her rakam kaynağı ve ayıyla verilir.</p>
       <div class="hero-ctas" style="margin-top:32px">
-        <a class="btn" href="#rapor-formu" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Raporunuzu alın</a>
+        <a class="btn" href="#rapor-formu" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Detaylı raporu alın</a>
         <a class="btn btn-line" href="/mahalle-testi/">Hangi mahalle size uygun?</a>
       </div>
     </div>
@@ -71,8 +72,8 @@
     <div class="wrap" style="padding-top:88px;padding-bottom:88px">
       <div class="copy">
         <p class="eyebrow">Ücretsiz erişim</p>
-        <h2 id="gate-title">Raporu seçin, <em>hemen okuyun.</em></h2>
-        <p class="lead">Adınızı ve e-postanızı bırakın; seçtiğiniz mahallenin raporu açılsın. Raporun bir kopyası ve güncellemeleri e-postanıza gelir.</p>
+        <h2 id="gate-title">Detaylı raporu seçin, <em>hemen okuyun.</em></h2>
+        <p class="lead">Adınızı ve e-postanızı bırakın; seçtiğiniz mahallenin detaylı raporu hemen açılsın. "Tüm mahalleler"i seçerseniz bütün detaylı raporlara erişirsiniz.</p>
       </div>
       <form class="form" id="gate-form" name="mahalle-raporu" method="POST" action="/mahalle-raporlari/gonderildi/" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="mahalle-raporu">
@@ -106,8 +107,8 @@
           <label class="field">Ad soyad<input type="text" name="ad" autocomplete="name" required></label>
           <label class="field">E-posta<input type="email" name="email" autocomplete="email" required></label>
         </div>
-        <label class="consent"><input type="checkbox" name="izin" value="evet" required><span>Raporun ve mahalle güncellemelerinin bana e-postayla gönderilmesini kabul ediyorum. Bilgilerim üçüncü kişilerle paylaşılmaz. <a href="/gizlilik/" style="color:inherit">Gizlilik politikası</a></span></label>
-        <button class="btn" type="submit">Raporu açın</button>
+        <label class="consent"><input type="checkbox" name="izin" value="evet" required><span>Mahalle güncellemelerinin bana e-postayla gönderilmesini kabul ediyorum. Bilgilerim üçüncü kişilerle paylaşılmaz. <a href="/gizlilik/" style="color:inherit">Gizlilik politikası</a></span></label>
+        <button class="btn" type="submit">Detaylı raporu açın</button>
       </form>
     </div>
   </section>
@@ -123,11 +124,11 @@
       <ol class="rlist">
         <li class="rrow" id="coral-gables" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Coral Gables</h3><p>Ağaçlıklı sokaklar, yürünebilir bir merkez ve Akdeniz tarzı evler.</p></div>
-          <button type="button" class="btn btn-line get" data-id="coral-gables">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/coral-gables/">Önizleme</a><button type="button" class="btn get" data-id="coral-gables">Detaylı rapor</button></div>
         </li>
         <li class="rrow" id="coconut-grove" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Coconut Grove</h3><p>Marinalar, körfez parkları ve köy sakinliği.</p></div>
-          <button type="button" class="btn btn-line get" data-id="coconut-grove">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/coconut-grove/">Önizleme</a><button type="button" class="btn get" data-id="coconut-grove">Detaylı rapor</button></div>
         </li>
         <li class="rrow" id="pinecrest">
           <div class="rmain"><span class="county">Miami-Dade</span><h3>South Miami &amp; Pinecrest</h3><p>Geniş arsalar ve bahçeli müstakil evler.</p></div>
@@ -147,7 +148,7 @@
         </li>
         <li class="rrow" id="brickell" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Brickell</h3><p>Miami’nin finans merkezi; arabasız yaşamın mümkün olduğu yer.</p></div>
-          <button type="button" class="btn btn-line get" data-id="brickell">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/brickell/">Önizleme</a><button type="button" class="btn get" data-id="brickell">Detaylı rapor</button></div>
         </li>
         <li class="rrow" id="edgewater">
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Downtown &amp; Edgewater</h3><p>Biscayne Körfezi’nde en hızlı değişen silüet.</p></div>
@@ -171,7 +172,7 @@
         </li>
         <li class="rrow" id="sunny-isles" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Sunny Isles Beach</h3><p>Okyanus kıyısında kuleler ve markalı rezidanslar.</p></div>
-          <button type="button" class="btn btn-line get" data-id="sunny-isles">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/sunny-isles/">Önizleme</a><button type="button" class="btn get" data-id="sunny-isles">Detaylı rapor</button></div>
         </li>
         <li class="rrow" id="aventura">
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Aventura</h3><p>Alışveriş, marinalar ve Intracoastal kıyısında yaşam.</p></div>
@@ -227,7 +228,7 @@
   if (h && document.querySelector('.get[data-id="' + h + '"]')) pick(h);
   form.addEventListener('submit', function () {
     var id = sel.value, row = document.getElementById(id);
-    form.action = (row && row.hasAttribute('data-live')) ? '/mahalle-raporlari/' + id + '/' : '/mahalle-raporlari/gonderildi/';
+    form.action = id === 'tumu' ? '/mahalle-raporlari/tum-raporlar/' : (row && row.hasAttribute('data-live')) ? '/mahalle-raporlari/' + id + '/detay/' : '/mahalle-raporlari/gonderildi/';
   });
 })();
 </script>

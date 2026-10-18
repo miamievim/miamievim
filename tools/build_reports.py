@@ -25,9 +25,11 @@ def nav_and_footer():
     return body_start, footer
 
 
-def head(d):
-    url = f"https://miamievim.com/mahalle-raporlari/{d['id']}/"
+def head(d, detail=False):
+    url = f"https://miamievim.com/mahalle-raporlari/{d['id']}/" + ('detay/' if detail else '')
     title = f"{d['name']} Mahalle Raporu (Ekim 2026): Fiyatlar, Kiralar, Maliyetler | Aleyna Bozoklar"
+    if detail:
+        title = f"{d['name']} Detaylı Mahalle Raporu · Ekim 2026 | Aleyna Bozoklar"
     desc = d['meta']
     faq = [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in d['faq']]
     graph = {
@@ -53,7 +55,7 @@ def head(d):
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{url}">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="{'noindex, follow' if detail else 'index, follow, max-image-preview:large'}">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:title" content="{E(d['name'])} Mahalle Raporu · Ekim 2026">
@@ -69,9 +71,7 @@ def head(d):
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 <link rel="stylesheet" href="/assets/report.css">
-<script type="application/ld+json">
-{json.dumps(graph, ensure_ascii=False, indent=1)}
-</script>
+{'' if detail else '<script type="application/ld+json">' + chr(10) + json.dumps(graph, ensure_ascii=False, indent=1) + chr(10) + '</script>'}
 </head>
 '''
 
@@ -97,7 +97,41 @@ def section(n, title, inner, sid):
   </section>'''
 
 
-def build(d, nav, footer):
+LOCKED = [
+    ('Satış piyasası', 'Medyan fiyat, m² fiyatı, satış süresi, satış/ilan oranı ve rakamların yorumu'),
+    ('Kiralar', 'Stüdyodan 3 yatak odalıya kira tablosu ve kaynak karşılaştırması'),
+    ('Gizli maliyetler', 'Emlak vergisi hesabı, site aidatı (HOA), sigorta ve sel bölgesi'),
+    ('Yeni projeler', 'İnşaat hâlindeki projeler, durumları ve tahmini teslim tarihleri'),
+    ('Artılar ve dikkat edilecekler', 'Satın almadan veya kiralamadan önce bilmeniz gerekenler'),
+]
+
+
+def gate(d):
+    lock = '<svg aria-hidden="true" width="12" height="14" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="1" y="6" width="10" height="7.5" rx="1"/><path d="M3.2 6V4.2a2.8 2.8 0 0 1 5.6 0V6"/></svg>'
+    items = ''.join(f'<li><strong>{lock} {E(a)}</strong><span>{E(b)}</span></li>' for a, b in LOCKED)
+    return f'''
+  <section class="rsec rgate" id="detayli-rapor" aria-labelledby="gate-t">
+    <div class="rnum">+</div>
+    <div class="rbody">
+      <p class="eyebrow">Ücretsiz · ad ve e-postayla</p>
+      <h2 id="gate-t">Detaylı raporda neler var?</h2>
+      <ul class="places locked">{items}</ul>
+      <form class="form gate-inline" name="mahalle-raporu" method="POST" action="/mahalle-raporlari/{d['id']}/detay/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="mahalle-raporu">
+        <input type="hidden" name="mahalle" value="{d['id']}">
+        <p class="hp"><label>Bu alanı boş bırakın <input name="bot-field"></label></p>
+        <div class="row">
+          <label class="field">Ad soyad<input type="text" name="ad" autocomplete="name" required></label>
+          <label class="field">E-posta<input type="email" name="email" autocomplete="email" required></label>
+        </div>
+        <label class="consent"><input type="checkbox" name="izin" value="evet" required><span>Mahalle güncellemelerinin bana e-postayla gönderilmesini kabul ediyorum. Bilgilerim üçüncü kişilerle paylaşılmaz. <a href="/gizlilik/" style="color:inherit">Gizlilik politikası</a></span></label>
+        <button class="btn" type="submit">Detaylı raporu açın</button>
+      </form>
+    </div>
+  </section>'''
+
+
+def build(d, nav, footer, detail=False):
     s, r, t = d['sales'], d['rent'], d['tax']
     m2 = s['ppsf'] * 10.7639 if s.get('ppsf') else None
     tax_pct = t['mills'] / 10
@@ -118,11 +152,28 @@ def build(d, nav, footer):
     costs = ''.join(f'<div class="cost"><h3>{E(a)}</h3><p>{b}</p></div>' for a, b in d['costs'])
     transport = ''.join(f'<li><strong>{E(a)}</strong><span>{E(b)}</span></li>' for a, b in d['transport'])
 
+    S = {
+        'karakter': lambda n: section(n, 'Karakter ve yaşam tarzı', ''.join(f'<p>{E(p)}</p>' for p in d['character']), 'karakter'),
+        'mekanlar': lambda n: section(n, 'Bilinen mekânlar ve gizli köşe', f'<ul class="places">{places}</ul>', 'mekanlar'),
+        'satis': lambda n: section(n, 'Satış piyasası', table(sales_rows, ['Gösterge', 'Değer']) + f'<p class="src">Kaynak: {s["src"]}</p>' + ''.join(f'<p>{E(p)}</p>' for p in s.get('notes', [])), 'satis'),
+        'kira': lambda n: section(n, 'Kiralar', table(rent_rows, ['Daire tipi', 'Ortalama aylık kira']) + f'<p class="src">Kaynak: {r["src"]}</p>' + ''.join(f'<p>{E(p)}</p>' for p in r.get('notes', [])), 'kira'),
+        'maliyet': lambda n: section(n, 'Gizli maliyetler: vergi, aidat, sigorta, sel', f'<div class="costs">{costs}</div>', 'maliyet'),
+        'ulasim': lambda n: section(n, 'Ulaşım ve günlük hayat', f'<ul class="places">{transport}</ul><p class="src">Mesafeler yaklaşıktır ve trafiksiz koşulları gösterir.</p>', 'ulasim'),
+        'projeler': lambda n: section(n, 'Gelecek: yeni projeler', table(proj_rows, ['Proje', 'Durum', 'Tahmini teslim', '']) + '<p class="src">Proje bilgileri geliştirici açıklamalarına ve basın haberlerine dayanır; teslim tarihleri değişebilir.</p>', 'projeler'),
+        'artilar': lambda n: section(n, 'Artılar ve dikkat edilecekler', f'<div class="pc"><div><h3>Artılar</h3><ul>{pros}</ul></div><div><h3>Dikkat edilecekler</h3><ul>{cons}</ul></div></div>', 'artilar'),
+        'sss': lambda n: section(n, 'Sık sorulan sorular', f'<div class="faq">{faq}</div>', 'sss'),
+    }
+    order = ['karakter', 'mekanlar', 'satis', 'kira', 'maliyet', 'ulasim', 'projeler', 'artilar', 'sss'] if detail else ['karakter', 'mekanlar', 'ulasim', 'sss']
+    body = ''.join(S[k](n + 1) for n, k in enumerate(order))
+    if not detail:
+        body += gate(d)
+    crumb_tail = (f'<a href="/mahalle-raporlari/{d["id"]}/">{E(d["name"])}</a> / <span>Detaylı rapor</span>') if detail else f'<span>{E(d["name"])}</span>'
+    eyebrow = 'Detaylı mahalle raporu' if detail else 'Mahalle raporu'
     main = f'''<main id="main" class="report">
   <section class="page-hero">
     <div class="wrap">
-      <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a> / <a href="/mahalle-raporlari/">Mahalle raporları</a> / <span>{E(d['name'])}</span></nav>
-      <p class="eyebrow">Mahalle raporu · Ekim 2026 · {E(d['county'])} County</p>
+      <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a> / <a href="/mahalle-raporlari/">Mahalle raporları</a> / {crumb_tail}</nav>
+      <p class="eyebrow">{eyebrow} · Ekim 2026 · {E(d['county'])} County</p>
       <h1>{E(d['name'])}</h1>
       <p class="lead">{E(d['short'])}</p>
     </div>
@@ -133,15 +184,7 @@ def build(d, nav, footer):
   </section>
 
   <div class="wrap rwrap">
-  {section(1, 'Karakter ve yaşam tarzı', ''.join(f'<p>{E(p)}</p>' for p in d['character']), 'karakter')}
-  {section(2, 'Bilinen mekânlar ve gizli köşe', f'<ul class="places">{places}</ul>', 'mekanlar')}
-  {section(3, 'Satış piyasası', table(sales_rows, ['Gösterge', 'Değer']) + f'<p class="src">Kaynak: {s["src"]}</p>' + ''.join(f'<p>{E(p)}</p>' for p in s.get('notes', [])), 'satis')}
-  {section(4, 'Kiralar', table(rent_rows, ['Daire tipi', 'Ortalama aylık kira']) + f'<p class="src">Kaynak: {r["src"]}</p>' + ''.join(f'<p>{E(p)}</p>' for p in r.get('notes', [])), 'kira')}
-  {section(5, 'Gizli maliyetler: vergi, aidat, sigorta, sel', f'<div class="costs">{costs}</div>', 'maliyet')}
-  {section(6, 'Ulaşım ve günlük hayat', f'<ul class="places">{transport}</ul><p class="src">Mesafeler yaklaşıktır ve trafiksiz koşulları gösterir.</p>', 'ulasim')}
-  {section(7, 'Gelecek: yeni projeler', table(proj_rows, ['Proje', 'Durum', 'Tahmini teslim', '']) + '<p class="src">Proje bilgileri geliştirici açıklamalarına ve basın haberlerine dayanır; teslim tarihleri değişebilir.</p>', 'projeler')}
-  {section(8, 'Artılar ve dikkat edilecekler', f'<div class="pc"><div><h3>Artılar</h3><ul>{pros}</ul></div><div><h3>Dikkat edilecekler</h3><ul>{cons}</ul></div></div>', 'artilar')}
-  {section(9, 'Sık sorulan sorular', f'<div class="faq">{faq}</div>', 'sss')}
+{body}
   </div>
 
   <section class="dark guide-band" aria-labelledby="cta-t">
@@ -161,25 +204,50 @@ def build(d, nav, footer):
 
   <section class="section">
     <div class="wrap">
-      <h2 style="font-size:28px;margin-bottom:18px">Kaynaklar</h2>
-      <ul class="sources">{sources}</ul>
+      {('<h2 style="font-size:28px;margin-bottom:18px">Kaynaklar</h2><ul class="sources">' + sources + '</ul>') if detail else ''}
       <p class="src" style="margin-top:24px">Rapor tarihi: 18 Ekim 2026. Hazırlayan: Aleyna Bozoklar, Realtor® Associate, Cervera Real Estate. Bu rapor genel bilgilendirme amaçlıdır; yatırım, hukuki veya vergi tavsiyesi değildir. Rakamlar üçüncü taraf kaynaklardan alınmıştır ve değişebilir. Mahalleler insan gruplarına göre değil, özelliklerine göre anlatılır; okul ve güvenlik bilgisi için resmi kaynaklara başvurun.</p>
     </div>
   </section>
 </main>
 
 '''
-    return head(d) + nav + main + footer
+    return head(d, detail) + nav + main + footer
+
+
+def all_list(reports, nav, footer):
+    d = {'id': 'tum-raporlar', 'name': 'Tüm raporlar', 'county': 'Miami-Dade, Broward, Palm Beach', 'meta': 'Detaylı mahalle raporları, Ekim 2026.', 'faq': []}
+    h = head(d, True).replace('mahalle-raporlari/tum-raporlar/detay/', 'mahalle-raporlari/tum-raporlar/')
+    h = h.replace('Tüm raporlar Detaylı Mahalle Raporu', 'Tüm Detaylı Mahalle Raporları')
+    rows = ''.join(f'<li class="rrow"><div class="rmain"><span class="county">{E(r["county"])}</span><h3>{E(r["name"])}</h3></div><a class="btn btn-line" href="/mahalle-raporlari/{r["id"]}/detay/">Detaylı raporu okuyun</a></li>' for r in reports)
+    main = f'''<main id="main" class="report">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a> / <a href="/mahalle-raporlari/">Mahalle raporları</a> / <span>Tüm detaylı raporlar</span></nav>
+      <p class="eyebrow">Detaylı mahalle raporları · Ekim 2026</p>
+      <h1>Teşekkürler. <em>Tüm raporlar açık.</em></h1>
+      <p class="lead">Aşağıdaki listeden istediğiniz mahallenin detaylı raporunu okuyabilirsiniz. Bu sayfayı yer imlerinize ekleyebilirsiniz.</p>
+    </div>
+  </section>
+  <section class="section"><div class="wrap"><ol class="rlist alllist">{rows}</ol></div></section>
+</main>
+
+'''
+    return h + nav + main + footer
 
 
 def main():
     nav, footer = nav_and_footer()
+    reports = []
     for f in sorted(glob.glob(os.path.join(ROOT, 'tools', 'reports', '*.json'))):
         d = json.load(open(f, encoding='utf-8'))
+        reports.append(d)
         out = os.path.join(ROOT, 'mahalle-raporlari', d['id'])
-        os.makedirs(out, exist_ok=True)
-        open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(build(d, nav, footer))
+        os.makedirs(os.path.join(out, 'detay'), exist_ok=True)
+        open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(build(d, nav, footer, False))
+        open(os.path.join(out, 'detay', 'index.html'), 'w', encoding='utf-8').write(build(d, nav, footer, True))
         print('built', d['id'])
+    os.makedirs(os.path.join(ROOT, 'mahalle-raporlari', 'tum-raporlar'), exist_ok=True)
+    open(os.path.join(ROOT, 'mahalle-raporlari', 'tum-raporlar', 'index.html'), 'w', encoding='utf-8').write(all_list(reports, nav, footer))
 
 
 if __name__ == '__main__':
