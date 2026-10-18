@@ -1,0 +1,218 @@
+{
+ "id": "sunny-isles",
+ "name": "Sunny Isles Beach",
+ "county": "Miami-Dade",
+ "meta": "Sunny Isles Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $679 bin, ortalama kira $2.771, emlak vergisi, sel bölgesi, Bentley, St. Regis ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus ile Intracoastal arasında, dar bir bariyer adasına sığmış gökdelenler şehri. Ekim 2026 itibarıyla medyan satış fiyatı $679.550; satış süresi uzuyor.",
+ "sales": {
+  "median": 679550,
+  "median_chg": "yıllık +%15,7",
+  "ppsf": 433,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$679.550 <small>(yıllık +%15,7)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$433 / ft² ≈ $4.661 / m² <small>(yıllık −%13,4)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "189 gün"
+   ],
+   [
+    "Bir yıl önceki satış süresi",
+    "148 gün"
+   ],
+   [
+    "Satılan konut",
+    "184 <small>(yıllık +%9,9)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%92,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/17786/FL/Sunny-Isles-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sunny Isles Beach Housing Market</a>, Ekim 2026 erişimi (son 3 ay verisi).",
+  "notes": [
+   "Medyan fiyat yükselirken fit kare fiyatının düşmesi, son dönemde daha büyük dairelerin el değiştirdiğini gösteriyor. Satış süresinin bir yılda 148 günden 189 güne çıkması ve satışların ilan fiyatının ortalama %7,5 altında kapanması, alıcıya belirgin pazarlık gücü veriyor."
+  ]
+ },
+ "rent": {
+  "avg": 2771,
+  "chg": "yıllık −%6,18",
+  "src_short": "RentCafe",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$2.321"
+   ],
+   [
+    "2 yatak odalı",
+    "$3.001"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.305"
+   ],
+   [
+    "Tüm daireler (ortalama)",
+    "$2.771"
+   ]
+  ],
+  "src": "<a href=\"https://www.rentcafe.com/average-rent-market-trends/us/fl/sunny-isles-beach/\" target=\"_blank\" rel=\"noopener\">RentCafe, Sunny Isles Beach Average Rent</a>, 30 Eylül 2026 güncellemesi. Stüdyo için yeterli veri yok.",
+  "notes": [
+   "RentCafe ortalaması yönetimli apartman binalarına dayanır; okyanus cepheli lüks kondominyumlarda bireysel ev sahiplerinin istediği kiralar bu ortalamanın belirgin şekilde üstünde olabilir. Zillow'un ZIP 33160 verisi bu rapor için güncel olmadığından kullanılmadı."
+  ]
+ },
+ "tax": {
+  "mills": 16.7227,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Sunny Isles Beach, Atlantik Okyanusu ile Intracoastal Waterway arasında uzanan dar bir bariyer adası üzerinde yer alır. Okyanus kıyısı boyunca dizilen 40–60 katlı kuleler, şehre \"Florida'nın Riviera'sı\" lakabını kazandırdı.",
+  "Konut stoku büyük ölçüde okyanus veya Intracoastal manzaralı yüksek katlı kondominyumlardan oluşur. Porsche Design Tower, Jade Signature ve Residences by Armani/Casa gibi markalı binalar bölgenin lüks segmentini belirler; batı tarafında ise daha eski ve daha uygun fiyatlı binalar bulunur.",
+  "Sahil yaşamı merkezdedir: geniş kumsal, yürüyüş yolları ve okyanusa uzanan iskele. Günlük ihtiyaçlar için Collins Avenue boyunca marketler ve restoranlar yer alır; Aventura Mall birkaç dakika mesafededir."
+ ],
+ "places": [
+  [
+   "Newport Fishing Pier",
+   "Okyanusa uzanan iskele; gün doğumu yürüyüşlerinin klasik adresi."
+  ],
+  [
+   "Samson Oceanfront Park",
+   "Sahile doğrudan erişim sağlayan, duşlu ve gölgelikli park."
+  ],
+  [
+   "Heritage Park",
+   "Intracoastal kıyısında park, kayık iskelesi ve etkinlik alanı."
+  ],
+  [
+   "Aventura Mall",
+   "Bölgenin en büyük alışveriş merkezi; yaklaşık 5 km."
+  ],
+  [
+   "Gizli köşe: Oleta River State Park",
+   "Hemen güneybatıda, mangrovlar arasında kano, kayak ve dağ bisikleti parkurları."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Sunny Isles Beach için 2025 toplam vergi oranı 16,7227 mill; yani vergi değerinin yaklaşık %1,67'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.723. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bariyer adası olduğu için şehrin tamamına yakını yüksek riskli kıyı bölgelerindedir; okyanus cepheli kesimler VE, diğerleri büyük ölçüde AE bölgesidir. Yüksek katlı binalarda bina poliçesinin kapsamını ve rüzgâr/sel muafiyet tutarlarını kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 32 km · 35 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 30 km · 35–45 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Şehir içi ücretsiz shuttle; yakındaki Aventura istasyonundan Brightline ile Miami, Fort Lauderdale ve Orlando."
+  ],
+  [
+   "Günlük hayat",
+   "Collins Avenue boyunca yürünebilir; ada dışı ulaşım için araç gerekir."
+  ]
+ ],
+ "projects": [
+  [
+   "Bentley Residences",
+   "İnşaat sürüyor (13. kat seviyesinde)",
+   "2028",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "St. Regis Residences Sunny Isles",
+   "İnşaat sürüyor; güney kulesi dikey inşaata hazır",
+   "2028 sonu",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "19051 Collins Ave. (Related / Dezer / BH Group)",
+   "62 kat, ~250 m, 145 daire; Şubat 2026'da onaylandı",
+   "2030'ların başı (hedef)",
+   "https://floridayimby.com/2026/02/sunny-isles-beach-approves-62-story-820-foot-condominium-tower-at-19051-collins-avenue.html"
+  ]
+ ],
+ "pros": [
+  "Okyanus cepheli yaşam ve geniş kumsal",
+  "Bu raporlardaki en düşük vergi oranlarından biri (16,72 mill)",
+  "FLL havalimanına ve Aventura'ya yakınlık",
+  "Uzayan satış süresi ile alıcıya pazarlık gücü"
+ ],
+ "cons": [
+  "Bariyer adası: sel ve fırtına riski, yüksek sigorta maliyeti",
+  "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
+  "Brickell ve Downtown'a trafik saatlerinde uzun yolculuk",
+  "Kiralarda yıllık düşüş (−%6,18)"
+ ],
+ "faq": [
+  [
+   "Sunny Isles Beach'te daire fiyatları ne kadar?",
+   "Redfin verisine göre Ekim 2026 itibarıyla medyan satış fiyatı $679.550 (yıllık +%15,7), fit kare fiyatı $433 (yıllık −%13,4). Okyanus cepheli markalı binalarda fiyatlar bu medyanın çok üstündedir."
+  ],
+  [
+   "Sunny Isles Beach'te kiralar ne kadar?",
+   "RentCafe'ye göre (30 Eylül 2026) ortalama kira aylık $2.771; 1 yatak odalı $2.321, 2 yatak odalı $3.001. Lüks kondominyumlarda bireysel ev sahiplerinin kiraları daha yüksektir."
+  ],
+  [
+   "Sunny Isles Beach'te emlak vergisi ne kadar?",
+   "2025 için toplam oran 16,7227 mill; yani vergi değerinin yaklaşık %1,67'si. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "Sunny Isles Beach'te sel riski nasıl?",
+   "Şehir bir bariyer adası üzerinde olduğu için tamamına yakını yüksek riskli kıyı bölgesindedir. Satın almadan önce binanın sigorta poliçesini, rezerv durumunu ve adres bazında FEMA bölgesini kontrol edin."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Sunny Isles Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/17786/FL/Sunny-Isles-Beach/housing-market"
+  ],
+  [
+   "RentCafe: Sunny Isles Beach Average Rent (30 Eylül 2026)",
+   "https://www.rentcafe.com/average-rent-market-trends/us/fl/sunny-isles-beach/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Eylül 2026 Miami-Dade proje güncellemesi",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Florida YIMBY: 19051 Collins Avenue onayı (Şubat 2026)",
+   "https://floridayimby.com/2026/02/sunny-isles-beach-approves-62-story-820-foot-condominium-tower-at-19051-collins-avenue.html"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Sunny Isles Beach raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+}

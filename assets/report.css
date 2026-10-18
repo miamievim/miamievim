@@ -1,0 +1,55 @@
+/* Mahalle raporu sayfaları */
+.crumbs{font-size:13px;letter-spacing:.08em;color:var(--mute-dark);margin-bottom:28px}
+.crumbs a{color:var(--mute-dark);text-decoration:none}
+.crumbs a:hover{color:var(--ivory)}
+.crumbs span{color:var(--ivory)}
+.report .page-hero{padding-bottom:72px}
+.report .page-hero .lead{max-width:780px}
+.statband{background:var(--ink-2);color:var(--white);border-top:1px solid #2a2a2a}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin:0}
+.stat{padding:36px 28px 36px 0;border-right:1px solid #2e2e2e;display:flex;flex-direction:column;gap:6px}
+.stat+.stat{padding-left:28px}
+.stat:last-child{border-right:0}
+.stat dt{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--mute-dark)}
+.stat dd{margin:0;font-family:var(--serif);font-size:clamp(28px,2.8vw,40px);line-height:1.15}
+.stat span{font-size:13px;color:var(--text-dark);font-weight:300}
+.rwrap{padding-top:40px;padding-bottom:80px}
+.rsec{display:grid;grid-template-columns:120px minmax(0,1fr);gap:24px;padding:56px 0;border-bottom:1px solid var(--line)}
+.rnum{font-family:var(--serif);font-size:44px;color:var(--stone);line-height:1}
+.rbody{max-width:880px;min-width:0}
+.rbody h2{font-size:clamp(28px,3vw,40px);line-height:1.15;margin:0 0 24px}
+.rbody h3{font-family:var(--serif);font-weight:400;font-size:22px;margin:0 0 10px}
+.rbody p{font-weight:300;color:var(--text);margin:0 0 16px}
+.rbody .src{font-size:13px;color:var(--stone);margin-top:14px}
+.rbody .src a{color:var(--stone)}
+.places{list-style:none;margin:0;padding:0}
+.places li{display:grid;grid-template-columns:minmax(160px,240px) 1fr;gap:20px;padding:16px 0;border-bottom:1px solid var(--line)}
+.places li:first-child{border-top:1px solid var(--line)}
+.places strong{font-weight:500}
+.places span{font-weight:300;color:var(--text)}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--white)}
+.tbl table{width:100%;border-collapse:collapse;font-size:16px}
+.tbl th{text-align:left;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--stone);font-weight:500;padding:14px 18px;border-bottom:1px solid var(--line);background:var(--bone)}
+.tbl td{padding:14px 18px;border-bottom:1px solid var(--line);vertical-align:top;font-weight:300}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td:first-child{font-weight:400}
+.costs{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.cost{background:var(--ivory);padding:26px}
+.cost p{font-size:16px;margin:0}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.pc ul{margin:0;padding-left:18px;font-weight:300;color:var(--text)}
+.pc li{margin-bottom:10px}
+.sources{columns:2;column-gap:48px;padding-left:18px;font-size:15px;font-weight:300}
+.sources li{margin-bottom:8px;break-inside:avoid}
+@media (max-width:900px){
+  .stats{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .stat dd{font-size:24px;overflow-wrap:anywhere}
+  .stat{padding:24px 16px 24px 0;border-bottom:1px solid #2e2e2e}
+  .stat+.stat{padding-left:0}
+  .stat:nth-child(even){padding-left:16px;border-right:0}
+  .rsec{grid-template-columns:minmax(0,1fr);gap:8px;padding:40px 0}
+  .rnum{font-size:30px}
+  .places li{grid-template-columns:1fr;gap:4px}
+  .costs,.pc{grid-template-columns:1fr}
+  .sources{columns:1}
+}

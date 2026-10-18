@@ -1,0 +1,186 @@
+# -*- coding: utf-8 -*-
+"""Mahalle raporlarını tools/reports/*.json dosyalarından üretir.
+
+Kullanım: python3 tools/build_reports.py   (repo kökünden)
+Her JSON dosyası bir mahalleyi tanımlar; çıktı mahalle-raporlari/<id>/index.html olur.
+"""
+import json, glob, os, html, re
+from urllib.parse import quote
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TPL_SRC = os.path.join(ROOT, 'hakkimda', 'index.html')
+E = html.escape
+
+
+def money(v):
+    return '$' + f'{int(round(v)):,}'.replace(',', '.')
+
+
+def nav_and_footer():
+    src = open(TPL_SRC, encoding='utf-8').read()
+    body_start = src[src.index('<body>'):src.index('<main id="main">')]
+    body_start = body_start.replace(' aria-current="page"', '')
+    body_start = body_start.replace('<a href="/mahalle-raporlari/">Mahalleler</a>', '<a href="/mahalle-raporlari/" aria-current="page">Mahalleler</a>')
+    footer = src[src.index('<footer'):]
+    return body_start, footer
+
+
+def head(d):
+    url = f"https://miamievim.com/mahalle-raporlari/{d['id']}/"
+    title = f"{d['name']} Mahalle Raporu (Ekim 2026): Fiyatlar, Kiralar, Maliyetler | Aleyna Bozoklar"
+    desc = d['meta']
+    faq = [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in d['faq']]
+    graph = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "Article", "headline": f"{d['name']} Mahalle Raporu · Ekim 2026", "inLanguage": "tr",
+             "datePublished": "2026-10-18", "dateModified": "2026-10-18", "url": url,
+             "author": {"@type": "Person", "name": "Aleyna Bozoklar", "url": "https://miamievim.com/hakkimda/"},
+             "publisher": {"@type": "Organization", "name": "Miami Evim", "url": "https://miamievim.com/"},
+             "about": {"@type": "Place", "name": f"{d['name']}, {d['county']} County, Florida"}},
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": "https://miamievim.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Mahalle raporları", "item": "https://miamievim.com/mahalle-raporlari/"},
+                {"@type": "ListItem", "position": 3, "name": d['name'], "item": url}]},
+            {"@type": "FAQPage", "inLanguage": "tr", "mainEntity": faq}
+        ]
+    }
+    return f'''<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{E(title)}</title>
+<meta name="description" content="{E(desc)}">
+<link rel="canonical" href="{url}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="{E(d['name'])} Mahalle Raporu · Ekim 2026">
+<meta property="og:description" content="{E(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="https://miamievim.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0F0F0F">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/report.css">
+<script type="application/ld+json">
+{json.dumps(graph, ensure_ascii=False, indent=1)}
+</script>
+</head>
+'''
+
+
+def stat(label, value, note):
+    return f'<div class="stat"><dt>{E(label)}</dt><dd>{value}</dd><span>{note}</span></div>'
+
+
+def table(rows, head_cells):
+    th = ''.join(f'<th scope="col">{E(h)}</th>' for h in head_cells)
+    trs = ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in rows)
+    return f'<div class="tbl"><table><thead><tr>{th}</tr></thead><tbody>{trs}</tbody></table></div>'
+
+
+def section(n, title, inner, sid):
+    return f'''
+  <section class="rsec" id="{sid}" aria-labelledby="{sid}-t">
+    <div class="rnum">{n:02d}</div>
+    <div class="rbody">
+      <h2 id="{sid}-t">{title}</h2>
+      {inner}
+    </div>
+  </section>'''
+
+
+def build(d, nav, footer):
+    s, r, t = d['sales'], d['rent'], d['tax']
+    m2 = s['ppsf'] * 10.7639 if s.get('ppsf') else None
+    tax_pct = t['mills'] / 10
+    stats = ''.join([
+        stat('Medyan satış fiyatı', money(s['median']), f"{E(s['median_chg'])} · {E(s['src_short'])}"),
+        stat('Metrekare fiyatı', (money(m2) + ' / m²') if m2 else '—', (f"{money(s['ppsf'])} / ft² · " + E(s['src_short'])) if m2 else E(s['src_short'])),
+        stat('Ortalama kira', money(r['avg']) + ' / ay', f"{E(r['chg'])} · {E(r['src_short'])}"),
+        stat('Emlak vergisi', f"≈ %{tax_pct:.2f}".replace('.', ','), f"vergi değerinin yıllık oranı · {E(t['src_short'])}"),
+    ])
+    sales_rows = [[E(k), v] for k, v in s['rows']]
+    rent_rows = [[E(k), v] for k, v in r['rows']]
+    proj_rows = [[f"<strong>{E(p[0])}</strong>", E(p[1]), E(p[2]), f'<a href="{p[3]}" target="_blank" rel="noopener">Kaynak</a>'] for p in d['projects']]
+    places = ''.join(f'<li><strong>{E(a)}</strong><span>{E(b)}</span></li>' for a, b in d['places'])
+    pros = ''.join(f'<li>{E(x)}</li>' for x in d['pros'])
+    cons = ''.join(f'<li>{E(x)}</li>' for x in d['cons'])
+    faq = ''.join(f'<details><summary>{E(q)}</summary><div class="a"><p>{E(a)}</p></div></details>' for q, a in d['faq'])
+    sources = ''.join(f'<li><a href="{u}" target="_blank" rel="noopener">{E(n)}</a></li>' for n, u in d['sources'])
+    costs = ''.join(f'<div class="cost"><h3>{E(a)}</h3><p>{b}</p></div>' for a, b in d['costs'])
+    transport = ''.join(f'<li><strong>{E(a)}</strong><span>{E(b)}</span></li>' for a, b in d['transport'])
+
+    main = f'''<main id="main" class="report">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Sayfa yolu"><a href="/">Ana sayfa</a> / <a href="/mahalle-raporlari/">Mahalle raporları</a> / <span>{E(d['name'])}</span></nav>
+      <p class="eyebrow">Mahalle raporu · Ekim 2026 · {E(d['county'])} County</p>
+      <h1>{E(d['name'])}</h1>
+      <p class="lead">{E(d['short'])}</p>
+    </div>
+  </section>
+
+  <section class="statband" aria-label="Özet rakamlar">
+    <div class="wrap"><dl class="stats">{stats}</dl></div>
+  </section>
+
+  <div class="wrap rwrap">
+  {section(1, 'Karakter ve yaşam tarzı', ''.join(f'<p>{E(p)}</p>' for p in d['character']), 'karakter')}
+  {section(2, 'Bilinen mekânlar ve gizli köşe', f'<ul class="places">{places}</ul>', 'mekanlar')}
+  {section(3, 'Satış piyasası', table(sales_rows, ['Gösterge', 'Değer']) + f'<p class="src">Kaynak: {s["src"]}</p>' + ''.join(f'<p>{E(p)}</p>' for p in s.get('notes', [])), 'satis')}
+  {section(4, 'Kiralar', table(rent_rows, ['Daire tipi', 'Ortalama aylık kira']) + f'<p class="src">Kaynak: {r["src"]}</p>' + ''.join(f'<p>{E(p)}</p>' for p in r.get('notes', [])), 'kira')}
+  {section(5, 'Gizli maliyetler: vergi, aidat, sigorta, sel', f'<div class="costs">{costs}</div>', 'maliyet')}
+  {section(6, 'Ulaşım ve günlük hayat', f'<ul class="places">{transport}</ul><p class="src">Mesafeler yaklaşıktır ve trafiksiz koşulları gösterir.</p>', 'ulasim')}
+  {section(7, 'Gelecek: yeni projeler', table(proj_rows, ['Proje', 'Durum', 'Tahmini teslim', '']) + '<p class="src">Proje bilgileri geliştirici açıklamalarına ve basın haberlerine dayanır; teslim tarihleri değişebilir.</p>', 'projeler')}
+  {section(8, 'Artılar ve dikkat edilecekler', f'<div class="pc"><div><h3>Artılar</h3><ul>{pros}</ul></div><div><h3>Dikkat edilecekler</h3><ul>{cons}</ul></div></div>', 'artilar')}
+  {section(9, 'Sık sorulan sorular', f'<div class="faq">{faq}</div>', 'sss')}
+  </div>
+
+  <section class="dark guide-band" aria-labelledby="cta-t">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow">Bir sonraki adım</p>
+        <h2 id="cta-t">{E(d['name'])} size uygun mu? <em>Birlikte bakalım.</em></h2>
+        <p class="lead">15 dakikalık ücretsiz görüşmede bütçenizi ve beklentilerinizi konuşalım; bu mahalledeki uygun ilanları ve binaları birlikte değerlendirelim.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;flex:1 1 300px">
+        <a class="btn" href="https://wa.me/13059248551?text={quote(d['wa'])}" target="_blank" rel="noopener">WhatsApp'tan yazın</a>
+        <a class="btn btn-line" href="/mahalle-testi/">Mahalle testini çözün</a>
+        <a class="btn btn-line" href="/mahalle-raporlari/">Diğer mahalle raporları</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 style="font-size:28px;margin-bottom:18px">Kaynaklar</h2>
+      <ul class="sources">{sources}</ul>
+      <p class="src" style="margin-top:24px">Rapor tarihi: 18 Ekim 2026. Hazırlayan: Aleyna Bozoklar, Realtor® Associate, Cervera Real Estate. Bu rapor genel bilgilendirme amaçlıdır; yatırım, hukuki veya vergi tavsiyesi değildir. Rakamlar üçüncü taraf kaynaklardan alınmıştır ve değişebilir. Mahalleler insan gruplarına göre değil, özelliklerine göre anlatılır; okul ve güvenlik bilgisi için resmi kaynaklara başvurun.</p>
+    </div>
+  </section>
+</main>
+
+'''
+    return head(d) + nav + main + footer
+
+
+def main():
+    nav, footer = nav_and_footer()
+    for f in sorted(glob.glob(os.path.join(ROOT, 'tools', 'reports', '*.json'))):
+        d = json.load(open(f, encoding='utf-8'))
+        out = os.path.join(ROOT, 'mahalle-raporlari', d['id'])
+        os.makedirs(out, exist_ok=True)
+        open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(build(d, nav, footer))
+        print('built', d['id'])
+
+
+if __name__ == '__main__':
+    main()

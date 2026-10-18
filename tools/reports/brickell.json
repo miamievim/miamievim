@@ -1,0 +1,230 @@
+{
+ "id": "brickell",
+ "name": "Brickell",
+ "county": "Miami-Dade",
+ "meta": "Brickell mahalle raporu, Ekim 2026: medyan satış fiyatı $615 bin, ortalama kira $4.100, emlak vergisi, sel bölgesi, Cipriani, Mandarin Oriental ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Miami'nin finans merkezi ve en yoğun kondominyum bölgesi. Ekim 2026 itibarıyla medyan satış fiyatı $615 bin; medyan düşerken fit kare fiyatı yükseliyor.",
+ "sales": {
+  "median": 615000,
+  "median_chg": "yıllık −%9,6",
+  "ppsf": 635,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$615.000 <small>(yıllık −%9,56)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$635 / ft² ≈ $6.835 / m² <small>(yıllık +%4,1)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "150 gün"
+   ],
+   [
+    "Satılan konut",
+    "71"
+   ],
+   [
+    "Satış / ilan fiyatı",
+    "ilan fiyatının yaklaşık %6 altında"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/91805/FL/Miami/Brickell/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Brickell Housing Market</a>, Ekim 2026 erişimi (son 3 ay verisi).",
+  "notes": [
+   "Medyan fiyat düşerken fit kare fiyatının artması, son dönemde daha küçük dairelerin satıldığını gösteriyor; birim değerler geri çekilmiyor. 150 günlük ortalama satış süresi ve ilan fiyatının yaklaşık %6 altında kapanan satışlar, alıcıya pazarlık alanı tanıyan bir piyasaya işaret ediyor."
+  ]
+ },
+ "rent": {
+  "avg": 4100,
+  "chg": "yıllık −$30",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.650"
+   ],
+   [
+    "1 yatak odalı",
+    "$3.400"
+   ],
+   [
+    "2 yatak odalı",
+    "$5.200"
+   ],
+   [
+    "3 yatak odalı",
+    "$9.500"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.100"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33131/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33131</a>, 15 Ekim 2026 güncellemesi.",
+  "notes": [
+   "RentCafe, yönetimli apartman komplekslerine göre ortalamayı $3.780 olarak veriyor (14 Eylül 2026, yıllık +%3,45): stüdyo $2.551, 1 yatak odalı $3.310, 2 yatak odalı $4.076. ZIP 33131, Brickell'in çekirdeğini ve Brickell Key'i kapsar."
+  ]
+ },
+ "tax": {
+  "mills": 19.9878,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Brickell, Miami'nin finans ve iş merkezi. Uluslararası bankaların ve hukuk firmalarının ofisleri, Biscayne Körfezi boyunca uzanan yüksek kuleler ve yoğun bir kondominyum stoku mahallenin karakterini belirler.",
+  "Konut stoku neredeyse tamamen yüksek katlı dairelerden oluşur; tam hizmetli binalarda kapı görevlisi, havuz, spor salonu ve ortak alanlar standarttır. Hafta içi iş temposu, akşamları ve hafta sonları restoran ve gece hayatıyla yer değiştirir.",
+  "Brickell Key, Brickell'in hemen doğusunda köprüyle bağlanan, yalnızca konut ve otellerden oluşan küçük bir adadır; daha sakin bir alternatif sunar."
+ ],
+ "places": [
+  [
+   "Brickell City Centre",
+   "Alışveriş, restoran ve sinemayı bir araya getiren karma kullanımlı merkez."
+  ],
+  [
+   "Mary Brickell Village",
+   "Restoran ve barların yoğunlaştığı açık hava bölgesi."
+  ],
+  [
+   "The Underline",
+   "Metrorail hattının altında uzanan doğrusal park, yürüyüş ve bisiklet yolu."
+  ],
+  [
+   "Brickell Key yürüyüş yolu",
+   "Adanın çevresini dolaşan, körfez manzaralı yürüyüş ve koşu yolu."
+  ],
+  [
+   "Gizli köşe: Simpson Park",
+   "Kulelerin arasında korunmuş bir tropikal orman parçası; Brickell'in en sessiz noktası."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami şehri için 2025 toplam vergi oranı 19,9878 mill; yani vergi değerinin yaklaşık %2,00'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Brickell'in büyük kısmı ve Brickell Key yüksek riskli kıyı bölgelerindedir (AE/VE). Yüksek katlı binalarda sel sigortası çoğunlukla binanın ortak poliçesindedir; dairenin iç kısmı için ayrıca poliçe gerekir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 13 km · 20 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 45 km · 40 dakika"
+  ],
+  [
+   "Miami Beach (South Beach)",
+   "yaklaşık 10 km · 15–20 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Metromover; Metrorail Brickell istasyonu; Downtown'daki MiamiCentral'dan Brightline ile Fort Lauderdale, West Palm Beach ve Orlando."
+  ],
+  [
+   "Günlük hayat",
+   "Miami'nin en yürünebilir bölgelerinden biri; araç olmadan yaşamak mümkün."
+  ]
+ ],
+ "projects": [
+  [
+   "Cipriani Residences",
+   "Kaba inşaat tamamlandı (Temmuz 2026)",
+   "2027 yazı",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "2200 Brickell",
+   "Teslim edildi (Temmuz 2026)",
+   "Tamamlandı",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "The St. Regis Residences Miami",
+   "İnşaat sürüyor",
+   "2027",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "The Residences at Mandarin Oriental (Brickell Key)",
+   "Saha çalışmaları sürüyor; temel atma 2026 sonbaharı",
+   "2030",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "619 Brickell by Nobu",
+   "Onaylı; mahkeme kararı nedeniyle yeni tarihî koruma oturumu gerekiyor",
+   "2030",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Araçsız yaşanabilir, yürünebilir yoğun şehir merkezi",
+  "Geniş kiracı talebi ve çok sayıda tam hizmetli bina",
+  "Toplu taşıma ve Brightline erişimi",
+  "Alıcı lehine pazarlık alanı (uzun satış süresi)"
+ ],
+ "cons": [
+  "Yeni projelerle birlikte artan daire arzı",
+  "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Kısa süreli kiralama yalnızca buna izin veren binalarda mümkün"
+ ],
+ "faq": [
+  [
+   "Brickell'de daire fiyatları ne kadar?",
+   "Redfin verisine göre Ekim 2026 itibarıyla medyan satış fiyatı $615.000 (yıllık −%9,56), fit kare fiyatı $635 (yıllık +%4,1). Medyanın düşmesi daha küçük dairelerin satılmasından kaynaklanıyor; birim fiyatlar yükseliyor."
+  ],
+  [
+   "Brickell'de kiralar ne kadar?",
+   "Zillow'a göre ZIP 33131'de (15 Ekim 2026) ortalama kira aylık $4.100; 1 yatak odalı $3.400, 2 yatak odalı $5.200 civarında."
+  ],
+  [
+   "Brickell'de yatırım için daire alınır mı?",
+   "Kira talebi geniş, ancak aidat, sigorta ve vergi net getiriyi belirgin şekilde düşürür. Kararı brüt değil net getiriyle vermek gerekir; yatırım sayfamızdaki hesaplayıcıyı kullanabilirsiniz. Bu bilgi yatırım tavsiyesi değildir."
+  ],
+  [
+   "Brickell'de Airbnb yapılabilir mi?",
+   "Yalnızca kısa süreli kiralamaya izin veren binalarda mümkündür; çoğu bina minimum kiralama süresi belirler. Satın almadan önce bina kurallarını yazılı olarak teyit edin."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Brickell Housing Market (Ekim 2026)",
+   "https://www.redfin.com/neighborhood/91805/FL/Miami/Brickell/housing-market"
+  ],
+  [
+   "Zillow: ZIP 33131 Rental Market Trends (15 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33131/"
+  ],
+  [
+   "RentCafe: Brickell Average Rent (14 Eylül 2026)",
+   "https://www.rentcafe.com/average-rent-market-trends/us/fl/miami/brickell/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ağustos, Eylül ve Ekim 2026 proje güncellemeleri",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Brickell raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+}

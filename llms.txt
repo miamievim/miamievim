@@ -13,7 +13,7 @@ Son güncelleme: 2026-10-18
 - E-posta: Aleynab@cervera.com
 - Diller: Türkçe, İngilizce, Fransızca
 - Eğitim: İstanbul Bilgi Üniversitesi (İşletme ve Ekonomi), Vanderbilt (Pazarlama), Istituto Marangoni (Lüks Marka Yönetimi)
-- Hizmet bölgeleri: Miami-Dade, Broward ve Palm Beach'in tamamı. Haftalık raporlarda ayrıntılı işlenen 22 mahalle (Coral Gables, Coconut Grove, South Miami & Pinecrest, Key Biscayne, South Beach, Wynwood & Design District, Brickell, Downtown & Edgewater, Little Havana, Doral, Mid-Beach & North Beach, Surfside & Bal Harbour, Sunny Isles Beach, Aventura, Hallandale Beach, Hollywood, Weston, Fort Lauderdale, Wilton Manors, Lighthouse Point & Pompano, Deerfield Beach, Boca Raton)
+- Hizmet bölgeleri: Miami-Dade, Broward ve Palm Beach'in tamamı. Mahalle raporlarında ayrıntılı işlenen 22 mahalle (Coral Gables, Coconut Grove, South Miami & Pinecrest, Key Biscayne, South Beach, Wynwood & Design District, Brickell, Downtown & Edgewater, Little Havana, Doral, Mid-Beach & North Beach, Surfside & Bal Harbour, Sunny Isles Beach, Aventura, Hallandale Beach, Hollywood, Weston, Fort Lauderdale, Wilton Manors, Lighthouse Point & Pompano, Deerfield Beach, Boca Raton)
 - Hizmetler: satın alma, yeni projeler (pre-construction ve markalı rezidanslar), kiralama, satış
 
 ## Önemli sayfalar
@@ -28,6 +28,10 @@ Son güncelleme: 2026-10-18
 
 ## Mahalle raporları
 22 mahallenin her biri için ayrı rapor: karakter, satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Rakamlar kaynak ve ay bilgisiyle verilir.
+- [Coral Gables mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/coral-gables/)
+- [Coconut Grove mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/coconut-grove/)
+- [Brickell mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/brickell/)
+- [Sunny Isles Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/sunny-isles/)
 
 ## Diğer profiller
 - İngilizce site: https://aleynabozoklar.com/

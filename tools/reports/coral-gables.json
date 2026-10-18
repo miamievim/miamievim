@@ -1,0 +1,230 @@
+{
+ "id": "coral-gables",
+ "name": "Coral Gables",
+ "county": "Miami-Dade",
+ "meta": "Coral Gables mahalle raporu, Ekim 2026: medyan satış fiyatı $1,4M, ortalama kira $3.600, emlak vergisi oranı, sel bölgesi, yeni projeler ve ulaşım. Kaynaklı ve tarihli veriler.",
+ "short": "Akdeniz mimarisi, ağaçlı bulvarlar ve sıkı imar kurallarıyla planlı bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $1,4 milyon; fit kare fiyatı bir yılda %16,4 yükseldi.",
+ "sales": {
+  "median": 1400000,
+  "median_chg": "yıllık +%7,5",
+  "ppsf": 819,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$1.400.000 <small>(yıllık +%7,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$819 / ft² ≈ $8.816 / m² <small>(yıllık +%16,4)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "98 gün"
+   ],
+   [
+    "Satılan konut (Ağustos 2026)",
+    "159 <small>(yıllık +%5,3)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,4"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/3707/FL/Coral-Gables/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coral Gables Housing Market</a>, Ekim 2026 erişimi (son 3 ay verisi; müstakil ev, townhouse ve daire birlikte).",
+  "notes": [
+   "Fit kare fiyatındaki artışın medyan fiyattan hızlı olması, satılan mülklerin ortalamada daha küçük ama daha değerli konumlarda olduğuna işaret ediyor. Satışlar ilan fiyatının ortalama %5,6 altında kapanıyor; pazarlık payı var ama sınırlı."
+  ]
+ },
+ "rent": {
+  "avg": 3600,
+  "chg": "yıllık −$100",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.785"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.100"
+   ],
+   [
+    "2 yatak odalı",
+    "$3.500"
+   ],
+   [
+    "3 yatak odalı",
+    "$6.900"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.600"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/coral-gables-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Coral Gables</a>, 2 Ekim 2026 güncellemesi.",
+  "notes": [
+   "RentCafe, büyük yönetimli apartman komplekslerini baz aldığı için daha yüksek bir ortalama veriyor: $4.414 (30 Eylül 2026, yıllık +%8,72). İki kaynak arasındaki fark, yeni ve hizmetli binaların kira primini gösteriyor."
+  ]
+ },
+ "tax": {
+  "mills": 18.1852,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Coral Gables, 1920'lerde George Merrick tarafından planlanmış bir şehir. Akdeniz Canlanması (Mediterranean Revival) mimarisi, banyan ağaçlarıyla gölgelenen bulvarlar ve tarihî giriş kapıları şehrin kimliğini oluşturur. Bina yüksekliği, cephe rengi ve hatta çatı malzemesi belediye kurallarıyla belirlenir; bu, mahallenin görünümünü onlarca yıldır korumasını sağlıyor.",
+  "Konut stoku ağırlıklı olarak geniş parsellerdeki müstakil evlerden oluşur; Miracle Mile ve Merrick Park çevresinde ise butik kondominyumlar yükseliyor. Kanallara cepheli evlerin bulunduğu güney kesim (Cocoplum, Gables by the Sea) tekne sahipleri için Biscayne Körfezi'ne doğrudan erişim sunar.",
+  "University of Miami kampüsü, çok sayıda uluslararası şirketin bölge ofisi ve konsoloslukların varlığı, şehre yıl boyu canlı bir iş ve kültür hayatı kazandırıyor."
+ ],
+ "places": [
+  [
+   "Venetian Pool",
+   "1924'te eski bir kireçtaşı ocağında kurulan, kaynak suyuyla dolan tarihî halk havuzu."
+  ],
+  [
+   "The Biltmore Hotel",
+   "1926 yapımı simge otel; golf sahası ve pazar brunch'ıyla bilinir."
+  ],
+  [
+   "Miracle Mile ve Giralda Plaza",
+   "Restoranlar, butikler ve yayalaştırılmış Giralda Plaza ile şehrin merkezi."
+  ],
+  [
+   "Shops at Merrick Park",
+   "Açık hava lüks alışveriş merkezi."
+  ],
+  [
+   "Fairchild Tropical Botanic Garden",
+   "Tropikal bitki koleksiyonuyla dünyaca bilinen botanik bahçe."
+  ],
+  [
+   "Gizli köşe: Books & Books, Aragon Ave.",
+   "Avlusunda kahve içip kitap karıştırabileceğiniz bağımsız kitapçı; yazar etkinlikleri düzenler."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Coral Gables için 2025 toplam vergi oranı 18,1852 mill; yani vergi değerinin yaklaşık %1,82'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.185. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "İç kesimlerin önemli bir kısmı düşük-orta riskli bölgededir; Biscayne Körfezi'ne ve kanallara yakın güney ve doğu kesimlerde ise yüksek riskli kıyı bölgeleri (AE/VE) bulunur. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 10 km · 15 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 10 km · 15–20 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 50 km · 45 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Coral Gables Trolley; doğu sınırında Metrorail Douglas Road ve University istasyonları."
+  ],
+  [
+   "Günlük hayat",
+   "Merkez (Miracle Mile) yürünebilir; konut bölgelerinde araç gereklidir."
+  ]
+ ],
+ "projects": [
+  [
+   "Seventeen Gables",
+   "İnşaat sürüyor (Mayıs 2026'da başladı)",
+   "2028 1. çeyrek",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Cora Merrick Park",
+   "74 daire; inşaat sürüyor, $67,5M inşaat kredisi",
+   "2028",
+   "https://commercialobserver.com/2026/06/constellation-boschetti-florida-cora-merrick-park/"
+  ],
+  [
+   "Ponce Park Residences",
+   "Yıkım tamamlandı, dikey inşaat sırada",
+   "2028 başı",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Sıkı imar kuralları sayesinde korunan mimari doku ve yeşil alanlar",
+  "Fit kare fiyatında güçlü yıllık artış (+%16,4)",
+  "Havalimanına ve Brickell'e yakınlık",
+  "Kanallardan körfeze erişimi olan tekne yerleri"
+ ],
+ "cons": [
+  "Tadilat ve yeni yapı izinleri belediyede uzun ve detaylı süreçlerden geçer",
+  "Kıyıya yakın kesimlerde sel sigortası maliyeti yüksek olabilir",
+  "Kısa süreli kiralama (Airbnb türü) kuralları sıkıdır; yatırım öncesi kontrol edin",
+  "Konut bölgeleri büyük ölçüde araca bağımlı"
+ ],
+ "faq": [
+  [
+   "Coral Gables'ta ev fiyatları ne kadar?",
+   "Redfin verisine göre Ekim 2026 itibarıyla medyan satış fiyatı $1.400.000 (yıllık +%7,5), fit kare fiyatı $819 (yıllık +%16,4). Müstakil evler, townhouse ve daireler bu medyana birlikte dahildir; fiyat mülk tipine göre büyük farklılık gösterir."
+  ],
+  [
+   "Coral Gables'ta kiralar ne kadar?",
+   "Zillow'a göre (2 Ekim 2026) ortalama kira aylık $3.600; 1 yatak odalı daire $2.100, 2 yatak odalı $3.500 civarında. Yeni ve hizmetli binalarda kiralar daha yüksektir."
+  ],
+  [
+   "Coral Gables'ta emlak vergisi ne kadar?",
+   "2025 için toplam oran 18,1852 mill; yani vergi değerinin yaklaşık %1,82'si. Vergi değeri satın almadan sonra yeniden belirlenir. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "Coral Gables'ta kısa süreli kiralama yapılabilir mi?",
+   "Şehirde kısa süreli kiralamalara ilişkin kısıtlayıcı kurallar bulunur ve bina yönetimlerinin kendi kuralları da vardır. Yatırım amaçlı alımda, satın almadan önce hem belediye hem bina kurallarını yazılı olarak teyit etmek gerekir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Coral Gables Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/3707/FL/Coral-Gables/housing-market"
+  ],
+  [
+   "Zillow: Coral Gables Rental Market Trends (2 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/coral-gables-fl/"
+  ],
+  [
+   "RentCafe: Coral Gables Average Rent (30 Eylül 2026)",
+   "https://www.rentcafe.com/average-rent-market-trends/us/fl/coral-gables/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ekim 2026 Miami-Dade proje güncellemesi",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "CondoBlackBook: Ağustos 2026 Miami-Dade proje güncellemesi",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Commercial Observer: Cora Merrick Park (Haziran 2026)",
+   "https://commercialobserver.com/2026/06/constellation-boschetti-florida-cora-merrick-park/"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Coral Gables raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+}
