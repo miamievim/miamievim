@@ -52,7 +52,7 @@
     $('.county', card).textContent = h.county;
     $('h3', card).textContent = h.name;
     $('p', card).textContent = h.line;
-    var r = document.getElementById('card-report'); if (r) r.href = '/mahalle-raporlari/#' + h.id;
+    var r = document.getElementById('card-report'); if (r) r.href = '/mahalle-raporlari/' + h.id + '/';
   }
 
   function updateMarkers() {

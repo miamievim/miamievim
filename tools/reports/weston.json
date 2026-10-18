@@ -1,0 +1,190 @@
+{
+ "id": "weston",
+ "name": "Weston",
+ "county": "Broward",
+ "meta": "Weston mahalle raporu, Ekim 2026: medyan satış fiyatı $782 bin, ortalama kira $3.700, emlak vergisi, sel bölgesi, planlı siteler ve ulaşım. Kaynaklı ve tarihli veriler.",
+ "short": "Göller, parklar ve bakımlı sitelerle planlanmış bir banliyö; Everglades'in hemen kıyısında. Ekim 2026 itibarıyla medyan satış fiyatı $782 bin; satış/ilan oranı %95,8 ile yüksek.",
+ "sales": {
+  "median": 781628,
+  "median_chg": "yıllık −%1,1",
+  "ppsf": 389,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$781.628 <small>(yıllık −%1,1)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$389 / ft² ≈ $4.187 / m² <small>(yıllık +%6,9)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "81 gün <small>(bir yıl önce 76 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "192 <small>(yıllık −%6,4)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,8"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/19368/FL/Weston/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Weston Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Weston'da piyasa istikrarlı: medyan fiyat yatay, fit kare fiyatı %6,9 arttı ve satışlar ilan fiyatının yalnızca %4,2 altında kapanıyor. Stok ağırlıkla müstakil ev ve townhouse'lardan oluştuğu için kıyı kondominyumlarındaki özel aidat riskinden görece uzak."
+  ]
+ },
+ "rent": {
+  "avg": 3700,
+  "chg": "yıllık −$50",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$1.975"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.650"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.699"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.700"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/weston-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Weston</a>, 16 Ekim 2026 güncellemesi. Stüdyo için yeterli veri yok.",
+  "notes": [
+   "Genel ortalama, kiralık stokun ağırlıkla 3 yatak odalı ve daha büyük müstakil evlerden oluşması nedeniyle oda bazındaki rakamların üzerinde görünüyor."
+  ]
+ },
+ "tax": {
+  "mills": 16.2843,
+  "mills_hi": 17.4429,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Weston, 1980'lerden itibaren planlı olarak geliştirilen ve 1996'da belediye olan bir banliyö şehri. Şehrin dokusu göller etrafına kurulmuş siteler, geniş yeşil alanlar, bisiklet yolları ve özenli peyzajla tanımlanır.",
+  "Konut stoku büyük ölçüde müstakil evler ve townhouse'lardan oluşur; sitelerin çoğunda HOA yönetimi, ortak havuz ve güvenlik hizmetleri bulunur. Weston Town Center restoran ve dükkânlarla şehrin buluşma noktasıdır; batıda Everglades doğal alanı başlar."
+ ],
+ "places": [
+  [
+   "Weston Town Center",
+   "Restoranlar, kafeler ve haftalık etkinliklerle şehir merkezi."
+  ],
+  [
+   "Weston Regional Park",
+   "Spor sahaları, yürüyüş yolları ve oyun alanlarıyla büyük park."
+  ],
+  [
+   "Bonaventure",
+   "Golf sahaları çevresine kurulu yerleşim."
+  ],
+  [
+   "Sawgrass Mills",
+   "Yakındaki büyük outlet alışveriş merkezi (Sunrise)."
+  ],
+  [
+   "Gizli köşe: Markham Park",
+   "Hemen kuzeyde, Everglades manzarası, dağ bisikleti parkurları ve göl."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Weston için 2025 toplam vergi oranı 16,2843–17,4429 mill; yani vergi değerinin yaklaşık %1,63–1,74'si. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.284–$17.443. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir iç bölgedir; göl kenarındaki ve alçak kottaki mülklerde sel bölgesi adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 30 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 45 km · 40 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Sınırlı; günlük hayat araca bağlı. I-75, I-595 ve Sawgrass Expressway'e doğrudan erişim."
+  ],
+  [
+   "Günlük hayat",
+   "Okul, market ve parklar site çevresinde; kıyıya ve şehir merkezlerine araçla 30–45 dakika."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Ekim 2026 itibarıyla takip ettiğimiz proje kaynaklarında Weston için büyük ölçekli yeni konut projesi yer almıyor; şehir büyük ölçüde tamamlanmış planlı bir yerleşim."
+ ],
+ "pros": [
+  "Planlı siteler, göller ve geniş yeşil alanlar",
+  "Broward ortalamasına göre düşük vergi oranı (16,28–17,44 mill)",
+  "Yüksek satış/ilan oranıyla istikrarlı piyasa",
+  "Müstakil ev ağırlıklı stok; kondominyum özel aidat riski düşük"
+ ],
+ "cons": [
+  "Toplu taşıma sınırlı; araç zorunlu",
+  "Kıyıya ve Miami'ye uzak",
+  "Sitelerde HOA aidatları ve kuralları",
+  "Kiralık stok sınırlı ve büyük evlerde yoğun"
+ ],
+ "faq": [
+  [
+   "Weston'da ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $781.628 (yıllık −%1,1), fit kare fiyatı $389 (yıllık +%6,9)."
+  ],
+  [
+   "Weston'da kiralar ne kadar?",
+   "Zillow'a göre (16 Ekim 2026) genel ortalama aylık $3.700; 2 yatak odalı $2.650, 3 yatak odalı $3.699 civarında."
+  ],
+  [
+   "Weston'da emlak vergisi ne kadar?",
+   "Broward County Property Appraiser'a göre 2025 toplam oranı vergi bölgesine göre 16,2843–17,4429 mill; yani vergi değerinin yaklaşık %1,63–1,74'ü. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "Weston Miami'ye ne kadar uzak?",
+   "Miami Uluslararası Havalimanı'na yaklaşık 45 km; trafiksiz koşullarda 40 dakika. Fort Lauderdale havalimanına 25 dakika."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Weston Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/19368/FL/Weston/housing-market"
+  ],
+  [
+   "Zillow: Weston Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/weston-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Weston raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

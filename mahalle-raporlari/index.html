@@ -60,7 +60,7 @@
     <div class="wrap">
       <p class="eyebrow">Mahalle raporları · ücretsiz</p>
       <h1>Bir mahalleyi seçmeden önce <em>bilmeniz gereken her şey.</em></h1>
-      <p class="lead">22 mahalle, aynı dokuz başlık: karakteri, bilinen mekânlar ve gizli köşeler, satış fiyatları ve kiralar, aidat, sigorta ve sel bölgesi, ulaşım ve yeni projeler. Önizlemeler herkese açık; detaylı rapor ad ve e-postanızla hemen açılır. Her rakam kaynağı ve ayıyla verilir.</p>
+      <p class="lead">22 mahalle, aynı dokuz başlık: karakteri, bilinen mekânlar ve gizli köşeler, satış fiyatları ve kiralar, aidat, sigorta ve sel bölgesi, ulaşım ve yeni projeler. Önizlemeler herkese açık; detaylı rapor ad ve e-postanızla hemen açılır. Raporlar her ay yenilenir ve her rakam kaynağı ve ayıyla verilir.</p>
       <div class="hero-ctas" style="margin-top:32px">
         <a class="btn" href="#rapor-formu" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Detaylı raporu alın</a>
         <a class="btn btn-line" href="/mahalle-testi/">Hangi mahalle size uygun?</a>
@@ -75,7 +75,7 @@
         <h2 id="gate-title">Detaylı raporu seçin, <em>hemen okuyun.</em></h2>
         <p class="lead">Adınızı ve e-postanızı bırakın; seçtiğiniz mahallenin detaylı raporu hemen açılsın. "Tüm mahalleler"i seçerseniz bütün detaylı raporlara erişirsiniz.</p>
       </div>
-      <form class="form" id="gate-form" name="mahalle-raporu" method="POST" action="/mahalle-raporlari/gonderildi/" data-netlify="true" netlify-honeypot="bot-field">
+      <form class="form" id="gate-form" name="mahalle-raporu" method="POST" action="/mahalle-raporlari/tum-raporlar/" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="mahalle-raporu">
         <p class="hp"><label>Bu alanı boş bırakın <input name="bot-field"></label></p>
         <label class="field">Mahalle<select name="mahalle" id="gate-hood">
@@ -130,85 +130,85 @@
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Coconut Grove</h3><p>Marinalar, körfez parkları ve köy sakinliği.</p></div>
           <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/coconut-grove/">Önizleme</a><button type="button" class="btn get" data-id="coconut-grove">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="pinecrest">
+        <li class="rrow" id="pinecrest" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>South Miami &amp; Pinecrest</h3><p>Geniş arsalar ve bahçeli müstakil evler.</p></div>
-          <button type="button" class="btn btn-line get" data-id="pinecrest">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/pinecrest/">Önizleme</a><button type="button" class="btn get" data-id="pinecrest">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="key-biscayne">
+        <li class="rrow" id="key-biscayne" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Key Biscayne</h3><p>Şehir merkezine tek bir köprüyle bağlı ada hayatı.</p></div>
-          <button type="button" class="btn btn-line get" data-id="key-biscayne">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/key-biscayne/">Önizleme</a><button type="button" class="btn get" data-id="key-biscayne">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="south-beach">
+        <li class="rrow" id="south-beach" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>South Beach</h3><p>Art Deco binalar, plaj ve Ocean Drive’ın enerjisi.</p></div>
-          <button type="button" class="btn btn-line get" data-id="south-beach">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/south-beach/">Önizleme</a><button type="button" class="btn get" data-id="south-beach">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="wynwood">
+        <li class="rrow" id="wynwood" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Wynwood &amp; Design District</h3><p>Duvar resimleri, galeriler ve lüks butikler.</p></div>
-          <button type="button" class="btn btn-line get" data-id="wynwood">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/wynwood/">Önizleme</a><button type="button" class="btn get" data-id="wynwood">Detaylı rapor</button></div>
         </li>
         <li class="rrow" id="brickell" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Brickell</h3><p>Miami’nin finans merkezi; arabasız yaşamın mümkün olduğu yer.</p></div>
           <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/brickell/">Önizleme</a><button type="button" class="btn get" data-id="brickell">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="edgewater">
+        <li class="rrow" id="edgewater" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Downtown &amp; Edgewater</h3><p>Biscayne Körfezi’nde en hızlı değişen silüet.</p></div>
-          <button type="button" class="btn btn-line get" data-id="edgewater">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/edgewater/">Önizleme</a><button type="button" class="btn get" data-id="edgewater">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="little-havana">
+        <li class="rrow" id="little-havana" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Little Havana</h3><p>Calle Ocho ve Miami’nin Latin kalbi.</p></div>
-          <button type="button" class="btn btn-line get" data-id="little-havana">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/little-havana/">Önizleme</a><button type="button" class="btn get" data-id="little-havana">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="doral">
+        <li class="rrow" id="doral" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Doral</h3><p>Yeni yapılar, golf sahaları ve havalimanına hızlı erişim.</p></div>
-          <button type="button" class="btn btn-line get" data-id="doral">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/doral/">Önizleme</a><button type="button" class="btn get" data-id="doral">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="north-beach">
+        <li class="rrow" id="north-beach" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Mid-Beach &amp; North Beach</h3><p>Miami Beach’in daha sakin yüzü.</p></div>
-          <button type="button" class="btn btn-line get" data-id="north-beach">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/north-beach/">Önizleme</a><button type="button" class="btn get" data-id="north-beach">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="bal-harbour">
+        <li class="rrow" id="bal-harbour" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Surfside &amp; Bal Harbour</h3><p>Sakin sahil sokakları ve Bal Harbour Shops.</p></div>
-          <button type="button" class="btn btn-line get" data-id="bal-harbour">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/bal-harbour/">Önizleme</a><button type="button" class="btn get" data-id="bal-harbour">Detaylı rapor</button></div>
         </li>
         <li class="rrow" id="sunny-isles" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Sunny Isles Beach</h3><p>Okyanus kıyısında kuleler ve markalı rezidanslar.</p></div>
           <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/sunny-isles/">Önizleme</a><button type="button" class="btn get" data-id="sunny-isles">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="aventura">
+        <li class="rrow" id="aventura" data-live>
           <div class="rmain"><span class="county">Miami-Dade</span><h3>Aventura</h3><p>Alışveriş, marinalar ve Intracoastal kıyısında yaşam.</p></div>
-          <button type="button" class="btn btn-line get" data-id="aventura">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/aventura/">Önizleme</a><button type="button" class="btn get" data-id="aventura">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="hallandale">
+        <li class="rrow" id="hallandale" data-live>
           <div class="rmain"><span class="county">Broward</span><h3>Hallandale Beach</h3><p>Miami’ye yakın, Broward fiyatlarında.</p></div>
-          <button type="button" class="btn btn-line get" data-id="hallandale">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/hallandale/">Önizleme</a><button type="button" class="btn get" data-id="hallandale">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="hollywood">
+        <li class="rrow" id="hollywood" data-live>
           <div class="rmain"><span class="county">Broward</span><h3>Hollywood</h3><p>Broadwalk boyunca bisikletle sahil hayatı.</p></div>
-          <button type="button" class="btn btn-line get" data-id="hollywood">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/hollywood/">Önizleme</a><button type="button" class="btn get" data-id="hollywood">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="weston">
+        <li class="rrow" id="weston" data-live>
           <div class="rmain"><span class="county">Broward</span><h3>Weston</h3><p>Göller, geniş evler ve sakin sokaklar.</p></div>
-          <button type="button" class="btn btn-line get" data-id="weston">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/weston/">Önizleme</a><button type="button" class="btn get" data-id="weston">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="fort-lauderdale">
+        <li class="rrow" id="fort-lauderdale" data-live>
           <div class="rmain"><span class="county">Broward</span><h3>Fort Lauderdale</h3><p>Las Olas, Victoria Park ve kanal kenarında yaşam.</p></div>
-          <button type="button" class="btn btn-line get" data-id="fort-lauderdale">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/fort-lauderdale/">Önizleme</a><button type="button" class="btn get" data-id="fort-lauderdale">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="wilton-manors">
+        <li class="rrow" id="wilton-manors" data-live>
           <div class="rmain"><span class="county">Broward</span><h3>Wilton Manors</h3><p>Fort Lauderdale’e dakikalar mesafede renkli, küçük bir şehir.</p></div>
-          <button type="button" class="btn btn-line get" data-id="wilton-manors">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/wilton-manors/">Önizleme</a><button type="button" class="btn get" data-id="wilton-manors">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="pompano">
+        <li class="rrow" id="pompano" data-live>
           <div class="rmain"><span class="county">Broward</span><h3>Lighthouse Point &amp; Pompano</h3><p>Derin su kanalları ve tekne sahipleri için evler.</p></div>
-          <button type="button" class="btn btn-line get" data-id="pompano">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/pompano/">Önizleme</a><button type="button" class="btn get" data-id="pompano">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="deerfield">
+        <li class="rrow" id="deerfield" data-live>
           <div class="rmain"><span class="county">Broward</span><h3>Deerfield Beach</h3><p>İki büyük şehrin arasında sahil kasabası hissi.</p></div>
-          <button type="button" class="btn btn-line get" data-id="deerfield">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/deerfield/">Önizleme</a><button type="button" class="btn get" data-id="deerfield">Detaylı rapor</button></div>
         </li>
-        <li class="rrow" id="boca-raton">
+        <li class="rrow" id="boca-raton" data-live>
           <div class="rmain"><span class="county">Palm Beach</span><h3>Boca Raton</h3><p>Golf sahaları, plajlar ve bakımlı bir şehir merkezi.</p></div>
-          <button type="button" class="btn btn-line get" data-id="boca-raton">Raporu alın</button>
+          <div class="racts"><a class="btn btn-line prev" href="/mahalle-raporlari/boca-raton/">Önizleme</a><button type="button" class="btn get" data-id="boca-raton">Detaylı rapor</button></div>
         </li>
       </ol>
       <p style="margin:32px 0 0;font-size:13px;font-weight:300;color:var(--stone);max-width:760px">Raporlar mahalleleri insan gruplarına göre değil; konut tipi, fiyat, ulaşım ve yaşam tarzı gibi özelliklerine göre anlatır. Okul ve güvenlik konularında resmi kaynaklara bağlantı verilir. Listede olmayan bir bölge için <a href="/#iletisim">bize yazın</a>.</p>

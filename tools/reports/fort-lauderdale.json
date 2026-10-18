@@ -1,0 +1,224 @@
+{
+ "id": "fort-lauderdale",
+ "name": "Fort Lauderdale",
+ "county": "Broward",
+ "meta": "Fort Lauderdale mahalle raporu, Ekim 2026: medyan satış fiyatı $605 bin, ortalama kira $2.640, emlak vergisi, sel bölgesi, Ritz-Carlton ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Kanallar, Las Olas Bulvarı ve marinalarıyla Broward'ın merkezi. Ekim 2026 itibarıyla medyan satış fiyatı $605 bin (yıllık +%14,1); satış süresi 130 günden 104 güne indi.",
+ "sales": {
+  "median": 604712,
+  "median_chg": "yıllık +%14,1",
+  "ppsf": 407,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$604.712 <small>(yıllık +%14,1)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$407 / ft² ≈ $4.381 / m² <small>(yıllık +%3,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "104 gün <small>(bir yıl önce 130 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "851 <small>(yıllık −%1,6)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/6173/FL/Fort-Lauderdale/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Fort Lauderdale Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Fort Lauderdale bu raporlardaki en hacimli piyasa: ayda 850'yi aşkın satış. Medyan fiyattaki %14,1'lik artış, fit kare fiyatındaki daha sınırlı (+%3,2) artışla birlikte okunduğunda, son dönemde daha büyük ve su kenarı mülklerin satış içindeki payının arttığını gösteriyor."
+  ]
+ },
+ "rent": {
+  "avg": 2640,
+  "chg": "yıllık −$60",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.740"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.850"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.500"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.950"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.640"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/fort-lauderdale-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Fort Lauderdale</a>, 16 Ekim 2026 güncellemesi."
+ },
+ "tax": {
+  "mills": 18.4464,
+  "mills_hi": 19.4143,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Fort Lauderdale, yüzlerce kilometrelik kanal ağıyla \"Amerika'nın Venedik'i\" olarak anılan, Broward County'nin merkezi. Tekne kültürü şehrin kimliğidir: Port Everglades limanı, marinalar ve her yıl düzenlenen uluslararası tekne fuarı bölgeyi dünyanın önemli denizcilik merkezlerinden biri yapar.",
+  "Las Olas Boulevard restoran ve butikleriyle şehrin sosyal merkezi; New River boyunca uzanan Riverwalk ise şehir merkezini kültür kurumlarına bağlar. Konut stoku kanallara cepheli müstakil evlerden şehir merkezindeki yeni kulelere ve okyanus kıyısındaki kondominyumlara kadar geniş bir yelpazeye yayılır."
+ ],
+ "places": [
+  [
+   "Las Olas Boulevard",
+   "Restoranlar, galeriler ve butiklerle şehrin ana caddesi."
+  ],
+  [
+   "Fort Lauderdale Beach",
+   "Okyanus kıyısında palmiyeli yürüyüş yolu ve plaj."
+  ],
+  [
+   "Riverwalk",
+   "New River boyunca yürüyüş yolu, parklar ve kültür kurumları."
+  ],
+  [
+   "Water Taxi",
+   "Kanallar ve Intracoastal boyunca şehir turu ve ulaşım."
+  ],
+  [
+   "Gizli köşe: Bonnet House Museum & Gardens",
+   "Okyanus ile Intracoastal arasında, tarihî ev ve bahçeleriyle sakin bir vaha."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Fort Lauderdale için 2025 toplam vergi oranı 18,4464–19,4143 mill; yani vergi değerinin yaklaşık %1,84–1,94'si. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.446–$19.414. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal kenarı ve plaj kesimleri yüksek riskli bölgelerdedir (AE/VE); şehir 2023'teki büyük yağış taşkınından sonra drenaj yatırımlarını hızlandırdı. Kanal kenarı evlerde deniz duvarı (seawall) durumunu da ekspertize dahil edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 8 km · 15 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 45 km · 40 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 45 km · 40–50 dakika; Brightline ile yaklaşık 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Brightline Fort Lauderdale istasyonu, Tri-Rail, Broward County Transit ve Water Taxi."
+  ],
+  [
+   "Günlük hayat",
+   "Las Olas ve şehir merkezi yürünebilir; diğer bölgelerde araç gerekir."
+  ]
+ ],
+ "projects": [
+  [
+   "Sage Intracoastal Residences",
+   "İnşaat sürüyor; dikey inşaat başlıyor",
+   "2027 sonu",
+   "https://www.condoblackbook.com/blog/july-2026-broward-and-palm-beach-preconstruction-updates"
+  ],
+  [
+   "Ombelle Residences",
+   "Zemin çalışmaları sürüyor; temel atma 2026",
+   "2028",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Ritz-Carlton Residences, Fort Lauderdale Beach",
+   "Temel atma 2027 1. çeyrek",
+   "2029",
+   "https://www.condoblackbook.com/blog/august-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Dependable Equities iki kuleli proje (New River güneyi)",
+   "İnşaat ruhsatı ve kredi alındı; temel atma 2028 başı",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/august-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Pier Sixty-Six Phase II",
+   "Yıkım ruhsatı alındı (Ağustos 2026)",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Brightline, Tri-Rail ve havalimanıyla güçlü ulaşım",
+  "Kanal ağı ve tekne yaşamı",
+  "Hacimli piyasa; her bütçeye seçenek",
+  "Miami'ye göre daha uygun kiralar"
+ ],
+ "cons": [
+  "Kanal kenarı ve plaj kesimlerinde sel riski",
+  "Eski kondominyumlarda özel aidat riski",
+  "Yaz aylarında yoğun yağış ve taşkın geçmişi",
+  "Su kenarı evlerde deniz duvarı bakım maliyeti"
+ ],
+ "faq": [
+  [
+   "Fort Lauderdale'da ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $604.712 (yıllık +%14,1), fit kare fiyatı $407 (yıllık +%3,2)."
+  ],
+  [
+   "Fort Lauderdale'da kiralar ne kadar?",
+   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $2.640; 1 yatak odalı $1.850, 2 yatak odalı $2.500 civarında."
+  ],
+  [
+   "Fort Lauderdale'dan Miami'ye nasıl gidilir?",
+   "Brightline ile Fort Lauderdale istasyonundan Miami'deki MiamiCentral'a yaklaşık 30 dakika; araçla trafiksiz koşullarda 40–50 dakika."
+  ],
+  [
+   "Fort Lauderdale'da emlak vergisi ne kadar?",
+   "Broward County Property Appraiser'a göre 2025 toplam oranı vergi bölgesine göre 18,4464–19,4143 mill; yani vergi değerinin yaklaşık %1,84–1,94'ü. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Fort Lauderdale Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/6173/FL/Fort-Lauderdale/housing-market"
+  ],
+  [
+   "Zillow: Fort Lauderdale Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/fort-lauderdale-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "CondoBlackBook: Temmuz, Ağustos ve Eylül 2026 Broward ve Palm Beach güncellemeleri",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Fort Lauderdale raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

@@ -1,0 +1,240 @@
+{
+ "id": "north-beach",
+ "name": "Mid-Beach & North Beach",
+ "county": "Miami-Dade",
+ "meta": "Mid-Beach ve North Beach mahalle raporu, Ekim 2026: medyan satış fiyatları, kiralar, emlak vergisi, sel bölgesi, 7200 Collins ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus kıyısında South Beach'ten daha sakin, daha geniş ve daha uygun fiyatlı bir Miami Beach. Ekim 2026 itibarıyla North Beach'te medyan satış fiyatı $452 bin, Mid-Beach'te $740 bin.",
+ "sales": {
+  "median": 452373,
+  "median_chg": "yıllık −%24,9",
+  "ppsf": 532,
+  "src_short": "Redfin · North Beach",
+  "rows": [
+   [
+    "<strong>North Beach</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$452.373 <small>(yıllık −%24,9)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$532 / ft² ≈ $5.726 / m² <small>(yıllık +%13,4)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "138 gün <small>(bir yıl önce 132 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "124 <small>(yıllık +%17,3)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,4"
+   ],
+   [
+    "<strong>Mid-Beach</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$739.793 <small>(yıllık +%15,4)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$553 / ft² ≈ $5.952 / m² <small>(yıllık −%11,7)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "127 gün <small>(bir yıl önce 137 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "99 <small>(yıllık −%20,2)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,0"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/351930/FL/Miami-Beach/North-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi). <a href=\"https://www.redfin.com/neighborhood/548893/FL/Miami-Beach/Mid-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Mid Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "İki bölgede ters yönlü hareketler var: North Beach'te medyan fiyat düşerken fit kare fiyatı %13,4 arttı, yani daha küçük birimler satıldı; Mid-Beach'te ise tersi oldu. Her iki bölgede de satışlar ilan fiyatının yaklaşık %7 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 2500,
+  "chg": "yıllık $0",
+  "src_short": "Zillow · 33141",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.600"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.100"
+   ],
+   [
+    "2 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "3 yatak odalı",
+    "$7.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33141/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33141</a>, 16 Ekim 2026 güncellemesi.",
+  "notes": [
+   "ZIP 33141, North Beach'in yanı sıra Normandy Isles ve North Bay Village'ın bir kısmını kapsar. 3 yatak odalı ortalaması az sayıda okyanus cepheli ilanın etkisiyle yüksek görünüyor."
+  ]
+ },
+ "tax": {
+  "mills": 18.7601,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Mid-Beach, Miami Beach'in orta kesiminde Fontainebleau ve Eden Roc gibi tarihî otellerin, Indian Creek kanalı boyunca uzanan konutların ve okyanus cepheli kulelerin bulunduğu bölgedir. North Beach ise 70. caddenin kuzeyinde, Normandy Isles ve okyanus kıyısındaki parklarla daha mahalle dokusunda bir yaşam sunar.",
+  "Konut stoku 1950–60'lardan kalma MiMo (Miami Modern) tarzı alçak binalardan yeni okyanus cepheli projelere uzanır. South Beach'e göre turist yoğunluğu daha az, kumsallar daha sakindir; Miami Beach boyunca uzanan Beachwalk yolu bölgeyi güneye bağlar."
+ ],
+ "places": [
+  [
+   "Fontainebleau Miami Beach",
+   "1954 yapımı simge otel; restoranları ve gece hayatıyla."
+  ],
+  [
+   "North Beach Oceanside Park",
+   "Okyanus kıyısında geniş yeşil alan ve yürüyüş yolları."
+  ],
+  [
+   "Miami Beach Beachwalk",
+   "Okyanus boyunca kilometrelerce uzanan yürüyüş ve bisiklet yolu."
+  ],
+  [
+   "Normandy Isles",
+   "Fransız esintili sokak adlarıyla küçük ada mahallesi ve çeşmeli meydanı."
+  ],
+  [
+   "Gizli köşe: North Beach Bandshell",
+   "Okyanus kıyısında açık hava konser alanı; düzenli ücretsiz etkinlikler."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami Beach için 2025 toplam vergi oranı 18,7601 mill; yani vergi değerinin yaklaşık %1,88'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.760. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bölgenin tamamına yakını yüksek riskli kıyı bölgelerindedir (AE/VE). Eski MiMo binalarında zemin kat ve otopark sel riskini ayrıca değerlendirin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell / Downtown",
+   "yaklaşık 17 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 22 km · 25–30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Miami Beach Trolley hatları ve Metrobus."
+  ],
+  [
+   "Günlük hayat",
+   "Collins ve Harding caddeleri çevresi yürünebilir; ana karaya araçla 15–25 dakika."
+  ]
+ ],
+ "projects": [
+  [
+   "7200 Collins",
+   "İnşaat sürüyor; inşaat kredisi sağlandı",
+   "2027 sonu",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Kolter / BH Group (North Beach)",
+   "17 katlı kule önerisi; izleme listesinde",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "South Beach'e göre daha sakin ve daha uygun fiyatlı okyanus yaşamı",
+  "North Beach'te fit kare fiyatında yıllık +%13,4",
+  "Geniş kumsallar ve okyanus kıyısı parkları",
+  "Satışların ilan fiyatının ~%7 altında kapanması alıcıya pazarlık payı veriyor"
+ ],
+ "cons": [
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
+  "Miami Beach'te sıkı kısa süreli kiralama kuralları",
+  "Ana karaya ulaşımda köprü trafiği"
+ ],
+ "faq": [
+  [
+   "North Beach'te daire fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla North Beach'te medyan satış fiyatı $452.373 (yıllık −%24,9), fit kare fiyatı $532 (yıllık +%13,4). Mid-Beach'te medyan $739.793."
+  ],
+  [
+   "North Beach'te kiralar ne kadar?",
+   "Zillow'a göre ZIP 33141'de (16 Ekim 2026) ortalama kira aylık $2.500; stüdyo $1.600, 1 yatak odalı $2.100, 2 yatak odalı $3.000."
+  ],
+  [
+   "Mid-Beach ile North Beach farkı nedir?",
+   "Mid-Beach büyük oteller, Indian Creek kıyısındaki konutlar ve okyanus cepheli kulelerle daha lüks bir segmentte; North Beach daha mahalle dokusunda, daha uygun fiyatlı ve yeni projelerle dönüşüyor."
+  ],
+  [
+   "Emlak vergisi ne kadar?",
+   "Miami Beach için 2025 toplam oranı 18,7601 mill; yani vergi değerinin yaklaşık %1,88'i. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: North Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/neighborhood/351930/FL/Miami-Beach/North-Beach/housing-market"
+  ],
+  [
+   "Redfin: Mid Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/neighborhood/548893/FL/Miami-Beach/Mid-Beach/housing-market"
+  ],
+  [
+   "Zillow: ZIP 33141 Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33141/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ağustos 2026 Miami-Dade proje güncellemesi",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Mid-Beach & North Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

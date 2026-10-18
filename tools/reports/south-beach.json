@@ -1,0 +1,243 @@
+{
+ "id": "south-beach",
+ "name": "South Beach",
+ "county": "Miami-Dade",
+ "meta": "South Beach mahalle raporu, Ekim 2026: Flamingo-Lummus medyan satış fiyatı $287 bin, Miami Beach geneli $600 bin; ZIP 33139 kiraları, emlak vergisi, sel bölgesi ve yeni projeler.",
+ "short": "Art Deco binaları, okyanus kıyısı ve Miami'nin en yoğun restoran-kültür sahnesi. Ekim 2026 itibarıyla Miami Beach genelinde medyan satış fiyatı yaklaşık $600 bin; South Beach'in çekirdeği Flamingo-Lummus'ta $287 bin.",
+ "sales": {
+  "median": 287419,
+  "median_chg": "yıllık +%4,5",
+  "ppsf": 430,
+  "src_short": "Redfin · Flamingo-Lummus",
+  "rows": [
+   [
+    "<strong>Flamingo-Lummus (South Beach)</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$287.419 <small>(yıllık +%4,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$430 / ft² ≈ $4.628 / m² <small>(yıllık −%2,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "154 gün <small>(bir yıl önce 114 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "75 <small>(yıllık −%2,0)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,5"
+   ],
+   [
+    "<strong>Miami Beach geneli</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$599.714 <small>(yıllık +%7,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$635 / ft² ≈ $6.835 / m² <small>(yıllık +%15,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "129 gün <small>(bir yıl önce 131 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "437 <small>(yıllık +%1,3)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,2"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/56378/FL/Miami-Beach/Flamingo-Lummus/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Flamingo-Lummus Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi). <a href=\"https://www.redfin.com/city/11467/FL/Miami-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Miami Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Flamingo-Lummus, South Beach'in Art Deco bölgesinin büyük kısmını kapsar ve stokun önemli bölümü küçük, eski stüdyo ve 1 yatak odalı dairelerden oluşur; bu yüzden medyan fiyat düşük görünür. South of Fifth (SoFi) ve okyanus cepheli yeni kulelerde fiyatlar bu medyanın çok üzerindedir. Satış süresinin 114 günden 154 güne uzaması alıcıya pazarlık alanı tanıyor."
+  ]
+ },
+ "rent": {
+  "avg": 3500,
+  "chg": "yıllık +$205",
+  "src_short": "Zillow · 33139",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.200"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.950"
+   ],
+   [
+    "2 yatak odalı",
+    "$7.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33139/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33139</a>, 16 Ekim 2026 güncellemesi.",
+  "notes": [
+   "3 yatak odalı kiralar az sayıda lüks ilana dayandığı ve ortalamayı çarpıttığı için tabloya alınmadı. 2 yatak odalı ortalaması da okyanus cepheli lüks ilanların etkisiyle yüksek görünüyor. ZIP 33139, South Beach'in tamamını ve Venetian Islands'ın bir kısmını kapsar."
+  ]
+ },
+ "tax": {
+  "mills": 18.7601,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "South Beach, Miami Beach'in güney ucunda, 1930'lardan kalma Art Deco binalarıyla dünyaca bilinen tarihî bölgedir. Ocean Drive, Collins Avenue ve Washington Avenue boyunca oteller, restoranlar ve gece hayatı; Lincoln Road'da yaya alışveriş caddesi yer alır.",
+  "Konut stoku tarihî alçak katlı apartmanlardan okyanus cepheli lüks kulelere kadar geniş bir yelpazeye yayılır. En güneydeki South of Fifth (SoFi) bölgesi daha sakin ve daha yüksek fiyatlı bir alternatiftir; Flamingo Park çevresi ise daha mahalle dokusundadır.",
+  "Miami Beach belediyesinin kısa süreli kiralama kuralları sıkıdır: müstakil konut bölgelerinde ve birçok apartman bölgesinde 6 aydan kısa kiralama yasaktır; yalnızca belirli bölgelerde ve buna izin veren binalarda mümkündür."
+ ],
+ "places": [
+  [
+   "Ocean Drive ve Lummus Park",
+   "Art Deco cepheleri ve okyanus kıyısındaki park şeridi."
+  ],
+  [
+   "Lincoln Road",
+   "Yayalaştırılmış alışveriş ve restoran caddesi."
+  ],
+  [
+   "South Pointe Park",
+   "Adanın güney ucunda, gemilerin geçişini izleyebileceğiniz park ve iskele."
+  ],
+  [
+   "New World Center",
+   "Frank Gehry tasarımı konser salonu; dış cephesinde açık hava gösterimleri."
+  ],
+  [
+   "Gizli köşe: Miami Beach Botanical Garden",
+   "Kongre merkezinin hemen yanında, şehrin ortasında sessiz bir tropikal bahçe."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami Beach için 2025 toplam vergi oranı 18,7601 mill; yani vergi değerinin yaklaşık %1,88'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.760. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bölgenin tamamına yakını yüksek riskli kıyı bölgelerindedir (AE/VE). Miami Beach belediyesi yol yükseltme ve pompa istasyonlarıyla taşkın önleme çalışmaları yürütüyor; yine de eski binalarda zemin kat ve otopark sel riskini ayrıca değerlendirin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell / Downtown",
+   "yaklaşık 10 km · 15–20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 19 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 45 km · 45 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Miami Beach Trolley hatları, Metrobus ve Citi Bike istasyonları."
+  ],
+  [
+   "Günlük hayat",
+   "Miami'nin en yürünebilir bölgelerinden biri; otopark pahalı ve sınırlı."
+  ]
+ ],
+ "projects": [
+  [
+   "Shore Club Private Collection Residences",
+   "İnşaat ruhsatı alındı (Ağustos 2026)",
+   "2027",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Rosewood Residences at The Raleigh",
+   "Planlama kurulu onayı alındı; belediye meclisi ve tarihî koruma incelemesi sürüyor",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Savoy, Bancroft ve One Sunset projeleri",
+   "Live Local Act kapsamında öneri aşamasında",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Okyanus, Art Deco mimari ve yürünebilir şehir hayatı",
+  "Miami Beach genelinde fit kare fiyatında yıllık +%15,2",
+  "Kiralık stok geniş (ZIP 33139'da 1.100'ü aşkın ilan)",
+  "Uzayan satış süresiyle alıcıya pazarlık payı"
+ ],
+ "cons": [
+  "Kısa süreli kiralamada sıkı belediye kuralları",
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
+  "Turistik yoğunluk, gürültü ve otopark maliyeti"
+ ],
+ "faq": [
+  [
+   "South Beach'te daire fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla Flamingo-Lummus'ta medyan satış fiyatı $287.419, Miami Beach genelinde $599.714. SoFi ve okyanus cepheli yeni kulelerde fiyatlar milyon dolarların üzerindedir."
+  ],
+  [
+   "South Beach'te kiralar ne kadar?",
+   "Zillow'a göre ZIP 33139'da (16 Ekim 2026) ortalama kira aylık $3.500; stüdyo $2.200, 1 yatak odalı $2.950 civarında."
+  ],
+  [
+   "South Beach'te Airbnb yapılabilir mi?",
+   "Miami Beach'te müstakil konut bölgelerinde ve birçok apartman bölgesinde 6 aydan kısa kiralama yasaktır; yalnızca belirli bölgelerde ve buna izin veren binalarda mümkündür. Satın almadan önce hem belediye imarını hem bina kurallarını yazılı olarak teyit edin."
+  ],
+  [
+   "South Beach'te emlak vergisi ne kadar?",
+   "Miami Beach için 2025 toplam oranı 18,7601 mill; yani vergi değerinin yaklaşık %1,88'i. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Flamingo-Lummus Housing Market (Ekim 2026)",
+   "https://www.redfin.com/neighborhood/56378/FL/Miami-Beach/Flamingo-Lummus/housing-market"
+  ],
+  [
+   "Redfin: Miami Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/11467/FL/Miami-Beach/housing-market"
+  ],
+  [
+   "Zillow: ZIP 33139 Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33139/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ağustos, Eylül ve Ekim 2026 proje güncellemeleri",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, South Beach raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

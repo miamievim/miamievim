@@ -1,0 +1,199 @@
+{
+ "id": "wilton-manors",
+ "name": "Wilton Manors",
+ "county": "Broward",
+ "meta": "Wilton Manors mahalle raporu, Ekim 2026: medyan satış fiyatı $653 bin, ortalama kira $2.300, emlak vergisi, sel bölgesi ve ulaşım. Kaynaklı ve tarihli veriler.",
+ "short": "Fort Lauderdale'in hemen kuzeyinde, nehir kollarıyla çevrili küçük ve canlı bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $653 bin; satış süresi 130 günden 79 güne indi.",
+ "sales": {
+  "median": 653189,
+  "median_chg": "yıllık +%9,0",
+  "ppsf": 368,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$653.189 <small>(yıllık +%9,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$368 / ft² ≈ $3.961 / m² <small>(yıllık −%14,6)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "79 gün <small>(bir yıl önce 130 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "75 <small>(yıllık −%15,6)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/19676/FL/Wilton-Manors/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Wilton Manors Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Satış süresinin 79 güne inmesi ve %96,7'lik satış/ilan oranı, Wilton Manors'u bu raporlardaki en hızlı piyasalardan biri yapıyor. Medyan fiyat yükselirken fit kare fiyatının düşmesi, son dönemde daha büyük evlerin satıldığını gösteriyor."
+  ]
+ },
+ "rent": {
+  "avg": 2300,
+  "chg": "yıllık +$100",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.595"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.750"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.300"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.300"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.300"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/wilton-manors-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Wilton Manors</a>, 16 Ekim 2026 güncellemesi."
+ },
+ "tax": {
+  "mills": 20.4896,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Wilton Manors, Middle River'ın kollarıyla çevrili olduğu için \"Island City\" olarak anılan, yaklaşık 5 km²'lik küçük bir şehir. Wilton Drive boyunca restoranlar, barlar ve kafeler şehrin sosyal hayatının merkezidir.",
+  "Konut stoku çoğunlukla 1950–60'lardan kalma tek katlı müstakil evler, yenilenmiş bungalovlar ve küçük apartmanlardan oluşur; nehir kollarına cepheli evlerde küçük tekneler için iskele bulunabilir. Fort Lauderdale şehir merkezine ve plajlara 10–15 dakikalık mesafe, şehri kompakt bir alternatif yapar."
+ ],
+ "places": [
+  [
+   "Wilton Drive",
+   "Restoranlar, barlar ve dükkânlarla şehrin ana caddesi."
+  ],
+  [
+   "Richardson Historic Park",
+   "Tarihî ev ve nehir kıyısında sakin bir park."
+  ],
+  [
+   "Shoppes of Wilton Manors",
+   "Market ve dükkânların bulunduğu, yeniden geliştirilmesi onaylanan alışveriş alanı."
+  ],
+  [
+   "Fort Lauderdale Beach",
+   "Yaklaşık 15 dakika mesafede."
+  ],
+  [
+   "Gizli köşe: Colohatchee Park",
+   "Nehir kıyısında tekne rampası, köpek parkı ve yürüyüş yolu."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Wilton Manors için 2025 toplam vergi oranı 20,4896 mill; yani vergi değerinin yaklaşık %2,05'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.490. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Nehir kollarına yakın kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; eski tek katlı evlerde zemin kotunu ve sigorta geçmişini kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 5 km · 10 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 12 km · 15 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 50 km · 45 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit; Fort Lauderdale'deki Brightline ve Tri-Rail istasyonlarına kısa mesafe."
+  ],
+  [
+   "Günlük hayat",
+   "Wilton Drive çevresi yürünebilir; şehir küçük ve bisiklete uygun."
+  ]
+ ],
+ "projects": [
+  [
+   "Shoppes of Wilton Manors yeniden geliştirme",
+   "Ağustos 2026'da onaylandı",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Bu raporlardaki en hızlı satış sürelerinden biri (79 gün)",
+  "Yürünebilir ana cadde ve canlı sosyal hayat",
+  "Fort Lauderdale merkezine ve FLL'ye yakınlık",
+  "Müstakil ev ağırlıklı stok"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (20,49 mill)",
+  "Eski evlerde yenileme ve çatı/sigorta maliyeti",
+  "Nehir kollarına yakın kesimlerde sel riski",
+  "Küçük piyasa; seçenek sayısı sınırlı"
+ ],
+ "faq": [
+  [
+   "Wilton Manors'ta ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $653.189 (yıllık +%9,0), fit kare fiyatı $368."
+  ],
+  [
+   "Wilton Manors'ta kiralar ne kadar?",
+   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $2.300; 1 yatak odalı $1.750, 2 yatak odalı $2.300 civarında."
+  ],
+  [
+   "Wilton Manors'ta emlak vergisi ne kadar?",
+   "Broward County Property Appraiser'a göre 2025 toplam oranı 20,4896 mill; yani vergi değerinin yaklaşık %2,05'i. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "Wilton Manors Fort Lauderdale'e ne kadar uzak?",
+   "Şehir merkezine yaklaşık 5 km; trafiksiz koşullarda 10 dakika."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Wilton Manors Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/19676/FL/Wilton-Manors/housing-market"
+  ],
+  [
+   "Zillow: Wilton Manors Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/wilton-manors-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "CondoBlackBook: Eylül 2026 Broward ve Palm Beach güncellemesi",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Wilton Manors raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

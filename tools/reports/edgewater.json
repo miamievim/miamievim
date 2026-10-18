@@ -1,0 +1,269 @@
+{
+ "id": "edgewater",
+ "name": "Downtown & Edgewater",
+ "county": "Miami-Dade",
+ "meta": "Downtown Miami ve Edgewater mahalle raporu, Ekim 2026: medyan satış fiyatları, kiralar, emlak vergisi, sel bölgesi, Waldorf Astoria, EDITION ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Körfez kıyısında yükselen kuleler, müzeler ve Brightline istasyonu. Ekim 2026 itibarıyla Edgewater'da medyan satış fiyatı $526 bin, Downtown'da $487 bin; fiyatlar geride, yeni arz önde.",
+ "sales": {
+  "median": 526000,
+  "median_chg": "yıllık −%37,4",
+  "ppsf": 570,
+  "src_short": "Redfin · Edgewater",
+  "rows": [
+   [
+    "<strong>Edgewater</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$526.000 <small>(yıllık −%37,4)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$570 / ft² ≈ $6.135 / m² <small>(yıllık −%22,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "143 gün"
+   ],
+   [
+    "Satılan konut (son 3 ay)",
+    "24"
+   ],
+   [
+    "Satış / ilan fiyatı",
+    "ilan fiyatının yaklaşık %5,3 altında"
+   ],
+   [
+    "<strong>Downtown</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$487.000 <small>(yıllık −%24,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$584 / ft² ≈ $6.286 / m² <small>(yıllık +%0,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "176 gün"
+   ],
+   [
+    "Satılan konut (son 3 ay)",
+    "32"
+   ],
+   [
+    "Satış / ilan fiyatı",
+    "ilan fiyatının yaklaşık %5,6 altında"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/224218/FL/Miami/Edgewater/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Edgewater Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi). <a href=\"https://www.redfin.com/neighborhood/91803/FL/Miami/Downtown/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Downtown Miami Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Edgewater'daki sert yıllık düşüş, bir yıl önceki dönemde satılan dairelerin daha büyük ve daha pahalı olmasından (karışım etkisi) ve bölgedeki yüksek arzdan birlikte etkileniyor olabilir; satış sayısı az olduğu için rakamlar oynaktır. Downtown'da fit kare fiyatı yatay, ancak 176 günlük satış süresi alıcı lehine bir piyasaya işaret ediyor."
+  ]
+ },
+ "rent": {
+  "avg": 4200,
+  "chg": "yıllık −$400",
+  "src_short": "Zillow · 33137",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.447"
+   ],
+   [
+    "1 yatak odalı",
+    "$3.200"
+   ],
+   [
+    "2 yatak odalı",
+    "$4.900"
+   ],
+   [
+    "3 yatak odalı",
+    "$6.200"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.200"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33137/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33137 (Edgewater)</a>, 16 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Downtown'u kapsayan ZIP 33132'de (16 Ekim 2026) ortalama kira $4.199 (yıllık +$349): stüdyo $2.792, 1 yatak odalı $3.400, 2 yatak odalı $5.100. Yönetimli binaları baz alan RentCafe'ye göre ortalamalar Midtown-Edgewater'da $3.423, Downtown'da $3.308 (30 Eylül 2026)."
+  ]
+ },
+ "tax": {
+  "mills": 19.9878,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Downtown Miami, şehrin idari ve kültürel merkezi: Pérez Art Museum Miami (PAMM), Frost Bilim Müzesi, Kaseya Center ve Bayfront Park körfez kıyısında yan yana dizilir. MiamiCentral istasyonu, Brightline ile Fort Lauderdale, West Palm Beach ve Orlando'ya bağlantı sağlar.",
+  "Kuzeyde Edgewater, Biscayne Körfezi boyunca uzanan yeni nesil kondominyum kulelerinin bölgesidir. Batı tarafında Midtown ve Wynwood, doğusunda körfez manzarası; mahalle Downtown'a göre daha sakin ve daha konut ağırlıklıdır.",
+  "Her iki bölgede de stok neredeyse tamamen yüksek katlı dairelerden oluşur; son yıllarda teslim edilen ve inşa hâlindeki projelerle arz belirgin şekilde artıyor."
+ ],
+ "places": [
+  [
+   "Pérez Art Museum Miami (PAMM)",
+   "Körfez kıyısında, asma bahçeli çağdaş sanat müzesi."
+  ],
+  [
+   "Frost Science Museum",
+   "Akvaryumu ve planetaryumuyla bilim müzesi."
+  ],
+  [
+   "Bayfront Park",
+   "Konserler ve etkinlikler için körfez kıyısı park."
+  ],
+  [
+   "Kaseya Center",
+   "Miami Heat maçları ve konserler."
+  ],
+  [
+   "Gizli köşe: Margaret Pace Park",
+   "Edgewater'da körfez kıyısında, sabah koşusu ve gün batımı için sakin bir park."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami şehri için 2025 toplam vergi oranı 19,9878 mill; yani vergi değerinin yaklaşık %2,00'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Körfez kıyısındaki kuleler yüksek riskli kıyı bölgelerindedir (AE/VE). Yüksek katlı binalarda sel sigortası çoğunlukla binanın ortak poliçesindedir; dairenin iç kısmı için ayrıca poliçe gerekir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell",
+   "yaklaşık 3–5 km · 10 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 12 km · 15–20 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 40 km · 35–40 dakika; Brightline ile de ulaşılabilir"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Metromover, Metrorail, Brightline (MiamiCentral) ve Miami Trolley."
+  ],
+  [
+   "Günlük hayat",
+   "Downtown araçsız yaşanabilir; Edgewater'da yürüyüş mesafesinde market ve restoranlar artıyor."
+  ]
+ ],
+ "projects": [
+  [
+   "Villa Miami (Edgewater)",
+   "İnşaat sürüyor; kaba inşaatın Ekim 2026'da tamamlanması bekleniyor",
+   "2027 sonu",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "The Cove Residences (Edgewater)",
+   "İnşaat Mart 2026'da başladı",
+   "2028",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Edge House (Edgewater)",
+   "İnşaat sürüyor",
+   "2028 sonu",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Waldorf Astoria Residences Miami (Downtown)",
+   "İnşaat sürüyor",
+   "2028 2. çeyrek",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "EDITION Residences Edgewater",
+   "Eylül 2026 uzlaşmasıyla yeniden yolunda; temel atma 2026 sonu",
+   "2029",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "LILLI Miami Edgewater",
+   "Onaylı; temel atma 2026 sonu",
+   "2029",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Brightline, Metromover ve Metrorail ile en güçlü toplu taşıma",
+  "Müzeler, parklar ve körfez manzarası",
+  "Uzun satış süreleri ve düşen fiyatlarla alıcıya pazarlık gücü",
+  "Brickell'e göre daha uygun giriş fiyatları"
+ ],
+ "cons": [
+  "Yüksek yeni arz; kira ve yeniden satışta rekabet",
+  "Medyan fiyatlarda sert yıllık düşüş",
+  "Miami şehri vergi oranı (19,99 mill)",
+  "Kıyı bölgesi sel riski ve sigorta maliyeti"
+ ],
+ "faq": [
+  [
+   "Edgewater'da daire fiyatları ne kadar?",
+   "Redfin verisine göre son 3 ayda medyan satış fiyatı $526.000 (yıllık −%37,4), fit kare fiyatı $570. Downtown'da medyan $487.000, fit kare fiyatı $584."
+  ],
+  [
+   "Downtown ve Edgewater'da kiralar ne kadar?",
+   "Zillow'a göre (16 Ekim 2026) ortalama kira Edgewater'ı kapsayan ZIP 33137'de $4.200, Downtown'ı kapsayan ZIP 33132'de $4.199."
+  ],
+  [
+   "Fiyatlar neden bu kadar düştü?",
+   "Düşüşün bir kısmı, bir yıl önce satılan dairelerin daha büyük ve pahalı olmasından kaynaklanan karışım etkisi; bir kısmı ise bölgede teslim edilen yeni projelerle artan arz. Satış sayısı az olduğundan yıllık değişim oynaktır."
+  ],
+  [
+   "Edgewater'da hangi yeni projeler var?",
+   "Villa Miami (2027 sonu), The Cove (2028), Edge House (2028 sonu), EDITION Residences ve LILLI (2029) başlıca projelerdir. Teslim tarihleri değişebilir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Edgewater Housing Market (Ekim 2026)",
+   "https://www.redfin.com/neighborhood/224218/FL/Miami/Edgewater/housing-market"
+  ],
+  [
+   "Redfin: Downtown Miami Housing Market (Ekim 2026)",
+   "https://www.redfin.com/neighborhood/91803/FL/Miami/Downtown/housing-market"
+  ],
+  [
+   "Zillow: ZIP 33137 Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33137/"
+  ],
+  [
+   "Zillow: ZIP 33132 Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33132/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ağustos, Eylül ve Ekim 2026 proje güncellemeleri",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Downtown & Edgewater raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

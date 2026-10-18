@@ -1,0 +1,208 @@
+{
+ "id": "hallandale",
+ "name": "Hallandale Beach",
+ "county": "Broward",
+ "meta": "Hallandale Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $265 bin, ortalama kira $2.600, emlak vergisi, sel bölgesi, Oasis Hallandale ve ulaşım. Kaynaklı ve tarihli veriler.",
+ "short": "Broward'ın en güney ucunda, okyanus ile Intracoastal arasında uygun fiyatlı kıyı yaşamı. Ekim 2026 itibarıyla medyan satış fiyatı $265 bin ile bu raporlardaki en düşük seviyelerden biri.",
+ "sales": {
+  "median": 264874,
+  "median_chg": "yıllık −%9,44",
+  "ppsf": 273,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$264.874 <small>(yıllık −%9,44)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$273 / ft² ≈ $2.939 / m² <small>(yıllık −%12,5)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "124 gün <small>(bir yıl önce 126 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "208 <small>(yıllık +%16,3)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%92,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/7264/FL/Hallandale-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hallandale Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Düşük medyan fiyat, stokun büyük kısmının 1960–80'lerde inşa edilmiş kondominyumlardan oluşmasını yansıtıyor. Bu binalarda Florida'nın yeni denetim ve yedek akçe kuralları özel aidat riskini artırabilir; düşük satış fiyatı her zaman düşük toplam maliyet anlamına gelmez. Satışlar ilan fiyatının ortalama %7,3 altında kapanıyor."
+  ]
+ },
+ "rent": {
+  "avg": 2600,
+  "chg": "yıllık −$100",
+  "src_short": "Zillow · 33009",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.300"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.990"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.860"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.950"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.600"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33009/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33009</a>, 16 Ekim 2026 güncellemesi.",
+  "notes": [
+   "ZIP 33009, Hallandale Beach'in büyük kısmını kapsar; okyanus cepheli yeni kulelerde kiralar bu ortalamanın belirgin şekilde üzerindedir."
+  ]
+ },
+ "tax": {
+  "mills": 20.6717,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Hallandale Beach, Miami-Dade sınırının hemen kuzeyinde, Aventura ile Hollywood arasında yer alan kıyı şehri. Okyanus ile Intracoastal arasındaki dar şeritte yüksek katlı kondominyumlar, batı tarafında ise daha alçak yapılar ve müstakil ev mahalleleri bulunur.",
+  "Gulfstream Park at yarışı pisti ve çevresindeki alışveriş-restoran alanı şehrin en bilinen noktasıdır. Son yıllarda okyanus cepheli yeni kuleler ve karma kullanımlı projelerle bölge dönüşüyor; Aventura Mall ve Brightline Aventura istasyonu birkaç dakika mesafede."
+ ],
+ "places": [
+  [
+   "Gulfstream Park",
+   "At yarışı pisti, casino, restoranlar ve açık hava alışveriş alanı."
+  ],
+  [
+   "Hallandale Beach (North City Beach)",
+   "Şehrin kamuya açık plajı ve yürüyüş yolu."
+  ],
+  [
+   "Golden Isles",
+   "Intracoastal kıyısında kanallarla çevrili müstakil ev mahallesi."
+  ],
+  [
+   "Aventura Mall",
+   "Birkaç dakika güneyde büyük alışveriş merkezi."
+  ],
+  [
+   "Gizli köşe: Bluesten Park",
+   "Spor sahaları ve oyun alanlarıyla sakin bir mahalle parkı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Hallandale Beach için 2025 toplam vergi oranı 20,6717 mill; yani vergi değerinin yaklaşık %2,07'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.672. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ile Intracoastal arasındaki şerit yüksek riskli kıyı bölgelerindedir (AE/VE); batı kesimlerde risk adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 15 km · 15–20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Aventura",
+   "yaklaşık 4 km · 5–10 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz şehir minibüsü, Broward County Transit ve yakındaki Brightline Aventura istasyonu."
+  ],
+  [
+   "Günlük hayat",
+   "Kıyı şeridi ve Gulfstream çevresi yürünebilir; diğer bölgelerde araç gerekir."
+  ]
+ ],
+ "projects": [
+  [
+   "Oasis Hallandale (West Tower)",
+   "Tamamlandı; tam oturum izni (TCO) Ağustos 2026",
+   "Tamamlandı",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Oasis Hallandale (East Tower)",
+   "İnşaat sürüyor",
+   "2027",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Okyanusa yakın yaşamda bu raporlardaki en düşük giriş fiyatlarından biri",
+  "Satış sayısında yıllık %16,3 artış",
+  "FLL havalimanı ve Aventura'ya yakınlık",
+  "Kiralık stok geniş (1.000'i aşkın ilan)"
+ ],
+ "cons": [
+  "Eski kondominyum stokunda yüksek özel aidat riski",
+  "Bu raporlardaki en yüksek vergi oranlarından biri (20,67 mill)",
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Fiyatlarda yıllık düşüş (−%9,44)"
+ ],
+ "faq": [
+  [
+   "Hallandale Beach'te daire fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $264.874 (yıllık −%9,44), fit kare fiyatı $273."
+  ],
+  [
+   "Hallandale Beach'te kiralar ne kadar?",
+   "Zillow'a göre ZIP 33009'da (16 Ekim 2026) ortalama kira aylık $2.600; 1 yatak odalı $1.990, 2 yatak odalı $2.860 civarında."
+  ],
+  [
+   "Hallandale Beach'te ucuz daire almak mantıklı mı?",
+   "Fiyat düşük olsa da eski binalarda SIRS ve milestone denetimi sonrası yüksek özel aidatlar gündeme gelebilir. Teklif öncesinde bina raporlarını, bütçeyi ve rezerv durumunu mutlaka inceleyin. Bu bilgi yatırım tavsiyesi değildir."
+  ],
+  [
+   "Hallandale Beach'te emlak vergisi ne kadar?",
+   "Broward County Property Appraiser'a göre 2025 toplam oranı 20,6717 mill; yani vergi değerinin yaklaşık %2,07'si. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Hallandale Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/7264/FL/Hallandale-Beach/housing-market"
+  ],
+  [
+   "Zillow: ZIP 33009 Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33009/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "CondoBlackBook: Eylül 2026 Broward ve Palm Beach proje güncellemesi",
+   "https://www.condoblackbook.com/blog/september-2026-broward-and-palm-beach-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Hallandale Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

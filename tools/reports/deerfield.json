@@ -1,0 +1,200 @@
+{
+ "id": "deerfield",
+ "name": "Deerfield Beach",
+ "county": "Broward",
+ "meta": "Deerfield Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $325 bin, ortalama kira $2.400, emlak vergisi, sel bölgesi ve ulaşım. Kaynaklı ve tarihli veriler.",
+ "short": "Boca Raton ile Pompano arasında, iskelesi ve yürüyüş yoluyla sakin bir sahil kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $325 bin (yıllık +%14,0); satış sayısı artıyor.",
+ "sales": {
+  "median": 324845,
+  "median_chg": "yıllık +%14,0",
+  "ppsf": 253,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$324.845 <small>(yıllık +%14,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$253 / ft² ≈ $2.723 / m² <small>(yıllık +%6,1)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "89 gün <small>(bir yıl önce 102 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "350 <small>(yıllık +%12,3)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,1"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/4362/FL/Deerfield-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Deerfield Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Deerfield Beach, okyanusa yakın yaşamda bu raporlardaki en uygun fiyatlı piyasalardan biri. Medyan fiyattaki artış, satış sayısındaki artış ve kısalan satış süresiyle birlikte talebin güçlendiğine işaret ediyor. Stokun önemli kısmı batıdaki büyük, eski kondominyum sitelerinden oluşur."
+  ]
+ },
+ "rent": {
+  "avg": 2400,
+  "chg": "yıllık −$100",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.650"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.700"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.275"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.100"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.400"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/deerfield-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Deerfield Beach</a>, 16 Ekim 2026 güncellemesi."
+ },
+ "tax": {
+  "mills": 20.2694,
+  "mills_hi": 20.3944,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Deerfield Beach, Broward County'nin en kuzeyinde, Palm Beach County sınırındaki kıyı şehri. Okyanus kıyısındaki yürüyüş yolu ve uluslararası balıkçı iskelesi, sahil kesimine küçük bir kasaba havası verir; plajı Blue Wave sertifikalı plajlar arasında yer alır.",
+  "Sahil şeridinde orta yükseklikte kondominyumlar ve oteller, Intracoastal'ın batısında müstakil ev mahalleleri, daha batıda ise 1970–80'lerden kalma büyük kondominyum siteleri bulunur. Boca Raton'un alışveriş ve iş olanaklarına birkaç dakika mesafededir."
+ ],
+ "places": [
+  [
+   "Deerfield Beach International Fishing Pier",
+   "Okyanusa uzanan iskele ve balıkçılık noktası."
+  ],
+  [
+   "Deerfield Beach Boardwalk",
+   "Plaj boyunca yürüyüş yolu, kafeler ve restoranlar."
+  ],
+  [
+   "Quiet Waters Park",
+   "Göller, kablolu su kayağı ve kamp alanlarıyla büyük park."
+  ],
+  [
+   "Hillsboro Boulevard",
+   "Restoran ve dükkânların yoğunlaştığı ana aks."
+  ],
+  [
+   "Gizli köşe: Deerfield Island Park",
+   "Yalnızca tekneyle ulaşılabilen, Intracoastal üzerindeki doğal ada parkı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Deerfield Beach için 2025 toplam vergi oranı 20,2694–20,3944 mill; yani vergi değerinin yaklaşık %2,03–2,04'si. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.269–$20.394. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Sahil ve Intracoastal kesimleri yüksek riskli kıyı bölgelerindedir (AE/VE); batıdaki kondominyum sitelerinde risk adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Boca Raton şehir merkezi",
+   "yaklaşık 8 km · 10–15 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 30 km · 25 dakika"
+  ],
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 50 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Tri-Rail Deerfield Beach istasyonu, Broward County Transit; Brightline için Boca Raton istasyonu."
+  ],
+  [
+   "Günlük hayat",
+   "Sahil kesimi yürünebilir; diğer bölgelerde araç gerekir."
+  ]
+ ],
+ "projects": [
+  [
+   "Hillsboro Center / Mayla (Grover Corlew)",
+   "360 kiralık daire; nihai saha planı onaylandı (Nisan 2024 haberi)",
+   "Açıklanmadı",
+   "https://rebusinessonline.com/grover-corlew-to-add-360-residential-units-renovate-office-buildings-at-hillsboro-center-in-deerfield-beach-florida/"
+  ]
+ ],
+ "pros": [
+  "Okyanusa yakın yaşamda düşük giriş fiyatı",
+  "Satış sayısında ve fiyatta yıllık artış",
+  "Sakin sahil kesimi, iskele ve yürüyüş yolu",
+  "Boca Raton'a yakınlık, Tri-Rail bağlantısı"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (20,27–20,39 mill)",
+  "Eski büyük kondominyum sitelerinde özel aidat ve yaş kısıtlı site kuralları",
+  "Sahil kesiminde sel riski ve sigorta maliyeti",
+  "Miami'ye uzak (yaklaşık 1 saat)"
+ ],
+ "faq": [
+  [
+   "Deerfield Beach'te ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $324.845 (yıllık +%14,0), fit kare fiyatı $253 (yıllık +%6,1)."
+  ],
+  [
+   "Deerfield Beach'te kiralar ne kadar?",
+   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $2.400; 1 yatak odalı $1.700, 2 yatak odalı $2.275 civarında."
+  ],
+  [
+   "Deerfield Beach'te sitelerde nelere dikkat etmeliyim?",
+   "Batıdaki bazı büyük kondominyum siteleri 55 yaş üstü kuralıyla yönetilir ve kiralama kısıtları uygular. Teklif öncesinde site kurallarını, aidat bütçesini ve SIRS raporunu inceleyin."
+  ],
+  [
+   "Emlak vergisi ne kadar?",
+   "Broward County Property Appraiser'a göre 2025 toplam oranı vergi bölgesine göre 20,2694–20,3944 mill; yani vergi değerinin yaklaşık %2,03–2,04'ü. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Deerfield Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/4362/FL/Deerfield-Beach/housing-market"
+  ],
+  [
+   "Zillow: Deerfield Beach Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/deerfield-beach-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "REBusiness: Hillsboro Center (Nisan 2024)",
+   "https://rebusinessonline.com/grover-corlew-to-add-360-residential-units-renovate-office-buildings-at-hillsboro-center-in-deerfield-beach-florida/"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Deerfield Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

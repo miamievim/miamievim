@@ -1,0 +1,200 @@
+{
+ "id": "key-biscayne",
+ "name": "Key Biscayne",
+ "county": "Miami-Dade",
+ "meta": "Key Biscayne mahalle raporu, Ekim 2026: medyan satış fiyatı $1,52M, ortalama kira $8.500, emlak vergisi, sel bölgesi, Silver Sands projesi ve ulaşım. Kaynaklı ve tarihli veriler.",
+ "short": "Brickell'e köprüyle bağlı, iki büyük park arasında bir ada köyü. Ekim 2026 itibarıyla medyan satış fiyatı $1,52 milyon; bu raporlardaki en düşük vergi oranı burada.",
+ "sales": {
+  "median": 1520276,
+  "median_chg": "yıllık −%10,3",
+  "ppsf": 958,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$1.520.276 <small>(yıllık −%10,3)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$958 / ft² ≈ $10.312 / m² <small>(yıllık −%2,6)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "92 gün <small>(bir yıl önce 92 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "68 <small>(yıllık +%21,5)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,0"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/9243/FL/Key-Biscayne/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Key Biscayne Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan fiyat %10,3 gerilerken satılan konut sayısının %21,5 artması, son dönemde daha fazla sayıda ve görece daha uygun fiyatlı dairenin el değiştirdiğini gösteriyor. Fit kare fiyatı neredeyse yatay (−%2,6); adadaki birim değerler korunuyor."
+  ]
+ },
+ "rent": {
+  "avg": 8500,
+  "chg": "yıllık +$600",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$3.300"
+   ],
+   [
+    "2 yatak odalı",
+    "$7.500"
+   ],
+   [
+    "3 yatak odalı",
+    "$12.514"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$8.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/key-biscayne-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Key Biscayne</a>, 16 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Stüdyo verisi çok az sayıda ilana dayandığı için tabloya alınmadı. Adada kiralık stokun önemli kısmı okyanus manzaralı büyük daireler ve müstakil evlerden oluştuğu için ortalama yüksek görünüyor."
+  ]
+ },
+ "tax": {
+  "mills": 15.5108,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Key Biscayne, Rickenbacker Causeway ile ana karaya bağlanan bir bariyer adası ve ayrı bir belediye (Village of Key Biscayne). Adanın kuzeyini Crandon Park, güneyini Bill Baggs Cape Florida State Park kaplar; yerleşim bu iki büyük parkın arasındaki bölgede yer alır.",
+  "Konut stoku okyanus cepheli kondominyumlar ile ada içindeki müstakil evlerden oluşur. Ada içinde günlük hayat golf arabaları, bisikletler ve Village Green parkı etrafında döner; Brickell'e 15–20 dakikalık mesafe, şehir merkezine yakın ama ondan ayrı bir yaşam sunar."
+ ],
+ "places": [
+  [
+   "Crandon Park",
+   "Geniş kumsalı, golf sahası ve tenis merkeziyle adanın kuzeyindeki büyük park."
+  ],
+  [
+   "Bill Baggs Cape Florida State Park",
+   "1825 tarihli Cape Florida deniz feneri ve doğal kumsallar."
+  ],
+  [
+   "Village Green",
+   "Adanın merkezindeki park; etkinlikler ve hafta sonu buluşmaları."
+  ],
+  [
+   "Rickenbacker Causeway",
+   "Bisiklet ve koşu için Miami'nin en manzaralı rotalarından biri."
+  ],
+  [
+   "Gizli köşe: No Name Harbor",
+   "Bill Baggs içinde, teknelerin demirlediği küçük koy ve kıyıdaki restoran."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Key Biscayne için 2025 toplam vergi oranı 15,5108 mill; yani vergi değerinin yaklaşık %1,55'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $15.511. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Ada olduğu için tamamına yakını yüksek riskli kıyı bölgelerindedir (AE/VE). Okyanus cepheli binalarda bina poliçesinin kapsamını, rüzgâr/sel muafiyet tutarlarını ve rezerv durumunu mutlaka inceleyin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell",
+   "yaklaşık 10 km · 15–20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 55 km · 50 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus hattı; ada dışı günlük ulaşım için araç gerekir."
+  ],
+  [
+   "Günlük hayat",
+   "Ada içi mesafeler kısa; bisiklet ve golf arabası yaygın."
+  ]
+ ],
+ "projects": [
+  [
+   "Silver Sands arsası (Terra & Fortune International)",
+   "Nisan 2025'te $205M'a satın alındı; okyanus cepheli butik kondominyum planlanıyor",
+   "Açıklanmadı",
+   "https://commercialobserver.com/2025/04/terra-fortune-miami-key-biscayne-condo-development/"
+  ]
+ ],
+ "projects_notes": [
+  "Adada yeni yapı alanı çok sınırlı olduğu için büyük ölçekli proje sayısı az; arz çoğunlukla mevcut binaların el değiştirmesiyle sağlanıyor."
+ ],
+ "pros": [
+  "Bu raporlardaki en düşük toplam vergi oranı (15,51 mill)",
+  "İki büyük park ve doğal kumsallar",
+  "Brickell'e yakın ama ondan ayrı, sakin ada yaşamı",
+  "Satış sayısında yıllık %21,5 artış"
+ ],
+ "cons": [
+  "Adaya tek giriş yolu (Rickenbacker Causeway); trafik ve fırtına tahliyesi",
+  "Kıyı bölgesi: yüksek sel ve rüzgâr sigortası maliyeti",
+  "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
+  "Kiralar Miami ortalamasının çok üzerinde"
+ ],
+ "faq": [
+  [
+   "Key Biscayne'de ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $1.520.276 (yıllık −%10,3), fit kare fiyatı $958 (yıllık −%2,6)."
+  ],
+  [
+   "Key Biscayne'de kiralar ne kadar?",
+   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $8.500; 1 yatak odalı $3.300, 2 yatak odalı $7.500 civarında."
+  ],
+  [
+   "Key Biscayne'de emlak vergisi ne kadar?",
+   "2025 için toplam oran 15,5108 mill; yani vergi değerinin yaklaşık %1,55'i. Bu, bu raporlardaki en düşük orandır. Bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "Key Biscayne'de yeni proje var mı?",
+   "Adadaki en dikkat çekici gelişme, Terra ve Fortune International'ın Nisan 2025'te $205 milyona aldığı Silver Sands arsasında planlanan butik kondominyum projesi. Teslim tarihi henüz açıklanmadı."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Key Biscayne Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/9243/FL/Key-Biscayne/housing-market"
+  ],
+  [
+   "Zillow: Key Biscayne Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/key-biscayne-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "Commercial Observer: Silver Sands arsası (Nisan 2025)",
+   "https://commercialobserver.com/2025/04/terra-fortune-miami-key-biscayne-condo-development/"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Key Biscayne raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+}

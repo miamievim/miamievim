@@ -1,0 +1,216 @@
+{
+ "id": "little-havana",
+ "name": "Little Havana",
+ "county": "Miami-Dade",
+ "meta": "Little Havana mahalle raporu, Ekim 2026: medyan satış fiyatı $582 bin, ortalama kira $1.995, emlak vergisi, sel bölgesi, yeni kiralık projeler ve ulaşım. Kaynaklı ve tarihli veriler.",
+ "short": "Calle Ocho, canlı müzik ve tarihî tiyatrosuyla Miami'nin kültürel kalbi; Brickell'e birkaç dakika. Ekim 2026 itibarıyla ortalama kira $1.995 ile bu raporlardaki en uygun kira seviyelerinden biri.",
+ "sales": {
+  "median": 582337,
+  "median_chg": "yıllık +%40,3",
+  "ppsf": 361,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$582.337 <small>(yıllık +%40,3)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$361 / ft² ≈ $3.886 / m² <small>(yıllık +%9,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "62 gün <small>(bir yıl önce 107 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "10 <small>(yıllık −%32)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,0"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/55670/FL/Miami/Little-Havana/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Little Havana Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Satış sayısı düşük olduğu için medyan fiyattaki %40,3'lük artış oynaktır; fit kare fiyatındaki %9,2'lik artış daha güvenilir bir göstergedir. Satış süresinin 107 günden 62 güne inmesi talebin güçlendiğini gösteriyor."
+  ]
+ },
+ "rent": {
+  "avg": 1995,
+  "chg": "yıllık −$155",
+  "src_short": "Zillow · 33135",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.500"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.750"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.200"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.850"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$1.995"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33135/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33135</a>, 16 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Yönetimli apartman binalarını baz alan RentCafe, Little Havana için ortalamayı $2.610 olarak veriyor (30 Eylül 2026); yeni binalardaki kiralar bu seviyeye daha yakın."
+  ]
+ },
+ "tax": {
+  "mills": 19.9878,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Little Havana, Miami'nin Küba mirasıyla özdeşleşmiş tarihî bölgesidir. SW 8th Street, yani Calle Ocho boyunca kafeler, puro dükkânları, sanat galerileri ve canlı müzik mekânları sıralanır; her ayın son cuma günü düzenlenen Viernes Culturales sokakları festivale çevirir.",
+  "Konut stoku ağırlıkla alçak katlı apartmanlar, dubleksler ve eski bungalovlardan oluşur. Brickell ve Downtown'a birkaç dakikalık mesafe, bölgeyi şehir merkezine yakın ve görece uygun fiyatlı bir alternatif hâline getiriyor; son yıllarda yeni kiralık bina projeleri de artıyor."
+ ],
+ "places": [
+  [
+   "Calle Ocho (SW 8th Street)",
+   "Bölgenin ana caddesi; kafeler, galeriler ve müzik mekânları."
+  ],
+  [
+   "Máximo Gómez Park (Domino Park)",
+   "Domino oyunlarıyla bilinen küçük meydan."
+  ],
+  [
+   "Ball & Chain",
+   "1935'te açılan, 2014'te yeniden canlandırılan canlı Latin müziği mekânı."
+  ],
+  [
+   "Calle Ocho Festivali",
+   "Her yıl mart ayında düzenlenen büyük sokak festivali."
+  ],
+  [
+   "Gizli köşe: Tower Theater",
+   "1926 yapımı tarihî sinema; bugün bağımsız ve yabancı filmler gösteriyor."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami şehri için 2025 toplam vergi oranı 19,9878 mill; yani vergi değerinin yaklaşık %2,00'i. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bölgenin büyük kısmı kıyıdan uzak, düşük-orta riskli bölgelerdedir; Miami Nehri'ne yakın kesimlerde risk adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell",
+   "yaklaşık 4 km · 10 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 8 km · 12–15 dakika"
+  ],
+  [
+   "Coral Gables",
+   "yaklaşık 5 km · 10 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Miami Trolley Little Havana hattı ve Metrobus."
+  ],
+  [
+   "Günlük hayat",
+   "Calle Ocho çevresi yürünebilir; şehir merkezine kısa araç mesafesi."
+  ]
+ ],
+ "projects": [
+  [
+   "Havana Enclave",
+   "179 kiralık daire; inşaat sürüyor",
+   "2027 başı",
+   "https://floridayimby.com/2025/09/astor-companies-start-construction-on-havana-enclave-at-315-nw-27th-avenue-in-miamis-little-havana.html"
+  ],
+  [
+   "NW 8th Ave & W Flagler St (Cornerstone / Brookstone)",
+   "354 kiralık daire ve market; öneri aşamasında (Kasım 2025)",
+   "Açıklanmadı",
+   "https://therealdeal.com/miami/2025/11/13/cornerstone-brookstone-plan-little-havana-rental-project/"
+  ]
+ ],
+ "pros": [
+  "Bu raporlardaki en uygun kira seviyelerinden biri",
+  "Brickell, Downtown ve havalimanına yakınlık",
+  "Güçlü kültürel kimlik ve canlı sokak hayatı",
+  "Satış süresinde belirgin kısalma (62 gün)"
+ ],
+ "cons": [
+  "Satış verisi az; fiyat değişimleri oynak",
+  "Eski binalarda bakım ve tadilat ihtiyacı",
+  "Miami şehri vergi oranı (19,99 mill)",
+  "Etkinlik dönemlerinde yoğunluk ve gürültü"
+ ],
+ "faq": [
+  [
+   "Little Havana'da ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $582.337 (yıllık +%40,3), fit kare fiyatı $361 (yıllık +%9,2). Satış sayısı düşük olduğu için medyan oynaktır."
+  ],
+  [
+   "Little Havana'da kiralar ne kadar?",
+   "Zillow'a göre ZIP 33135'te (16 Ekim 2026) ortalama kira aylık $1.995; 1 yatak odalı $1.750, 2 yatak odalı $2.200 civarında."
+  ],
+  [
+   "Little Havana Brickell'e ne kadar uzak?",
+   "Yaklaşık 4 km; trafiksiz koşullarda araçla 10 dakika. Miami Trolley ve Metrobus hatları da şehir merkezine bağlanır."
+  ],
+  [
+   "Little Havana yatırım için uygun mu?",
+   "Şehir merkezine yakınlık ve görece düşük giriş fiyatları ilgi çekiyor; ancak eski binaların bakım ihtiyacı ve vergi oranı net getiriyi etkiler. Kararı net getiri hesabıyla vermek gerekir. Bu bilgi yatırım tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Little Havana Housing Market (Ekim 2026)",
+   "https://www.redfin.com/neighborhood/55670/FL/Miami/Little-Havana/housing-market"
+  ],
+  [
+   "Zillow: ZIP 33135 Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33135/"
+  ],
+  [
+   "RentCafe: Little Havana Average Rent (30 Eylül 2026)",
+   "https://www.rentcafe.com/average-rent-market-trends/us/fl/miami/little-havana/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "Florida YIMBY: Havana Enclave (Eylül 2025)",
+   "https://floridayimby.com/2025/09/astor-companies-start-construction-on-havana-enclave-at-315-nw-27th-avenue-in-miamis-little-havana.html"
+  ],
+  [
+   "The Real Deal: Little Havana kiralık proje (Kasım 2025)",
+   "https://therealdeal.com/miami/2025/11/13/cornerstone-brookstone-plan-little-havana-rental-project/"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Little Havana raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}

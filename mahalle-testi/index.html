@@ -321,7 +321,7 @@
       var ul = document.createElement('ul');
       r.why.forEach(function (w) { var li = document.createElement('li'); li.textContent = w; ul.appendChild(li); });
       c.appendChild(ul);
-      var w = document.createElement('a'); w.className = 'when'; w.href = '/mahalle-raporlari/#' + r.h.id; w.style.textDecoration = 'none';
+      var w = document.createElement('a'); w.className = 'when'; w.href = '/mahalle-raporlari/' + r.h.id + '/'; w.style.textDecoration = 'none';
       w.textContent = 'Mahalle raporunu alın →'; c.appendChild(w);
       grid.appendChild(c);
     });

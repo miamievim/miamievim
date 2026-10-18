@@ -1,0 +1,241 @@
+{
+ "id": "bal-harbour",
+ "name": "Surfside & Bal Harbour",
+ "county": "Miami-Dade",
+ "meta": "Surfside ve Bal Harbour mahalle raporu, Ekim 2026: medyan satış fiyatları $1,37M ve $2,1M, kiralar, emlak vergisi, sel bölgesi, Rivage ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus ile Intracoastal arasında iki küçük, sakin belediye: Surfside'ın butik merkezi ve Bal Harbour'un lüks alışverişi. Ekim 2026 itibarıyla Bal Harbour'da medyan satış fiyatı $2,1 milyon.",
+ "sales": {
+  "median": 2099000,
+  "median_chg": "yıllık −%16,5",
+  "ppsf": 1010,
+  "src_short": "Redfin · Bal Harbour",
+  "rows": [
+   [
+    "<strong>Bal Harbour</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$2.099.000 <small>(yıllık −%16,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$1.010 / ft² ≈ $10.872 / m² <small>(yıllık −%56,5)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "98 gün"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "27"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%90,5"
+   ],
+   [
+    "<strong>Surfside</strong>",
+    ""
+   ],
+   [
+    "Medyan satış fiyatı",
+    "$1.374.346 <small>(yıllık +%6,3)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$975 / ft² ≈ $10.495 / m² <small>(yıllık +%31,0)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "119 gün <small>(bir yıl önce 139 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "30"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,3"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/879/FL/Bal-Harbour/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Bal Harbour Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi). <a href=\"https://www.redfin.com/city/17903/FL/Surfside/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Surfside Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "İki belediye de küçük olduğu için aylık satış sayısı 30'un altında; yıllık değişimler (özellikle Bal Harbour'daki fit kare fiyatında −%56,5) birkaç çok yüksek fiyatlı satışın varlığına ya da yokluğuna göre sert dalgalanıyor. Bal Harbour'da satışların ilan fiyatının ortalama %9,5 altında kapanması, bu raporlardaki en geniş pazarlık paylarından biri."
+  ]
+ },
+ "rent": {
+  "avg": 5000,
+  "chg": "yıllık +$800",
+  "src_short": "Zillow · 33154",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.700"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.940"
+   ],
+   [
+    "2 yatak odalı",
+    "$6.000"
+   ],
+   [
+    "3 yatak odalı",
+    "$9.360"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$5.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33154/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33154</a>, 16 Ekim 2026 güncellemesi.",
+  "notes": [
+   "ZIP 33154; Surfside, Bal Harbour ve Bay Harbor Islands'ı birlikte kapsar."
+  ]
+ },
+ "tax": {
+  "mills": 16.8854,
+  "mills_hi": 18.6245,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Bal Harbour, Miami Beach'in kuzeyinde, okyanus cepheli lüks kondominyumları ve dünyaca bilinen Bal Harbour Shops alışveriş merkeziyle tanınan küçük bir belediye. Okyanus boyunca uzanan yürüyüş yolu ve Collins Avenue'nun batısındaki kapalı konut bölgesi, belediyenin sakin karakterini tamamlar.",
+  "Hemen güneyindeki Surfside, Harding Avenue çevresindeki küçük restoran ve dükkânlarıyla daha mahalle ölçeğinde bir yerleşimdir. 2021'deki Champlain Towers South çöküşü sonrası Florida'da kondominyum denetim ve yedek akçe yasaları sıkılaştırıldı; bölgede yeni projeler ve kapsamlı bina yenilemeleri bu dönemin ardından hızlandı."
+ ],
+ "places": [
+  [
+   "Bal Harbour Shops",
+   "Açık hava lüks alışveriş merkezi."
+  ],
+  [
+   "Bal Harbour Beach Path",
+   "Okyanus boyunca uzanan yürüyüş ve koşu yolu."
+  ],
+  [
+   "Haulover Park",
+   "Hemen kuzeyde, geniş kumsalı ve marinasıyla büyük park."
+  ],
+  [
+   "Harding Avenue, Surfside",
+   "Kafe ve restoranlarla küçük bir kasaba merkezi."
+  ],
+  [
+   "Gizli köşe: Haulover Sandbar",
+   "Haulover Inlet içinde, hafta sonları teknelerin demirlediği sığ kum adası."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Bal Harbour ve Surfside için 2025 toplam vergi oranı 16,8854–18,6245 mill; yani vergi değerinin yaklaşık %1,69–1,86'si. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.885–$18.624. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bariyer adası üzerinde olduğu için tamamına yakını yüksek riskli kıyı bölgelerindedir (AE/VE). Okyanus cepheli binalarda bina poliçesinin kapsamını, rezerv durumunu ve son milestone denetimi raporunu mutlaka inceleyin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 25 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 22 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Belediye shuttle servisleri ve Metrobus; ada dışı ulaşım için araç gerekir."
+  ],
+  [
+   "Günlük hayat",
+   "Collins Avenue ve Harding Avenue çevresi yürünebilir."
+  ]
+ ],
+ "projects": [
+  [
+   "Rivage Bal Harbour",
+   "Satışlar sürüyor",
+   "2027 sonu",
+   "https://www.condoblackbook.com/blog/august-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Surf Row Residences (Surfside)",
+   "İnşaat sürüyor; %50 ön satış",
+   "2027",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "pros": [
+  "Okyanus cepheli sakin yaşam ve lüks alışveriş",
+  "Bal Harbour'da düşük vergi oranı (16,89 mill)",
+  "Satışlarda geniş pazarlık payı",
+  "Haulover, Aventura ve FLL havalimanına yakınlık"
+ ],
+ "cons": [
+  "Kıyı bölgesi sel riski ve yüksek sigorta maliyeti",
+  "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
+  "Küçük piyasa: fiyat verisi oynak",
+  "Kiralar Miami ortalamasının üzerinde"
+ ],
+ "faq": [
+  [
+   "Bal Harbour'da daire fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $2.099.000 (yıllık −%16,5). Surfside'da medyan $1.374.346 (yıllık +%6,3)."
+  ],
+  [
+   "Surfside ve Bal Harbour'da kiralar ne kadar?",
+   "Zillow'a göre ZIP 33154'te (16 Ekim 2026) ortalama kira aylık $5.000; 1 yatak odalı $2.940, 2 yatak odalı $6.000 civarında."
+  ],
+  [
+   "Surfside'da bina güvenliğini nasıl kontrol ederim?",
+   "Florida yasası kondominyumlarda milestone denetimi ve yapısal yedek akçe çalışması (SIRS) şartı getiriyor. Teklif öncesinde bu raporları, bina bütçesini ve planlanan özel aidatları yazılı olarak isteyin."
+  ],
+  [
+   "Emlak vergisi ne kadar?",
+   "2025 için toplam oran Bal Harbour'da 16,8854 mill (yaklaşık %1,69), Surfside'da 18,6245 mill (yaklaşık %1,86). Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Bal Harbour Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/879/FL/Bal-Harbour/housing-market"
+  ],
+  [
+   "Redfin: Surfside Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/17903/FL/Surfside/housing-market"
+  ],
+  [
+   "Zillow: ZIP 33154 Rental Market Trends (16 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33154/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ağustos ve Eylül 2026 proje güncellemeleri",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Surfside & Bal Harbour raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "projects_notes": []
+}
