@@ -11,7 +11,7 @@ Raporlar her ay yenilenir. Kaynak verisi `tools/reports/<id>.json` dosyalarında
    - **Vergi:** Millage oranları yılda bir (ekim–kasım) değişir. Yeni yılın oranları yayımlanınca Miami-Dade PA, Broward PA (`https://bcpa.net/millage.asp`) ve Boca Raton kaynaklarından güncelleyin.
    - **Projeler:** CondoBlackBook'un aylık Miami-Dade ve Broward/Palm Beach güncellemeleri, Florida YIMBY ve Commercial Observer. Teslim edilen projeleri "Tamamlandı" yapın, yenilerini ekleyin.
 3. Kaynağı ve ayı belirtilmeyen hiçbir rakam yazılmaz. Veri bulunamazsa önceki ayın rakamı "güncellenemedi" notuyla bırakılır ve Aleyna'ya bildirilir.
-4. `python3 tools/build_reports.py` çalıştırın (CSS/JS sürüm parametrelerini `tools/stamp_assets.py` otomatik günceller); `sitemap.xml` içindeki rapor `lastmod` tarihlerini güncelleyin.
+4. `python3 tools/build_reports.py` ve ardından `python3 tools/build_hub.py` çalıştırın (harita, rapor merkezi, sitemap ve llms.txt bölge listesi `tools/hoods.json`'dan güncellenir; 2026 Ekim itibarıyla 108 bölge). Redfin'de bir sayfa 429 (çok fazla istek) verirse aynı sayfayı tekrar çekmeyin; isteklerin arasını açın, gerekirse Zillow ev değeri sayfasını kullanıp notta belirtin (CSS/JS sürüm parametrelerini `tools/stamp_assets.py` otomatik günceller); `sitemap.xml` içindeki rapor `lastmod` tarihlerini güncelleyin.
 5. `taslak` dalına commit edip push edin. Aleyna'ya kısa bir özet gönderin: en çok değişen 3–5 rakam, güncellenemeyen veriler ve onay isteği.
 6. "onaylıyorum" gelince `taslak` → `main` fast-forward merge ve push. Netlify otomatik yayınlar.
 
