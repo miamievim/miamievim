@@ -399,6 +399,8 @@ def build():
     src = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables\'ta {len(ps)} yeni proje: tahmini teslim tarihi, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine. Kaynak: Cervera Q3 2026.">', src, count=1)
     open(PAGE, 'w', encoding='utf-8').write(src)
     print('built', len(ps), 'projects')
+    import subprocess, sys
+    subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'stamp_assets.py')], check=True)
 
 
 if __name__ == '__main__':

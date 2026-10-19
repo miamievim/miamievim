@@ -251,6 +251,8 @@ def main():
         print('built', d['id'])
     os.makedirs(os.path.join(ROOT, 'mahalle-raporlari', 'tum-raporlar'), exist_ok=True)
     open(os.path.join(ROOT, 'mahalle-raporlari', 'tum-raporlar', 'index.html'), 'w', encoding='utf-8').write(all_list(reports, nav, footer))
+    import subprocess, sys
+    subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'stamp_assets.py')], check=True)
 
 
 if __name__ == '__main__':
