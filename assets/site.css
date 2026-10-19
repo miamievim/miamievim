@@ -345,3 +345,14 @@ h2 em,h1 em{font-style:italic}
 @media (max-width:900px){.brand{gap:14px}.brand .brand-sep{margin:10px 0}.brand img.brand-cervera{height:20px}}
 @media (min-width:1241px){.nav{gap:14px;letter-spacing:.12em}.brand img{height:84px}.brand img.brand-cervera{height:22px}.brand{gap:14px}}
 @media (max-width:1380px) and (min-width:1241px){.header-cta{display:none}}
+
+/* Hakkımda: portre ve basın */
+.about-photo{display:block;margin-top:44px;max-width:440px}
+.about-photo img{display:block;width:100%;height:auto}
+.press{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0 56px;border-top:1px solid var(--ink)}
+.press li{display:flex;flex-direction:column;gap:14px;padding:32px 0;border-bottom:1px solid var(--line)}
+.press-pub{margin:0;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--stone)}
+.press h3{font-size:clamp(24px,2.4vw,32px);line-height:1.2;margin:0}
+.press p{margin:0;font-size:16px;font-weight:300;color:var(--text)}
+.press .link-caps{margin-top:6px;align-self:flex-start;color:var(--ink)}
+@media (max-width:900px){.about-photo{max-width:none;margin-top:32px}}
