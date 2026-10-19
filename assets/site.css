@@ -336,3 +336,12 @@ h2 em,h1 em{font-style:italic}
 .rgroups .rlist{border-top:1px solid var(--ink)}
 .rgroups .rrow[hidden],.rgroups [hidden]{display:none}
 .sv-lake{fill:#0B0B0B;stroke:#3A3733;stroke-width:calc(1px * var(--sv,1))}
+
+/* Cervera logosu (başlık) */
+.brand{display:inline-flex;align-items:center;gap:22px;text-decoration:none}
+.brand .brand-sep{width:1px;align-self:stretch;margin:18px 0;background:rgba(230,225,216,.28)}
+.brand img.brand-cervera{height:30px;width:auto;opacity:.82}
+@media (max-width:1240px) and (min-width:901px){.brand img.brand-cervera{height:24px}.brand{gap:16px}}
+@media (max-width:900px){.brand{gap:14px}.brand .brand-sep{margin:10px 0}.brand img.brand-cervera{height:20px}}
+@media (min-width:1241px){.nav{gap:14px;letter-spacing:.12em}.brand img{height:84px}.brand img.brand-cervera{height:22px}.brand{gap:14px}}
+@media (max-width:1380px) and (min-width:1241px){.header-cta{display:none}}

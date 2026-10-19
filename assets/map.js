@@ -135,7 +135,7 @@
   function renderCard(h) {
     var card = $('#hood-card');
     if (!card) return;
-    $('.county', card).textContent = h.county;
+    $('.county', card).textContent = h.county; $('.county', card).setAttribute('lang', 'en');
     $('h3', card).textContent = h.name;
     $('p', card).textContent = h.line;
     var r = document.getElementById('card-report'); if (r) r.href = '/mahalle-raporlari/' + h.id + '/';
@@ -274,7 +274,7 @@
     });
     [['Palm Beach', 26.60], ['Broward', 26.20], ['Miami-Dade', 25.90]].forEach(function (c) {
       var t = el('text', { x: px(-80.53), y: py(c[1]), 'class': 'sv-county sv-left' }, svgEl);
-      t.textContent = c[0];
+      t.textContent = c[0]; t.setAttribute('lang', 'en');
       countyLabels[c[0]] = { getElement: function () { return t; } };
     });
     el('text', { x: px(-80.02), y: py(26.05), 'class': 'sv-ocean' }, svgEl).textContent = 'Atlantik';
@@ -285,7 +285,7 @@
       var right = h.lng > -80.2;
       var bg = el('rect', { 'class': 'sv-lbl-bg' }, g);
       var t = el('text', { 'class': 'sv-lbl', 'dominant-baseline': 'central' }, g);
-      t.textContent = h.name;
+      t.textContent = h.name; t.setAttribute('lang', 'en');
       labels.push([t, bg, right]);
       function go() { select(h.id); }
       g.addEventListener('click', go);
@@ -349,7 +349,7 @@
       [['Palm Beach', 26.345], ['Broward', 25.985], ['Miami-Dade', 25.930]].forEach(function (c) {
         var el = document.createElement('div');
         el.className = 'county-label';
-        el.textContent = c[0];
+        el.textContent = c[0]; el.setAttribute('lang', 'en');
         countyLabels[c[0]] = new maplibregl.Marker({ element: el, anchor: 'left' }).setLngLat([-80.62, c[1]]).addTo(map);
       });
       HOODS.forEach(function (h) {
@@ -358,7 +358,7 @@
         el.className = 'hood-marker';
         el.setAttribute('aria-label', h.name);
         el.innerHTML = '<span class="dot" aria-hidden="true"></span><span class="lbl"></span>';
-        el.querySelector('.lbl').textContent = h.name;
+        el.querySelector('.lbl').textContent = h.name; el.querySelector('.lbl').setAttribute('lang', 'en');
         el.addEventListener('click', function (ev) { ev.stopPropagation(); select(h.id); });
         markers[h.id] = new maplibregl.Marker({ element: el, anchor: 'left', offset: [-22, 0] }).setLngLat([h.lng, h.lat]).addTo(map);
       });

@@ -27,6 +27,9 @@ def main():
         if t != s:
             open(h, 'w', encoding='utf-8').write(t); n += 1
     print('stamped', n, 'files')
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('en_caps', os.path.join(ROOT, 'tools', 'en_caps.py'))
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); m.main()
 
 
 if __name__ == '__main__':

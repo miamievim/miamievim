@@ -110,8 +110,8 @@ def update_sitemap_llms(hoods):
 def main():
     hoods = load()
     update_map(hoods)
+    update_counts(len(hoods))  # önce genel sayılar; ilçe başlıklarındaki sayılar update_hub'da yazılır
     n = update_hub(hoods)
-    update_counts(n)
     update_sitemap_llms(hoods)
     subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'stamp_assets.py')], check=True)
     print('hub', n)
