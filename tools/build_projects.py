@@ -233,13 +233,12 @@ def card(p, i):
     wa = quote(f'Merhaba Aleyna Hanım, {p["name"]} projesi için fiyat listesi ve kat planı rica ediyorum.')
     search = ' '.join([p['name'], loc, p['developer'] or '', p['architect'] or '']).lower()
     return f'''
-      <article class="pj" id="{sid}" data-area="{p['area']}" data-cat="{CAT_KEY.get(p['category'], '')}" data-year="{yr_bucket}" data-status="{st_key}" data-price="{pr or 0}" data-comp="{comp_sort}" data-q="{E(search)}">
+      <article class="pj" id="{sid}" data-area="{p['area']}" data-cat="{CAT_KEY.get(p['category'], '')}" data-year="{yr_bucket}" data-status="{st_key}" data-comp="{comp_sort}" data-seg="{ {'ULTRA-LUXURY': 1, 'PREMIUM': 2, 'LUXURY': 3, 'SHORT-TERM RENTAL': 4}.get(p['category'], 5) }" data-name="{E(p['name'].lower())}" data-q="{E(search)}">
         <header class="pj-top"><span class="pj-cat">{E(CAT.get(p['category'], p['category'].title()))}</span><span class="pj-st st-{st_key}">{E(st_lbl)}</span></header>
         <h3 class="pj-name">{E(p['name'])}</h3>
         <p class="pj-loc">{E(loc)}{(' · ' + E(wf)) if wf else ''}</p>
-        <div class="pj-key">
+        <div class="pj-key pj-key2">
           <div><span>Tahmini teslim</span><b>{E(comp)}</b>{('<small>' + comp_note + '</small>') if comp_note else ''}</div>
-          <div><span>Fiyat</span>{price_html}</div>
           <div><span>Daire</span><b>{units or '—'}</b></div>
         </div>
         <dl class="pj-rows">{rows_html}</dl>
@@ -257,7 +256,7 @@ def build():
     # Teslim tarihine göre sırala (varsayılan)
     def key(p):
         st, _ = status(p['status'])
-        return (-(price(p['price_sf']) or 0), completion(p['completion'], st)[1])
+        return ({'ULTRA-LUXURY': 1, 'PREMIUM': 2, 'LUXURY': 3, 'SHORT-TERM RENTAL': 4}.get(p['category'], 5), completion(p['completion'], st)[1])
     ps = sorted(ps, key=key)
     prices = [price(p['price_sf']) for p in ps if price(p['price_sf'])]
     n_build = sum(1 for p in ps if status(p['status'])[0] == 'insaat')
@@ -275,7 +274,7 @@ def build():
     <div class="wrap">
       <p class="eyebrow">Yeni projeler · Q3 2026</p>
       <h1>Miami'nin yükselen silueti, <em>tek sayfada.</em></h1>
-      <p class="lead">Brickell'den Coral Gables'a, okyanus cepheli markalı rezidanslardan kısa süreli kiralamaya uygun binalara kadar {len(ps)} proje. Teslim tarihi, ft² fiyatı, ödeme planı ve geliştirici bilgisi yan yana; karar vermeden önce gereken her şey.</p>
+      <p class="lead">Brickell'den Coral Gables'a, okyanus cepheli markalı rezidanslardan kısa süreli kiralamaya uygun binalara kadar {len(ps)} proje. Teslim tarihi, ödeme planı, geliştirici ve mimar bilgisi yan yana; güncel fiyat listesi ve kat planları talep üzerine.</p>
       <div class="hero-ctas" style="margin-top:32px">
         <a class="btn" href="#projeler" style="background:var(--ivory);color:var(--ink);border-color:var(--ivory)">Projeleri inceleyin</a>
         <a class="btn btn-line" href="#proje-listesi">Size uygun listeyi isteyin</a>
@@ -287,7 +286,7 @@ def build():
     <div class="wrap"><dl class="stats">
       <div class="stat"><dt>Proje</dt><dd>{len(ps)}</dd><span>6 bölgede</span></div>
       <div class="stat"><dt>İnşaat hâlinde</dt><dd>{n_build}</dd><span>{n_pre} proje ön satışta</span></div>
-      <div class="stat"><dt>ft² fiyat aralığı</dt><dd>{money(min(prices))}–{money(max(prices)).replace('$', '')}</dd><span>fiyatı açıklanan {len(prices)} proje</span></div>
+      <div class="stat"><dt>Fiyat listesi</dt><dd>Talep üzerine</dd><span>kat planlarıyla birlikte</span></div>
       <div class="stat"><dt>Kaynak</dt><dd>Q3 2026</dd><span>Cervera Development Market Study</span></div>
     </dl></div>
   </section>
@@ -308,7 +307,7 @@ def build():
             <button type="button" class="pf-chip" data-cat="kisa" aria-pressed="false">Kısa süreli kiralama</button>
           </div>
           <label class="pf-sel"><span>Teslim</span><select id="pf-year"><option value="">Tümü</option><option value="2026">2026 ve öncesi</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029 ve sonrası</option></select></label>
-          <label class="pf-sel"><span>Sırala</span><select id="pf-sort"><option value="price-desc">Fiyat: yüksekten düşüğe</option><option value="comp">Teslim tarihi</option><option value="price-asc">Fiyat: düşükten yükseğe</option></select></label>
+          <label class="pf-sel"><span>Sırala</span><select id="pf-sort"><option value="seg">Segment</option><option value="comp">Teslim tarihi</option><option value="name">Proje adı</option></select></label>
         </div>
         <p class="pf-count" aria-live="polite"><b id="pf-n">{len(ps)}</b> proje gösteriliyor <button type="button" id="pf-reset" hidden>Filtreleri temizle</button></p>
       </div>
@@ -317,7 +316,7 @@ def build():
       <div class="pj-grid" id="pj-grid">{cards}
       </div>
       <p class="pj-empty" id="pj-empty" hidden>Bu filtrelere uyan proje yok. <button type="button" id="pf-reset2">Filtreleri temizleyin</button> ya da <a href="#proje-listesi">size özel liste isteyin</a>.</p>
-      <p class="pj-source">Kaynak: Cervera Real Estate, Development Market Study, Market Report Q3 2026 (Haziran 2026). ft² fiyatları çalışmada yer alan değerlerdir; "Fiyat için sorun" yazan projelerde fiyat listesi talep üzerine paylaşılır. Teslim tarihleri, fiyatlar ve ödeme planları geliştirici tarafından değiştirilebilir ve garanti değildir. Bu sayfa yatırım tavsiyesi değildir.</p>
+      <p class="pj-source">Kaynak: Cervera Real Estate, Development Market Study, Market Report Q3 2026 (Haziran 2026). Fiyat listeleri ve kat planları talep üzerine paylaşılır. Teslim tarihleri, fiyatlar ve ödeme planları geliştirici tarafından değiştirilebilir ve garanti değildir. Bu sayfa yatırım tavsiyesi değildir.</p>
     </div>
   </section>
 
@@ -390,14 +389,14 @@ def build():
 '''
     src = open(PAGE, encoding='utf-8').read()
     a = src.index('<main id="main"')
-    b = src.index('<footer')
+    b = src.index('<footer class="site-footer"')
     src = src[:a] + main + src[b:]
     # Eski ld+json/projeler betiği tekrar eklenmesin
     src = re.sub(r'(<script src="/assets/projects.js" defer></script>\n)(?=[\s\S]*<script src="/assets/projects.js")', '', src)
     if '/assets/projects.css' not in src:
         src = src.replace('<link rel="stylesheet" href="/assets/site.css">', '<link rel="stylesheet" href="/assets/site.css">\n<link rel="stylesheet" href="/assets/report.css">\n<link rel="stylesheet" href="/assets/projects.css">')
-    src = re.sub(r'<title>[^<]*</title>', f'<title>Miami Yeni Projeler {len(ps)} Proje: Teslim, ft² Fiyatı, Ödeme Planı (Q3 2026) | Aleyna Bozoklar</title>', src, count=1)
-    src = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables\'ta {len(ps)} yeni proje: tahmini teslim tarihi, ft² fiyatı, ödeme planı, geliştirici ve mimar. Kaynak: Cervera Q3 2026.">', src, count=1)
+    src = re.sub(r'<title>[^<]*</title>', f'<title>Miami Yeni Projeler {len(ps)} Proje: Teslim, Ödeme Planı, Kat Planı (Q3 2026) | Aleyna Bozoklar</title>', src, count=1)
+    src = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables\'ta {len(ps)} yeni proje: tahmini teslim tarihi, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine. Kaynak: Cervera Q3 2026.">', src, count=1)
     open(PAGE, 'w', encoding='utf-8').write(src)
     print('built', len(ps), 'projects')
 

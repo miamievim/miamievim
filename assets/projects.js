@@ -3,7 +3,7 @@
   var grid = document.getElementById('pj-grid');
   if (!grid) return;
   var cards = Array.prototype.slice.call(grid.querySelectorAll('.pj'));
-  var st = { area: '', cats: [], year: '', q: '', sort: 'price-desc' };
+  var st = { area: '', cats: [], year: '', q: '', sort: 'seg' };
   var $ = function (id) { return document.getElementById(id); };
 
   function apply() {
@@ -16,10 +16,9 @@
       c.hidden = !ok; if (ok) n++;
     });
     var sorted = cards.slice().sort(function (a, b) {
-      var pa = +a.dataset.price, pb = +b.dataset.price;
-      if (st.sort === 'price-desc') return (pb || -1) - (pa || -1);
-      if (st.sort === 'price-asc') return (pa || 1e9) - (pb || 1e9);
-      return (+a.dataset.comp) - (+b.dataset.comp) || pb - pa;
+      if (st.sort === 'name') return a.dataset.name.localeCompare(b.dataset.name, 'tr');
+      if (st.sort === 'comp') return (+a.dataset.comp) - (+b.dataset.comp);
+      return (+a.dataset.seg) - (+b.dataset.seg) || (+a.dataset.comp) - (+b.dataset.comp);
     });
     sorted.forEach(function (c) { grid.appendChild(c); });
     $('pf-n').textContent = n;
