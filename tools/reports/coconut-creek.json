@@ -1,0 +1,177 @@
+{
+ "id": "coconut-creek",
+ "name": "Coconut Creek",
+ "county": "Broward",
+ "meta": "Coconut Creek mahalle raporu, Ekim 2026: medyan satış fiyatı $264.374, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "\"Dünyanın kelebek başkenti\" olarak anılan, yeşil alanları ve uygun fiyatlı siteleriyle kuzey Broward'da bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $264.374.",
+ "sales": {
+  "median": 264374,
+  "median_chg": "yıllık −%5,6",
+  "ppsf": 221,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$264.374 <small>(yıllık −%5,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$221 / ft² ≈ $2.379 / m² <small>(yıllık −%6,9)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "89 gün <small>(bir yıl önce 110 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "224 <small>(yıllık +%8,4)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,2"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/3461/FL/Coconut-Creek/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coconut Creek Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2350,
+  "chg": "yıllık +$50",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$1.800"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.250"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.200"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.350"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/coconut-creek-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Coconut Creek</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 20.9953,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Coconut Creek, kuzey Broward'da çevre dostu planlamasıyla bilinen bir şehir. Butterfly World ve geniş doğa alanları şehrin kimliğinin parçasıdır; Seminole Casino Coconut Creek ve The Promenade at Coconut Creek ise eğlence ve alışveriş merkezleridir.",
+  "Konut stoku büyük kondominyum ve villa sitelerinden müstakil ev topluluklarına uzanır; bazı büyük siteler 55 yaş üstü kuralıyla yönetilir. Florida Turnpike ve Sawgrass Expressway bağlantıları vardır."
+ ],
+ "places": [
+  [
+   "Butterfly World",
+   "Tradewinds Park içinde, binlerce kelebeğin uçtuğu açık hava bahçesi."
+  ],
+  [
+   "The Promenade at Coconut Creek",
+   "Açık hava alışveriş ve restoran alanı."
+  ],
+  [
+   "Tradewinds Park",
+   "Atlar, göller ve geniş yeşil alanlarla ilçe parkı."
+  ],
+  [
+   "Gizli köşe: Fern Forest Nature Center",
+   "Ahşap yürüyüş yollarıyla korunan doğal orman."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Coconut Creek için 2025 toplam vergi oranı 20,9953 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,10. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.995. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 25 dakika"
+  ],
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 65 km · 60 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Pompano Beach (yaklaşık 6 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Coconut Creek için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Görece uygun giriş fiyatları",
+  "Yeşil alanlar ve doğa parkları",
+  "Satış sayısında yıllık artış",
+  "Kiralık stok geniş"
+ ],
+ "cons": [
+  "Vergi oranı yüksek (21,00 mill)",
+  "Büyük eski sitelerde özel aidat riski ve site kuralları",
+  "Fiyatlarda yıllık düşüş",
+  "Plaja ve Miami'ye uzak"
+ ],
+ "faq": [
+  [
+   "Coconut Creek bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $264.374 (yıllık −%5,6), fit kare fiyatı $221."
+  ],
+  [
+   "Coconut Creek bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.350; 2 yatak odalı $2.250 civarında."
+  ],
+  [
+   "Coconut Creek bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,9953 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,10. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Coconut Creek Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/3461/FL/Coconut-Creek/housing-market"
+  ],
+  [
+   "Zillow: Coconut Creek Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/coconut-creek-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Coconut Creek raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

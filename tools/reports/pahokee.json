@@ -1,0 +1,166 @@
+{
+ "id": "pahokee",
+ "name": "Pahokee",
+ "county": "Palm Beach",
+ "meta": "Pahokee mahalle raporu, Ekim 2026: medyan satış fiyatı $355.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Okeechobee Gölü'nün doğu kıyısında, marinası ve tarım arazileriyle küçük bir kasaba.",
+ "sales": {
+  "median": 355000,
+  "median_chg": "yıllık +%105,8",
+  "ppsf": 163,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$355.000 <small>(yıllık +%105,8)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$163 / ft² ≈ $1.755 / m² <small>(yıllık +%41,1)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "58 gün <small>(bir yıl önce 71 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "5"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%89,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/13905/FL/Pahokee/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pahokee Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Son dönemde yalnızca 5 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+  ]
+ },
+ "rent": {
+  "avg": null,
+  "chg": "",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Kiralık ilan sayısı",
+    "3"
+   ]
+  ],
+  "src": "Zillow Rental Market Trends, 17 Ekim 2026.",
+  "notes": [
+   "Bu bölgede kiralık ilan sayısı ortalama hesaplamak için yetersiz. Kiralık ev arıyorsanız komşu bölgelerin raporlarına bakın ya da size uygun ilanları doğrudan isteyin."
+  ]
+ },
+ "tax": {
+  "mills": 22.2598,
+  "mills_hi": 22.8089,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Pahokee, Okeechobee Gölü'nün doğu kıyısında, Palm Beach County'nin batı ucunda yer alan küçük bir kasaba. Gölün manzarasını set üzerinden gören nadir yerleşimlerden biridir.",
+  "Konut stoku küçük müstakil evlerden oluşur ve satış sayısı çok azdır. Pahokee Marina ve kamp alanı göl turizminin odağıdır."
+ ],
+ "places": [
+  [
+   "Pahokee Marina ve Campground",
+   "Göl kıyısında marina ve kamp alanı."
+  ],
+  [
+   "Lake Okeechobee Scenic Trail",
+   "Set üzerinde bisiklet ve yürüyüş rotası."
+  ],
+  [
+   "Okeechobee Gölü",
+   "Levrek balıkçılığı ve gün batımı."
+  ],
+  [
+   "Gizli köşe: Set üzerinden gün batımı",
+   "Göl üzerinde geniş bir ufuk."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Pahokee için 2025 toplam vergi oranı 22,2598–22,8089 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,23–2,28. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $22.260–$22.809. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okeechobee Gölü çevresindeki tarım bölgesindedir; set (Herbert Hoover Dike) ve drenaj sistemleri bölgenin sel riskini belirler. Adres bazında FEMA bölgesini kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 75 km · 70 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 125 km · 115 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 80 km · 75 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 77 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için Belle Glade ve çevresi kullanılır; kıyı şehirlerine yaklaşık 1 saat."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Pahokee için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Çok uygun fiyatlar",
+  "Göl kıyısı ve marina",
+  "Sakin kırsal yaşam",
+  "Doğa ve balıkçılık"
+ ],
+ "cons": [
+  "Satış sayısı çok az; rakamlar anlamlı değil",
+  "Kıyıya ve iş merkezlerine uzak",
+  "Kiralık ilan çok az",
+  "Yüksek toplam vergi oranı"
+ ],
+ "faq": [
+  [
+   "Pahokee bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $355.000 (yıllık +%105,8), fit kare fiyatı $163. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+  ],
+  [
+   "Pahokee bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 22,2598–22,8089 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,23–2,28. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Pahokee Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/13905/FL/Pahokee/housing-market"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "Palm Beach County Fire Rescue: hizmet verilen belediyeler",
+   "https://discover.pbc.gov/pbcfr/Pages/Municipalities.aspx"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Pahokee raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

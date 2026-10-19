@@ -1,0 +1,182 @@
+{
+ "id": "delray-beach",
+ "name": "Delray Beach",
+ "county": "Palm Beach",
+ "meta": "Delray Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $474.774, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Plaja kadar uzanan Atlantic Avenue'su, sanat bölgesi ve canlı kasaba merkeziyle Boca Raton'un kuzey komşusu. Ekim 2026 itibarıyla medyan satış fiyatı $474.774; ev ortalama 74 günde satılıyor.",
+ "sales": {
+  "median": 474774,
+  "median_chg": "yıllık +%10,4",
+  "ppsf": 356,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$474.774 <small>(yıllık +%10,4)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$356 / ft² ≈ $3.832 / m² <small>(yıllık +%5,6)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "74 gün <small>(bir yıl önce 96 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "297 <small>(yıllık −%15,0)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,0"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/4456/FL/Delray-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Delray Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2704,
+  "chg": "yıllık −$173",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.300"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.925"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.450"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.704"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/delray-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Delray Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 18.4518,
+  "mills_hi": 19.0009,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Delray Beach, Atlantic Avenue boyunca I-95'ten okyanusa kadar uzanan yürünebilir merkeziyle bilinir. Restoranlar, galeriler ve butikler bu caddede toplanır; Pineapple Grove sanat bölgesi merkezin kuzeyine uzanır.",
+  "Kıyıya yakın bölgelerde tarihî evler ve butik kondominyumlar, batıda ise golf toplulukları ve 55 yaş üstü siteler bulunur. Tri-Rail istasyonu ve I-95 Fort Lauderdale ile Miami'ye bağlantı sağlar."
+ ],
+ "places": [
+  [
+   "Atlantic Avenue",
+   "Plaja kadar uzanan restoran ve alışveriş caddesi."
+  ],
+  [
+   "Delray Beach Municipal Beach",
+   "Şehir merkezine yürüme mesafesinde halk plajı."
+  ],
+  [
+   "Morikami Museum and Japanese Gardens",
+   "Japon bahçeleri ve kültür müzesi."
+  ],
+  [
+   "Gizli köşe: Wakodahatchee Wetlands",
+   "Kuş gözlemi için ahşap yürüyüş yollu sulak alan."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Delray Beach için 2025 toplam vergi oranı 18,4518–19,0009 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,85–1,90. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.452–$19.001. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Şehir merkezi geliştirme bölgesi (Delray Beach DDA) içindeki mülklere ayrıca 1,0 mill eklenir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal ve göl kenarındaki kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; bazı kesimler yüksek riskli bölgededir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 30 km · 35 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 55 km · 55 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Delray Beach (yaklaşık 2 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Atlantic Avenue çevresi yürünebilir; plaja bisikletle kısa mesafe."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Delray Beach'teki yeni butik konut projeleri hakkında güncel bilgi ve fiyat listeleri için iletişime geçebilirsiniz; bu raporda yalnızca kaynağı belirtilebilen projeler listelenir."
+ ],
+ "pros": [
+  "Yürünebilir ve canlı kasaba merkezi",
+  "Fiyatlarda yıllık artış (+%10,4)",
+  "Satış süresi kısaldı (74 gün)",
+  "Tri-Rail ve I-95 ile bağlantı"
+ ],
+ "cons": [
+  "Satış sayısında yıllık düşüş (−%15)",
+  "Sezon döneminde kalabalık ve otopark sıkıntısı",
+  "Kıyıya yakın kesimlerde sel riski",
+  "Batıdaki sitelerde HOA ve yaş sınırlamaları"
+ ],
+ "faq": [
+  [
+   "Delray Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $474.774 (yıllık +%10,4), fit kare fiyatı $356."
+  ],
+  [
+   "Delray Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.704; 2 yatak odalı $2.450 civarında."
+  ],
+  [
+   "Delray Beach bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 18,4518–19,0009 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,85–1,90. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Delray Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/4456/FL/Delray-Beach/housing-market"
+  ],
+  [
+   "Zillow: Delray Beach Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/delray-beach-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Delray Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,183 @@
+{
+ "id": "lauderdale-by-the-sea",
+ "name": "Lauderdale-by-the-Sea",
+ "county": "Broward",
+ "meta": "Lauderdale-by-the-Sea mahalle raporu, Ekim 2026: medyan satış fiyatı $554.736, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Alçak katlı yapıları, iskelesi ve kıyıdan yüzerek ulaşılabilen resifleriyle sakin bir sahil kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $554.736.",
+ "sales": {
+  "median": 554736,
+  "median_chg": "yıllık −%26,0",
+  "ppsf": 450,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$554.736 <small>(yıllık −%26,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$450 / ft² ≈ $4.844 / m² <small>(yıllık −%1,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "91 gün <small>(bir yıl önce 145 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "46 <small>(yıllık −%29,7)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,6"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/10035/FL/Lauderdale-by-the-Sea/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lauderdale-by-the-Sea Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 3000,
+  "chg": "yıllık −$925",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.795"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.100"
+   ],
+   [
+    "2 yatak odalı",
+    "$4.275"
+   ],
+   [
+    "3 yatak odalı",
+    "$6.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lauderdale-by-the-sea-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lauderdale-by-the-Sea</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 19 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 18.1215,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Lauderdale-by-the-Sea, Fort Lauderdale'in kuzeyinde, yükseklik sınırlamalarıyla küçük kasaba havasını koruyan bir sahil yerleşimi. Kasaba merkezi Commercial Boulevard'ın okyanusa ulaştığı noktada, iskele ve restoranlarla buluşur.",
+  "Kıyıya çok yakın mercan resifleri, kasabayı Güney Florida'nın kıyıdan dalış ve şnorkel noktalarından biri yapar. Konut stoku alçak katlı kondominyumlar, butik oteller ve kanal kenarı evlerden oluşur."
+ ],
+ "places": [
+  [
+   "Anglin's Fishing Pier",
+   "Okyanusa uzanan tarihî iskele."
+  ],
+  [
+   "El Prado Park",
+   "Kasaba merkezinde etkinlik alanı."
+  ],
+  [
+   "Commercial Boulevard",
+   "Sahil restoranları ve kafeler."
+  ],
+  [
+   "Gizli köşe: Kıyı resifleri",
+   "Kumsaldan yüzerek ulaşılabilen şnorkel ve dalış noktaları."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Lauderdale-by-the-Sea için 2025 toplam vergi oranı 18,1215 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,81. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.122. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 60 km · 60 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 10 km · 20 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 7 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Lauderdale-by-the-Sea için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Yürünebilir küçük sahil kasabası",
+  "Görece düşük vergi oranı (18,12 mill)",
+  "Yükseklik sınırıyla korunan doku",
+  "Satış süresinde kısalma"
+ ],
+ "cons": [
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Eski kondominyumlarda özel aidat riski",
+  "Medyan fiyatta sert yıllık düşüş (karışım etkisi)",
+  "Kiralık veri sınırlı"
+ ],
+ "faq": [
+  [
+   "Lauderdale-by-the-Sea bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $554.736 (yıllık −%26,0), fit kare fiyatı $450."
+  ],
+  [
+   "Lauderdale-by-the-Sea bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $3.000; 2 yatak odalı $4.275 civarında."
+  ],
+  [
+   "Lauderdale-by-the-Sea bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 18,1215 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,81. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Lauderdale-by-the-Sea Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/10035/FL/Lauderdale-by-the-Sea/housing-market"
+  ],
+  [
+   "Zillow: Lauderdale-by-the-Sea Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/lauderdale-by-the-sea-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Lauderdale-by-the-Sea raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

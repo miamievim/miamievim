@@ -1,0 +1,182 @@
+{
+ "id": "palm-beach-shores",
+ "name": "Palm Beach Shores",
+ "county": "Palm Beach",
+ "meta": "Palm Beach Shores mahalle raporu, Ekim 2026: medyan satış fiyatı $364.826, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Singer Island'ın güney ucunda, Lake Worth Inlet ve Peanut Island'a bakan küçük bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $364.826.",
+ "sales": {
+  "median": 364826,
+  "median_chg": "yıllık −%68,7",
+  "ppsf": 336,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$364.826 <small>(yıllık −%68,7)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$336 / ft² ≈ $3.617 / m² <small>(yıllık −%52,0)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "128 gün <small>(bir yıl önce 34 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "5 <small>(yıllık −%15,4)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,6"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/14029/FL/Palm-Beach-Shores/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Palm Beach Shores Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Son dönemde yalnızca 5 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+  ]
+ },
+ "rent": {
+  "avg": 4167,
+  "chg": "yıllık +$667",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$2.500"
+   ],
+   [
+    "2 yatak odalı",
+    "$5.022"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.250"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.167"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/palm-beach-shores-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Palm Beach Shores</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 19 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 19.0388,
+  "mills_hi": 19.5879,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Palm Beach Shores, Singer Island'ın güney ucunda, Lake Worth Inlet'in kuzey kıyısında yer alan küçük bir kasaba. Konut stoku küçük müstakil evler, kondominyumlar ve tatil kiralamalarından oluşur.",
+  "Kasabanın batısındaki kanal evleri Intracoastal'a doğrudan erişim sağlar; Peanut Island hemen karşıdadır."
+ ],
+ "places": [
+  [
+   "Peanut Island",
+   "Kısa tekne yolculuğuyla şnorkel ve piknik."
+  ],
+  [
+   "Palm Beach Shores plajı",
+   "Inlet'e yakın okyanus kumsalı."
+  ],
+  [
+   "Sailfish Marina",
+   "Tekne turları ve balıkçılık."
+  ],
+  [
+   "Gizli köşe: Inlet manzarası",
+   "Gemilerin limana girişini izleyebileceğiniz kıyı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Palm Beach Shores için 2025 toplam vergi oranı 19,0388–19,5879 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90–1,96. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.039–$19.588. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 105 km · 95 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 10 km · 15 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 6 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Alışveriş ve hizmetler için Riviera Beach ve North Palm Beach'e kısa sürüş."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Palm Beach Shores için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Plaj, inlet ve Peanut Island'a yakınlık",
+  "Kanal evlerinde Intracoastal erişimi",
+  "Küçük ve sakin kasaba",
+  "West Palm Beach'e kısa mesafe"
+ ],
+ "cons": [
+  "Satış sayısı çok az; rakamlar anlamlı değil",
+  "Kıyıda yüksek sigorta maliyeti",
+  "Kiralık ilan az",
+  "Belediye vergisine ek borç servisi oranı"
+ ],
+ "faq": [
+  [
+   "Palm Beach Shores bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $364.826 (yıllık −%68,7), fit kare fiyatı $336. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+  ],
+  [
+   "Palm Beach Shores bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $4.167; 2 yatak odalı $5.022 civarında."
+  ],
+  [
+   "Palm Beach Shores bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 19,0388–19,5879 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90–1,96. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Palm Beach Shores Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/14029/FL/Palm-Beach-Shores/housing-market"
+  ],
+  [
+   "Zillow: Palm Beach Shores Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/palm-beach-shores-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Palm Beach Shores raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,180 @@
+{
+ "id": "highland-beach",
+ "name": "Highland Beach",
+ "county": "Palm Beach",
+ "meta": "Highland Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $929.557, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Boca Raton ile Delray Beach arasında, okyanus ve Intracoastal arasındaki ince şeritte kondominyumlardan oluşan bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $929.557.",
+ "sales": {
+  "median": 929557,
+  "median_chg": "yıllık −%4,2",
+  "ppsf": 579,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$929.557 <small>(yıllık −%4,2)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$579 / ft² ≈ $6.232 / m² <small>(yıllık −%25,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "182 gün <small>(bir yıl önce 116 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "34 <small>(yıllık −%18,3)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%90,9"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/7701/FL/Highland-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Highland Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 7500,
+  "chg": "yıllık +$500",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$5.000"
+   ],
+   [
+    "2 yatak odalı",
+    "$7.250"
+   ],
+   [
+    "3 yatak odalı",
+    "$9.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$7.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/highland-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Highland Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 55 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 15.8473,
+  "mills_hi": 16.3964,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Highland Beach, A1A boyunca yaklaşık 5 kilometre uzanan bir bariyer adası kasabası. Konut stokunun büyük kısmı okyanus kıyısı kondominyumlarından, kalanı Intracoastal kıyısındaki müstakil evlerden oluşur.",
+  "Kasabada ticari alan yok denecek kadar azdır; alışveriş ve restoranlar için Boca Raton ve Delray Beach kullanılır."
+ ],
+ "places": [
+  [
+   "A1A kıyı yolu",
+   "Okyanus manzaralı yürüyüş ve bisiklet rotası."
+  ],
+  [
+   "Highland Beach Library",
+   "Kasabanın küçük kütüphanesi ve etkinlikleri."
+  ],
+  [
+   "Atlantic Avenue (Delray)",
+   "Kuzeyde, birkaç dakika mesafede restoran ve alışveriş."
+  ],
+  [
+   "Gizli köşe: Gün doğumu",
+   "Okyanus kıyısında kalabalıktan uzak sabah yürüyüşleri."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Highland Beach için 2025 toplam vergi oranı 15,8473–16,3964 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,58–1,64. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $15.847–$16.396. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 40 km · 40 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 50 km · 45 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 40 km · 40 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Boca Raton (yaklaşık 4 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Alışveriş ve restoranlar için Boca Raton veya Delray Beach'e kısa sürüş."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Highland Beach için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Okyanus kıyısında yaşam",
+  "Boca Raton ve Delray Beach'e yakınlık",
+  "Düşük belediye oranı",
+  "Sakin ve konut ağırlıklı"
+ ],
+ "cons": [
+  "Uzun satış süresi (182 gün)",
+  "Fit kare fiyatında yıllık düşüş",
+  "Eski kondominyumlarda SIRS ve özel aidat riski",
+  "Kıyıda yüksek sigorta maliyeti"
+ ],
+ "faq": [
+  [
+   "Highland Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $929.557 (yıllık −%4,2), fit kare fiyatı $579."
+  ],
+  [
+   "Highland Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $7.500; 2 yatak odalı $7.250 civarında."
+  ],
+  [
+   "Highland Beach bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 15,8473–16,3964 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,58–1,64. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Highland Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/7701/FL/Highland-Beach/housing-market"
+  ],
+  [
+   "Zillow: Highland Beach Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/highland-beach-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Highland Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,181 @@
+{
+ "id": "coral-springs",
+ "name": "Coral Springs",
+ "county": "Broward",
+ "meta": "Coral Springs mahalle raporu, Ekim 2026: medyan satış fiyatı $634.698, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "1960'larda sıfırdan planlanan, parkları, spor tesisleri ve bakımlı mahalleleriyle bilinen bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $634.698; evler ortalama 60 günde satılıyor.",
+ "sales": {
+  "median": 634698,
+  "median_chg": "yıllık +%4,5",
+  "ppsf": 294,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$634.698 <small>(yıllık +%4,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$294 / ft² ≈ $3.165 / m² <small>(yıllık +%2,8)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "60 gün <small>(bir yıl önce 86 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "350 <small>(yıllık −%12,4)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,6"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/3744/FL/Coral-Springs/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coral Springs Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2300,
+  "chg": "yıllık +$50",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.850"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.700"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.069"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.800"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.300"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/coral-springs-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Coral Springs</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 20.2856,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Coral Springs, 1963'te bir geliştirici tarafından planlı şehir olarak kurulan ve sıkı imar kurallarıyla görünümünü koruyan bir banliyö. Tabela ve cephe düzenlemeleri, geniş yeşil alanlar ve düzenli sokaklar şehrin karakterini belirler.",
+  "Konut stoku ağırlıkla müstakil ev ve townhouse'lardan oluşur; çok sayıda park, spor kompleksi ve sanat merkezi bulunur. Sawgrass Expressway ile Fort Lauderdale ve Boca Raton'a kolay erişim vardır."
+ ],
+ "places": [
+  [
+   "Coral Springs Center for the Arts",
+   "Tiyatro ve konser salonu."
+  ],
+  [
+   "Mullins Park",
+   "Spor sahaları ve etkinlik alanlarıyla şehrin büyük parkı."
+  ],
+  [
+   "Coral Square",
+   "Bölgenin kapalı alışveriş merkezi."
+  ],
+  [
+   "Gizli köşe: Sawgrass Nature Center",
+   "Yaban hayatı hastanesi ve doğa yürüyüş yolu."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Coral Springs için 2025 toplam vergi oranı 20,2856 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,03. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.286. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 65 km · 60 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Pompano Beach (yaklaşık 17 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Coral Springs için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Bakımlı, planlı mahalleler ve çok sayıda park",
+  "Hızlı satışlar (60 gün)",
+  "Dengeli fiyat artışı",
+  "Sawgrass Expressway bağlantısı"
+ ],
+ "cons": [
+  "Vergi oranı 20 mill'in üzerinde",
+  "Plaja ve Miami'ye uzak",
+  "Sitelerde HOA aidatları",
+  "Toplu taşıma sınırlı"
+ ],
+ "faq": [
+  [
+   "Coral Springs bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $634.698 (yıllık +%4,5), fit kare fiyatı $294."
+  ],
+  [
+   "Coral Springs bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.300; 2 yatak odalı $2.069 civarında."
+  ],
+  [
+   "Coral Springs bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,2856 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,03. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Coral Springs Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/3744/FL/Coral-Springs/housing-market"
+  ],
+  [
+   "Zillow: Coral Springs Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/coral-springs-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Coral Springs raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,177 @@
+{
+ "id": "cooper-city",
+ "name": "Cooper City",
+ "county": "Broward",
+ "meta": "Cooper City mahalle raporu, Ekim 2026: medyan satış fiyatı $659.686, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Küçük ölçeği, sakin sokakları ve müstakil ev ağırlıklı yapısıyla Broward'ın en hızlı satış yapan piyasalarından biri. Ekim 2026 itibarıyla medyan satış fiyatı $659.686; evler ortalama 47 günde satılıyor.",
+ "sales": {
+  "median": 659686,
+  "median_chg": "yıllık −%2,6",
+  "ppsf": 377,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$659.686 <small>(yıllık −%2,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$377 / ft² ≈ $4.058 / m² <small>(yıllık +%6,0)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "47 gün <small>(bir yıl önce 90 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "109 <small>(yıllık +%16,9)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,4"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/3670/FL/Cooper-City/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Cooper City Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 3500,
+  "chg": "yıllık −$750",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$1.950"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.700"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.500"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/cooper-city-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Cooper City</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 18.7829,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Cooper City, Davie ile Pembroke Pines arasında, yaklaşık 20 km²'lik küçük bir banliyö. Şehir, \"Someplace Special\" sloganıyla düşük yoğunluklu, müstakil ev ağırlıklı yapısını korur.",
+  "Konut stoku büyük ölçüde müstakil evlerden oluşur ve apartman sayısı sınırlıdır. Parklar ve spor tesisleri şehrin sosyal yaşamının merkezindedir; ticari alanlar ana caddelerde toplanır."
+ ],
+ "places": [
+  [
+   "Brian Piccolo Sports Park",
+   "Velodromu, spor sahaları ve kriket alanıyla ilçe parkı."
+  ],
+  [
+   "Cooper City Community Center",
+   "Etkinlikler ve spor programları."
+  ],
+  [
+   "Pembroke Gardens",
+   "Yakındaki açık hava alışveriş alanı."
+  ],
+  [
+   "Gizli köşe: Piccolo Park velodromu",
+   "Güney Florida'nın nadir açık hava bisiklet pistlerinden biri."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Cooper City için 2025 toplam vergi oranı 18,7829 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.783. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 40 km · 35 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale Havalimanı (yaklaşık 14 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Cooper City için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Bu raporlardaki en hızlı satışlardan biri (47 gün)",
+  "Satışlar ilan fiyatına çok yakın (%97,4)",
+  "Müstakil ev ağırlıklı sakin yapı",
+  "Görece düşük vergi oranı (18,78 mill)"
+ ],
+ "cons": [
+  "Kiralık stok sınırlı",
+  "Toplu taşıma sınırlı",
+  "Plaja ve Miami'ye uzak",
+  "Seçenek sayısı az, rekabet yüksek"
+ ],
+ "faq": [
+  [
+   "Cooper City bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $659.686 (yıllık −%2,6), fit kare fiyatı $377."
+  ],
+  [
+   "Cooper City bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $3.500; 2 yatak odalı $2.700 civarında."
+  ],
+  [
+   "Cooper City bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 18,7829 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Cooper City Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/3670/FL/Cooper-City/housing-market"
+  ],
+  [
+   "Zillow: Cooper City Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/cooper-city-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Cooper City raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,181 @@
+{
+ "id": "miramar",
+ "name": "Miramar",
+ "county": "Broward",
+ "meta": "Miramar mahalle raporu, Ekim 2026: medyan satış fiyatı $548.739, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Miami-Dade sınırında, kurumsal ofis parkları ve yeni nesil sitelerle büyüyen bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $548.739; satışlar ilan fiyatına çok yakın kapanıyor.",
+ "sales": {
+  "median": 548739,
+  "median_chg": "yıllık −%1,1",
+  "ppsf": 321,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$548.739 <small>(yıllık −%1,1)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$321 / ft² ≈ $3.455 / m² <small>(yıllık +%3,9)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "78 gün <small>(bir yıl önce 75 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "259 <small>(yıllık −%13,7)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/11720/FL/Miramar/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Miramar Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2800,
+  "chg": "yıllık −$100",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.350"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.850"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.300"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.100"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.800"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/miramar-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Miramar</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 20.0551,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Miramar, Broward'ın güney sınırında, doğuda eski yerleşim bölgelerinden batıda 2000'lerde kurulan planlı sitelere uzanan geniş bir şehir. Miramar Park of Commerce ve çevresindeki ofis kampüsleri bölgeye önemli bir iş merkezi kimliği kazandırdı.",
+  "Konut stoku ağırlıkla müstakil ev ve townhouse'lardan oluşur. Şehir merkezi (Miramar Town Center) belediye binası, kütüphane ve kültür merkeziyle planlı bir sivil alan olarak tasarlandı. Florida Turnpike ve I-75 Miami'ye hızlı erişim sağlar."
+ ],
+ "places": [
+  [
+   "Miramar Regional Park",
+   "Spor sahaları, amfitiyatro ve su parkı."
+  ],
+  [
+   "Miramar Town Center ve Cultural Center",
+   "Belediye, kütüphane ve gösteri merkezini bir araya getiren sivil alan."
+  ],
+  [
+   "Hard Rock Stadium",
+   "Güneyde, Miami Gardens'ta stadyum ve etkinlikler."
+  ],
+  [
+   "Gizli köşe: Silver Lakes çevresi",
+   "Göller etrafında yürüyüş ve bisiklet için sakin rotalar."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miramar için 2025 toplam vergi oranı 20,0551 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,01. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.055. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 25 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (yaklaşık 11 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Miramar için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Miami'ye ve havalimanlarına yakın konum",
+  "Satışlar ilan fiyatına çok yakın (%97,5)",
+  "Yeni nesil site ve townhouse seçenekleri",
+  "İş merkezlerine yakınlık"
+ ],
+ "cons": [
+  "Vergi oranı 20 mill'in üzerinde",
+  "Plaja uzak",
+  "Turnpike ve I-75 bağlantılarında trafik",
+  "Sitelerde HOA aidatları"
+ ],
+ "faq": [
+  [
+   "Miramar bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $548.739 (yıllık −%1,1), fit kare fiyatı $321."
+  ],
+  [
+   "Miramar bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.800; 2 yatak odalı $2.300 civarında."
+  ],
+  [
+   "Miramar bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,0551 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,01. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Miramar Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/11720/FL/Miramar/housing-market"
+  ],
+  [
+   "Zillow: Miramar Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/miramar-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Miramar raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

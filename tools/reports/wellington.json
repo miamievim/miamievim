@@ -1,0 +1,188 @@
+{
+ "id": "wellington",
+ "name": "Wellington",
+ "county": "Palm Beach",
+ "meta": "Wellington mahalle raporu, Ekim 2026: medyan satış fiyatı $669.681, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Dünyaca bilinen binicilik ve polo sezonuyla, geniş arsalı evler ve planlı sitelerden oluşan bir köy. Ekim 2026 itibarıyla medyan satış fiyatı $669.681; ev ortalama 73 günde satılıyor.",
+ "sales": {
+  "median": 669681,
+  "median_chg": "yıllık −%4,2",
+  "ppsf": 292,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$669.681 <small>(yıllık −%4,2)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$292 / ft² ≈ $3.143 / m² <small>(yıllık −%7,9)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "73 gün <small>(bir yıl önce 94 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "232 <small>(yıllık −%1,0)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/19199/FL/Wellington/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Wellington Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 5500,
+  "chg": "yıllık değişim yok",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.860"
+   ],
+   [
+    "1 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "2 yatak odalı",
+    "$3.052"
+   ],
+   [
+    "3 yatak odalı",
+    "$5.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$5.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/wellington-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Wellington</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Genel ortalamanın oda bazındaki rakamların üzerinde olması, kiralık stokta 4 ve daha fazla yatak odalı büyük evlerin ağırlığından kaynaklanır."
+  ]
+ },
+ "tax": {
+  "mills": 18.1879,
+  "mills_hi": 18.737,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Wellington, Palm Beach County'nin batısında, kış aylarında düzenlenen uluslararası binicilik ve polo etkinlikleriyle tanınan bir köy. Wellington International ve polo kulüpleri çevresindeki at çiftlikleri köyün en ayırt edici bölgesidir.",
+  "Konut stoku planlı sitelerdeki müstakil evlerden binicilik çiftliklerine uzanır. Köy, parklar ve spor tesisleriyle geniş bir yeşil alan ağına sahiptir; kıyıya ve West Palm Beach'e araçla ulaşılır."
+ ],
+ "places": [
+  [
+   "Wellington International",
+   "Kış sezonunda uluslararası binicilik yarışmaları."
+  ],
+  [
+   "National Polo Center",
+   "Polo maçları ve etkinlikler."
+  ],
+  [
+   "Wellington Town Center",
+   "Amfitiyatro, göl kıyısı ve etkinlik alanı."
+  ],
+  [
+   "Gizli köşe: Wellington Environmental Preserve",
+   "Kuş gözlemi ve yürüyüş için doğal alan."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Wellington için 2025 toplam vergi oranı 18,1879–18,7370 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,82–1,87. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.188–$18.737. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Everglades sınırına yakın, alçak ve düz bir arazidir; birçok kesim yüksek riskli (AE/AH) bölgededir. Her adres için FEMA haritasını kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 25 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 85 km · 80 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (yaklaşık 26 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Wellington için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Düşük belediye vergi oranı",
+  "Binicilik ve polo için benzersiz konum",
+  "Satış süresi kısaldı (73 gün)",
+  "Geniş arsalı evler ve parklar"
+ ],
+ "cons": [
+  "Fiyat ve fit kare fiyatında yıllık düşüş",
+  "Plaja ve şehir merkezine uzak",
+  "Alçak arazide sel bölgesi kontrolü gerekli",
+  "Kiralık stokta ortalama yüksek ($5.500)"
+ ],
+ "faq": [
+  [
+   "Wellington bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $669.681 (yıllık −%4,2), fit kare fiyatı $292."
+  ],
+  [
+   "Wellington bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $5.500; 2 yatak odalı $3.052 civarında."
+  ],
+  [
+   "Wellington bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 18,1879–18,7370 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,82–1,87. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Wellington Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/19199/FL/Wellington/housing-market"
+  ],
+  [
+   "Zillow: Wellington Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/wellington-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "Palm Beach County Fire Rescue: hizmet verilen belediyeler",
+   "https://discover.pbc.gov/pbcfr/Pages/Municipalities.aspx"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Wellington raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

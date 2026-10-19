@@ -1,0 +1,186 @@
+{
+ "id": "lantana",
+ "name": "Lantana",
+ "county": "Palm Beach",
+ "meta": "Lantana mahalle raporu, Ekim 2026: medyan satış fiyatı $349.733, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Intracoastal kıyısında, kendi okyanus plajı olan küçük ve uygun fiyatlı bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $349.733.",
+ "sales": {
+  "median": 349733,
+  "median_chg": "yıllık −%9,16",
+  "ppsf": 249,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$349.733 <small>(yıllık −%9,16)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$249 / ft² ≈ $2.680 / m² <small>(yıllık −%14,0)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "111 gün <small>(bir yıl önce 81 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "40 <small>(yıllık +%1,6)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/10004/FL/Lantana/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lantana Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2500,
+  "chg": "yıllık −$250",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.200"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.700"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.500"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.250"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lantana-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lantana</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 19.4679,
+  "mills_hi": 20.017,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Lantana, Lake Worth Beach ile Boynton Beach arasında, Intracoastal kıyısında yer alan küçük bir kasaba. Köprünün karşısındaki bariyer adasında kasabanın halk plajı bulunur.",
+  "Konut stoku müstakil evler, kondominyumlar ve su kenarı mülklerden oluşur. Lantana Airport (genel havacılık) kasabanın batısındadır."
+ ],
+ "places": [
+  [
+   "Lantana Public Beach",
+   "Okyanus kıyısında kasaba plajı."
+  ],
+  [
+   "Sportsman's Park",
+   "Intracoastal kıyısında park ve balıkçılık."
+  ],
+  [
+   "Lantana Nature Preserve",
+   "Mangrov ve kıyı ormanında kısa yürüyüş."
+  ],
+  [
+   "Gizli köşe: Old Key Lime House",
+   "Intracoastal kıyısında tarihî restoran."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Lantana için 2025 toplam vergi oranı 19,4679–20,0170 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,95–2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.468–$20.017. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal ve göl kenarındaki kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; bazı kesimler yüksek riskli bölgededir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 75 km · 70 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (yaklaşık 5 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Lantana için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Görece uygun giriş fiyatları",
+  "Kendi okyanus plajı",
+  "Merkezi konum",
+  "Düşük belediye oranı"
+ ],
+ "cons": [
+  "Fiyatlarda yıllık düşüş (−%9,2)",
+  "Uzayan satış süresi (111 gün)",
+  "Kanal kenarında sel riski",
+  "Eski sitelerde özel aidat riski"
+ ],
+ "faq": [
+  [
+   "Lantana bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $349.733 (yıllık −%9,16), fit kare fiyatı $249."
+  ],
+  [
+   "Lantana bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.500; 2 yatak odalı $2.500 civarında."
+  ],
+  [
+   "Lantana bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 19,4679–20,0170 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,95–2,00. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Lantana Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/10004/FL/Lantana/housing-market"
+  ],
+  [
+   "Zillow: Lantana Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/lantana-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "Palm Beach County Fire Rescue: hizmet verilen belediyeler",
+   "https://discover.pbc.gov/pbcfr/Pages/Municipalities.aspx"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Lantana raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

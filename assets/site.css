@@ -325,3 +325,14 @@ h2 em,h1 em{font-style:italic}
 .il-side li b{font-weight:500;color:var(--ink)}
 .il-wa{margin:20px 0 0;font-size:15px}
 @media (max-width:900px){.il-wrap{grid-template-columns:1fr;gap:40px}.il-side{position:static;padding:24px}}
+/* Rapor merkezi: ilçe grupları */
+.rfilter{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;margin-bottom:24px}
+.rfilter input{flex:1 1 320px;min-height:52px;padding:0 18px;border:1px solid var(--line);background:var(--white);font-family:var(--sans);font-size:16px}
+.rjump{display:flex;gap:18px;font-size:12px;letter-spacing:.24em;text-transform:uppercase}
+.rjump a{text-decoration:none;color:var(--stone)}
+.rjump a:hover{color:var(--ink)}
+.rcounty{font-family:var(--serif);font-weight:400;font-size:34px;margin:56px 0 16px;display:flex;align-items:baseline;gap:16px;scroll-margin-top:24px}
+.rcounty span{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--stone)}
+.rgroups .rlist{border-top:1px solid var(--ink)}
+.rgroups .rrow[hidden],.rgroups [hidden]{display:none}
+.sv-lake{fill:#0B0B0B;stroke:#3A3733;stroke-width:calc(1px * var(--sv,1))}

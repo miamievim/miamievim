@@ -1,0 +1,181 @@
+{
+ "id": "miami-shores",
+ "name": "Miami Shores",
+ "county": "Miami-Dade",
+ "meta": "Miami Shores mahalle raporu, Ekim 2026: medyan satış fiyatı $1.299.381, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Ağaçlı sokakları, 1920–30'lardan kalma evleri ve küçük köy merkeziyle Miami'nin kuzeyinde sakin bir yerleşim. Ekim 2026 itibarıyla medyan satış fiyatı $1.299.381.",
+ "sales": {
+  "median": 1299381,
+  "median_chg": "yıllık +%17,6",
+  "ppsf": 924,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$1.299.381 <small>(yıllık +%17,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$924 / ft² ≈ $9.946 / m² <small>(yıllık +%81,5)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "75 gün <small>(bir yıl önce 87 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "51 <small>(yıllık +%5,8)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,0"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/11513/FL/Miami-Shores/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Miami Shores Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 3500,
+  "chg": "yıllık −$500",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.390"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.870"
+   ],
+   [
+    "2 yatak odalı",
+    "$3.300"
+   ],
+   [
+    "3 yatak odalı",
+    "$5.117"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/miami-shores-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Miami Shores</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 22.6746,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Miami Shores, 1932'de köy (village) olarak kurulan ve bugün de bu karakterini koruyan bir yerleşim. Geniş, ağaçlı caddeler, Akdeniz Canlanması tarzı tarihî evler ve özenli bahçeler köyün kimliğini oluşturur.",
+  "Konut stoku büyük ölçüde müstakil evlerden oluşur. NE 2nd Avenue üzerindeki küçük merkezde restoranlar ve kafeler bulunur; köyün golf sahası, yüzme merkezi ve körfez kıyısındaki küçük parkı sosyal yaşamın odağıdır."
+ ],
+ "places": [
+  [
+   "Miami Shores Country Club",
+   "Köyün tarihî golf sahası."
+  ],
+  [
+   "NE 2nd Avenue köy merkezi",
+   "Restoranlar, kafeler ve küçük dükkânlar."
+  ],
+  [
+   "Barry University",
+   "Köyün içindeki üniversite kampüsü."
+  ],
+  [
+   "Gizli köşe: Bayfront Park",
+   "Biscayne Körfezi kıyısında küçük ve sakin köy parkı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami Shores için 2025 toplam vergi oranı 22,6746 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,27. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $22.675. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (yaklaşık 9 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Köy merkezi yürünebilir; Miami şehir merkezine 15–20 dakika."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Miami Shores için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Tarihî evler ve yoğun ağaç dokusu",
+  "Fiyatlarda güçlü yıllık artış",
+  "Downtown Miami ve Wynwood'a yakınlık",
+  "Hızlı satışlar (75 gün)"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (22,67 mill)",
+  "Eski evlerde yenileme, çatı ve sigorta maliyeti",
+  "Kiralık stok sınırlı",
+  "Biscayne Boulevard ve I-95'te trafik"
+ ],
+ "faq": [
+  [
+   "Miami Shores bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $1.299.381 (yıllık +%17,6), fit kare fiyatı $924."
+  ],
+  [
+   "Miami Shores bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $3.500; 2 yatak odalı $3.300 civarında."
+  ],
+  [
+   "Miami Shores bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 22,6746 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,27. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Miami Shores Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/11513/FL/Miami-Shores/housing-market"
+  ],
+  [
+   "Zillow: Miami Shores Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/miami-shores-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Miami Shores raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

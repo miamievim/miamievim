@@ -1,0 +1,181 @@
+{
+ "id": "lauderdale-lakes",
+ "name": "Lauderdale Lakes",
+ "county": "Broward",
+ "meta": "Lauderdale Lakes mahalle raporu, Ekim 2026: medyan satış fiyatı $139.933, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Merkezi Broward'da, göllerle çevrili ve bölgenin en uygun fiyatlı seçeneklerinden birini sunan küçük bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $139.933.",
+ "sales": {
+  "median": 139933,
+  "median_chg": "yıllık −%6,7",
+  "ppsf": 114,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$139.933 <small>(yıllık −%6,7)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$114 / ft² ≈ $1.227 / m² <small>(yıllık −%23,7)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "105 gün <small>(bir yıl önce 159 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "76 <small>(yıllık +%1,6)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,1"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/10054/FL/Lauderdale-Lakes/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lauderdale Lakes Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 1700,
+  "chg": "yıllık değişim yok",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.100"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.500"
+   ],
+   [
+    "2 yatak odalı",
+    "$1.800"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.250"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$1.700"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lauderdale-lakes-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lauderdale Lakes</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 23.1875,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Lauderdale Lakes, Fort Lauderdale'in kuzeybatısında, adını çevresindeki göllerden alan küçük bir şehir. Konumu, Fort Lauderdale şehir merkezine ve I-95 ile Florida Turnpike'a kısa mesafede olmasını sağlar.",
+  "Konut stoku ağırlıkla eski kondominyum siteleri, villalar ve müstakil evlerden oluşur. Görece düşük fiyatlar ilk kez ev alanlar ve yatırımcılar için ilgi çeker; ancak eski sitelerde bakım ve özel aidat durumunu dikkatle incelemek gerekir."
+ ],
+ "places": [
+  [
+   "Fort Lauderdale şehir merkezi",
+   "Yaklaşık 15 dakika mesafede."
+  ],
+  [
+   "Central Broward Regional Park",
+   "Komşu Lauderhill'de büyük park ve kriket stadyumu."
+  ],
+  [
+   "Westfield Broward",
+   "Yakındaki alışveriş merkezi."
+  ],
+  [
+   "Gizli köşe: Şehrin gölleri",
+   "Göl kenarında sakin yürüyüş rotaları."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Lauderdale Lakes için 2025 toplam vergi oranı 23,1875 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,32. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $23.188. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 55 km · 50 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 10 km · 20 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale (yaklaşık 8 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Lauderdale Lakes için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Broward'daki en uygun giriş fiyatlarından biri",
+  "Merkezi konum",
+  "Satış süresinde kısalma",
+  "Kiralık stok mevcut"
+ ],
+ "cons": [
+  "Bu raporlardaki en yüksek vergi oranı (23,19 mill)",
+  "Eski sitelerde özel aidat ve bakım riski",
+  "Fit kare fiyatında yıllık düşüş",
+  "Plaja uzak"
+ ],
+ "faq": [
+  [
+   "Lauderdale Lakes bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $139.933 (yıllık −%6,7), fit kare fiyatı $114."
+  ],
+  [
+   "Lauderdale Lakes bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $1.700; 2 yatak odalı $1.800 civarında."
+  ],
+  [
+   "Lauderdale Lakes bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 23,1875 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,32. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Lauderdale Lakes Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/10054/FL/Lauderdale-Lakes/housing-market"
+  ],
+  [
+   "Zillow: Lauderdale Lakes Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/lauderdale-lakes-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Lauderdale Lakes raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

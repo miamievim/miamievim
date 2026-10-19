@@ -1,0 +1,170 @@
+{
+ "id": "sweetwater",
+ "name": "Sweetwater",
+ "county": "Miami-Dade",
+ "meta": "Sweetwater mahalle raporu, Ekim 2026: medyan satış fiyatı $629.700, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Florida International University kampüsüne ve Dolphin Mall'a komşu, öğrenci konutlarıyla dönüşen küçük bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $629.700.",
+ "sales": {
+  "median": 629700,
+  "median_chg": "yıllık +%55,5",
+  "ppsf": 444,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$629.700 <small>(yıllık +%55,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$444 / ft² ≈ $4.779 / m² <small>(yıllık +%5,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "107 gün <small>(bir yıl önce 76 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "11 <small>(yıllık +%86,2)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/17973/FL/Sweetwater/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sweetwater Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2450,
+  "chg": "yıllık −$125",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "2 yatak odalı",
+    "$2.321"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.050"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.450"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/sweetwater-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Sweetwater</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 29 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 18.5861,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Sweetwater, batı Miami-Dade'de, Florida International University'nin ana kampüsüne komşu küçük bir şehir. Kampüse yakınlık son yıllarda çok sayıda öğrenci yurdu ve kiralık bina projesini beraberinde getirdi.",
+  "Konut stoku tek katlı müstakil evlerden yeni apartmanlara uzanır. Dolphin Mall ve Turnpike/Dolphin Expressway kavşağı şehrin hemen kuzeyindedir."
+ ],
+ "places": [
+  [
+   "Florida International University",
+   "Ana kampüs; spor ve kültür etkinlikleri."
+  ],
+  [
+   "Dolphin Mall",
+   "Bölgenin büyük outlet alışveriş merkezi."
+  ],
+  [
+   "Tamiami Trail",
+   "Batıda Everglades'e uzanan tarihî yol."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Sweetwater için 2025 toplam vergi oranı 18,5861 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,86. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.586. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Everglades sınırına yakın, alçak ve düz bir arazidir; birçok kesim yüksek riskli (AE/AH) bölgededir. Her adres için FEMA haritasını kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 10 km · 20 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 55 km · 50 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 25 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Hialeah Market (yaklaşık 17 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Sweetwater için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Üniversiteye yakınlık ve güçlü kira talebi",
+  "Görece makul vergi oranı (18,59 mill)",
+  "Alışveriş ve otoyollara yakınlık"
+ ],
+ "cons": [
+  "Satış sayısı az; fiyat verisi oynak",
+  "Alçak arazide sel bölgesi kontrolü",
+  "Kampüs çevresinde trafik",
+  "Plaja uzak"
+ ],
+ "faq": [
+  [
+   "Sweetwater bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $629.700 (yıllık +%55,5), fit kare fiyatı $444."
+  ],
+  [
+   "Sweetwater bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.450; 2 yatak odalı $2.321 civarında."
+  ],
+  [
+   "Sweetwater bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 18,5861 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,86. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Sweetwater Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/17973/FL/Sweetwater/housing-market"
+  ],
+  [
+   "Zillow: Sweetwater Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/sweetwater-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Sweetwater raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

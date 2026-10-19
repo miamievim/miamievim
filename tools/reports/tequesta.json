@@ -1,0 +1,178 @@
+{
+ "id": "tequesta",
+ "name": "Tequesta",
+ "county": "Palm Beach",
+ "meta": "Tequesta mahalle raporu, Ekim 2026: medyan satış fiyatı $584.722, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Jupiter'in kuzeyinde, Loxahatchee Nehri ve Intracoastal arasında sakin bir köy. Ekim 2026 itibarıyla medyan satış fiyatı $584.722.",
+ "sales": {
+  "median": 584722,
+  "median_chg": "yıllık −%26,0",
+  "ppsf": 418,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$584.722 <small>(yıllık −%26,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$418 / ft² ≈ $4.499 / m² <small>(yıllık +%19,1)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "53 gün <small>(bir yıl önce 85 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "25 <small>(yıllık −%27,5)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,8"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/18272/FL/Tequesta/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Tequesta Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 6000,
+  "chg": "yıllık +$1.500",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$1.795"
+   ],
+   [
+    "2 yatak odalı",
+    "$4.500"
+   ],
+   [
+    "3 yatak odalı",
+    "$8.500"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$6.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/tequesta-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Tequesta</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 18.8093,
+  "mills_hi": 19.3584,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Tequesta, Palm Beach County'nin en kuzeyindeki yerleşimlerden biri; Loxahatchee Nehri'nin kuzey kolu ve Intracoastal kıyısında yer alır. Köyün adı bölgenin yerli halkından gelir.",
+  "Konut stoku nehir ve kanal kenarı müstakil evlerden ve kondominyumlardan oluşur. Köy sınırında Coral Cove Park ve Jupiter Island plajları bulunur."
+ ],
+ "places": [
+  [
+   "Coral Cove Park",
+   "Okyanus ile Intracoastal arasında doğal plaj."
+  ],
+  [
+   "Loxahatchee River",
+   "Kano ve tekne için nehir kolları."
+  ],
+  [
+   "Tequesta Drive",
+   "Köyün küçük ticari merkezi."
+  ],
+  [
+   "Gizli köşe: Blowing Rocks Preserve",
+   "Yakında, dalgaların kireçtaşından fışkırdığı kıyı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Tequesta için 2025 toplam vergi oranı 18,8093–19,3584 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88–1,94. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.809–$19.358. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve Jupiter Inlet District oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal ve göl kenarındaki kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; bazı kesimler yüksek riskli bölgededir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 40 km · 40 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 130 km · 115 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 30 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Tequesta için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Hızlı satışlar (53 gün)",
+  "Nehir ve plaja yakınlık",
+  "Fit kare fiyatında yıllık artış",
+  "Sakin, küçük ölçekli köy"
+ ],
+ "cons": [
+  "Medyan fiyatta sert yıllık düşüş (satış karışımı etkisi)",
+  "Kiralık stok sınırlı ve pahalı",
+  "Miami'ye uzak",
+  "Yüksek belediye oranı"
+ ],
+ "faq": [
+  [
+   "Tequesta bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $584.722 (yıllık −%26,0), fit kare fiyatı $418."
+  ],
+  [
+   "Tequesta bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $6.000; 2 yatak odalı $4.500 civarında."
+  ],
+  [
+   "Tequesta bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 18,8093–19,3584 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88–1,94. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Tequesta Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/18272/FL/Tequesta/housing-market"
+  ],
+  [
+   "Zillow: Tequesta Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/tequesta-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Tequesta raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

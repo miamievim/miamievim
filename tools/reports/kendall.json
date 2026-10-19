@@ -1,0 +1,179 @@
+{
+ "id": "kendall",
+ "name": "Kendall",
+ "county": "Miami-Dade",
+ "meta": "Kendall mahalle raporu, Ekim 2026: medyan satış fiyatı $596.667, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Dadeland alışveriş merkezi, büyük hastaneleri ve geniş banliyö mahalleleriyle güneybatı Miami-Dade'in merkezi. Zillow'a göre medyan satış fiyatı $596.667 (Ağustos 2026).",
+ "sales": {
+  "median": 596667,
+  "median_chg": "Ağustos 2026",
+  "ppsf": null,
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$596.667 <small>(Ağustos 2026)</small>"
+   ],
+   [
+    "Tipik ev değeri (ZHVI)",
+    "$534.853 <small>(yıllık +%0,4, Eylül 2026)</small>"
+   ],
+   [
+    "Satışa kadar geçen medyan süre",
+    "46 gün <small>(Eylül 2026)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/kendall-fl/home-values/\" target=\"_blank\" rel=\"noopener\">Zillow Home Values, Kendall</a>, Ekim 2026 erişimi.",
+  "notes": [
+   "Bu bölge için Redfin verisine erişilemediği için Zillow'un ev değeri endeksi (ZHVI) ve medyan satış fiyatı kullanıldı. ZHVI, satılan evlerin değil bölgedeki tipik bir evin tahmini değerini gösterir; fit kare fiyatı bu kaynakta yayımlanmaz."
+  ]
+ },
+ "rent": {
+  "avg": 2230,
+  "chg": "yıllık −$100",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.386"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.844"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.300"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.300"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.230"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33176/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33176</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 16.9317,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Kendall, güneybatı Miami-Dade'de, herhangi bir belediyeye bağlı olmayan (unincorporated) geniş bir banliyö bölgesi. Kendall Drive boyunca alışveriş merkezleri, hastaneler ve ofisler sıralanır; Dadeland bölgesi yoğun ve yürünebilir bir alt merkezdir.",
+  "Konut stoku müstakil evler, townhouse'lar ve kondominyumlardan oluşur. Metrorail'in güney ucu Dadeland'de sona erer; South Dade Busway güneydeki bölgelere bağlantı sağlar."
+ ],
+ "places": [
+  [
+   "Dadeland Mall",
+   "Bölgenin en büyük alışveriş merkezlerinden biri."
+  ],
+  [
+   "Kendall Indian Hammocks Park",
+   "Doğal hamak ormanı ve spor sahaları."
+  ],
+  [
+   "Zoo Miami",
+   "Güneybatıda, ülkenin büyük hayvanat bahçelerinden biri."
+  ],
+  [
+   "Gizli köşe: Snapper Creek Trail",
+   "Kanal boyunca uzanan bisiklet ve yürüyüş yolu."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Kendall (belediyeye bağlı olmayan Miami-Dade) için 2025 toplam vergi oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.932. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 60 km · 55 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrorail Dadeland North ve Dadeland South istasyonları, South Dade Busway ve Metrobus hatları."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Kendall için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Bu raporlardaki en düşük vergi oranlarından biri (16,93 mill)",
+  "Hastaneler, okullar ve alışverişe yakınlık",
+  "Metrorail bağlantısı (Dadeland)",
+  "Geniş konut seçeneği"
+ ],
+ "cons": [
+  "Kendall Drive ve Palmetto'da yoğun trafik",
+  "Plaja uzak",
+  "Belediye hizmetleri ilçe tarafından verilir",
+  "Satış verisi Redfin yerine Zillow'dan"
+ ],
+ "faq": [
+  [
+   "Kendall bölgesinde ev fiyatları ne kadar?",
+   "Zillow verisine göre medyan satış fiyatı $596.667 (Ağustos 2026); tipik ev değeri (ZHVI) Eylül 2026 itibarıyla $534.853."
+  ],
+  [
+   "Kendall bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.230; 2 yatak odalı $2.300 civarında."
+  ],
+  [
+   "Kendall bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Zillow: Kendall Home Values (Ekim 2026)",
+   "https://www.zillow.com/kendall-fl/home-values/"
+  ],
+  [
+   "Zillow: ZIP 33176 Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33176/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Kendall raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

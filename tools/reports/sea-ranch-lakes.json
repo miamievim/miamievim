@@ -1,0 +1,156 @@
+{
+ "id": "sea-ranch-lakes",
+ "name": "Sea Ranch Lakes",
+ "county": "Broward",
+ "meta": "Sea Ranch Lakes mahalle raporu, Ekim 2026: medyan satış fiyatı $3.900.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Fort Lauderdale ile Lauderdale-by-the-Sea arasında, okyanus kıyısında kapılı ve yalnızca birkaç yüz evden oluşan küçük bir köy. Satış sayısı çok az olduğu için fiyatlar oynaktır.",
+ "sales": {
+  "median": 3900000,
+  "median_chg": "yıllık +%111,1",
+  "ppsf": 1130,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$3.900.000 <small>(yıllık +%111,1)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$1.130 / ft² ≈ $12.163 / m² <small>(yıllık +%72,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "97 gün"
+   ],
+   [
+    "Satılan konut",
+    "2"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%92,9"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/16589/FL/Sea-Ranch-Lakes/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sea Ranch Lakes Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Son dönemde yalnızca 2 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+  ]
+ },
+ "rent": {
+  "avg": null,
+  "chg": "",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Kiralık ilan sayısı",
+    "1"
+   ]
+  ],
+  "src": "Zillow Rental Market Trends, 17 Ekim 2026.",
+  "notes": [
+   "Bu bölgede kiralık ilan sayısı ortalama hesaplamak için yetersiz. Kiralık ev arıyorsanız komşu bölgelerin raporlarına bakın ya da size uygun ilanları doğrudan isteyin."
+  ]
+ },
+ "tax": {
+  "mills": 20.2215,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Sea Ranch Lakes, A1A üzerinde, kapılı girişi ve göl çevresine dizilmiş evleriyle Broward'ın en küçük belediyelerinden biri. Köy sakinlerine özel bir plaj kulübü bulunur.",
+  "Konut stoku büyük ölçüde müstakil evlerden oluşur; köyün doğu tarafında okyanus cepheli kondominyumlar yer alır. Yılda yalnızca birkaç satış gerçekleştiği için fiyatlar ev özelliklerine göre çok değişir."
+ ],
+ "places": [
+  [
+   "Sea Ranch Lakes plaj kulübü",
+   "Köy sakinlerine özel okyanus kıyısı."
+  ],
+  [
+   "Lauderdale-by-the-Sea",
+   "Kuzeyde iskele, restoranlar ve kıyı resifleri."
+  ],
+  [
+   "Galt Ocean Mile",
+   "Güneyde kondominyumlar ve restoranlar."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Sea Ranch Lakes için 2025 toplam vergi oranı 20,2215 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,02. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.222. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 65 km · 60 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 15 km · 20 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 6 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Sea Ranch Lakes için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Kapılı, sakin ve küçük topluluk",
+  "Okyanusa yürüme mesafesi",
+  "Lauderdale-by-the-Sea'nin restoranlarına yakınlık"
+ ],
+ "cons": [
+  "Satış sayısı çok az; fiyat verisi anlamlı değil",
+  "Kıyı bölgesi sel ve fırtına riski",
+  "Vergi oranı 20 mill'in üzerinde",
+  "Kiralık seçenek neredeyse yok"
+ ],
+ "faq": [
+  [
+   "Sea Ranch Lakes bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $3.900.000 (yıllık +%111,1), fit kare fiyatı $1.130. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+  ],
+  [
+   "Sea Ranch Lakes bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,2215 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,02. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Sea Ranch Lakes Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/16589/FL/Sea-Ranch-Lakes/housing-market"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Sea Ranch Lakes raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

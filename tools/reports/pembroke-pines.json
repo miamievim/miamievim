@@ -1,0 +1,181 @@
+{
+ "id": "pembroke-pines",
+ "name": "Pembroke Pines",
+ "county": "Broward",
+ "meta": "Pembroke Pines mahalle raporu, Ekim 2026: medyan satış fiyatı $471.525, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Broward'ın en büyük banliyölerinden biri: göl kenarı siteler, parklar ve Miami ile Fort Lauderdale arasında merkezi konum. Ekim 2026 itibarıyla medyan satış fiyatı $471.525; ev ortalama 74 günde satılıyor.",
+ "sales": {
+  "median": 471525,
+  "median_chg": "yıllık −%6,5",
+  "ppsf": 290,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$471.525 <small>(yıllık −%6,5)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$290 / ft² ≈ $3.122 / m² <small>(yıllık −%2,0)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "74 gün <small>(bir yıl önce 84 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "494 <small>(yıllık −%2,6)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,9"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/14437/FL/Pembroke-Pines/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pembroke Pines Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2600,
+  "chg": "yıllık −$90",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.300"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.750"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.250"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.300"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.600"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pembroke-pines-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pembroke Pines</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 18.8931,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Pembroke Pines, Broward County'nin güneybatısında, 1960'ta kurulan ve bugün ilçenin en kalabalık şehirlerinden biri olan geniş bir banliyö. Şehrin dokusunu göller etrafına kurulmuş planlı siteler, kapılı topluluklar ve geniş caddeler belirler.",
+  "Konut stoku ağırlıkla müstakil ev ve townhouse'lardan oluşur; doğu kesimlerde daha eski ve uygun fiyatlı kondominyumlar bulunur. Pines Boulevard boyunca alışveriş merkezleri, hastaneler ve restoranlar sıralanır; Florida Turnpike ve I-75 hem Miami'ye hem Fort Lauderdale'e hızlı erişim sağlar."
+ ],
+ "places": [
+  [
+   "C.B. Smith Park",
+   "Göl, su parkı, kamp alanı ve yürüyüş yollarıyla büyük ilçe parkı."
+  ],
+  [
+   "Pembroke Gardens",
+   "Açık hava alışveriş ve restoran alanı."
+  ],
+  [
+   "Pembroke Lakes Mall",
+   "Bölgenin büyük kapalı alışveriş merkezi."
+  ],
+  [
+   "Gizli köşe: Chapel Trail Nature Preserve",
+   "Everglades bitki örtüsü arasında yükseltilmiş ahşap yürüyüş yolu."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Pembroke Pines için 2025 toplam vergi oranı 18,8931 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.893. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 40 km · 40 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Opa-locka (yaklaşık 20 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Pembroke Pines için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Merkezi konum: Miami ve Fort Lauderdale'e eşit mesafe",
+  "Yüksek satış/ilan oranı ve hızlı satışlar",
+  "Geniş müstakil ev ve townhouse seçeneği",
+  "Broward ortalamasına göre makul vergi oranı (18,89 mill)"
+ ],
+ "cons": [
+  "Toplu taşıma sınırlı; araç zorunlu",
+  "Plaja 30 dakikadan uzak",
+  "Sitelerde HOA aidatları ve kuralları",
+  "Pines Boulevard ve otoyol girişlerinde yoğun trafik"
+ ],
+ "faq": [
+  [
+   "Pembroke Pines bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $471.525 (yıllık −%6,5), fit kare fiyatı $290."
+  ],
+  [
+   "Pembroke Pines bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.600; 2 yatak odalı $2.250 civarında."
+  ],
+  [
+   "Pembroke Pines bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 18,8931 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Pembroke Pines Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/14437/FL/Pembroke-Pines/housing-market"
+  ],
+  [
+   "Zillow: Pembroke Pines Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/pembroke-pines-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Pembroke Pines raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

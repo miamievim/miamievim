@@ -1,0 +1,177 @@
+{
+ "id": "west-park",
+ "name": "West Park",
+ "county": "Broward",
+ "meta": "West Park mahalle raporu, Ekim 2026: medyan satış fiyatı $434.793, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Miami-Dade sınırında, konut ağırlıklı küçük bir şehir; Broward'ın en hızlı satış yapan piyasalarından biri. Ekim 2026 itibarıyla medyan satış fiyatı $434.793.",
+ "sales": {
+  "median": 434793,
+  "median_chg": "yıllık +%5,4",
+  "ppsf": 334,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$434.793 <small>(yıllık +%5,4)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$334 / ft² ≈ $3.595 / m² <small>(yıllık +%0,8)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "67 gün <small>(bir yıl önce 66 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "44 <small>(yıllık +%118,4)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%98,1"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/19391/FL/West-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, West Park Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2150,
+  "chg": "yıllık −$450",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.190"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.490"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.000"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.800"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.150"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/west-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, West Park</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 20.8379,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "West Park, 2005'te kurulan, Broward'ın en genç şehirlerinden biri. Miramar, Pembroke Park ve Hollywood arasında yer alır; konut ağırlıklı mahallelerden oluşur.",
+  "Konut stoku ağırlıkla tek katlı müstakil evlerden oluşur. I-95, Florida Turnpike ve Miami-Dade sınırına yakınlık, Miami'de çalışanlar için pratik bir konum sağlar."
+ ],
+ "places": [
+  [
+   "Hollywood ve Hallandale Beach",
+   "Doğuda plajlar ve restoranlar."
+  ],
+  [
+   "Aventura Mall",
+   "Yaklaşık 15 dakika mesafede."
+  ],
+  [
+   "Hard Rock Stadium",
+   "Güneyde, Miami Gardens'ta."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "West Park için 2025 toplam vergi oranı 20,8379 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,08. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.838. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 15 km · 20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 30 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Hollywood (yaklaşık 6 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) West Park için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Satışlar ilan fiyatına çok yakın (%98,1)",
+  "Miami'ye kısa mesafe",
+  "Satış sayısında güçlü artış",
+  "Uygun kiralar"
+ ],
+ "cons": [
+  "Vergi oranı 20 mill'in üzerinde",
+  "Kiralarda yıllık düşüş",
+  "Plaja doğrudan erişim yok",
+  "Toplu taşıma sınırlı"
+ ],
+ "faq": [
+  [
+   "West Park bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $434.793 (yıllık +%5,4), fit kare fiyatı $334."
+  ],
+  [
+   "West Park bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.150; 2 yatak odalı $2.000 civarında."
+  ],
+  [
+   "West Park bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,8379 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,08. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: West Park Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/19391/FL/West-Park/housing-market"
+  ],
+  [
+   "Zillow: West Park Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/west-park-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, West Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

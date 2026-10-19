@@ -1,0 +1,176 @@
+{
+ "id": "southwest-ranches",
+ "name": "Southwest Ranches",
+ "county": "Broward",
+ "meta": "Southwest Ranches mahalle raporu, Ekim 2026: medyan satış fiyatı $2.446.335, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Büyük arsalı çiftlik evleri, binicilik yolları ve kırsal karakteriyle Broward'ın batısında bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $2.446.335.",
+ "sales": {
+  "median": 2446335,
+  "median_chg": "yıllık +%63,2",
+  "ppsf": 480,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$2.446.335 <small>(yıllık +%63,2)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$480 / ft² ≈ $5.167 / m² <small>(yıllık +%0,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "95 gün <small>(bir yıl önce 95 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "20 <small>(yıllık +%35,4)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,3"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/17461/FL/Southwest-Ranches/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Southwest Ranches Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 8500,
+  "chg": "yıllık −$4.500",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$1.200"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.300"
+   ],
+   [
+    "3 yatak odalı",
+    "$7.500"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$8.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/southwest-ranches-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Southwest Ranches</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 11 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin.",
+   "Genel ortalamanın oda bazındaki rakamların üzerinde olması, kiralık stokta 4 ve daha fazla yatak odalı büyük evlerin ağırlığından kaynaklanır."
+  ]
+ },
+ "tax": {
+  "mills": 16.8379,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Southwest Ranches, 2000 yılında kırsal yaşam tarzını korumak amacıyla kurulan bir kasaba. İmar kuralları büyük arsaları ve düşük yoğunluğu korur; birçok evde at ahırı, binicilik alanı veya meyve bahçesi bulunur.",
+  "Konut stoku 1 dönümden büyük arsalardaki müstakil evlerden oluşur; apartman veya kondominyum neredeyse yoktur. Davie, Pembroke Pines ve Weston'ın alışveriş merkezlerine kısa mesafededir."
+ ],
+ "places": [
+  [
+   "Binicilik yolları",
+   "Kasaba boyunca uzanan at ve yürüyüş parkurları."
+  ],
+  [
+   "Sunshine Ranches",
+   "Geniş arsalı çiftlik evleri bölgesi."
+  ],
+  [
+   "Pembroke Pines ve Davie",
+   "Alışveriş ve hizmetler için 10–15 dakika."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Southwest Ranches için 2025 toplam vergi oranı 16,8379 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,68. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.838. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Everglades sınırına yakın, alçak ve düz bir arazidir; birçok kesim yüksek riskli (AE/AH) bölgededir. Her adres için FEMA haritasını kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 35 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 40 km · 40 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 25 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale Havalimanı (yaklaşık 22 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Southwest Ranches için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Geniş arsalar ve kırsal yaşam",
+  "Bu raporlardaki düşük vergi oranlarından biri (16,84 mill)",
+  "Binicilik imkânı",
+  "Düşük yoğunluk"
+ ],
+ "cons": [
+  "Yüksek giriş fiyatı",
+  "Toplu taşıma yok; araç zorunlu",
+  "Alçak arazide sel bölgesi kontrolü",
+  "Kiralık seçenek çok sınırlı"
+ ],
+ "faq": [
+  [
+   "Southwest Ranches bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $2.446.335 (yıllık +%63,2), fit kare fiyatı $480."
+  ],
+  [
+   "Southwest Ranches bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $8.500; 2 yatak odalı $2.300 civarında."
+  ],
+  [
+   "Southwest Ranches bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 16,8379 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,68. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Southwest Ranches Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/17461/FL/Southwest-Ranches/housing-market"
+  ],
+  [
+   "Zillow: Southwest Ranches Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/southwest-ranches-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Southwest Ranches raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

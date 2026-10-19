@@ -1,0 +1,173 @@
+{
+ "id": "westlake",
+ "name": "Westlake",
+ "county": "Palm Beach",
+ "meta": "Westlake mahalle raporu, Ekim 2026: medyan satış fiyatı $609.710, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "2016'da kurulan, yeni evlerden ve planlı mahallelerden oluşan Palm Beach County'nin en genç şehri. Ekim 2026 itibarıyla medyan satış fiyatı $609.710; satışlar ilan fiyatına çok yakın kapanıyor.",
+ "sales": {
+  "median": 609710,
+  "median_chg": "yıllık +%1,6",
+  "ppsf": 275,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$609.710 <small>(yıllık +%1,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$275 / ft² ≈ $2.960 / m² <small>(yıllık −%2,0)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "96 gün <small>(bir yıl önce 72 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "58 <small>(yıllık −%8,1)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%98,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/37635/FL/Westlake/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Westlake Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 4000,
+  "chg": "yıllık −$200",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "3 yatak odalı",
+    "$3.699"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/westlake-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Westlake</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 27 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin.",
+   "Genel ortalamanın oda bazındaki rakamların üzerinde olması, kiralık stokta 4 ve daha fazla yatak odalı büyük evlerin ağırlığından kaynaklanır."
+  ]
+ },
+ "tax": {
+  "mills": 16.9598,
+  "mills_hi": 17.5089,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Westlake, Palm Beach County'nin batısında, eski tarım arazileri üzerinde 2016'da kurulan planlı bir şehir. Konut stoku büyük ölçüde son yıllarda inşa edilmiş müstakil evlerden ve townhouse'lardan oluşur.",
+  "Şehir hâlâ inşaat aşamasındadır; yeni mahalleler, parklar ve ticari alanlar aşamalı olarak açılıyor. Kıyıya ve West Palm Beach'e araçla ulaşılır."
+ ],
+ "places": [
+  [
+   "Westlake Adventure Park",
+   "Su oyun alanı ve spor tesisleri."
+  ],
+  [
+   "Seminole Pratt Whitney Road",
+   "Yeni ticari alanlar ve hizmetler."
+  ],
+  [
+   "Wellington",
+   "Güneyde binicilik ve alışveriş."
+  ],
+  [
+   "Gizli köşe: J.W. Corbett Wildlife Management Area",
+   "Yakında, doğa yürüyüşü ve kuş gözlemi."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Westlake için 2025 toplam vergi oranı 16,9598–17,5089 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,70–1,75. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.960–$17.509. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Everglades sınırına yakın, alçak ve düz bir arazidir; birçok kesim yüksek riskli (AE/AH) bölgededir. Her adres için FEMA haritasını kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 100 km · 90 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 32 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Westlake için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Yeni inşa evler ve modern altyapı",
+  "Satışlar ilan fiyatına çok yakın (%98,5)",
+  "Fiyatlarda yıllık artış",
+  "Planlı mahalleler ve parklar"
+ ],
+ "cons": [
+  "Kıyıya ve şehir merkezine uzak",
+  "Uzayan satış süresi (96 gün)",
+  "Yeni topluluklarda ek bölge aidatları olabilir",
+  "Alçak arazide sel bölgesi kontrolü gerekli"
+ ],
+ "faq": [
+  [
+   "Westlake bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $609.710 (yıllık +%1,6), fit kare fiyatı $275."
+  ],
+  [
+   "Westlake bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $4.000."
+  ],
+  [
+   "Westlake bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 16,9598–17,5089 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,70–1,75. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Westlake Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/37635/FL/Westlake/housing-market"
+  ],
+  [
+   "Zillow: Westlake Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/westlake-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Westlake raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

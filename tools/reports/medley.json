@@ -1,0 +1,164 @@
+{
+ "id": "medley",
+ "name": "Medley",
+ "county": "Miami-Dade",
+ "meta": "Medley mahalle raporu, Ekim 2026: medyan satış fiyatı $659.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Depolar, lojistik ve sanayi tesislerinin ağırlıkta olduğu, konut stoku çok sınırlı bir kasaba. Satış sayısı çok az olduğu için fiyat verisi anlamlı değildir.",
+ "sales": {
+  "median": 659000,
+  "median_chg": "yıllık −%26,6",
+  "ppsf": 322,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$659.000 <small>(yıllık −%26,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$322 / ft² ≈ $3.466 / m²"
+   ],
+   [
+    "Ortalama satış süresi",
+    "49 gün"
+   ],
+   [
+    "Satılan konut",
+    "1"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%98,4"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/11179/FL/Medley/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Medley Housing Market</a>, Ekim 2026 erişimi (Mayıs 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Son dönemde yalnızca 1 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir.",
+   "Redfin bu bölge için en son Mayıs 2026 verisini yayımlamıştır; satış sayısı çok az olduğu için güncelleme seyrek yapılır."
+  ]
+ },
+ "rent": {
+  "avg": 6500,
+  "chg": "yıllık +$500",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Tüm konutlar (ortalama)",
+    "$6.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/medley-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Medley</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 5 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 18.8727,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Medley, Miami Uluslararası Havalimanı'nın kuzeybatısında, büyük ölçüde sanayi, depo ve lojistik tesislerinden oluşan bir kasaba. Bölge, Miami'nin ithalat-ihracat ve dağıtım ekonomisinde önemli bir rol oynar.",
+  "Konut stoku çok sınırlıdır ve büyük ölçüde birkaç küçük konut bölgesi ile mobil ev topluluklarından oluşur. Konut arayanlar için komşu Doral, Hialeah Gardens ve Miami Springs daha geniş seçenek sunar."
+ ],
+ "places": [
+  [
+   "Doral",
+   "Güneyde alışveriş ve iş merkezleri."
+  ],
+  [
+   "Miami Uluslararası Havalimanı",
+   "Yaklaşık 15 dakika."
+  ],
+  [
+   "Hialeah Gardens",
+   "Kuzeyde konut ağırlıklı komşu şehir."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Medley için 2025 toplam vergi oranı 18,8727 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.873. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 8 km · 15 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 40 km · 40 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Metrorail Transfer (yaklaşık 9 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Medley için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Havalimanı ve lojistik merkezlerine yakınlık",
+  "Görece makul vergi oranı (18,87 mill)"
+ ],
+ "cons": [
+  "Konut stoku ve satış sayısı çok sınırlı",
+  "Sanayi alanlarına komşu konutlar ve ağır araç trafiği",
+  "Kiralık ilan yok denecek kadar az",
+  "Fiyat verisi güncel değil"
+ ],
+ "faq": [
+  [
+   "Medley bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Mayıs 2026 itibarıyla son 3 ayda medyan satış fiyatı $659.000 (yıllık −%26,6), fit kare fiyatı $322. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+  ],
+  [
+   "Medley bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $6.500."
+  ],
+  [
+   "Medley bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 18,8727 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Medley Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/11179/FL/Medley/housing-market"
+  ],
+  [
+   "Zillow: Medley Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/medley-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Medley raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

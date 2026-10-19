@@ -1,0 +1,181 @@
+{
+ "id": "cutler-bay",
+ "name": "Cutler Bay",
+ "county": "Miami-Dade",
+ "meta": "Cutler Bay mahalle raporu, Ekim 2026: medyan satış fiyatı $581.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Biscayne Körfezi kıyısında, marinası ve uygun fiyatlı müstakil evleriyle güney Miami-Dade'de bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $581.000; satışlar ilan fiyatına çok yakın.",
+ "sales": {
+  "median": 581000,
+  "median_chg": "yıllık −%0,73",
+  "ppsf": 318,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$581.000 <small>(yıllık −%0,73)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$318 / ft² ≈ $3.423 / m² <small>(yıllık +%2,6)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "76 gün <small>(bir yıl önce 69 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "125 <small>(yıllık −%10,1)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/4132/FL/Cutler-Bay/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Cutler Bay Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2750,
+  "chg": "yıllık −$50",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.200"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.600"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.200"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.950"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.750"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/cutler-bay-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Cutler Bay</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 17.8559,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Cutler Bay, 2005'te belediye olan ve Biscayne Körfezi kıyısından US-1'e uzanan bir kasaba. Doğuda kanallara ve körfeze açılan evler, batıda planlı siteler bulunur.",
+  "Konut stoku ağırlıkla müstakil evler ve townhouse'lardan oluşur. Southland Mall ve US-1 boyunca ticari alanlar günlük ihtiyaçları karşılar; South Dade Busway ile Dadeland'deki Metrorail istasyonuna bağlantı vardır."
+ ],
+ "places": [
+  [
+   "Black Point Park & Marina",
+   "Körfez kıyısında marina, restoran ve yürüyüş yolu."
+  ],
+  [
+   "Southland Mall",
+   "Bölgenin alışveriş merkezi."
+  ],
+  [
+   "Cutler Ridge Park",
+   "Spor sahaları ve yürüyüş alanları."
+  ],
+  [
+   "Gizli köşe: Black Point yürüyüş yolu",
+   "Körfez boyunca mangrovlar arasında sakin rota."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Cutler Bay için 2025 toplam vergi oranı 17,8559 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,79. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.856. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal ve göl kenarındaki kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; bazı kesimler yüksek riskli bölgededir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 75 km · 70 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "South Dade Busway ile Dadeland South Metrorail istasyonuna bağlantı; Metrobus hatları."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Cutler Bay için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Görece düşük vergi oranı (17,86 mill)",
+  "Satışlar ilan fiyatına çok yakın (%97,5)",
+  "Körfez ve marina erişimi",
+  "Uygun giriş fiyatları"
+ ],
+ "cons": [
+  "Miami şehir merkezine uzak (40–50 dakika)",
+  "Körfeze yakın kesimlerde sel ve fırtına riski",
+  "US-1 trafiği",
+  "Eski evlerde çatı ve sigorta maliyeti"
+ ],
+ "faq": [
+  [
+   "Cutler Bay bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $581.000 (yıllık −%0,73), fit kare fiyatı $318."
+  ],
+  [
+   "Cutler Bay bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.750; 2 yatak odalı $2.200 civarında."
+  ],
+  [
+   "Cutler Bay bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 17,8559 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,79. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Cutler Bay Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/4132/FL/Cutler-Bay/housing-market"
+  ],
+  [
+   "Zillow: Cutler Bay Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/cutler-bay-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Cutler Bay raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

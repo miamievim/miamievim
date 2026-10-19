@@ -1,0 +1,182 @@
+{
+ "id": "jupiter",
+ "name": "Jupiter",
+ "county": "Palm Beach",
+ "meta": "Jupiter mahalle raporu, Ekim 2026: medyan satış fiyatı $699.667, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Tarihî deniz feneri, Loxahatchee Nehri ve tekne kültürüyle Palm Beach County'nin kuzey ucundaki kıyı kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $699.667; ev ortalama 68 günde satılıyor.",
+ "sales": {
+  "median": 699667,
+  "median_chg": "yıllık +%16,6",
+  "ppsf": 384,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$699.667 <small>(yıllık +%16,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$384 / ft² ≈ $4.133 / m² <small>(yıllık +%3,4)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "68 gün <small>(bir yıl önce 88 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "346 <small>(yıllık +%20,7)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,4"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/9126/FL/Jupiter/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Jupiter Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 4500,
+  "chg": "yıllık değişim yok",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.800"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.650"
+   ],
+   [
+    "2 yatak odalı",
+    "$4.167"
+   ],
+   [
+    "3 yatak odalı",
+    "$5.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/jupiter-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Jupiter</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 16.4643,
+  "mills_hi": 17.0134,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Jupiter, Palm Beach County'nin kuzeyinde, Loxahatchee Nehri'nin okyanusa açıldığı noktada kurulu bir kasaba. 1860 tarihli Jupiter Inlet Deniz Feneri kasabanın simgesidir; nehir, kanallar ve Intracoastal tekne yaşamını belirler.",
+  "Konut stoku su kenarı evlerden golf topluluklarına ve batıdaki planlı sitelere uzanır. Roger Dean Chevrolet Stadium'da iki büyük lig beyzbol takımı ilkbahar kampı yapar; Harbourside Place ve Riverwalk kasabanın sosyal odağıdır."
+ ],
+ "places": [
+  [
+   "Jupiter Inlet Lighthouse & Museum",
+   "Tarihî deniz feneri ve müze."
+  ],
+  [
+   "Harbourside Place",
+   "Intracoastal kıyısında restoranlar ve etkinlikler."
+  ],
+  [
+   "Jupiter Beach Park",
+   "Inlet'e komşu, geniş kumsallı plaj."
+  ],
+  [
+   "Gizli köşe: Riverbend Park",
+   "Loxahatchee Nehri boyunca kano ve bisiklet rotaları."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Jupiter için 2025 toplam vergi oranı 16,4643–17,0134 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,65–1,70. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.464–$17.013. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı, Jupiter itfaiye vergisi ve Jupiter Inlet District oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal ve göl kenarındaki kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; bazı kesimler yüksek riskli bölgededir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 125 km · 110 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 30 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 25 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Jupiter için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Medyan fiyatta güçlü yıllık artış (+%16,6)",
+  "Hızlı satışlar (68 gün)",
+  "Düşük belediye vergi oranı",
+  "Plaj, nehir ve tekne yaşamı bir arada"
+ ],
+ "cons": [
+  "Miami'ye uzak (1,5 saatten fazla)",
+  "Su kenarı evlerde yüksek sigorta maliyeti",
+  "Kiralık stokta ortalama yüksek ($4.500)",
+  "Sezon döneminde US-1 ve Indiantown Road'da trafik"
+ ],
+ "faq": [
+  [
+   "Jupiter bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $699.667 (yıllık +%16,6), fit kare fiyatı $384."
+  ],
+  [
+   "Jupiter bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $4.500; 2 yatak odalı $4.167 civarında."
+  ],
+  [
+   "Jupiter bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 16,4643–17,0134 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,65–1,70. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Jupiter Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/9126/FL/Jupiter/housing-market"
+  ],
+  [
+   "Zillow: Jupiter Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/jupiter-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Jupiter raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,176 @@
+{
+ "id": "pembroke-park",
+ "name": "Pembroke Park",
+ "county": "Broward",
+ "meta": "Pembroke Park mahalle raporu, Ekim 2026: medyan satış fiyatı $315.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Hallandale Beach ile Miramar arasında, ticari ve hafif sanayi alanlarının ağırlıkta olduğu küçük bir kasaba. Ekim 2026 itibarıyla son dönemde yalnızca birkaç satış gerçekleşti.",
+ "sales": {
+  "median": 315000,
+  "median_chg": "yıllık +%9,0",
+  "ppsf": 262,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$315.000 <small>(yıllık +%9,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$262 / ft² ≈ $2.820 / m² <small>(yıllık +%14,9)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "44 gün"
+   ],
+   [
+    "Satılan konut",
+    "2"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,4"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/14428/FL/Pembroke-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pembroke Park Housing Market</a>, Ekim 2026 erişimi (Ağustos 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Son dönemde yalnızca 2 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+  ]
+ },
+ "rent": {
+  "avg": 2122,
+  "chg": "yıllık +$372",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$1.762"
+   ],
+   [
+    "2 yatak odalı",
+    "$1.850"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.122"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pembroke-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pembroke Park</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 13 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 21.4379,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Pembroke Park, Broward'ın güneyinde, yaklaşık 4 km²'lik küçük bir kasaba. Kasaba alanının önemli bir kısmı ticari ve hafif sanayi kullanımına ayrılmıştır; konut stoku sınırlıdır.",
+  "Konut seçenekleri küçük müstakil evler, townhouse'lar ve mobil ev topluluklarından oluşur. Hallandale Beach plajlarına, Aventura'ya ve I-95'e kısa mesafededir."
+ ],
+ "places": [
+  [
+   "Hallandale Beach",
+   "Doğuda, birkaç dakika mesafede plaj."
+  ],
+  [
+   "Gulfstream Park",
+   "Yakındaki alışveriş ve eğlence merkezi."
+  ],
+  [
+   "Aventura Mall",
+   "Yaklaşık 10 dakika mesafede."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Pembroke Park için 2025 toplam vergi oranı 21,4379 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,14. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $21.438. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 10 km · 20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Hollywood (yaklaşık 3 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Pembroke Park için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Plaja ve Aventura'ya yakınlık",
+  "I-95 bağlantısı",
+  "Görece uygun fiyatlar"
+ ],
+ "cons": [
+  "Konut stoku ve satış sayısı çok sınırlı",
+  "Yüksek vergi oranı (21,44 mill)",
+  "Ticari ve sanayi alanlarına komşu kesimler",
+  "Fiyat verisi oynak"
+ ],
+ "faq": [
+  [
+   "Pembroke Park bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $315.000 (yıllık +%9,0), fit kare fiyatı $262. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+  ],
+  [
+   "Pembroke Park bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.122; 2 yatak odalı $1.850 civarında."
+  ],
+  [
+   "Pembroke Park bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 21,4379 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,14. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Pembroke Park Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/14428/FL/Pembroke-Park/housing-market"
+  ],
+  [
+   "Zillow: Pembroke Park Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/pembroke-park-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Pembroke Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

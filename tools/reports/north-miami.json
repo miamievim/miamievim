@@ -1,0 +1,181 @@
+{
+ "id": "north-miami",
+ "name": "North Miami",
+ "county": "Miami-Dade",
+ "meta": "North Miami mahalle raporu, Ekim 2026: medyan satış fiyatı $489.757, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Çağdaş sanat müzesi, körfez kıyısındaki üniversite kampüsü ve büyük karma kullanımlı projelerle dönüşen bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $489.757.",
+ "sales": {
+  "median": 489757,
+  "median_chg": "yıllık +%16,6",
+  "ppsf": 312,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$489.757 <small>(yıllık +%16,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$312 / ft² ≈ $3.358 / m² <small>(yıllık +%1,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "107 gün <small>(bir yıl önce 98 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "99 <small>(yıllık −%9,61)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/12676/FL/North-Miami/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Miami Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2185,
+  "chg": "yıllık +$85",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.400"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.700"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.383"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.600"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.185"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-miami-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Miami</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 22.1415,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "North Miami, Miami'nin kuzeyinde, Biscayne Körfezi ile I-95 arasında uzanan ve 1926'da kurulan bir şehir. Şehir merkezi NE 125th Street çevresinde restoran ve dükkânlarla toplanır; MOCA North Miami bu merkezin kültür odağıdır.",
+  "Doğuda körfez kıyısında FIU Biscayne Bay kampüsü ve Oleta River State Park'a komşu alanlar, batıda ise tek katlı müstakil evlerden oluşan mahalleler bulunur. Eski bir çöp sahası üzerinde yükselen büyük karma kullanımlı proje (SoLé Mia) şehrin doğusunu dönüştürüyor."
+ ],
+ "places": [
+  [
+   "MOCA North Miami",
+   "Çağdaş sanat müzesi."
+  ],
+  [
+   "FIU Biscayne Bay Campus",
+   "Körfez kıyısında üniversite kampüsü ve yürüyüş yolları."
+  ],
+  [
+   "Oleta River State Park",
+   "Yakında, kano ve dağ bisikleti parkurları."
+  ],
+  [
+   "Gizli köşe: Arch Creek Park",
+   "Doğal kireçtaşı köprüsü ve küçük doğa müzesiyle tarihî park."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "North Miami için 2025 toplam vergi oranı 22,1415 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,21. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $22.142. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal ve göl kenarındaki kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; bazı kesimler yüksek riskli bölgededir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (yaklaşık 6 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) North Miami için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Miami ve Fort Lauderdale arasında merkezi konum",
+  "Medyan fiyatta yıllık artış (+%16,6)",
+  "Körfeze ve doğa parklarına yakınlık",
+  "Uygun kiralar"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (22,14 mill)",
+  "Uzayan satış süresi (107 gün)",
+  "Kanal ve körfeze yakın kesimlerde sel riski",
+  "Biscayne Boulevard ve I-95'te trafik"
+ ],
+ "faq": [
+  [
+   "North Miami bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $489.757 (yıllık +%16,6), fit kare fiyatı $312."
+  ],
+  [
+   "North Miami bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.185; 2 yatak odalı $2.383 civarında."
+  ],
+  [
+   "North Miami bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 22,1415 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,21. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: North Miami Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/12676/FL/North-Miami/housing-market"
+  ],
+  [
+   "Zillow: North Miami Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/north-miami-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, North Miami raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

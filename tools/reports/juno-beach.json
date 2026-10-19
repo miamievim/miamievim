@@ -1,0 +1,184 @@
+{
+ "id": "juno-beach",
+ "name": "Juno Beach",
+ "county": "Palm Beach",
+ "meta": "Juno Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $699.667, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus iskelesi, deniz kaplumbağası merkezi ve kıyı kondominyumlarıyla küçük bir sahil kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $699.667.",
+ "sales": {
+  "median": 699667,
+  "median_chg": "yıllık +%1,0",
+  "ppsf": 500,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$699.667 <small>(yıllık +%1,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$500 / ft² ≈ $5.382 / m² <small>(yıllık +%87,5)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "111 gün <small>(bir yıl önce 114 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "17 <small>(yıllık −%4,1)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/9120/FL/Juno-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Juno Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 7000,
+  "chg": "yıllık +$1.200",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$2.600"
+   ],
+   [
+    "2 yatak odalı",
+    "$5.817"
+   ],
+   [
+    "3 yatak odalı",
+    "$9.956"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$7.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/juno-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Juno Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 53 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 17.6274,
+  "mills_hi": 18.1765,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Juno Beach, Jupiter ile North Palm Beach arasında, A1A boyunca uzanan küçük bir kıyı kasabası. Kumsalları deniz kaplumbağalarının en yoğun yuvaladığı alanlardandır.",
+  "Konut stoku ağırlıkla okyanus ve Intracoastal kıyısı kondominyumlarından oluşur. Juno Beach Pier ve Loggerhead Marinelife Center kasabanın simgeleridir."
+ ],
+ "places": [
+  [
+   "Juno Beach Pier",
+   "Balıkçılık ve gün doğumu için okyanus iskelesi."
+  ],
+  [
+   "Loggerhead Marinelife Center",
+   "Deniz kaplumbağası rehabilitasyon ve eğitim merkezi."
+  ],
+  [
+   "Juno Dunes Natural Area",
+   "Kumul ve çalılık ekosisteminde yürüyüş."
+  ],
+  [
+   "Gizli köşe: Kaplumbağa yürüyüşleri",
+   "Yaz aylarında rehberli gece kaplumbağa gözlemi."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Juno Beach için 2025 toplam vergi oranı 17,6274–18,1765 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,76–1,82. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.627–$18.176. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı, ilçe itfaiye vergisi ve Jupiter Inlet District oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 115 km · 105 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 25 km · 35 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 18 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Juno Beach için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Okyanus kıyısında yaşam",
+  "Palm Beach County'nin en düşük belediye oranlarından biri",
+  "Fit kare fiyatında güçlü artış",
+  "Palm Beach Gardens'a yakınlık"
+ ],
+ "cons": [
+  "Az sayıda satış; rakamlar oynak",
+  "Uzun satış süresi (111 gün)",
+  "Kondominyumlarda SIRS ve özel aidat riski",
+  "Kıyıda yüksek sigorta maliyeti"
+ ],
+ "faq": [
+  [
+   "Juno Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $699.667 (yıllık +%1,0), fit kare fiyatı $500."
+  ],
+  [
+   "Juno Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $7.000; 2 yatak odalı $5.817 civarında."
+  ],
+  [
+   "Juno Beach bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 17,6274–18,1765 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,76–1,82. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Juno Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/9120/FL/Juno-Beach/housing-market"
+  ],
+  [
+   "Zillow: Juno Beach Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/juno-beach-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "Palm Beach County Fire Rescue: hizmet verilen belediyeler",
+   "https://discover.pbc.gov/pbcfr/Pages/Municipalities.aspx"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Juno Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,181 @@
+{
+ "id": "homestead",
+ "name": "Homestead",
+ "county": "Miami-Dade",
+ "meta": "Homestead mahalle raporu, Ekim 2026: medyan satış fiyatı $402.258, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Everglades ve Biscayne ulusal parklarının kapısı, tarım arazileri ve uygun fiyatlı yeni evlerle güney Miami-Dade'in merkezi. Ekim 2026 itibarıyla medyan satış fiyatı $402.258.",
+ "sales": {
+  "median": 402258,
+  "median_chg": "yıllık −%5,9",
+  "ppsf": 235,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$402.258 <small>(yıllık −%5,9)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$235 / ft² ≈ $2.530 / m² <small>(yıllık −%6,9)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "86 gün <small>(bir yıl önce 91 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "260 <small>(yıllık −%6,1)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,6"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/8246/FL/Homestead/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Homestead Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2575,
+  "chg": "yıllık −$25",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.200"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.400"
+   ],
+   [
+    "2 yatak odalı",
+    "$1.875"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.550"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.575"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/homestead-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Homestead</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 20.9465,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Homestead, 1913'te kurulan ve Miami-Dade'in en eski şehirlerinden biri olan bir şehir. Everglades ve Biscayne ulusal parklarına en yakın şehirdir; çevresindeki Redland tarım bölgesi fidanlıklar, meyve bahçeleri ve çiftliklerle doludur.",
+  "Son yıllarda yeni müstakil ev ve townhouse projeleriyle hızla büyüyen şehir, Miami-Dade'in en uygun fiyatlı seçenekleri arasındadır. Homestead-Miami Speedway ve Homestead Hava Üssü şehrin önemli noktalarıdır."
+ ],
+ "places": [
+  [
+   "Homestead-Miami Speedway",
+   "NASCAR yarışları ve etkinlikler."
+  ],
+  [
+   "Everglades Ulusal Parkı",
+   "Batıda, yaklaşık 20 dakika."
+  ],
+  [
+   "Biscayne Ulusal Parkı",
+   "Doğuda, mercan resifleri ve kano turları."
+  ],
+  [
+   "Gizli köşe: Coral Castle",
+   "Tek bir kişinin mercan taşından oyduğu gizemli yapı ve müze."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Homestead için 2025 toplam vergi oranı 20,9465 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,09. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.946. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Everglades sınırına yakın, alçak ve düz bir arazidir; birçok kesim yüksek riskli (AE/AH) bölgededir. Her adres için FEMA haritasını kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 55 km · 50 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 95 km · 90 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 55 km · 55 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Hialeah Market (yaklaşık 58 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Homestead için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Miami-Dade'de uygun giriş fiyatları",
+  "Yeni ev projeleri ve geniş kiralık stok",
+  "İki ulusal parka yakınlık",
+  "Satışlar ilan fiyatına çok yakın (%97,6)"
+ ],
+ "cons": [
+  "Miami şehir merkezine uzak (yaklaşık 1 saat)",
+  "Alçak arazide sel ve fırtına riski",
+  "Vergi oranı 20,95 mill",
+  "Toplu taşıma sınırlı"
+ ],
+ "faq": [
+  [
+   "Homestead bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $402.258 (yıllık −%5,9), fit kare fiyatı $235."
+  ],
+  [
+   "Homestead bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.575; 2 yatak odalı $1.875 civarında."
+  ],
+  [
+   "Homestead bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 20,9465 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,09. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Homestead Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/8246/FL/Homestead/housing-market"
+  ],
+  [
+   "Zillow: Homestead Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/homestead-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Homestead raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

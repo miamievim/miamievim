@@ -1,0 +1,181 @@
+{
+ "id": "hialeah",
+ "name": "Hialeah",
+ "county": "Miami-Dade",
+ "meta": "Hialeah mahalle raporu, Ekim 2026: medyan satış fiyatı $479.772, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Florida'nın en kalabalık şehirlerinden biri; tarihî hipodromu, yoğun ticari yaşamı ve Miami-Dade ortalamasının altındaki fiyatlarıyla. Ekim 2026 itibarıyla medyan satış fiyatı $479.772.",
+ "sales": {
+  "median": 479772,
+  "median_chg": "yıllık −%0,048",
+  "ppsf": 316,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$479.772 <small>(yıllık −%0,048)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$316 / ft² ≈ $3.401 / m² <small>(yıllık +%3,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "65 gün <small>(bir yıl önce 74 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "272 <small>(yıllık +%5,9)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/7649/FL/Hialeah/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hialeah Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2260,
+  "chg": "yıllık −$85",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.550"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.795"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.200"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.050"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.260"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/hialeah-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Hialeah</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 18.6468,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Hialeah, Miami'nin kuzeybatısında, 1925'te kurulan ve Florida'nın en kalabalık şehirleri arasında yer alan bir şehir. 1925'te açılan Hialeah Park hipodromu ve içindeki flamingo kolonisi şehrin simgesidir.",
+  "Konut stoku tek katlı müstakil evler, dubleksler ve kondominyumlardan oluşur. Yoğun ticari caddeler, fabrikalar ve küçük işletmeler şehrin ekonomisini oluşturur; Metrorail ve Tri-Rail istasyonları Miami şehir merkezine bağlantı sağlar."
+ ],
+ "places": [
+  [
+   "Hialeah Park",
+   "Tarihî hipodrom, kumarhane ve flamingo kolonisi."
+  ],
+  [
+   "Amelia Earhart Park",
+   "Göller, çiftlik hayvanları ve bisiklet parkurlarıyla büyük ilçe parkı."
+  ],
+  [
+   "Westland Mall",
+   "Şehrin alışveriş merkezi."
+  ],
+  [
+   "Gizli köşe: Hialeah Park'ın flamingoları",
+   "Hipodrom alanında yaşayan tarihî flamingo kolonisi."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Hialeah için 2025 toplam vergi oranı 18,6468 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,86. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.647. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 9 km · 15 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrorail Okeechobee ve Hialeah istasyonları, Tri-Rail Hialeah Market istasyonu ve Metrobus hatları."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Hialeah için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Miami-Dade ortalamasının altında fiyatlar",
+  "Hızlı satışlar (65 gün)",
+  "Metrorail ve Tri-Rail bağlantısı",
+  "Görece makul vergi oranı (18,65 mill)"
+ ],
+ "cons": [
+  "Yoğun trafik",
+  "Eski evlerde yenileme ve sigorta maliyeti",
+  "Plaja uzak",
+  "Yeşil alan ve ağaç dokusu sınırlı"
+ ],
+ "faq": [
+  [
+   "Hialeah bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $479.772 (yıllık −%0,048), fit kare fiyatı $316."
+  ],
+  [
+   "Hialeah bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.260; 2 yatak odalı $2.200 civarında."
+  ],
+  [
+   "Hialeah bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 18,6468 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,86. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Hialeah Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/7649/FL/Hialeah/housing-market"
+  ],
+  [
+   "Zillow: Hialeah Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/hialeah-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Hialeah raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

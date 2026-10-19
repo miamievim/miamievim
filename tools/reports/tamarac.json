@@ -1,0 +1,181 @@
+{
+ "id": "tamarac",
+ "name": "Tamarac",
+ "county": "Broward",
+ "meta": "Tamarac mahalle raporu, Ekim 2026: medyan satış fiyatı $299.857, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Golf sahaları çevresindeki siteleri ve uygun fiyatlı villalarıyla merkezi Broward'da sakin bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $299.857.",
+ "sales": {
+  "median": 299857,
+  "median_chg": "yıllık −%6,3",
+  "ppsf": 214,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$299.857 <small>(yıllık −%6,3)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$214 / ft² ≈ $2.303 / m² <small>(yıllık −%5,7)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "89 gün <small>(bir yıl önce 104 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "308 <small>(yıllık −%7,9)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,1"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/18064/FL/Tamarac/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Tamarac Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2100,
+  "chg": "yıllık değişim yok",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.799"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.575"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.000"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.950"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.100"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/tamarac-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Tamarac</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 21.0965,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Tamarac, 1963'te kurulan ve golf sahaları çevresine planlanmış sitelerle büyüyen bir şehir. Şehrin batı kesiminde daha yeni müstakil ev toplulukları, doğusunda ise yerleşik villa ve kondominyum siteleri bulunur.",
+  "Konut stokunun önemli bir kısmı 55 yaş üstü kuralıyla yönetilen büyük sitelerden oluşur; bu nedenle satın almadan önce site kurallarını incelemek önemlidir. Sawgrass Expressway ve Florida Turnpike'a yakınlık ulaşımı kolaylaştırır."
+ ],
+ "places": [
+  [
+   "Colony West Golf Club",
+   "Şehrin köklü golf sahası."
+  ],
+  [
+   "Tamarac Sports Complex",
+   "Spor sahaları ve aktivite alanları."
+  ],
+  [
+   "Caporella Park",
+   "Yürüyüş yolları ve oyun alanları."
+  ],
+  [
+   "Gizli köşe: Tamarac Village",
+   "Yeni gelişen şehir merkezi ve etkinlik alanı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Tamarac için 2025 toplam vergi oranı 21,0965 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,11. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $21.096. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 35 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 60 km · 55 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 14 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Tamarac için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Uygun giriş fiyatları",
+  "Merkezi konum",
+  "Golf ve yeşil alan çevresinde siteler",
+  "Kiralık stok mevcut"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (21,10 mill)",
+  "Site kuralları ve yaş kısıtlamaları",
+  "Fiyatlarda yıllık düşüş",
+  "Plaja uzak"
+ ],
+ "faq": [
+  [
+   "Tamarac bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $299.857 (yıllık −%6,3), fit kare fiyatı $214."
+  ],
+  [
+   "Tamarac bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.100; 2 yatak odalı $2.000 civarında."
+  ],
+  [
+   "Tamarac bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 21,0965 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,11. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Tamarac Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/18064/FL/Tamarac/housing-market"
+  ],
+  [
+   "Zillow: Tamarac Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/tamarac-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Tamarac raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,189 @@
+{
+ "id": "fisher-island",
+ "name": "Fisher Island",
+ "county": "Miami-Dade",
+ "meta": "Fisher Island mahalle raporu, Ekim 2026: medyan satış fiyatı $4.098.048, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "South Beach'in güneyinde, yalnızca feribot ve tekneyle ulaşılabilen, ülkenin en yüksek gelirli bölgeleri arasında yer alan özel bir ada.",
+ "sales": {
+  "median": 4098048,
+  "median_chg": "yıllık −%67,2",
+  "ppsf": 1300,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$4.098.048 <small>(yıllık −%67,2)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$1.300 / ft² ≈ $13.993 / m² <small>(yıllık −%53,7)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "219 gün <small>(bir yıl önce 492 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "3"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%91,0"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/22530/FL/Fisher-Island/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Fisher Island Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Son dönemde yalnızca 3 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+  ]
+ },
+ "rent": {
+  "avg": 28000,
+  "chg": "yıllık −$2.000",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$20.000"
+   ],
+   [
+    "2 yatak odalı",
+    "$19.900"
+   ],
+   [
+    "3 yatak odalı",
+    "$30.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$28.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/fisher-island-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Fisher Island</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 36 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 16.9317,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Fisher Island, Government Cut kanalının güneyinde, South Beach ile Virginia Key arasında yer alan özel bir ada. Adaya köprü yoktur; sakinler ve misafirler araç feribotu, tekne veya helikopterle ulaşır.",
+  "Adanın merkezinde Vanderbilt ailesinin 1920'lerde inşa ettirdiği malikâne bugün Fisher Island Club olarak hizmet verir. Konut stoku okyanus ve körfez manzaralı lüks kondominyumlar ile birkaç villadan oluşur; adada plaj, golf sahası, marina ve tenis tesisleri bulunur."
+ ],
+ "places": [
+  [
+   "Fisher Island Club",
+   "Vanderbilt malikânesi; restoranlar ve kulüp tesisleri."
+  ],
+  [
+   "Ada plajı",
+   "Bahamalar'dan getirilen kumuyla bilinen özel plaj."
+  ],
+  [
+   "Araç feribotu",
+   "Ana karaya (MacArthur Causeway yakınında) düzenli bağlantı."
+  ],
+  [
+   "Gizli köşe: Adanın marinası",
+   "Körfez manzaralı yat limanı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Fisher Island (belediyeye bağlı olmayan Miami-Dade) için 2025 toplam vergi oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.932. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 45 km · 45 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 6 km · 15 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ana karaya ulaşım araç feribotu, tekne veya helikopterle sağlanır; South Beach ve Downtown'a feribottan sonra 10–15 dakika."
+  ],
+  [
+   "Günlük hayat",
+   "Ada içinde ulaşım golf arabalarıyla yapılır; günlük ihtiyaçlar için ada market ve restoranları ya da ana kara kullanılır."
+  ]
+ ],
+ "projects": [
+  [
+   "The Residences at Six Fisher Island",
+   "Tamamlanmak üzere",
+   "2026 sonu / 2027",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "projects_notes": [],
+ "pros": [
+  "Ülkenin en mahrem adalarından biri",
+  "Okyanus ve körfez manzarası, özel plaj ve kulüp tesisleri",
+  "Bu raporlardaki düşük vergi oranlarından biri (16,93 mill)"
+ ],
+ "cons": [
+  "Çok yüksek giriş fiyatı ve yüksek kulüp/aidat maliyetleri",
+  "Ana karaya bağımlılık feribot saatlerine bağlı",
+  "Satış sayısı çok az; fiyat verisi oynak",
+  "Kıyı bölgesi sel ve fırtına riski"
+ ],
+ "faq": [
+  [
+   "Fisher Island bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $4.098.048 (yıllık −%67,2), fit kare fiyatı $1.300. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+  ],
+  [
+   "Fisher Island bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $28.000; 2 yatak odalı $19.900 civarında."
+  ],
+  [
+   "Fisher Island bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Fisher Island Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/22530/FL/Fisher-Island/housing-market"
+  ],
+  [
+   "Zillow: Fisher Island Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/fisher-island-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ağustos–Ekim 2026 Miami-Dade proje güncellemeleri",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Fisher Island raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

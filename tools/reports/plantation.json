@@ -1,0 +1,181 @@
+{
+ "id": "plantation",
+ "name": "Plantation",
+ "county": "Broward",
+ "meta": "Plantation mahalle raporu, Ekim 2026: medyan satış fiyatı $504.760, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Ağaçlı sokakları, kanalları ve olgun mahalleleriyle Fort Lauderdale'in batısında sakin bir banliyö. Ekim 2026 itibarıyla medyan satış fiyatı $504.760; evler ortalama 66 günde satılıyor.",
+ "sales": {
+  "median": 504760,
+  "median_chg": "yıllık +%1,1",
+  "ppsf": 293,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$504.760 <small>(yıllık +%1,1)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$293 / ft² ≈ $3.154 / m² <small>(yıllık −%0,68)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "66 gün <small>(bir yıl önce 85 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "300 <small>(yıllık −%0,13)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,6"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/14883/FL/Plantation/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Plantation Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2550,
+  "chg": "yıllık +$50",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.794"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.800"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.350"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.250"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.550"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/plantation-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Plantation</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 20.0675,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "Plantation, 1950'lerde planlanmış, geniş arsalı müstakil evleri, gölgeli sokakları ve kanal ağıyla bilinen olgun bir banliyö. Jacaranda gibi golf çevresindeki topluluklar ve Plantation Acres'ın büyük arsaları şehrin farklı yüzlerini oluşturur.",
+  "Westfield Broward alışveriş merkezi ve Broward Boulevard çevresindeki ofisler günlük ihtiyaçları karşılar. Fort Lauderdale şehir merkezine ve havalimanına 15–20 dakikalık mesafe, şehri hem aileler hem çalışanlar için pratik bir seçenek yapar."
+ ],
+ "places": [
+  [
+   "Plantation Heritage Park",
+   "Göl, yürüyüş yolları ve piknik alanlarıyla şehir parkı."
+  ],
+  [
+   "Westfield Broward",
+   "Bölgenin köklü alışveriş merkezi."
+  ],
+  [
+   "Plantation Preserve Golf Course",
+   "Şehir golf sahası ve kulüp binası."
+  ],
+  [
+   "Gizli köşe: Volunteer Park",
+   "Geniş çim alanlar ve sakin yürüyüş rotaları."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Plantation için 2025 toplam vergi oranı 20,0675 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,01. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.068. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal ve göl kenarındaki kesimlerde sel bölgesi adres bazında belirgin şekilde değişir; bazı kesimler yüksek riskli bölgededir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 15 km · 20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 50 km · 45 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 10 km · 20 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale (yaklaşık 8 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Plantation için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Olgun mahalleler, geniş arsalar ve yeşil doku",
+  "Fort Lauderdale ve havalimanına yakınlık",
+  "Hızlı satışlar (66 gün)",
+  "Dengeli fiyat hareketi"
+ ],
+ "cons": [
+  "Vergi oranı 20 mill'in üzerinde",
+  "Eski evlerde çatı ve sigorta maliyeti",
+  "Kanal kenarı evlerde sel bölgesi kontrolü",
+  "Toplu taşıma sınırlı"
+ ],
+ "faq": [
+  [
+   "Plantation bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $504.760 (yıllık +%1,1), fit kare fiyatı $293."
+  ],
+  [
+   "Plantation bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.550; 2 yatak odalı $2.350 civarında."
+  ],
+  [
+   "Plantation bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,0675 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,01. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Plantation Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/14883/FL/Plantation/housing-market"
+  ],
+  [
+   "Zillow: Plantation Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/plantation-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Plantation raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

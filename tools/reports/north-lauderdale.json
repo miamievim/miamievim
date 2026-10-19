@@ -1,0 +1,177 @@
+{
+ "id": "north-lauderdale",
+ "name": "North Lauderdale",
+ "county": "Broward",
+ "meta": "North Lauderdale mahalle raporu, Ekim 2026: medyan satış fiyatı $349.584, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Konut ağırlıklı yapısı ve uygun fiyatlarıyla kuzey Broward'da küçük bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $349.584; satışlar ilan fiyatına çok yakın kapanıyor.",
+ "sales": {
+  "median": 349584,
+  "median_chg": "yıllık +%6,7",
+  "ppsf": 256,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$349.584 <small>(yıllık +%6,7)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$256 / ft² ≈ $2.756 / m² <small>(yıllık −%11,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "74 gün <small>(bir yıl önce 92 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "73 <small>(yıllık −%20,5)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,2"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/12669/FL/North-Lauderdale/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Lauderdale Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2552,
+  "chg": "yıllık −$43",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.300"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.556"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.167"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.800"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.552"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-lauderdale-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Lauderdale</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 21.4965,
+  "src_short": "Broward PA 2025"
+ },
+ "character": [
+  "North Lauderdale, 1963'te kurulan ve büyük ölçüde konut amaçlı gelişen küçük bir şehir. Tamarac, Margate ve Coconut Creek ile çevrili merkezi konumu, kuzey Broward'ın alışveriş ve iş merkezlerine kolay erişim sağlar.",
+  "Konut stoku müstakil evler, villalar ve townhouse'lardan oluşur. Fiyatlar Broward ortalamasının altında seyreder."
+ ],
+ "places": [
+  [
+   "Kuzey Broward alışveriş merkezleri",
+   "Margate ve Coconut Creek'teki merkezlere kısa mesafe."
+  ],
+  [
+   "Tradewinds Park",
+   "Yakındaki büyük ilçe parkı."
+  ],
+  [
+   "Florida Turnpike bağlantısı",
+   "Kuzey ve güneye hızlı erişim."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "North Lauderdale için 2025 toplam vergi oranı 21,4965 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,15. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $21.496. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 35 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 60 km · 60 dakika"
+  ],
+  [
+   "Fort Lauderdale şehir merkezi",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 11 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) North Lauderdale için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Uygun giriş fiyatları",
+  "Satışlar ilan fiyatına çok yakın (%97,2)",
+  "Hızlı satışlar (74 gün)",
+  "Merkezi konum"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (21,50 mill)",
+  "Fit kare fiyatında yıllık düşüş",
+  "Plaja uzak",
+  "Toplu taşıma sınırlı"
+ ],
+ "faq": [
+  [
+   "North Lauderdale bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $349.584 (yıllık +%6,7), fit kare fiyatı $256."
+  ],
+  [
+   "North Lauderdale bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.552; 2 yatak odalı $2.167 civarında."
+  ],
+  [
+   "North Lauderdale bölgesinde emlak vergisi ne kadar?",
+   "Broward County Property Appraiser verisine göre 2025 toplam oranı 21,4965 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,15. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: North Lauderdale Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/12669/FL/North-Lauderdale/housing-market"
+  ],
+  [
+   "Zillow: North Lauderdale Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/north-lauderdale-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: 2025 millage oranları",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, North Lauderdale raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

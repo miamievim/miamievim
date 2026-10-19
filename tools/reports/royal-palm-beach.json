@@ -1,0 +1,182 @@
+{
+ "id": "royal-palm-beach",
+ "name": "Royal Palm Beach",
+ "county": "Palm Beach",
+ "meta": "Royal Palm Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $489.767, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Göller ve parklarla çevrili planlı mahalleleri ve uygun belediye vergisiyle West Palm Beach'in batısındaki köy. Ekim 2026 itibarıyla medyan satış fiyatı $489.767; satışlar ilan fiyatına çok yakın kapanıyor.",
+ "sales": {
+  "median": 489767,
+  "median_chg": "yıllık −%2,0",
+  "ppsf": 246,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$489.767 <small>(yıllık −%2,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$246 / ft² ≈ $2.648 / m² <small>(yıllık −%11,2)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "71 gün <small>(bir yıl önce 90 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "166 <small>(yıllık +%30,4)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,5"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/15962/FL/Royal-Palm-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Royal Palm Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2700,
+  "chg": "yıllık −$114",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "1 yatak odalı",
+    "$1.400"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.200"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.885"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.700"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/royal-palm-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Royal Palm Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 17.6379,
+  "mills_hi": 18.187,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Royal Palm Beach, Wellington'ın kuzeyinde, 1959'da kurulan bir köy. Göller etrafında kurulmuş mahalleler, geniş parklar ve Southern Boulevard boyunca uzanan alışveriş alanları köyün dokusunu oluşturur.",
+  "Konut stoku ağırlıkla müstakil evlerden ve sitelerden oluşur. Royal Palm Beach Commons Park köyün sosyal merkezi ve etkinlik alanıdır."
+ ],
+ "places": [
+  [
+   "Royal Palm Beach Commons Park",
+   "Göl kıyısında büyük park ve etkinlik alanı."
+  ],
+  [
+   "Southern Boulevard alışveriş aksı",
+   "Market, restoran ve hizmetler."
+  ],
+  [
+   "Okeeheelee Park",
+   "Yakında, su sporları ve yürüyüş parkurları."
+  ],
+  [
+   "Gizli köşe: Royal Palm Beach Pines Natural Area",
+   "Çam ormanı ve sulak alanlarda kısa yürüyüş rotaları."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Royal Palm Beach için 2025 toplam vergi oranı 17,6379–18,1870 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,76–1,82. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.638–$18.187. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 90 km · 85 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 25 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 21 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Royal Palm Beach için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Palm Beach County'nin en düşük belediye oranlarından biri",
+  "Satışlar ilan fiyatına çok yakın (%97,5)",
+  "Satış sayısında güçlü yıllık artış (+%30,4)",
+  "Göl ve park ağırlıklı mahalleler"
+ ],
+ "cons": [
+  "Fit kare fiyatında yıllık düşüş (−%11,2)",
+  "Plaja uzak",
+  "Toplu taşıma sınırlı",
+  "Southern Boulevard'da trafik"
+ ],
+ "faq": [
+  [
+   "Royal Palm Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $489.767 (yıllık −%2,0), fit kare fiyatı $246."
+  ],
+  [
+   "Royal Palm Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.700; 2 yatak odalı $2.200 civarında."
+  ],
+  [
+   "Royal Palm Beach bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 17,6379–18,1870 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,76–1,82. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Royal Palm Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/15962/FL/Royal-Palm-Beach/housing-market"
+  ],
+  [
+   "Zillow: Royal Palm Beach Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/royal-palm-beach-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "Palm Beach County Fire Rescue: hizmet verilen belediyeler",
+   "https://discover.pbc.gov/pbcfr/Pages/Municipalities.aspx"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Royal Palm Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

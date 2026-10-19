@@ -1,0 +1,202 @@
+{
+ "id": "north-bay-village",
+ "name": "North Bay Village",
+ "county": "Miami-Dade",
+ "meta": "North Bay Village mahalle raporu, Ekim 2026: medyan satış fiyatı $480.421, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "79th Street Causeway üzerindeki üç adada, körfez manzaralı kondominyumlar ve yeni projelerle dönüşen küçük bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $480.421.",
+ "sales": {
+  "median": 480421,
+  "median_chg": "yıllık +%2,8",
+  "ppsf": 431,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$480.421 <small>(yıllık +%2,8)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$431 / ft² ≈ $4.639 / m² <small>(yıllık +%8,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "144 gün <small>(bir yıl önce 170 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "37 <small>(yıllık +%8,8)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%92,9"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/12608/FL/North-Bay-Village/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Bay Village Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2816,
+  "chg": "yıllık −$234",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.650"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.256"
+   ],
+   [
+    "2 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.950"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.816"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-bay-village-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Bay Village</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 21.8955,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "North Bay Village, Miami ile Miami Beach'i bağlayan 79th Street Causeway üzerindeki üç adadan (North Bay, Harbor ve Treasure Island) oluşan küçük bir şehir. Neredeyse her konut körfez manzarasına sahiptir.",
+  "Konut stoku büyük ölçüde 1960–80'lerden kalma kondominyumlar ve su kenarı müstakil evlerden oluşur. Son yıllarda onaylanan ve inşaatı süren yeni kuleler adaların silüetini değiştiriyor."
+ ],
+ "places": [
+  [
+   "Treasure Island",
+   "Körfez kıyısında su kenarı müstakil evler."
+  ],
+  [
+   "79th Street Causeway",
+   "Miami Beach ve Upper East Side'a birkaç dakikalık bağlantı."
+  ],
+  [
+   "North Beach plajları",
+   "Doğuda, yaklaşık 5 dakika mesafede."
+  ],
+  [
+   "Gizli köşe: Körfez kıyısı yürüyüş yolu",
+   "Gün batımında Miami silüetine bakan rota."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "North Bay Village için 2025 toplam vergi oranı 21,8955 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,19. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $21.896. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 15 km · 20 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline MiamiCentral (yaklaşık 11 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [
+  [
+   "Shoma Bay",
+   "İnşaat sürüyor; $172,5M C-PACE finansmanı",
+   "2028 ortası",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Urbanica 28 katlı kondominyum",
+   "Öneri aşamasında",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "El-Ad iki kuleli kondominyum",
+   "Onay bekliyor",
+   "Açıklanmadı",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "projects_notes": [],
+ "pros": [
+  "Körfez manzarası ve tekne yaşamı",
+  "Miami Beach ve şehir merkezine yakınlık",
+  "Yeni projelerle yenilenen stok",
+  "Satış süresinde kısalma"
+ ],
+ "cons": [
+  "Kıyı bölgesi: yüksek sel riski ve sigorta maliyeti",
+  "Eski binalarda SIRS ve özel aidat riski",
+  "Vergi oranı 21,9 mill",
+  "Satışların ilan fiyatının ~%7 altında kapanması"
+ ],
+ "faq": [
+  [
+   "North Bay Village bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $480.421 (yıllık +%2,8), fit kare fiyatı $431."
+  ],
+  [
+   "North Bay Village bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.816; 2 yatak odalı $3.000 civarında."
+  ],
+  [
+   "North Bay Village bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 21,8955 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,19. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: North Bay Village Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/12608/FL/North-Bay-Village/housing-market"
+  ],
+  [
+   "Zillow: North Bay Village Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/north-bay-village-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Ağustos–Ekim 2026 Miami-Dade proje güncellemeleri",
+   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, North Bay Village raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

@@ -1,0 +1,164 @@
+{
+ "id": "golden-beach",
+ "name": "Golden Beach",
+ "county": "Miami-Dade",
+ "meta": "Golden Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $12.900.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus cepheli malikânelerden oluşan, girişleri kontrollü ve sakinlerine özel plajı olan küçük bir kasaba. Satış sayısı çok az olduğu için fiyatlar her mülke göre belirlenir.",
+ "sales": {
+  "median": 12900000,
+  "median_chg": "yıllık +%165,2",
+  "ppsf": 2890,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$12.900.000 <small>(yıllık +%165,2)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$2.890 / ft² ≈ $31.108 / m²"
+   ],
+   [
+    "Ortalama satış süresi",
+    "175 gün"
+   ],
+   [
+    "Satılan konut",
+    "2"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%90,2"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/6726/FL/Golden-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Golden Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Son dönemde yalnızca 2 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+  ]
+ },
+ "rent": {
+  "avg": 29500,
+  "chg": "yıllık −$5.500",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Tüm konutlar (ortalama)",
+    "$29.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/golden-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Golden Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 8 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 23.4227,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Golden Beach, Sunny Isles Beach ile Hallandale Beach arasında, okyanus ile Intracoastal arasında uzanan küçük bir kasaba. Kasaba yalnızca müstakil evlerden oluşur; yüksek katlı yapı ve ticari alan yoktur.",
+  "Okyanus cepheli ve Intracoastal kıyısındaki malikâneler Güney Florida'nın en pahalı konutları arasındadır. Kasaba plajı yalnızca sakinlere açıktır ve girişler kasaba polisi tarafından kontrol edilir."
+ ],
+ "places": [
+  [
+   "Kasaba plajı",
+   "Yalnızca kasaba sakinlerine açık okyanus kıyısı."
+  ],
+  [
+   "Aventura Mall",
+   "Yaklaşık 10 dakika mesafede."
+  ],
+  [
+   "Sunny Isles Beach",
+   "Güneyde restoranlar ve plaj kulüpleri."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Golden Beach için 2025 toplam vergi oranı 23,4227 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,34. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $23.423. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline Aventura (yaklaşık 3 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Golden Beach için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Okyanus cepheli malikâneler ve mahremiyet",
+  "Kontrollü girişler, sakin kasaba",
+  "Aventura ve FLL havalimanına yakınlık"
+ ],
+ "cons": [
+  "Çok yüksek giriş fiyatı; satış sayısı çok az",
+  "Yüksek vergi oranı (23,42 mill)",
+  "Bariyer adası: sel ve fırtına riski",
+  "Ticari alan yok"
+ ],
+ "faq": [
+  [
+   "Golden Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $12.900.000 (yıllık +%165,2), fit kare fiyatı $2.890. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+  ],
+  [
+   "Golden Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $29.500."
+  ],
+  [
+   "Golden Beach bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 23,4227 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,34. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Golden Beach Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/6726/FL/Golden-Beach/housing-market"
+  ],
+  [
+   "Zillow: Golden Beach Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/golden-beach-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Golden Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

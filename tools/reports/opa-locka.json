@@ -1,0 +1,177 @@
+{
+ "id": "opa-locka",
+ "name": "Opa-locka",
+ "county": "Miami-Dade",
+ "meta": "Opa-locka mahalle raporu, Ekim 2026: medyan satış fiyatı $497.763, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Batı Yarımküre'nin en büyük Mağribi Canlanması (Moorish Revival) mimari koleksiyonuna sahip tarihî bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $497.763.",
+ "sales": {
+  "median": 497763,
+  "median_chg": "yıllık +%30,1",
+  "ppsf": 318,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$497.763 <small>(yıllık +%30,1)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$318 / ft² ≈ $3.423 / m² <small>(yıllık −%25,4)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "81 gün <small>(bir yıl önce 68 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "25 <small>(yıllık +%41,1)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,8"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/13314/FL/Opa-locka/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Opa-locka Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 1723,
+  "chg": "yıllık −$77",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.100"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.450"
+   ],
+   [
+    "2 yatak odalı",
+    "$1.850"
+   ],
+   [
+    "3 yatak odalı",
+    "$2.500"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$1.723"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/opa-locka-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Opa-locka</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 24.0024,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Opa-locka, 1926'da havacılık öncüsü Glenn Curtiss tarafından \"Binbir Gece Masalları\" temasıyla planlanan bir şehir. Kubbeli ve minareli belediye binası başta olmak üzere birçok yapı Ulusal Tarihî Yerler Kaydı'ndadır.",
+  "Konut stoku ağırlıkla küçük müstakil evlerden oluşur; Miami-Opa-locka Executive Airport şehrin önemli bir işveren ve ulaşım noktasıdır. Fiyatlar Miami-Dade ortalamasının altındadır; ancak vergi oranı ilçedeki en yüksekler arasındadır."
+ ],
+ "places": [
+  [
+   "Opa-locka Belediye Binası",
+   "Kubbe ve minareleriyle tarihî Mağribi tarzı yapı."
+  ],
+  [
+   "Miami-Opa-locka Executive Airport",
+   "Özel ve kurumsal uçuşlar için havalimanı."
+  ],
+  [
+   "Tri-Rail Opa-locka istasyonu",
+   "Miami ve Broward'a raylı bağlantı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Opa-locka için 2025 toplam vergi oranı 24,0024 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,40. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $24.002. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Tri-Rail Opa-locka istasyonu ve Metrobus hatları."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Opa-locka için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Tarihî mimari doku",
+  "Uygun giriş fiyatları",
+  "Tri-Rail bağlantısı",
+  "Satışlar ilan fiyatına çok yakın"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (24,00 mill)",
+  "Eski evlerde yenileme ve sigorta maliyeti",
+  "Fit kare fiyatında yıllık düşüş",
+  "Satış sayısı az"
+ ],
+ "faq": [
+  [
+   "Opa-locka bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $497.763 (yıllık +%30,1), fit kare fiyatı $318."
+  ],
+  [
+   "Opa-locka bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $1.723; 2 yatak odalı $1.850 civarında."
+  ],
+  [
+   "Opa-locka bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 24,0024 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,40. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Opa-locka Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/13314/FL/Opa-locka/housing-market"
+  ],
+  [
+   "Zillow: Opa-locka Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/opa-locka-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Opa-locka raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

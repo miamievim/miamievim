@@ -1,0 +1,140 @@
+{
+ "id": "briny-breezes",
+ "name": "Briny Breezes",
+ "county": "Palm Beach",
+ "meta": "Briny Breezes mahalle raporu, Ekim 2026: kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus ile Intracoastal arasında, mobil ev topluluğundan oluşan ve kooperatif yapısıyla benzersiz bir kasaba.",
+ "sales": {
+  "median": null,
+  "median_chg": "",
+  "ppsf": null,
+  "src_short": "",
+  "rows": [
+   [
+    "Satış verisi",
+    "Yılda yalnızca birkaç satış gerçekleştiği için kamuya açık güvenilir bir medyan yayımlanmıyor."
+   ]
+  ],
+  "src": "Redfin ve Zillow, Ekim 2026 erişimi.",
+  "notes": []
+ },
+ "rent": {
+  "avg": null,
+  "chg": "",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Kira verisi",
+    "Zillow bu bölge için ayrı bir kira piyasası sayfası yayımlamıyor."
+   ]
+  ],
+  "src": "Zillow Rental Market Trends, 17 Ekim 2026.",
+  "notes": [
+   "Bu bölgede kiralık ilan sayısı ortalama hesaplamak için yetersiz. Kiralık ev arıyorsanız komşu bölgelerin raporlarına bakın ya da size uygun ilanları doğrudan isteyin."
+  ]
+ },
+ "tax": {
+  "mills": 19.0098,
+  "mills_hi": 19.5589,
+  "src_short": "PAPA 2025"
+ },
+ "character": [
+  "Briny Breezes, Ocean Ridge ile Gulf Stream arasında, okyanus kıyısında yer alan çok küçük bir kasaba. Kasabanın konutları bir kooperatif (şirket) yapısı altında sahiplenilen mobil ve prefabrik evlerden oluşur.",
+  "Satın alma, kooperatif hisselerinin devri şeklinde gerçekleşir ve kasabanın onay süreçlerine tabidir. Kamuya açık güvenilir bir medyan fiyat yayımlanmaz."
+ ],
+ "places": [
+  [
+   "Okyanus kıyısı",
+   "Kasabanın özel plajı."
+  ],
+  [
+   "Intracoastal marina",
+   "Tekne bağlama yerleri."
+  ],
+  [
+   "Atlantic Avenue (Delray)",
+   "Güneyde restoran ve alışveriş."
+  ],
+  [
+   "Gizli köşe: Kasaba içi yürüyüş",
+   "Sakin, araç trafiği az sokaklar."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Briny Breezes için 2025 toplam vergi oranı 19,0098–19,5589 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90–1,96. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.010–$19.559. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Okyanus ve Intracoastal kıyısındaki kesimler yüksek riskli kıyı bölgelerindedir (AE/VE); bariyer adası üzerindeki mülklerde rüzgâr ve sel sigortası belirleyici bir maliyettir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.palmbeachschools.org/\" target=\"_blank\" rel=\"noopener\">School District of Palm Beach County</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Palm Beach Havalimanı (PBI)",
+   "yaklaşık 25 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 65 km · 60 dakika"
+  ],
+  [
+   "West Palm Beach şehir merkezi",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Boynton Beach (yaklaşık 6 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Alışveriş ve hizmetler için Boynton Beach ve Delray Beach'e kısa sürüş."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Briny Breezes için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Okyanus kıyısında benzersiz yaşam",
+  "Delray Beach ve Boynton Beach'e yakınlık",
+  "Küçük, kapalı topluluk",
+  "Tekne erişimi"
+ ],
+ "cons": [
+  "Kooperatif yapısı ve onay süreçleri",
+  "Satış ve kira verisi yok",
+  "Mobil evlerde fırtına ve sigorta riski",
+  "Finansman seçenekleri sınırlı olabilir"
+ ],
+ "faq": [
+  [
+   "Briny Breezes bölgesinde ev fiyatları ne kadar?",
+   "Bu bölgede satış çok nadir gerçekleşir ve kamuya açık güvenilir bir medyan fiyat yayımlanmaz; fiyatlar her mülkün özelliklerine göre belirlenir."
+  ],
+  [
+   "Briny Breezes bölgesinde emlak vergisi ne kadar?",
+   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 19,0098–19,5589 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90–1,96. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Briny Breezes raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

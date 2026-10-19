@@ -1,0 +1,183 @@
+{
+ "id": "miami-springs",
+ "name": "Miami Springs",
+ "county": "Miami-Dade",
+ "meta": "Miami Springs mahalle raporu, Ekim 2026: medyan satış fiyatı $798.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "1920'lerde Pueblo Canlanması tarzında planlanan, golf sahası ve tarihî evleriyle havalimanına komşu bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $798.000.",
+ "sales": {
+  "median": 798000,
+  "median_chg": "yıllık +%9,0",
+  "ppsf": 577,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$798.000 <small>(yıllık +%9,0)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$577 / ft² ≈ $6.211 / m² <small>(yıllık +%19,3)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "60 gün <small>(bir yıl önce 91 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "30 <small>(yıllık +%8,8)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%95,8"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/11522/FL/Miami-Springs/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Miami Springs Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2354,
+  "chg": "yıllık −$606",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.633"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.700"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.742"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.354"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/miami-springs-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Miami Springs</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": [
+   "Zillow'da bu bölge için yalnızca 45 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+  ]
+ },
+ "tax": {
+  "mills": 21.8327,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Miami Springs, 1926'da havacılık öncüsü Glenn Curtiss tarafından kurulan ve Pueblo Canlanması (Pueblo Revival) tarzındaki tarihî yapılarıyla bilinen bir şehir. Curtiss'in eski malikânesi bugün müze ve etkinlik alanı olarak kullanılıyor.",
+  "Konut stoku ağırlıkla müstakil evlerden oluşur; şehrin merkezinde bir golf sahası ve kanal boyunca uzanan yeşil alanlar bulunur. Miami Uluslararası Havalimanı'na komşu olması en büyük avantajıdır."
+ ],
+ "places": [
+  [
+   "Glenn Curtiss Mansion",
+   "Pueblo tarzı tarihî malikâne ve müze."
+  ],
+  [
+   "Miami Springs Golf & Country Club",
+   "Şehrin tarihî golf sahası."
+  ],
+  [
+   "Curtiss Parkway",
+   "Kanal boyunca uzanan yeşil bulvar."
+  ],
+  [
+   "Gizli köşe: Pueblo tarzı evler",
+   "Şehrin eski mahallelerinde 1920'lerden kalma kerpiç görünümlü evler."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami Springs için 2025 toplam vergi oranı 21,8327 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,18. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $21.833. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 4 km · 10 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 40 km · 40 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 15 km · 25 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus hatları; Metrorail/Tri-Rail Transfer ve Miami Intermodal Center (havalimanı) istasyonlarına kısa mesafe."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Miami Springs için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Havalimanına çok yakın",
+  "Tarihî mimari ve golf sahası",
+  "Fit kare fiyatında güçlü artış (+%19,3)",
+  "Hızlı satışlar (60 gün)"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (21,83 mill)",
+  "Uçak gürültüsü",
+  "Kiralık stok sınırlı",
+  "Eski evlerde yenileme maliyeti"
+ ],
+ "faq": [
+  [
+   "Miami Springs bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $798.000 (yıllık +%9,0), fit kare fiyatı $577."
+  ],
+  [
+   "Miami Springs bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.354; 2 yatak odalı $2.742 civarında."
+  ],
+  [
+   "Miami Springs bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 21,8327 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,18. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Miami Springs Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/11522/FL/Miami-Springs/housing-market"
+  ],
+  [
+   "Zillow: Miami Springs Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/miami-springs-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Miami Springs raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

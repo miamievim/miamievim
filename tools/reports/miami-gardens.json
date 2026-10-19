@@ -1,0 +1,181 @@
+{
+ "id": "miami-gardens",
+ "name": "Miami Gardens",
+ "county": "Miami-Dade",
+ "meta": "Miami Gardens mahalle raporu, Ekim 2026: medyan satış fiyatı $512.706, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
+ "short": "Hard Rock Stadium'a ev sahipliği yapan, müstakil ev ağırlıklı ve hızlı satış yapan bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $512.706; satışlar ilan fiyatına çok yakın kapanıyor.",
+ "sales": {
+  "median": 512706,
+  "median_chg": "yıllık +%4,6",
+  "ppsf": 366,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$512.706 <small>(yıllık +%4,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$366 / ft² ≈ $3.940 / m² <small>(yıllık +%7,6)</small>"
+   ],
+   [
+    "Ortalama satış süresi",
+    "59 gün <small>(bir yıl önce 67 gün)</small>"
+   ],
+   [
+    "Satılan konut",
+    "189 <small>(yıllık +%6,7)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%97,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/11477/FL/Miami-Gardens/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Miami Gardens Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": []
+ },
+ "rent": {
+  "avg": 2800,
+  "chg": "yıllık +$100",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.349"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.575"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.300"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.800"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/miami-gardens-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Miami Gardens</a>, 17 Ekim 2026 güncellemesi.",
+  "notes": []
+ },
+ "tax": {
+  "mills": 22.3921,
+  "src_short": "Miami-Dade PA 2025"
+ },
+ "character": [
+  "Miami Gardens, 2003'te kurulan ve Miami-Dade'in en kalabalık şehirlerinden biri olan bir yerleşim. Hard Rock Stadium; Miami Dolphins maçları, Miami Open tenis turnuvası ve Formula 1 Miami Grand Prix gibi büyük etkinliklerle şehri uluslararası sahneye taşır.",
+  "Konut stoku ağırlıkla 1950–70'lerden kalma tek katlı müstakil evlerden oluşur. Florida Turnpike, I-95 ve Palmetto Expressway kavşağına yakınlık hem Miami'ye hem Broward'a hızlı erişim sağlar."
+ ],
+ "places": [
+  [
+   "Hard Rock Stadium",
+   "NFL, tenis, Formula 1 ve konserler."
+  ],
+  [
+   "St. Thomas University",
+   "Şehirdeki özel üniversite kampüsü."
+  ],
+  [
+   "Florida Memorial University",
+   "Tarihî üniversite kampüsü."
+  ],
+  [
+   "Gizli köşe: Betty T. Ferguson Recreational Complex",
+   "Spor tesisleri ve yüzme havuzuyla şehir merkezi."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Miami Gardens için 2025 toplam vergi oranı 22,3921 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,24. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $22.392. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan uzak bir bölgedir; risk çoğunlukla düşük-orta düzeydedir, ancak göl ve kanal kenarındaki ya da alçak kottaki mülklerde sel bölgesini ayrıca kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 25 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (yaklaşık 5 km)."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar için araç gerekir; alışveriş ve hizmetler ana caddeler boyunca toplanır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Miami Gardens için kayıtlı büyük ölçekli proje bulunmuyor."
+ ],
+ "pros": [
+  "Hızlı satışlar (59 gün) ve %97,7 satış/ilan oranı",
+  "Müstakil ev ağırlıklı stok",
+  "Otoyol bağlantıları güçlü",
+  "Broward ve Miami'ye eşit mesafe"
+ ],
+ "cons": [
+  "Yüksek vergi oranı (22,39 mill)",
+  "Etkinlik günlerinde stadyum çevresinde trafik",
+  "Plaja uzak",
+  "Eski evlerde çatı ve sigorta maliyeti"
+ ],
+ "faq": [
+  [
+   "Miami Gardens bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $512.706 (yıllık +%4,6), fit kare fiyatı $366."
+  ],
+  [
+   "Miami Gardens bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.800; 2 yatak odalı $2.300 civarında."
+  ],
+  [
+   "Miami Gardens bölgesinde emlak vergisi ne kadar?",
+   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 22,3921 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,24. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Miami Gardens Housing Market (Ekim 2026)",
+   "https://www.redfin.com/city/11477/FL/Miami-Gardens/housing-market"
+  ],
+  [
+   "Zillow: Miami Gardens Rental Market Trends (17 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/miami-gardens-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Miami Gardens raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}
