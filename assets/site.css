@@ -314,3 +314,14 @@ h2 em,h1 em{font-style:italic}
   .ps-filters .ps-lbl{width:100%;margin:6px 0 0 2px}
   .ps-filters .ps-lbl:not(:first-child){margin-left:2px}
 }
+/* İlan talep sayfası */
+.il-wrap{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:64px;align-items:start}
+.il-form{display:flex;flex-direction:column;gap:22px}
+.il-form .hp{display:none}
+.il-side{background:var(--bone);padding:36px;position:sticky;top:24px}
+.il-side h2{font-size:30px;margin:0 0 18px}
+.il-side ul{list-style:none;margin:0;padding:0}
+.il-side li{padding:14px 0;border-top:1px solid var(--line);font-weight:300;color:var(--text);font-size:16px}
+.il-side li b{font-weight:500;color:var(--ink)}
+.il-wa{margin:20px 0 0;font-size:15px}
+@media (max-width:900px){.il-wrap{grid-template-columns:1fr;gap:40px}.il-side{position:static;padding:24px}}

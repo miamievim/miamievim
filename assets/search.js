@@ -1,8 +1,7 @@
 (function () {
   'use strict';
-  // Ana sayfadaki ilan arama çubuğu. MLS ilanları Cervera'nın IDX arama sayfasında açılır;
-  // seçilen kriterler "ev-arama" formuyla ilan uyarısı için saklanır.
-  var IDX = 'https://aleynabozoklar.com/search/#!/defaultsearch:true';
+  // Ana sayfadaki ilan arama çubuğu: kriterleri /ilanlar/ sayfasına taşır.
+  // (MLS IDX bağlantısı kurulduğunda bu sayfa gerçek ilan sonuçlarını gösterecek.)
   var root = document.getElementById('ev-ara');
   if (!root) return;
   var form = document.getElementById('ps-form'), q = document.getElementById('ps-q');
@@ -37,15 +36,12 @@
 
   form.addEventListener('submit', function (ev) {
     ev.preventDefault();
-    var parts = [state.mode === 'kiralik' ? 'Kiralık' : 'Satılık'];
-    if (q.value.trim()) parts.push(q.value.trim());
-    if (state.fiyat) parts.push(state.fiyat);
-    if (state.yatak) parts.push(state.yatak + ' yatak');
-    if (state.tip) parts.push(state.tip);
-    var crit = document.getElementById('ps-crit');
-    if (crit) crit.value = parts.join(' · ');
-    window.open(IDX, '_blank', 'noopener');
-    var after = document.getElementById('ps-after');
-    if (after) { after.hidden = false; }
+    var p = new URLSearchParams();
+    p.set('islem', state.mode);
+    if (q.value.trim()) p.set('q', q.value.trim());
+    if (state.fiyat) p.set('fiyat', state.fiyat);
+    if (state.yatak) p.set('yatak', state.yatak);
+    if (state.tip) p.set('tip', state.tip);
+    location.href = '/ilanlar/?' + p.toString();
   });
 })();

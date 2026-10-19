@@ -53,6 +53,7 @@
     $('h3', card).textContent = h.name;
     $('p', card).textContent = h.line;
     var r = document.getElementById('card-report'); if (r) r.href = '/mahalle-raporlari/' + h.id + '/';
+    var sr = document.getElementById('card-search'); if (sr) sr.href = '/ilanlar/?q=' + encodeURIComponent(h.name);
   }
 
   function updateMarkers() {
@@ -296,7 +297,7 @@
         if (!q) return;
         var hit = HOODS.filter(function (h) { return h.name.toLocaleLowerCase('tr').indexOf(q) !== -1; })[0];
         if (hit) { select(hit.id); return; }
-        window.open('https://aleynabozoklar.com/search', '_blank', 'noopener');
+        location.href = '/ilanlar/?q=' + encodeURIComponent(($('input', form).value || '').trim());
       });
     }
   }

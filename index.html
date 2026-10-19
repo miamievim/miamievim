@@ -22,10 +22,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="/assets/site.css?v=8445b11e">
+<link rel="stylesheet" href="/assets/site.css?v=9d5900eb">
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" defer></script>
-<script src="/assets/map.js?v=bdc96a12" defer></script>
-<script src="/assets/search.js?v=ddbd0c94" defer></script>
+<script src="/assets/map.js?v=d11491e0" defer></script>
+<script src="/assets/search.js?v=f75434f8" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -55,7 +55,7 @@
         {"@type": "CollegeOrUniversity", "name": "Istituto Marangoni"}
       ],
       "parentOrganization": {"@type": "RealEstateAgent", "name": "Cervera Real Estate", "foundingDate": "1969", "url": "https://www.cervera.com/"},
-      "sameAs": ["https://www.instagram.com/aleynabozoklarr/", "https://www.linkedin.com/in/aleynabozoklar", "https://aleynabozoklar.com/"]
+      "sameAs": ["https://www.instagram.com/aleynabozoklarr/", "https://www.linkedin.com/in/aleynabozoklar"]
     },
     {"@type": "WebSite", "@id": "https://miamievim.com/#site", "url": "https://miamievim.com/", "name": "Miami Evim", "inLanguage": "tr", "publisher": {"@id": "https://miamievim.com/#aleyna"}},
     {
@@ -90,8 +90,8 @@
     <div class="wrap">
       <a class="brand" href="/" aria-label="Aleyna Bozoklar — ana sayfa"><img src="/assets/logo-white.png" alt="Aleyna Bozoklar — Miami Luxury Real Estate Specialist" width="1133" height="824"></a>
       <nav class="nav" aria-label="Ana menü">
-      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Satılık</a>
-      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Kiralık</a>
+      <a href="/ilanlar/?islem=satilik">Satılık</a>
+      <a href="/ilanlar/?islem=kiralik">Kiralık</a>
       <a href="/yeni-projeler/">Yeni Projeler</a>
       <a href="/yatirim/">Yatırım</a>
       <a href="/#hizmetler">Hizmetler</a>
@@ -102,7 +102,7 @@
       <div class="header-right">
         <div class="lang" aria-label="Dil seçimi">
           <a href="/" aria-current="true" lang="tr">TR</a>
-          <a href="https://aleynabozoklar.com/" lang="en" hreflang="en">EN</a>
+          
         </div>
         <a class="btn btn-line header-cta" href="/#iletisim">İletişim</a>
       </div>
@@ -118,7 +118,7 @@
           <button type="button" role="tab" aria-selected="true" data-mode="satilik">Satılık</button>
           <button type="button" role="tab" aria-selected="false" data-mode="kiralik">Kiralık</button>
         </div>
-        <form class="ps-card" id="ps-form" role="search" action="https://aleynabozoklar.com/search/" target="_blank">
+        <form class="ps-card" id="ps-form" role="search" action="/ilanlar/" method="get">
           <div class="ps-row">
             <label class="ps-input">
               <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
@@ -156,17 +156,6 @@
             </span>
           </div>
         </form>
-        <div class="ps-after" id="ps-after" hidden>
-          <p><strong>Güncel MLS ilanları yeni sekmede açıldı.</strong> Kriterlerinize uyan yeni ilanlar ve fiyat düşüşleri piyasaya çıkmadan size gelsin:</p>
-          <form class="ps-alert" name="ev-arama" method="POST" action="/tesekkurler/" data-netlify="true" netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="ev-arama">
-            <input type="hidden" name="kriterler" id="ps-crit">
-            <p class="hp"><label>Bu alanı boş bırakın <input name="bot-field"></label></p>
-            <label class="sr-only" for="ps-email">E-posta</label>
-            <input type="email" id="ps-email" name="email" placeholder="E-posta adresiniz" required autocomplete="email">
-            <button class="btn" type="submit">İlan uyarısı kur</button>
-          </form>
-        </div>
         <p class="ps-more">Aradığınızı tarif etmek daha mı kolay? <a href="#iletisim">Ücretsiz tanışma görüşmesi</a> · <a href="/mahalle-testi/">Mahalle testini çözün</a></p>
       </div>
     </div>
@@ -227,7 +216,7 @@
       <div class="report"><span>Mahalle raporu</span><a id="card-report" href="/mahalle-raporlari/brickell/" style="color:var(--white)">Raporu alın</a></div>
       <div class="actions">
         <a class="btn" href="/mahalle-rehberi/">Rehberi alın</a>
-        <a class="btn btn-line" href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">Bu bölgede ev arayın</a>
+        <a class="btn btn-line" id="card-search" href="/ilanlar/?q=Brickell">Bu bölgede ev arayın</a>
       </div>
     </aside>
   </div>
@@ -455,7 +444,7 @@
       <a href="#hizmetler">Hizmetler</a>
       <a href="/hakkimda/">Hakkımda</a>
       <a href="#sss">SSS</a>
-      <a href="https://aleynabozoklar.com/search" target="_blank" rel="noopener">İlan ara</a>
+      <a href="/ilanlar/">İlan ara</a>
       <a href="https://www.instagram.com/aleynabozoklarr/" target="_blank" rel="noopener">Instagram</a>
       <a href="https://www.linkedin.com/in/aleynabozoklar" target="_blank" rel="noopener">LinkedIn</a>
     </nav>
