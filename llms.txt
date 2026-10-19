@@ -24,7 +24,7 @@ Son güncelleme: 2026-10-18
 - [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 22 mahallenin ücretsiz raporu (ad ve e-posta ile erişim)
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
-- [Yeni projeler](https://miamievim.com/yeni-projeler/): proje aşamasındaki ve markalı rezidanslar için danışmanlık
+- [Yeni projeler](https://miamievim.com/yeni-projeler/): Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables'ta 83 yeni proje; tahmini teslim, ft² fiyatı, ödeme planı, geliştirici ve mimar (kaynak: Cervera Development Market Study, Q3 2026)
 
 ## Mahalle raporları
 22 mahallenin her biri için ayrı rapor: karakter, satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Rakamlar kaynak ve ay bilgisiyle verilir. Raporlar her ay güncellenir.

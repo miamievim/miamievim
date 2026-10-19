@@ -172,7 +172,6 @@
     labels = [];
     var host = $('#map'), shell = $('.map-shell');
     if (!host) return;
-    if (map) { try { map.remove(); } catch (e) {} map = null; }
     markers = {}; countyLabels = {};
     host.innerHTML = '';
     if (shell) { shell.classList.remove('no-map'); shell.classList.add('schematic'); }
@@ -214,12 +213,21 @@
   }
 
   function initMap() {
-    var shell = $('.map-shell');
-    if (!$('#map')) return;
-    if (!window.maplibregl) { renderSchematic(); return; }
+    // Önce her ortamda çalışan şematik harita çizilir; gerçek harita yalnızca
+    // başarıyla yüklendiğinde onun yerine geçer. Böylece harita hiçbir zaman boş kalmaz.
+    var shell = $('.map-shell'), host = $('#map');
+    if (!host || !shell) return;
+    renderSchematic();
+    if (!window.maplibregl) return;
+    try { if (maplibregl.supported && !maplibregl.supported()) return; } catch (e) {}
+    var glEl = document.createElement('div');
+    glEl.className = 'gl-layer';
+    glEl.setAttribute('aria-hidden', 'true');
+    host.parentNode.insertBefore(glEl, host.nextSibling);
+    var gl;
     try {
-      map = new maplibregl.Map({
-        container: 'map',
+      gl = new maplibregl.Map({
+        container: glEl,
         style: 'https://tiles.openfreemap.org/styles/dark',
         bounds: COUNTY_BOUNDS['Miami-Dade'],
         fitBoundsOptions: { padding: window.matchMedia('(min-width: 901px)').matches ? { top: 140, bottom: 110, left: 60, right: 440 } : 20 },
@@ -229,42 +237,45 @@
         minZoom: 7
       });
     } catch (e) {
-      renderSchematic();
+      glEl.parentNode.removeChild(glEl);
       return;
     }
-    var loaded = false;
-    map.on('error', function () { setTimeout(function () { if (!loaded && map && !map.isStyleLoaded()) renderSchematic(); }, 4000); });
-    setTimeout(function () { if (!loaded && map && !map.isStyleLoaded()) renderSchematic(); }, 20000);
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
-
-    map.on('load', function () {
-      loaded = true;
-      var g = countyGeo();
-      map.addSource('county-shade', { type: 'geojson', data: g.shade });
-      map.addLayer({ id: 'county-shade', type: 'fill', source: 'county-shade', paint: { 'fill-color': '#000000', 'fill-opacity': 0 } });
-      map.addSource('county-lines', { type: 'geojson', data: g.lines });
-      map.addLayer({ id: 'county-lines', type: 'line', source: 'county-lines', paint: { 'line-color': '#8A8378', 'line-width': 1.4, 'line-dasharray': [4, 3] } });
+    gl.on('error', function () {});
+    gl.on('load', function () {
+      try {
+        var g = countyGeo();
+        gl.addSource('county-shade', { type: 'geojson', data: g.shade });
+        gl.addLayer({ id: 'county-shade', type: 'fill', source: 'county-shade', paint: { 'fill-color': '#000000', 'fill-opacity': 0 } });
+        gl.addSource('county-lines', { type: 'geojson', data: g.lines });
+        gl.addLayer({ id: 'county-lines', type: 'line', source: 'county-lines', paint: { 'line-color': '#8A8378', 'line-width': 1.4, 'line-dasharray': [4, 3] } });
+        gl.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
+      } catch (e) { return; }
+      // Şematik haritayı kaldır, gerçek haritaya geç.
+      host.innerHTML = ''; svgEl = null; labels = []; markers = {}; countyLabels = {};
+      shell.classList.remove('schematic'); shell.classList.add('gl-ready');
+      glEl.removeAttribute('aria-hidden');
+      glEl.setAttribute('role', 'region');
+      glEl.setAttribute('aria-label', 'Güney Florida mahalle haritası');
+      map = gl;
+      [['Palm Beach', 26.345], ['Broward', 25.985], ['Miami-Dade', 25.930]].forEach(function (c) {
+        var el = document.createElement('div');
+        el.className = 'county-label';
+        el.textContent = c[0];
+        countyLabels[c[0]] = new maplibregl.Marker({ element: el, anchor: 'left' }).setLngLat([-80.62, c[1]]).addTo(map);
+      });
+      HOODS.forEach(function (h) {
+        var el = document.createElement('button');
+        el.type = 'button';
+        el.className = 'hood-marker';
+        el.setAttribute('aria-label', h.name);
+        el.innerHTML = '<span class="dot" aria-hidden="true"></span><span class="lbl"></span>';
+        el.querySelector('.lbl').textContent = h.name;
+        el.addEventListener('click', function (ev) { ev.stopPropagation(); select(h.id); });
+        markers[h.id] = new maplibregl.Marker({ element: el, anchor: 'left', offset: [-22, 0] }).setLngLat([h.lng, h.lat]).addTo(map);
+      });
+      if (state.county !== 'All') setCounty(state.county);
       updateMarkers();
     });
-
-    [['Palm Beach', 26.345], ['Broward', 25.985], ['Miami-Dade', 25.930]].forEach(function (c) {
-      var el = document.createElement('div');
-      el.className = 'county-label';
-      el.textContent = c[0];
-      countyLabels[c[0]] = new maplibregl.Marker({ element: el, anchor: 'left' }).setLngLat([-80.62, c[1]]).addTo(map);
-    });
-
-    HOODS.forEach(function (h) {
-      var el = document.createElement('button');
-      el.type = 'button';
-      el.className = 'hood-marker';
-      el.setAttribute('aria-label', h.name);
-      el.innerHTML = '<span class="dot" aria-hidden="true"></span><span class="lbl"></span>';
-      el.querySelector('.lbl').textContent = h.name;
-      el.addEventListener('click', function (ev) { ev.stopPropagation(); select(h.id); });
-      markers[h.id] = new maplibregl.Marker({ element: el, anchor: 'left', offset: [-22, 0] }).setLngLat([h.lng, h.lat]).addTo(map);
-    });
-    updateMarkers();
   }
 
   function initControls() {
