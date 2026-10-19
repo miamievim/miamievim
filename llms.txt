@@ -28,6 +28,7 @@ Son güncelleme: 2026-10-18
 - [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 108 bölgenin ücretsiz raporu (ad ve e-posta ile erişim)
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
+- [Neden Miami?](https://miamievim.com/rehberler/neden-miami/): Florida'da eyalet gelir vergisi olmaması, MIA'nın 172 direkt uçuş noktası, İstanbul–Miami günlük direkt sefer, Miami-Dade nüfusu (2025), turizm, iklim ve yaşam; kaynaklı ve tarihli
 - [Yeni projeler](https://miamievim.com/yeni-projeler/): Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables'ta 83 yeni proje; tahmini teslim, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine (kaynak: Cervera Development Market Study, Q3 2026)
 
 ## Mahalle raporları

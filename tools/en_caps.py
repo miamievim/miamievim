@@ -50,7 +50,11 @@ def process(html, pat):
         tag, text = m.group(3), m.group(4)
         if 'lang="en"' in tag or tag.startswith('<script') or tag.startswith('<style'):
             return tag + text
-        return tag + pat.sub(r'<span lang="en">\1</span>', text)
+        new = pat.sub(r'<span lang="en">\1</span>', text)
+        if new != text and not tag.startswith('<span class="ent"'):
+            # Metnin tamamı tek bir öğe olarak kalsın (flex kapsayıcılarda kelimeler ayrı kutulara bölünmesin)
+            new = '<span class="ent">' + new + '</span>'
+        return tag + new
     return html[:i] + TOKEN.sub(rep, html[i:])
 
 
