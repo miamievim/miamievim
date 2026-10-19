@@ -348,6 +348,10 @@ h2 em,h1 em{font-style:italic}
 
 /* Hakkımda: portre ve basın */
 .about-photo{display:block;margin-top:44px;max-width:440px}
+.about-split{flex-wrap:nowrap;gap:72px;align-items:center}
+.about-split .about-photo{flex:0 0 min(36%,420px);margin:0;max-width:none}
+.about-split .about-body{flex:1 1 auto}
+.about-split .about-body h2{font-size:clamp(32px,3.2vw,48px);margin:0 0 6px}
 .about-photo img{display:block;width:100%;height:auto}
 .press{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0 56px;border-top:1px solid var(--ink)}
 .press li{display:flex;flex-direction:column;gap:14px;padding:32px 0;border-bottom:1px solid var(--line)}
@@ -355,4 +359,4 @@ h2 em,h1 em{font-style:italic}
 .press h3{font-size:clamp(24px,2.4vw,32px);line-height:1.2;margin:0}
 .press p{margin:0;font-size:16px;font-weight:300;color:var(--text)}
 .press .link-caps{margin-top:6px;align-self:flex-start;color:var(--ink)}
-@media (max-width:900px){.about-photo{max-width:none;margin-top:32px}}
+@media (max-width:900px){.about-photo{max-width:none;margin-top:32px}.about-split{flex-wrap:wrap;gap:32px}.about-split .about-photo{flex:1 1 100%;max-width:420px;margin:0 auto}}
