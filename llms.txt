@@ -18,7 +18,7 @@ Son güncelleme: 2026-10-18
 
 ## Önemli sayfalar
 - [Ana sayfa](https://miamievim.com/): hizmetler, mahalle haritası, sık sorulan sorular
-- [Ücretsiz Miami Mahalle Rehberi](https://miamievim.com/mahalle-rehberi/): 108 bölgenin kira, fiyat, aidat, sigorta, sel bölgesi ve ulaşım karşılaştırması (Türkçe)
+- [Ücretsiz Miami Mahalle Rehberi](https://miamievim.com/mahalle-rehberi/): 22 mahallenin kira, fiyat, aidat, sigorta, sel bölgesi ve ulaşım karşılaştırması (Türkçe)
 - [Miami'de emlak yatırımı](https://miamievim.com/yatirim/): net getiri hesaplayıcısı; aidat, emlak vergisi, sigorta, kira kuralları ve FIRPTA
 - [Mahalle testi](https://miamievim.com/mahalle-testi/): 9 soruda size uygun üç Miami mahallesi
 - [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 108 bölgenin ücretsiz raporu (ad ve e-posta ile erişim)

@@ -82,14 +82,21 @@ def update_hub(hoods):
 
 
 def update_counts(n):
-    for f, pats in [('index.html', [(r'\b\d+ mahalle, rakamlarıyla', f'{n} bölge, rakamlarıyla'), (r'\b\d+ mahallenin', f'{n} bölgenin'), (r'\b\d+ mahalle\b', f'{n} bölge'), (r'\b\d+ bölgenin', f'{n} bölgenin'), (r'\b\d+ bölge\b', f'{n} bölge'), (r'her pazartesi yeni rapor', 'her ay güncellenen raporlar'), (r'haftalık raporlar', 'aylık güncellenen raporlar')]),
-                    ('mahalle-raporlari/index.html', [(r'\b\d+ mahallenin', f'{n} bölgenin'), (r'\b\d+ mahalle\b', f'{n} bölge'), (r'\b\d+ bölgenin', f'{n} bölgenin'), (r'\b\d+ bölge\b', f'{n} bölge')]),
-                    ('llms.txt', [(r'\b\d+ mahallenin', f'{n} bölgenin'), (r'\b\d+ mahalle\b', f'{n} bölge'), (r'\b\d+ bölgenin', f'{n} bölgenin'), (r'\b\d+ bölge\b', f'{n} bölge'), (r'(\d+ bölge) \([^)]*\)', r'\1')])]:
+    # Yalnızca 2-3 basamaklı ve aralık parçası olmayan sayılar ("2–3 mahalle" gibi ifadeler korunur).
+    N = r'(?<![–\-\d])\b\d{2,3}'
+    common = [(N + r' mahallenin', f'{n} bölgenin'), (N + r' mahalle\b', f'{n} bölge'), (N + r' bölgenin', f'{n} bölgenin'), (N + r' bölge\b', f'{n} bölge')]
+    for f, pats in [('index.html', [(N + r' mahalle, rakamlarıyla', f'{n} bölge, rakamlarıyla'), (N + r' bölge rehberi', f'{n} bölge raporu')] + common + [(r'her pazartesi yeni rapor', 'her ay güncellenen raporlar'), (r'haftalık raporlar', 'aylık güncellenen raporlar')]),
+                    ('mahalle-raporlari/index.html', common),
+                    ('llms.txt', common + [(r'(\d+ bölge) \([^)]*\)', r'\1')])]:
         p = os.path.join(ROOT, f)
-        s = open(p, encoding='utf-8').read()
-        for a, b in pats:
-            s = re.sub(a, b, s)
-        open(p, 'w', encoding='utf-8').write(s)
+        lines = open(p, encoding='utf-8').read().split('\n')
+        out = []
+        for line in lines:
+            if 'mahalle-rehberi/' not in line:  # Mahalle Rehberi ayrı bir yayındır (22 mahalle); sayısına dokunulmaz
+                for a, b in pats:
+                    line = re.sub(a, b, line)
+            out.append(line)
+        open(p, 'w', encoding='utf-8').write('\n'.join(out))
 
 
 def update_sitemap_llms(hoods):
