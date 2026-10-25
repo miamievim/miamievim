@@ -280,7 +280,7 @@ def render(g, tpl, tabs):
     body_start = tpl[tpl.index('<body>'):tpl.index('<main id="main">')]
     footer = tpl[tpl.index('</main>') + len('</main>'):]
     head = tpl[:tpl.index('<title>')]
-    links = re.findall(r'<link rel="(?:preconnect|stylesheet|icon|apple-touch-icon)"[^>]*>', tpl[:head_end])
+    links = re.findall(r'<link (?:rel="(?:preconnect|stylesheet|icon|apple-touch-icon)"|href="https://fonts\.googleapis\.com)[^>]*>', tpl[:head_end])
     for c in g.get('css', []):
         links.append(f'<link rel="stylesheet" href="/assets/{c}.css">')
     srcs = g['sources']

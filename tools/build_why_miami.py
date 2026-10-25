@@ -78,7 +78,7 @@ def main():
     title = 'Neden Miami? Vergi, Ulaşım, Nüfus ve Yaşam (2026) | Aleyna Bozoklar'
     desc = 'Miami neden tercih ediliyor? Florida\'da eyalet gelir vergisi yok, MIA\'dan 172 noktaya direkt uçuş, İstanbul\'a günlük sefer ve büyüyen nüfus. Kaynaklı ve tarihli Türkçe rehber.'
     head = tpl[:tpl.index('<title>')]
-    css_links = re.findall(r'<link rel="(?:preconnect|stylesheet|icon|apple-touch-icon)"[^>]*>', tpl[:head_end])
+    css_links = re.findall(r'<link (?:rel="(?:preconnect|stylesheet|icon|apple-touch-icon)"|href="https://fonts\.googleapis\.com)[^>]*>', tpl[:head_end])
     ld = {
         '@context': 'https://schema.org',
         '@graph': [
