@@ -127,7 +127,7 @@ def main():
       <p class="eyebrow"><a href="/rehberler/" style="color:inherit">Rehberler</a> · Neden Miami?</p>
       <h1>Neden <em>Miami?</em></h1>
       <p class="lead">Vergi, ulaşım, nüfus ve yaşam kalitesi: Miami\'yi oturmak ve yatırım için öne çıkaran başlıklar, her rakam kaynağı ve tarihiyle. Son güncelleme: {UPDATED}.</p>
-      <nav class="subtabs" aria-label="Rehberler alt menüsü"><a href="/rehberler/">Tüm rehberler</a><a href="/rehberler/neden-miami/" aria-current="page">Neden Miami?</a></nav>
+      <nav class="subtabs" aria-label="Rehberler alt menüsü"><a href="/rehberler/">Tüm rehberler</a><a href="/rehberler/neden-miami/" aria-current="page">Neden Miami?</a><a href="/rehberler/miami-mahalle-karsilastirmasi/">22 mahalle</a><a href="/rehberler/miami-ev-alma-maliyetleri/">Gizli maliyetler</a></nav>
     </div>
   </section>
 

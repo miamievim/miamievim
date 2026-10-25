@@ -2,7 +2,7 @@
 
 > miamievim.com, Miami ve Güney Florida'da (Miami-Dade, Broward, Palm Beach) Türkçe emlak danışmanlığı veren Aleyna Bozoklar'ın Türkçe web sitesidir. Aleyna Bozoklar, Cervera Real Estate (Miami, 1969'dan beri) bünyesinde çalışan lisanslı bir Realtor® Associate'tir. Türkçe, İngilizce ve Fransızca hizmet verir.
 
-Son güncelleme: 2026-10-18
+Son güncelleme: 2026-10-26
 
 ## Kimlik
 - Ad: Aleyna Bozoklar
@@ -26,9 +26,12 @@ Son güncelleme: 2026-10-18
 - [Miami'de emlak yatırımı](https://miamievim.com/yatirim/): net getiri hesaplayıcısı; aidat, emlak vergisi, sigorta, kira kuralları ve FIRPTA
 - [Mahalle testi](https://miamievim.com/mahalle-testi/): 9 soruda size uygun üç Miami mahallesi
 - [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 108 bölgenin ücretsiz raporu (ad ve e-posta ile erişim)
+- [İlanlar](https://miamievim.com/ilanlar/): Miami-Dade, Broward ve Palm Beach'te satılık ve kiralık ilan talebi; kriterlere uyan güncel MLS ilanları kat planı ve fiyat geçmişiyle gönderilir
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
 - [Neden Miami?](https://miamievim.com/rehberler/neden-miami/): Florida'da eyalet gelir vergisi olmaması, MIA'nın 172 direkt uçuş noktası, İstanbul–Miami günlük direkt sefer, Miami-Dade nüfusu (2025), turizm, iklim ve yaşam; kaynaklı ve tarihli
+- [Miami'de hangi mahalle size uygun? 22 mahalle karşılaştırması](https://miamievim.com/rehberler/miami-mahalle-karsilastirmasi/): Miami-Dade, Broward ve Palm Beach'ten 22 bölgenin medyan satış fiyatı (Redfin), ortalama kirası (Zillow/RentCafe) ve 2025 emlak vergisi oranı yan yana; yaşam biçimine göre beş grup (Ekim 2026)
+- [Miami'de ev alırken gizli maliyetler](https://miamievim.com/rehberler/miami-ev-alma-maliyetleri/): Miami-Dade tapu devri damga vergisi (%0,60 / %1,05), tapu sigortası devlet tarifesi, emlak vergisi ve homestead ($51.411, 2026), Save Our Homes %2,7 (2026), 3 Kasım 2026 Amendment 3 oylaması, SIRS/milestone ve HB 913, sigorta; kaynaklı (Ekim 2026)
 - [Yeni projeler](https://miamievim.com/yeni-projeler/): Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables'ta 83 yeni proje; tahmini teslim, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine (kaynak: Cervera Development Market Study, Q3 2026)
 
 ## Mahalle raporları
