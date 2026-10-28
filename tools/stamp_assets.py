@@ -23,6 +23,9 @@ def main():
         if '/tools/' in h or '/node_modules/' in h:
             continue
         s = open(h, encoding='utf-8').read()
+        if 'data-netlify="true"' in s and '/assets/forms.js' not in s:
+            s = s.replace('</body>', '<script src="/assets/forms.js" defer></script>\n</body>', 1)
+            open(h, 'w', encoding='utf-8').write(s)
         t = re.sub(r'(/assets/[\w.-]+\.(?:css|js))(\?v=[0-9a-f]+)?', lambda m: m.group(1) + ('?v=' + vers[m.group(1)] if m.group(1) in vers else ''), s)
         if t != s:
             open(h, 'w', encoding='utf-8').write(t); n += 1

@@ -19,9 +19,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=48da2503">
+<link rel="stylesheet" href="/assets/site.css?v=ca93e085">
 <style>
-.quiz{max-width:880px}
+.quiz{max-width:980px}
+.tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:8px}
+.track{font-family:var(--sans);text-align:left;background:var(--white);border:1px solid var(--line);padding:0 0 26px;cursor:pointer;display:flex;flex-direction:column;gap:10px;color:var(--ink);overflow:hidden}
+.track img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;margin-bottom:12px}
+.track span{padding:0 26px}
+.track-k{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--stone)}
+.track-t{font-family:var(--serif);font-size:32px;line-height:1.1}
+.track-s{font-size:15px;font-weight:300;color:var(--text);line-height:1.5}
+.track-go{margin-top:6px;font-size:12px;letter-spacing:.24em;text-transform:uppercase}
+.track:hover{border-color:var(--ink)}
+.opt-img{padding:0 0 18px;overflow:hidden}
+.opt-img img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block;margin-bottom:12px}
+.opt-img span,.opt-img small{padding:0 18px}
+.res-img{width:calc(100% + 64px);margin:-32px -32px 6px;aspect-ratio:16/9;object-fit:cover;display:block}
+#q-intro h2{font-size:clamp(30px,3.4vw,46px);margin:14px 0 12px}
+
 .quiz-top{display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--stone)}
 .bar{height:2px;background:var(--line);margin:16px 0 48px}
 .bar span{display:block;height:100%;background:var(--ink);transition:width .3s}
@@ -74,16 +89,25 @@
 <main>
   <section class="page-hero" style="padding-bottom:72px">
     <div class="wrap">
-      <p class="eyebrow">9 soru · 22 mahalle · 3 dakika</p>
+      <p class="eyebrow">2 test · 22 mahalle · 2–3 dakika</p>
       <h1><span class="ent"><span lang="en">Miami</span>'de hangi mahalle </span><em>size uygun?</em></h1>
-      <p class="lead">Amacınızı, bütçenizi, yaşam tarzınızı ve önceliklerinizi 22 mahallenin özellikleriyle karşılaştırın; size en uygun üç mahalleyi uyum yüzdesi ve nedenleriyle birlikte görün.</p>
+      <p class="lead"><span class="ent"><span lang="en">Miami</span>'ye yeniyseniz yer adı bilmeden görsellerle, şehri tanıyorsanız daha ayrıntılı sorularla; amacınızı, bütçenizi ve önceliklerinizi 22 mahallenin özellikleriyle karşılaştırın ve size en uygun üç mahalleyi uyum yüzdesi ve nedenleriyle görün.</span></p>
     </div>
   </section>
 
   <section class="section" style="padding-top:72px">
     <div class="wrap">
       <div class="quiz" id="quiz" aria-live="polite">
-        <div id="q-panel">
+        <div id="q-intro">
+          <p class="eyebrow">İki test, tek amaç</p>
+          <h2><span class="ent"><span lang="en">Miami</span>'yi ne kadar tanıyorsunuz?</span></h2>
+          <p class="hint">Size uygun testi seçin; iki test de size en uygun üç mahalleyi uyum yüzdesi ve nedenleriyle gösterir.</p>
+          <div class="tracks">
+            <button type="button" class="track" data-track="new"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/SouthBeachMiamiBeach.jpg/500px-SouthBeachMiamiBeach.jpg" alt="" loading="lazy"><span class="track-k">7 soru · 2 dakika</span><span class="track-t"><span class="ent"><span lang="en">Miami</span>'ye yeniyim</span></span><span class="track-s">Mahalle ve semt adı bilmeden; yaşam tarzınızı, bütçenizi ve önceliklerinizi görsellerle seçin.</span><span class="track-go">Bu testi çözün →</span></button>
+            <button type="button" class="track" data-track="known"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Brickell_neighborhood_skyline_%2860062p%29.jpg/500px-Brickell_neighborhood_skyline_%2860062p%29.jpg" alt="" loading="lazy"><span class="track-k">9 soru · 3 dakika</span><span class="track-t"><span class="ent"><span lang="en">Miami</span>'yi biliyorum</span></span><span class="track-s">Şehri tanıyorsanız: sık gideceğiniz yerler, ulaşım ve bina tarzı dahil daha ayrıntılı eşleştirme.</span><span class="track-go">Bu testi çözün →</span></button>
+          </div>
+        </div>
+        <div id="q-panel" hidden>
           <div class="quiz-top"><span id="q-count">Soru 1 / 9</span><span><span class="ent"><span lang="en">Miami</span> mahalle testi</span></span></div>
           <div class="bar" aria-hidden="true"><span id="q-bar" style="width:14%"></span></div>
           <h2 id="q-title">Bu evi ne için düşünüyorsunuz?</h2>
@@ -91,6 +115,7 @@
           <div class="opts" id="q-opts" role="group" aria-labelledby="q-title"></div>
           <div class="quiz-nav"><button type="button" class="back" id="q-back" disabled>← Önceki soru</button></div>
         </div>
+        <details class="img-credits"><summary>Görsel künyeleri</summary><ol><li><a href="https://commons.wikimedia.org/wiki/File:SouthBeachMiamiBeach.jpg" target="_blank" rel="noopener">SouthBeachMiamiBeach</a>: Massimo Catarinella, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Brickell_neighborhood_skyline_%2860062p%29.jpg" target="_blank" rel="noopener"><span class="ent"><span lang="en">Brickell</span> neighborhood skyline (60062p)</span></a>: Rhododendrites, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Miami-downtown-from-intercontinental-hotel.jpg" target="_blank" rel="noopener">Miami-downtown-from-intercontinental-hotel</a>: Wikimedia Commons, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Swan_Lake_at_Pinecrest_Gardens.jpg" target="_blank" rel="noopener"><span class="ent">Swan Lake at <span lang="en">Pinecrest</span> Gardens</span></a>: Rook48, CC0</li><li><a href="https://commons.wikimedia.org/wiki/File:Wynwood_Walls_Miami_Florida_October_2013.jpg" target="_blank" rel="noopener"><span class="ent">Wynwood Walls <span lang="en">Miami</span> <span lang="en">Florida</span> October 2013</span></a>: Dan Lundberg, CC BY-SA 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Sunny_Isles_Beach_Morning.jpg" target="_blank" rel="noopener">Sunny Isles Beach Morning</a>: Miamiresidence, CC BY 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Bateau_p%C3%A9n%C3%A9trant_dans_l%27Inlet_de_Lighthouse_Point%2C_Florida._Boat_sailing_in_the_Inlet_-_panoramio.jpg" target="_blank" rel="noopener"><span class="ent">Bateau pénétrant dans l&#x27;Inlet de <span lang="en">Lighthouse</span> <span lang="en">Point</span>, <span lang="en">Florida</span>. Boat sailing in the Inlet - panoramio</span></a>: Richard Mc Neil, CC BY 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Brickell_Cloudy_Day.jpg" target="_blank" rel="noopener"><span class="ent"><span lang="en">Brickell</span> Cloudy Day</span></a>: Marcos102016, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Miami_International_Airport_Terminal_D_January_2026.jpeg" target="_blank" rel="noopener"><span class="ent"><span lang="en">Miami</span> <span lang="en">International</span> Airport Terminal D January 2026</span></a>: Dough4872, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Beach_at_Fort_Lauderdale.jpg" target="_blank" rel="noopener">Beach at Fort Lauderdale</a>: Daniel Dudek, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Boca_Raton_Resort_porte-cochere_entrance_photo_Don_Ramey_Logan.jpg" target="_blank" rel="noopener">Boca Raton Resort porte-cochere entrance photo Don Ramey Logan</a>: Don Ramey Logan, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Downtown_Coconut_Grove.jpg" target="_blank" rel="noopener">Downtown Coconut Grove</a>: Anthony Quintano, CC BY 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Biltmore_Hotel%2C_Coral_Gables%2C_Florida.jpg" target="_blank" rel="noopener"><span class="ent">Biltmore Hotel, Coral Gables, <span lang="en">Florida</span></span></a><span class="ent">: Luis <span lang="en">Villa</span>, CC BY-SA 4.0</span></li><li><a href="https://commons.wikimedia.org/wiki/File:Crandon_Park_beach%2C_FL.jpg" target="_blank" rel="noopener">Crandon Park beach, FL</a>: Paulkondratuk3194, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Marlin_Hotel_Art_Deco.jpg" target="_blank" rel="noopener">Marlin Hotel Art Deco</a>: Alexf, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Edgewater_Miami_Florida_southern.jpg" target="_blank" rel="noopener"><span class="ent">Edgewater <span lang="en">Miami</span> <span lang="en">Florida</span> southern</span></a>: Averette, CC BY 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Little_Havana_Dominos_Park.JPG" target="_blank" rel="noopener"><span class="ent"><span lang="en">Little</span> Havana Dominos Park</span></a>: Infrogmation of New Orleans, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Downtown_Doral%2C_Florida.jpg" target="_blank" rel="noopener"><span class="ent">Downtown Doral, <span lang="en">Florida</span></span></a>: Ven-Lib, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:North_Beach_Miami_Beach.jpg" target="_blank" rel="noopener"><span class="ent">North Beach <span lang="en">Miami</span> Beach</span></a>: Averette, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Balharbour_fla.jpg" target="_blank" rel="noopener">Balharbour fla</a>: Alexf, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Jade_Signature%2C_Jade_Beach%2C_Jade_Ocean%2C_Muse%2C_Ocean_4%2C_Chateau_Beach_March_2018_Sunny_Isles.jpg" target="_blank" rel="noopener"><span class="ent">Jade <span lang="en">Signature</span>, Jade Beach, Jade Ocean, Muse, Ocean 4, Chateau Beach March 2018 Sunny Isles</span></a>: Jimmy Baikovicius, CC BY-SA 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Aventura_Skyline.jpg" target="_blank" rel="noopener">Aventura Skyline</a>: Arjun Sharma, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Hallandale_Beach_sunset.JPG" target="_blank" rel="noopener">Hallandale Beach sunset</a><span class="ent">: <span lang="en">Florida</span> guy 128, Public domain</span></li><li><a href="https://commons.wikimedia.org/wiki/File:Hollywood_Beach_panorama.JPG" target="_blank" rel="noopener">Hollywood Beach panorama</a>: Juliancolton, Public domain</li><li><a href="https://commons.wikimedia.org/wiki/File:Weston%2C_Florida_-_Aerial.jpg" target="_blank" rel="noopener"><span class="ent">Weston, <span lang="en">Florida</span> - Aerial</span></a>: formulanone, CC BY-SA 2.0</li><li><a href="https://commons.wikimedia.org/wiki/File:City_Hall_on_Wilton_Drive.jpeg" target="_blank" rel="noopener"><span class="ent"><span lang="en">City</span> Hall on <span lang="en">Wilton</span> Drive</span></a>: Jessica Chesler, CC BY-SA 4.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Deerfield_Beach_Photo_Don_Ramey_Logan.jpg" target="_blank" rel="noopener"><span class="ent"><span lang="en">Deerfield</span> Beach Photo Don Ramey Logan</span></a>: Don Ramey Logan, CC BY-SA 3.0</li><li><a href="https://commons.wikimedia.org/wiki/File:Beach_in_Boca_Raton_Florida.jpg" target="_blank" rel="noopener"><span class="ent">Beach in Boca Raton <span lang="en">Florida</span></span></a>: Sspencerblochh, CC BY-SA 4.0</li></ol><p>Görseller Wikimedia Commons'tan, belirtilen özgür lisanslarla kullanılmıştır; görsellerde değişiklik yapılmamış, yalnızca boyutlandırılmıştır.</p></details>
         <noscript><p>Testi çözmek için tarayıcınızda JavaScript açık olmalı. Dilerseniz <a href="/#iletisim">bize yazın</a>, size uygun mahalleleri birlikte belirleyelim.</p></noscript>
       </div>
 
@@ -139,7 +164,7 @@
       </div>
       <div class="legal">
         <p><span class="ent">Aleyna Bozoklar, Cervera Real Estate bünyesinde lisanslı bir Realtor® Associate'tir (<span lang="en">Florida</span> lisans no. 3629947). Cervera Real Estate, 20 <span lang="en">Biscayne</span> Blvd., <span lang="en">Miami</span>, FL 33132.</span></p>
-        <p>© 2026 Aleyna Bozoklar · <a href="/">miamievim.com</a> · <a href="/gizlilik/">Gizlilik politikası</a> · <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank" rel="noopener"><span class="ent"><span lang="en">Fair</span> <span lang="en">Housing</span></span></a></p>
+        <p>© 2026 Aleyna Bozoklar. Tüm hakları saklıdır. · <a href="/kullanim-kosullari/">Kullanım koşulları ve telif hakkı</a> · <a href="/gizlilik/">Gizlilik politikası</a> · <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank" rel="noopener"><span class="ent"><span lang="en">Fair</span> <span lang="en">Housing</span></span></a></p>
       </div>
     </div>
   </div>
@@ -176,7 +201,7 @@
     { id: 'boca-raton', name: 'Boca Raton', county: 'Palm Beach', type: 'both', b: [2, 5], vibe: ['green', 'beach', 'culture'], walk: 0, water: 'ocean', quiet: 2, nw: false, hist: false, dt: false, air: false, area: 'north', golf: true, inv: false, prest: true, value: false, line: 'Golf sahaları, plajlar ve bakımlı bir şehir merkezi.' }
   ];
 
-  var Q = [
+  var Q0 = [
     { key: 'goal', title: 'Bu evi ne için düşünüyorsunuz?', hint: 'Cevabınız diğer soruların ağırlığını belirler.', opts: [
       { v: 'live', t: 'Kendim yaşayacağım', s: 'Taşınma ya da ana ev' },
       { v: 'invest', t: 'Yatırım, kiraya vereceğim', s: 'Kira geliri ve değer artışı' },
@@ -193,24 +218,24 @@
       { v: '5', t: '5 milyon $ üzeri', s: '' },
       { v: 'any', t: 'Henüz belli değil', s: '' } ] },
     { key: 'vibe', title: 'Gününüz nasıl geçsin?', hint: 'Size en yakın olanı seçin.', opts: [
-      { v: 'city', t: 'Şehrin içinde', s: 'Ofis, restoran, her şey yakında' },
-      { v: 'beach', t: 'Sahile birkaç adım', s: 'Sabah yürüyüşü kumda' },
-      { v: 'green', t: 'Sakin ve yeşil', s: 'Ağaçlıklı sokaklar, huzur' },
-      { v: 'culture', t: 'Sanat ve lezzet', s: 'Galeriler, kafeler, canlı sokaklar' } ] },
+      { v: 'city', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Miami-downtown-from-intercontinental-hotel.jpg/500px-Miami-downtown-from-intercontinental-hotel.jpg', t: 'Şehrin içinde', s: 'Ofis, restoran, her şey yakında' },
+      { v: 'beach', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/SouthBeachMiamiBeach.jpg/500px-SouthBeachMiamiBeach.jpg', t: 'Sahile birkaç adım', s: 'Sabah yürüyüşü kumda' },
+      { v: 'green', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Swan_Lake_at_Pinecrest_Gardens.jpg/500px-Swan_Lake_at_Pinecrest_Gardens.jpg', t: 'Sakin ve yeşil', s: 'Ağaçlıklı sokaklar, huzur' },
+      { v: 'culture', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Wynwood_Walls_Miami_Florida_October_2013.jpg/500px-Wynwood_Walls_Miami_Florida_October_2013.jpg', t: 'Sanat ve lezzet', s: 'Galeriler, kafeler, canlı sokaklar' } ] },
     { key: 'car', title: 'Günlük ulaşım nasıl olsun?', hint: '', opts: [
       { v: 'walk', t: 'Arabasız, yürüyerek', s: 'Market, kafe, iş yürüme mesafesinde' },
       { v: 'any', t: 'Fark etmez', s: '' },
       { v: 'car', t: 'Araba kullanırım', s: 'Daha geniş ve sakin alanlar için' } ] },
     { key: 'water', title: 'Su sizin için ne ifade ediyor?', hint: '', opts: [
-      { v: 'ocean', t: 'Okyanus ve plaj', s: 'Ufuk çizgisi, kum' },
-      { v: 'boat', t: 'Tekne ve marina', s: 'Kanal kenarı, iskele' },
+      { v: 'ocean', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sunny_Isles_Beach_Morning.jpg/500px-Sunny_Isles_Beach_Morning.jpg', t: 'Okyanus ve plaj', s: 'Ufuk çizgisi, kum' },
+      { v: 'boat', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bateau_p%C3%A9n%C3%A9trant_dans_l%27Inlet_de_Lighthouse_Point%2C_Florida._Boat_sailing_in_the_Inlet_-_panoramio.jpg/500px-Bateau_p%C3%A9n%C3%A9trant_dans_l%27Inlet_de_Lighthouse_Point%2C_Florida._Boat_sailing_in_the_Inlet_-_panoramio.jpg', t: 'Tekne ve marina', s: 'Kanal kenarı, iskele' },
       { v: 'none', t: 'Önemli değil', s: '' } ] },
     { key: 'go', title: 'En sık nereye gideceksiniz?', hint: '', opts: [
-      { v: 'dt', t: 'Downtown ve Brickell', s: 'Ofis, toplantılar, şehir merkezi' },
-      { v: 'air', t: 'Havalimanı', s: 'Sık seyahat ediyorum' },
-      { v: 'ftl', t: 'Fort Lauderdale', s: 'Broward tarafı' },
-      { v: 'north', t: 'Boca Raton ve kuzey', s: 'Palm Beach tarafı' },
-      { v: 'any', t: 'Uzaktan çalışıyorum', s: 'Konum serbest' } ] },
+      { v: 'dt', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Brickell_Cloudy_Day.jpg/500px-Brickell_Cloudy_Day.jpg', t: 'Downtown ve Brickell', s: 'Ofis, toplantılar, şehir merkezi' },
+      { v: 'air', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Miami_International_Airport_Terminal_D_January_2026.jpeg/500px-Miami_International_Airport_Terminal_D_January_2026.jpeg', t: 'Havalimanı', s: 'Sık seyahat ediyorum' },
+      { v: 'ftl', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Beach_at_Fort_Lauderdale.jpg/500px-Beach_at_Fort_Lauderdale.jpg', t: 'Fort Lauderdale', s: 'Broward tarafı' },
+      { v: 'north', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Boca_Raton_Resort_porte-cochere_entrance_photo_Don_Ramey_Logan.jpg/500px-Boca_Raton_Resort_porte-cochere_entrance_photo_Don_Ramey_Logan.jpg', t: 'Boca Raton ve kuzey', s: 'Palm Beach tarafı' },
+      { v: 'any', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Downtown_Coconut_Grove.jpg/500px-Downtown_Coconut_Grove.jpg', t: 'Uzaktan çalışıyorum', s: 'Konum serbest' } ] },
     { key: 'build', title: 'Hangi tarz binalar ilginizi çeker?', hint: '', opts: [
       { v: 'new', t: 'Yeni ve modern', s: 'Son yıllarda yapılmış kuleler, yeni olanaklar' },
       { v: 'hist', t: 'Karakterli ve tarihi', s: 'Art Deco, Akdeniz tarzı, dokusu olan sokaklar' },
@@ -224,7 +249,19 @@
       { v: 'prest', t: 'Prestij', s: 'Bilinen, köklü bir adres' } ] }
   ];
 
-  var answers = {}, step = 0;
+  // İki test: Miami'yi bilenler için tam test (QK), Miami'ye yeni olanlar için yer adı içermeyen kısa test (QN)
+  var QK = Q0, Q = Q0;
+  var QN = [
+    { key: 'goal', title: 'Miami\'de nasıl bir ev arıyorsunuz?', hint: 'Mahalle adlarını bilmeniz gerekmiyor; yaşam tarzınızı anlatmanız yeterli.', opts: QK[0].opts },
+    { key: 'type', title: 'Kendinizi hangi evde hayal ediyorsunuz?', hint: '', opts: QK[1].opts },
+    { key: 'budget', title: 'Satın alma bütçeniz?', hint: QK[2].hint, opts: QK[2].opts },
+    { key: 'vibe', title: 'Pencereden baktığınızda ne görmek istersiniz?', hint: 'Görsellerden size en yakın olanı seçin.', opts: QK[3].opts },
+    { key: 'water', title: 'Su sizin için ne ifade ediyor?', hint: '', opts: QK[5].opts },
+    { key: 'car', title: 'Arabasız bir hayat sizin için önemli mi?', hint: 'Miami\'nin büyük bölümünde günlük hayat araçla geçer; yürünebilir bölgeler sınırlıdır.', opts: QK[4].opts },
+    { key: 'prio', title: 'Sizin için en önemli tek şey?', hint: QK[8].hint, opts: QK[8].opts }
+  ];
+  var RES_IMG = {"coral-gables": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Biltmore_Hotel%2C_Coral_Gables%2C_Florida.jpg/500px-Biltmore_Hotel%2C_Coral_Gables%2C_Florida.jpg", "coconut-grove": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Downtown_Coconut_Grove.jpg/500px-Downtown_Coconut_Grove.jpg", "pinecrest": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Swan_Lake_at_Pinecrest_Gardens.jpg/500px-Swan_Lake_at_Pinecrest_Gardens.jpg", "key-biscayne": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Crandon_Park_beach%2C_FL.jpg/500px-Crandon_Park_beach%2C_FL.jpg", "south-beach": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Marlin_Hotel_Art_Deco.jpg", "wynwood": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Wynwood_Walls_Miami_Florida_October_2013.jpg/500px-Wynwood_Walls_Miami_Florida_October_2013.jpg", "brickell": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Brickell_neighborhood_skyline_%2860062p%29.jpg/500px-Brickell_neighborhood_skyline_%2860062p%29.jpg", "edgewater": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Edgewater_Miami_Florida_southern.jpg/500px-Edgewater_Miami_Florida_southern.jpg", "little-havana": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Little_Havana_Dominos_Park.JPG/500px-Little_Havana_Dominos_Park.JPG", "doral": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Downtown_Doral%2C_Florida.jpg/500px-Downtown_Doral%2C_Florida.jpg", "north-beach": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/North_Beach_Miami_Beach.jpg/500px-North_Beach_Miami_Beach.jpg", "bal-harbour": "https://upload.wikimedia.org/wikipedia/commons/8/84/Balharbour_fla.jpg", "sunny-isles": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Jade_Signature%2C_Jade_Beach%2C_Jade_Ocean%2C_Muse%2C_Ocean_4%2C_Chateau_Beach_March_2018_Sunny_Isles.jpg/500px-Jade_Signature%2C_Jade_Beach%2C_Jade_Ocean%2C_Muse%2C_Ocean_4%2C_Chateau_Beach_March_2018_Sunny_Isles.jpg", "aventura": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Aventura_Skyline.jpg/500px-Aventura_Skyline.jpg", "hallandale": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Hallandale_Beach_sunset.JPG/500px-Hallandale_Beach_sunset.JPG", "hollywood": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hollywood_Beach_panorama.JPG/500px-Hollywood_Beach_panorama.JPG", "weston": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Weston%2C_Florida_-_Aerial.jpg/500px-Weston%2C_Florida_-_Aerial.jpg", "fort-lauderdale": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Beach_at_Fort_Lauderdale.jpg/500px-Beach_at_Fort_Lauderdale.jpg", "wilton-manors": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/City_Hall_on_Wilton_Drive.jpeg/500px-City_Hall_on_Wilton_Drive.jpeg", "pompano": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bateau_p%C3%A9n%C3%A9trant_dans_l%27Inlet_de_Lighthouse_Point%2C_Florida._Boat_sailing_in_the_Inlet_-_panoramio.jpg/500px-Bateau_p%C3%A9n%C3%A9trant_dans_l%27Inlet_de_Lighthouse_Point%2C_Florida._Boat_sailing_in_the_Inlet_-_panoramio.jpg", "deerfield": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Deerfield_Beach_Photo_Don_Ramey_Logan.jpg/500px-Deerfield_Beach_Photo_Don_Ramey_Logan.jpg", "boca-raton": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beach_in_Boca_Raton_Florida.jpg/500px-Beach_in_Boca_Raton_Florida.jpg"};
+  var answers = {}, step = 0, track = null;
   var $ = function (id) { return document.getElementById(id); };
 
   function renderQ() {
@@ -241,6 +278,7 @@
       b.type = 'button';
       b.className = 'opt';
       b.setAttribute('aria-pressed', answers[q.key] === o.v ? 'true' : 'false');
+      if (o.img) { b.className = 'opt opt-img'; var im = document.createElement('img'); im.src = o.img; im.alt = ''; im.loading = 'lazy'; im.decoding = 'async'; b.appendChild(im); }
       var t = document.createElement('span'); t.textContent = o.t; b.appendChild(t);
       if (o.s) { var s = document.createElement('small'); s.textContent = o.s; b.appendChild(s); }
       b.addEventListener('click', function () {
@@ -249,7 +287,7 @@
       });
       box.appendChild(b);
     });
-    $('q-back').disabled = step === 0;
+    $('q-back').disabled = false; $('q-back').textContent = step === 0 ? '← Test seçimine dön' : '← Önceki soru';
   }
 
   function score(h) {
@@ -315,8 +353,9 @@
       var rank = document.createElement('span'); rank.className = 'rank'; rank.textContent = (i + 1) + '.';
       var pc = document.createElement('span'); pc.className = 'county'; pc.textContent = '%' + r.pct + ' uyum';
       top.appendChild(rank); top.appendChild(pc); c.appendChild(top);
-      var co = document.createElement('span'); co.className = 'county'; co.textContent = r.h.county; c.appendChild(co);
-      var h3 = document.createElement('h3'); h3.textContent = r.h.name; c.appendChild(h3);
+      var co = document.createElement('span'); co.className = 'county'; co.setAttribute('lang', 'en'); co.textContent = r.h.county; c.appendChild(co);
+      if (RES_IMG[r.h.id]) { var ri = document.createElement('img'); ri.className = 'res-img'; ri.src = RES_IMG[r.h.id]; ri.alt = r.h.name; ri.loading = 'lazy'; c.insertBefore(ri, c.firstChild); }
+      var h3 = document.createElement('h3'); h3.textContent = r.h.name; h3.setAttribute('lang', 'en'); c.appendChild(h3);
       var p = document.createElement('p'); p.textContent = r.h.line; c.appendChild(p);
       var ul = document.createElement('ul');
       r.why.forEach(function (w) { var li = document.createElement('li'); li.textContent = w; ul.appendChild(li); });
@@ -328,17 +367,20 @@
     $('res-more').textContent = 'Ayrıca bakabileceğiniz mahalleler: ' + more.map(function (r) { return r.h.name; }).join(' ve ') + '.';
     var names = ranked.map(function (r) { return r.h.name; });
     $('f-sonuc').value = ranked.map(function (r) { return r.h.name + ' (%' + r.pct + ')'; }).join(', ');
-    $('f-cevaplar').value = Object.keys(answers).map(function (k) { return k + '=' + answers[k]; }).join('; ');
+    $('f-cevaplar').value = 'test=' + (track === 'new' ? 'miami-yeni' : 'miami-bilen') + '; ' + Object.keys(answers).map(function (k) { return k + '=' + answers[k]; }).join('; ');
     $('wa-result').href = 'https://wa.me/13059248551?text=' + encodeURIComponent('Merhaba Aleyna, mahalle testinde bana en uygun çıkan mahalleler: ' + names.join(', ') + '. Bunları konuşmak istiyorum.');
     $('quiz').hidden = true;
     $('results').hidden = false;
     $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  $('q-back').addEventListener('click', function () { if (step > 0) { step--; renderQ(); } });
-  $('restart').addEventListener('click', function () { answers = {}; step = 0; $('results').hidden = true; $('quiz').hidden = false; renderQ(); $('quiz').scrollIntoView({ behavior: 'smooth' }); });
-  renderQ();
+  $('q-back').addEventListener('click', function () { if (step > 0) { step--; renderQ(); } else { $('q-panel').hidden = true; $('q-intro').hidden = false; } });
+  function start(t) { track = t; Q = t === 'new' ? QN : QK; answers = {}; step = 0; $('q-intro').hidden = true; $('q-panel').hidden = false; $('quiz').hidden = false; $('results').hidden = true; renderQ(); $('quiz').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  Array.prototype.forEach.call(document.querySelectorAll('[data-track]'), function (b) { b.addEventListener('click', function () { start(b.getAttribute('data-track')); }); });
+  $('restart').addEventListener('click', function () { $('results').hidden = true; $('quiz').hidden = false; $('q-panel').hidden = true; $('q-intro').hidden = false; $('quiz').scrollIntoView({ behavior: 'smooth' }); });
+  var pre = (location.hash || '').slice(1); if (pre === 'yeni' || pre === 'bilen') start(pre === 'yeni' ? 'new' : 'known');
 })();
 </script>
+<script src="/assets/forms.js?v=103833d1" defer></script>
 </body>
 </html>

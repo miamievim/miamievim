@@ -24,7 +24,7 @@ Son güncelleme: 2026-10-18
 - [Ana sayfa](https://miamievim.com/): hizmetler, mahalle haritası, sık sorulan sorular
 - [Ücretsiz Miami Mahalle Rehberi](https://miamievim.com/mahalle-rehberi/): 22 mahallenin kira, fiyat, aidat, sigorta, sel bölgesi ve ulaşım karşılaştırması (Türkçe)
 - [Miami'de emlak yatırımı](https://miamievim.com/yatirim/): net getiri hesaplayıcısı; aidat, emlak vergisi, sigorta, kira kuralları ve FIRPTA
-- [Mahalle testi](https://miamievim.com/mahalle-testi/): 9 soruda size uygun üç Miami mahallesi
+- [Mahalle testi](https://miamievim.com/mahalle-testi/): Miami'ye yeni olanlar için 7 soruluk, şehri tanıyanlar için 9 soruluk iki test; size uygun üç Miami mahallesi
 - [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 108 bölgenin ücretsiz raporu (ad ve e-posta ile erişim)
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler

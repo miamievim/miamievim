@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="/assets/site.css?v=48da2503">
+<link rel="stylesheet" href="/assets/site.css?v=ca93e085">
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" defer></script>
 <script src="/assets/map.js?v=193c7671" defer></script>
 <script src="/assets/search.js?v=f75434f8" defer></script>
@@ -156,7 +156,10 @@
             </span>
           </div>
         </form>
-        <p class="ps-more">Aradığınızı tarif etmek daha mı kolay? <a href="#iletisim">Ücretsiz tanışma görüşmesi</a> · <a href="/mahalle-testi/">Mahalle testini çözün</a></p>
+        <div class="ps-cta">
+          <p>Hangi mahalle size uygun? <strong>2 dakikalık testi çözün</strong>, size en uygun üç mahalleyi hemen görün.</p>
+          <div class="ps-cta-btns"><a class="btn btn-ivory" href="/mahalle-testi/">Mahalle testini çözün</a><a class="btn btn-line" href="#iletisim">Ücretsiz tanışma görüşmesi</a></div>
+        </div>
       </div>
     </div>
   </div>
@@ -165,8 +168,8 @@
     <div class="wrap">
       <span><span class="ent"><span lang="en">Florida</span> lisanslı Realtor® · No. 3629947</span></span>
       <span><span class="ent">Cervera Real Estate · <span lang="en">Miami</span>, 1969'dan beri</span></span>
-      <span><span class="ent">Leading Real Estate <span lang="en">Companies</span> of the World® ağı</span></span>
-      <span>Türkçe · English · Français</span>
+      <span><span class="ent"><span lang="en">Leading</span> Real Estate <span lang="en">Companies</span> of the World® ağı</span></span>
+      <span><span class="ent">Türkçe · <span lang="en">English</span> · <span lang="en">Français</span></span></span>
     </div>
   </div>
 </section>
@@ -291,6 +294,10 @@
     <div class="about-statement">
       <p class="eyebrow" style="margin-bottom:22px">Aleyna Bozoklar ile tanışın</p>
       <h2 id="about-title"><span class="ent">Lüks marka yönetiminden, <span lang="en">Miami</span>'deki </span><em>danışmanınıza.</em></h2>
+      <picture class="home-portrait">
+        <source srcset="/assets/aleyna-portre.webp" type="image/webp">
+        <img src="/assets/aleyna-portre.png" alt="Aleyna Bozoklar" width="900" height="1135" loading="lazy" decoding="async">
+      </picture>
     </div>
     <div class="about-body">
       <p><span class="ent">İşletme, pazarlama ve lüks marka yönetimi eğitiminin ardından kendi dijital pazarlama ajansını kuran Aleyna Bozoklar, bugün <span lang="en">Miami</span>'nin 1969'dan beri faaliyet gösteren köklü firması Cervera Real Estate bünyesinde alıcılara, satıcılara ve yatırımcılara danışmanlık veriyor.</span></p>
@@ -459,7 +466,7 @@
       <div class="legal">
         <p><span class="ent">Aleyna Bozoklar, Cervera Real Estate bünyesinde lisanslı bir Realtor® Associate'tir (<span lang="en">Florida</span> lisans no. 3629947). Cervera Real Estate, 20 <span lang="en">Biscayne</span> Blvd., <span lang="en">Miami</span>, FL 33132.</span></p>
         <p><span class="ent">Bu sitedeki bilgiler genel bilgilendirme amaçlıdır; hukuki, vergi veya finansal tavsiye değildir. Fiyat ve piyasa verileri kaynağı ve tarihiyle verilir ve değişebilir. Konut fırsatlarında ayrımcılık yapılmaz (Equal <span lang="en">Housing</span> <span lang="en">Opportunity</span>).</span></p>
-        <p>© 2026 Aleyna Bozoklar · <a href="/gizlilik/">Gizlilik politikası</a> · <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank" rel="noopener"><span class="ent"><span lang="en">Fair</span> <span lang="en">Housing</span></span></a></p>
+        <p>© 2026 Aleyna Bozoklar. Tüm hakları saklıdır. · <a href="/kullanim-kosullari/">Kullanım koşulları ve telif hakkı</a> · <a href="/gizlilik/">Gizlilik politikası</a> · <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank" rel="noopener"><span class="ent"><span lang="en">Fair</span> <span lang="en">Housing</span></span></a></p>
       </div>
     </div>
   </div>
@@ -468,5 +475,6 @@
 <a class="wa" href="https://wa.me/13059248551?text=Merhaba%20Aleyna%2C%20Miami%27de%20ev%20konusunda%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyorum." target="_blank" rel="noopener" aria-label="WhatsApp'tan yazın">
   <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg>
 </a>
+<script src="/assets/forms.js?v=103833d1" defer></script>
 </body>
 </html>

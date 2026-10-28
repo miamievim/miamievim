@@ -198,6 +198,9 @@ def slug(s):
     return re.sub(r'[^a-z0-9]+', '-', s).strip('-')
 
 
+TR = json.load(open(os.path.join(ROOT, 'tools', 'projects_tr.json'), encoding='utf-8'))
+
+
 def card(p, i):
     st_key, st_lbl = status(p['status'])
     comp, comp_sort, year, comp_note = completion(p['completion'], st_key)
@@ -208,7 +211,7 @@ def card(p, i):
     loc = subloc(p['name'], p['area'])
     units = (p['units'] or '').strip()
     units = units if units.isdigit() else ''
-    steps = deposit_steps(p['deposit'])
+    steps = [tuple(x) for x in TR['deposit'][p['name']]] if p['name'] in TR['deposit'] else deposit_steps(p['deposit'])
     td = total_dep(p['deposit_total'])
     sid = slug(p['name'])
     yr_bucket = year if year in ('2025', '2026', '2027', '2028') else ('2029' if year else '')
@@ -226,6 +229,8 @@ def card(p, i):
     elif steps:
         det.append('<ol class="pj-steps">' + ''.join(f'<li><b>{("%" + E(a.rstrip("%"))) if a[0].isdigit() else E(a)}</b><span>{E(b)}</span></li>' for a, b in steps) + '</ol>')
     extra = []
+    if p.get('sold') and p['sold'] != 'N/A': extra.append(f"Satılan daire oranı: %{p['sold'].rstrip('%')}" + (f" (aylık satış hızı %{p['absorption'].split('%')[0].replace('.', ',')})" if p.get('absorption') and p['absorption'] not in ('N/A', '') else '') + ' (Q3 2026)')
+    if p.get('rental'): extra.append('Kiralama kuralı: ' + TR['rental'].get(p['rental'], p['rental']))
     if mt: extra.append(f'Tahmini aidat: ${str(mt).replace(".", ",")} / ft² (aylık)')
     if wf: extra.append(wf)
     if extra: det.append('<p class="pj-extra">' + ' · '.join(E(x) for x in extra) + '</p>')
@@ -240,6 +245,7 @@ def card(p, i):
         <div class="pj-key pj-key2">
           <div><span>Tahmini teslim</span><b>{E(comp)}</b>{('<small>' + comp_note + '</small>') if comp_note else ''}</div>
           <div><span>Daire</span><b>{units or '—'}</b></div>
+          <div><span>Kat</span><b>{E(p.get('floors')) if (p.get('floors') or '').isdigit() else '—'}</b></div>
         </div>
         <dl class="pj-rows">{rows_html}</dl>
         {details}

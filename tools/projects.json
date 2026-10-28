@@ -15,7 +15,11 @@
    "bedrooms": "N/A",
    "status": "Pre Sales",
    "deposit": "* 10% at contract * 10% October 2026 * 10% Groundbreaking June 2027 * 10% 1 year after GB",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "N/A",
+   "sold": "25%",
+   "absorption": "25.0%/mo",
+   "rental": ""
   },
   {
    "area": "downtown",
@@ -31,7 +35,11 @@
    "bedrooms": "N/A",
    "status": "Under Constrction",
    "deposit": "20% at Contract 10% 1 Year after Contract 10% 2 Years after Contract 60% at Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "100",
+   "sold": "92%",
+   "absorption": "1.4%/mo",
+   "rental": ""
   },
   {
    "area": "downtown",
@@ -47,7 +55,11 @@
    "bedrooms": "N/A",
    "status": "Under construction",
    "deposit": "10% at contract 10% 60 days after contract 10% at ground breaking 10% top off 60% at Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "75",
+   "sold": "96%",
+   "absorption": "1.5%/mo",
+   "rental": "Min 3X per year, 30 days"
   },
   {
    "area": "downtown",
@@ -63,7 +75,11 @@
    "bedrooms": "Jr. Suite-3 Bed",
    "status": "Pre Sales",
    "deposit": "10% — At Contract Signing 10% — 6 Months After Contract Signing 10% — At Groundbreaking (April 2027) 10% — 1 Year After Groundbreaking 60% — At Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "37",
+   "sold": "0%",
+   "absorption": "N/A",
+   "rental": "Short-term rental friendly — zero HOA lease restrictions"
   },
   {
    "area": "downtown",
@@ -79,7 +95,11 @@
    "bedrooms": "1-4+",
    "status": "Under Construction",
    "deposit": "20% — At Contract 10% — 3 Months from Contract 10% — 6 Months from Contract 10% — 12 Months from Contract 50% — At Closing (Q1 2027)",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "57",
+   "sold": "94%",
+   "absorption": "1.4%/mo",
+   "rental": "Rentals permitted up to 6x per year, 30-day minimum"
   },
   {
    "area": "downtown",
@@ -95,7 +115,11 @@
    "bedrooms": "Studio - 3 Bed + Den (+ Penthouse)",
    "status": "Under construction",
    "deposit": "30% at contract 10% at 12th Floor Amenity Level 10% at top off 50% at closing",
-   "deposit_total": "50% pre-closing (30% + 10% + 10%)"
+   "deposit_total": "50% pre-closing (30% + 10% + 10%)",
+   "floors": "70",
+   "sold": "74%",
+   "absorption": "1.1%/mo",
+   "rental": "Condo-Hotel managed by Hilton (short-term rentals allowed); Sky residences are private, long-term residences"
   },
   {
    "area": "downtown",
@@ -111,7 +135,11 @@
    "bedrooms": "Studios, 1 Bed, 1 Bed + Office and 2 Bed",
    "status": "Under Construction",
    "deposit": "20% at contract 10% at Ground breakin 10% at 15th Floor 10% at top off 50% at closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "12",
+   "sold": "60%",
+   "absorption": "0.9%/mo",
+   "rental": "no restrictions"
   },
   {
    "area": "downtown",
@@ -127,7 +155,11 @@
    "bedrooms": "N/A",
    "status": "Under Construction",
    "deposit": "10% at Reservation 10% at Contract 20% at Ground Breaking 10% at Top-Off 50% at Closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "44",
+   "sold": "99%",
+   "absorption": "3.4%/mo",
+   "rental": "No rental restrictions"
   },
   {
    "area": "downtown",
@@ -143,7 +175,11 @@
    "bedrooms": "Studios - 3 Bed",
    "status": "Under construction",
    "deposit": "* 20% At Contract * 10% 90 Days after contract * 10% Feb 2027 * 60% Closing Q4 2027",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "17",
+   "sold": "60%",
+   "absorption": "2.1%/mo",
+   "rental": "minimum 30 days, 11 times a year"
   },
   {
    "area": "downtown",
@@ -159,7 +195,11 @@
    "bedrooms": "N/A",
    "status": "Under Construction",
    "deposit": "20% Contract 10% Ground breaking 10% Completion of podium 10% Top Off 50% Closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "41",
+   "sold": "50%",
+   "absorption": "50.0%/mo",
+   "rental": ""
   },
   {
    "area": "downtown",
@@ -175,7 +215,11 @@
    "bedrooms": "N/A",
    "status": "Under Construction",
    "deposit": "10% upon signing 10% in 45 days 10% in 90 days from the contract date 70% is due at closing",
-   "deposit_total": "30%"
+   "deposit_total": "30%",
+   "floors": "41",
+   "sold": "20%",
+   "absorption": "0.7%/mo",
+   "rental": "No rental restrictions"
   },
   {
    "area": "downtown",
@@ -191,7 +235,11 @@
    "bedrooms": "Studios, Jr 1 Bed, 1 Bed, 2 Bed",
    "status": "Under construction",
    "deposit": "20% at contract 10% 30 days after contract 70% at closing",
-   "deposit_total": "30%"
+   "deposit_total": "30%",
+   "floors": "11",
+   "sold": "80%",
+   "absorption": "2.7%/mo",
+   "rental": "minimum 30 days"
   },
   {
    "area": "downtown",
@@ -207,7 +255,11 @@
    "bedrooms": "1-4",
    "status": "Pre Sales",
    "deposit": "\"5% at Reservation 5% at 45 days after Contract 10% at 120 days after Contract 10% at Groundbreaking (Q4 2025) 10% at 12 months after Groundbreaking 10% at Top-off 50% at Closing\"",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "68",
+   "sold": "N/A",
+   "absorption": "N/A",
+   "rental": ""
   },
   {
    "area": "downtown",
@@ -223,7 +275,11 @@
    "bedrooms": "Studio- 1 Bedroom",
    "status": "Under Construction",
    "deposit": "10% at contract 10% 120 days later 10% at groundbreaking 10% one year after groundbreaking 60% at closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "23",
+   "sold": "97%",
+   "absorption": "3.3%/mo",
+   "rental": "No restrictions"
   },
   {
    "area": "downtown",
@@ -239,7 +295,11 @@
    "bedrooms": "Studio- 1 bedroom",
    "status": "Under Construction",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "44",
+   "sold": "99%",
+   "absorption": "5.8%/mo",
+   "rental": ""
   },
   {
    "area": "coconut-grove",
@@ -255,7 +315,11 @@
    "bedrooms": "2 - 4 Bed",
    "status": "Under Construction",
    "deposit": "40% with Contract",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "20",
+   "sold": "80%",
+   "absorption": "2.7%/mo",
+   "rental": "6M Min / 2x per year"
   },
   {
    "area": "coconut-grove",
@@ -271,7 +335,11 @@
    "bedrooms": "3 - 4 Bed",
    "status": "Delivered",
    "deposit": "20 % Contract 10% Groundbreaking 10% Commencement of pouting 7th Level Balance at closing",
-   "deposit_total": "70%"
+   "deposit_total": "70%",
+   "floors": "7",
+   "sold": "94%",
+   "absorption": "1.8%/mo",
+   "rental": "6M Min / 2x per year"
   },
   {
    "area": "coconut-grove",
@@ -287,7 +355,11 @@
    "bedrooms": "2 - 5 Bed",
    "status": "Under Construction",
    "deposit": "5% Reservation 15% Contract 10% Groundbreaking 10% Top-Off 60% Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "4",
+   "sold": "30%",
+   "absorption": "1.8%/mo",
+   "rental": ""
   },
   {
    "area": "coconut-grove",
@@ -303,7 +375,11 @@
    "bedrooms": "3",
    "status": "Under Construction",
    "deposit": "20% at contract 10% at groundbreaking (est. Q1 2025) 10% at top-off (est. Q4 2025) Remaining 60% at closing (est. Summer 2026)",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "6",
+   "sold": "40%",
+   "absorption": "2.3%/mo",
+   "rental": "6M Min / 2x per year"
   },
   {
    "area": "coconut-grove",
@@ -319,7 +395,11 @@
    "bedrooms": "3 - 4 Bed",
    "status": "Under Construction",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "3",
+   "sold": "30%",
+   "absorption": "1.8%/mo",
+   "rental": ""
   },
   {
    "area": "coconut-grove",
@@ -335,7 +415,11 @@
    "bedrooms": "1 - 4 Bed",
    "status": "Under Construction",
    "deposit": "10 % at reservation agreement 10% at Groundbreaking 10% at Vertical pour (Oct/Nov 2025) 10% 90 Days later 10% at Top off 50% BALANCE at Closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "8",
+   "sold": "50%",
+   "absorption": "1.7%/mo",
+   "rental": "6M Min / 2x per year"
   },
   {
    "area": "coconut-grove",
@@ -351,7 +435,11 @@
    "bedrooms": "1 - 4 Bed",
    "status": "Under Construction",
    "deposit": "20% at Contract Signing 10% at Groundbreaking 10% at 5th Floor Concrete Pour 60% at Closing (Q4 2027)",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "8",
+   "sold": "20%",
+   "absorption": "1.2%/mo",
+   "rental": "6M Min / 2x per year"
   },
   {
    "area": "miami-beach",
@@ -367,7 +455,11 @@
    "bedrooms": "1–5 Bedrooms",
    "status": "Pre-launch",
    "deposit": "20% at Signing of Contract Now 10% at groundbreaking or 180 days following Buyer’s executed PSA. 10% at commenced pouring of grade floor slab. 10% at commenced pouring of the floor slab on which residence is located. 50% at Closing – Estimated 1st Q 2027",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "17",
+   "sold": "0%",
+   "absorption": "N/A",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -383,7 +475,11 @@
    "bedrooms": "1 – 6 Bedrooms",
    "status": "Delivered",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "11",
+   "sold": "97%",
+   "absorption": "1.5%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -399,7 +495,11 @@
    "bedrooms": "3 - 5 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at contract signing 10% after 90 days 10% after 180 days",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "10",
+   "sold": "80%",
+   "absorption": "1.5%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -415,7 +515,11 @@
    "bedrooms": "4–5 Bedrooms",
    "status": "Pre-sales",
    "deposit": "20% due at contract 10% 120 days after signing 10% due upon pouring of unit slab 10% due at top off",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "12",
+   "sold": "0%",
+   "absorption": "N/A",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -431,7 +535,11 @@
    "bedrooms": "2-4 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at signing of the Purchase Contract 10% at Groundbreaking 10% at top off 60% Balance at Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "15",
+   "sold": "90%",
+   "absorption": "1.7%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -447,7 +555,11 @@
    "bedrooms": "3–8 Bedrooms",
    "status": "Pre-sales",
    "deposit": "20% at contract 10% 90 days after contract 10% at top off 60% Balance at closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "24",
+   "sold": "80%",
+   "absorption": "1.9%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -463,7 +575,11 @@
    "bedrooms": "1-4 Bedrooms",
    "status": "Pre-launch",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "17",
+   "sold": "0%",
+   "absorption": "N/A",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -479,7 +595,11 @@
    "bedrooms": "6-10 Bedrooms",
    "status": "Under Construction",
    "deposit": "NA",
-   "deposit_total": "NA"
+   "deposit_total": "NA",
+   "floors": "3",
+   "sold": "75%",
+   "absorption": "1.4%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -495,7 +615,11 @@
    "bedrooms": "2 – 5 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% deposit at contract 20% at top off, July 2026 Balance at closing, end of summer 2027",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "12",
+   "sold": "60%",
+   "absorption": "2.1%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -511,7 +635,11 @@
    "bedrooms": "3–5 Bedrooms",
    "status": "Under Construction",
    "deposit": "* 30% at CONTRACT NOW * 10% Upon pouring of the 30th floor * 10% Upon pouring of the rooftop floor * 50% At closing - Approx Mid of 2028",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "62",
+   "sold": "50%",
+   "absorption": "0.9%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -527,7 +655,11 @@
    "bedrooms": "2-5 Bedrooms + Penthouse",
    "status": "Pre-sales",
    "deposit": "20% at contract 10% at groundbreaking 10% top off 60% at closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "20",
+   "sold": "50%",
+   "absorption": "2.9%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -543,7 +675,11 @@
    "bedrooms": "1–5 Bedrooms",
    "status": "Pre-sales",
    "deposit": "20% of Purchase Price at Contract 20% of Purchase Price at Groundbreaking (Est. Q3 2026) 10% of Purchase Price at Topping Off (Est. Q3 2027) 50% Balance at Closing (Est. Q4 2028)",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "15",
+   "sold": "40%",
+   "absorption": "2.3%/mo",
+   "rental": "Minimum rental restrictions expected"
   },
   {
    "area": "miami-beach",
@@ -559,7 +695,11 @@
    "bedrooms": "2–5 Bedrooms",
    "status": "Pre-sales",
    "deposit": "15% due at contract 15% 6 months after contract 10% 12 months after the 2nd additional deposit 10% 12 months after the 3rd additional deposit 50% at closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "62",
+   "sold": "70%",
+   "absorption": "1.3%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -575,7 +715,11 @@
    "bedrooms": "2–6 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at contract / 20% groundbreaking / 10% top off / 50% closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "18",
+   "sold": "96%",
+   "absorption": "2.3%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -591,7 +735,11 @@
    "bedrooms": "2 – 4 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at contract 10% at Groundbreaking 10% at amenity deck 10% at top off 50% balance at closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "28",
+   "sold": "50%",
+   "absorption": "1.7%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -607,7 +755,11 @@
    "bedrooms": "Studio - 2 Bedrooms",
    "status": "Under construction",
    "deposit": "25% at contract 10% in 90 days 15% in 180 days",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "10",
+   "sold": "50%",
+   "absorption": "1.2%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -623,7 +775,11 @@
    "bedrooms": "1 - 2 Bedrooms",
    "status": "Pre-sales",
    "deposit": "20% At contract 10% 90 days after 10% Top Off 60% Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "12",
+   "sold": "40%",
+   "absorption": "2.3%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -639,7 +795,11 @@
    "bedrooms": "1 - 4 Bedrooms",
    "status": "Pre-sales",
    "deposit": "20% at contract execution. 10% at groundbreaking. 10% at building top-off .60% balance due at closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "20",
+   "sold": "1%",
+   "absorption": "0.1%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -655,7 +815,11 @@
    "bedrooms": "1 - 3 Bedrooms",
    "status": "Delivered",
    "deposit": "35% at Contract 15% 180 days after contract Remaining 50% at closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "22",
+   "sold": "85%",
+   "absorption": "1.6%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -671,7 +835,11 @@
    "bedrooms": "Studio - 2 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at contract 10% ground breaking 10% pool deck level 10% top off 50% at closing",
-   "deposit_total": "20%"
+   "deposit_total": "20%",
+   "floors": "14",
+   "sold": "61%",
+   "absorption": "2.1%/mo",
+   "rental": ""
   },
   {
    "area": "miami-beach",
@@ -687,7 +855,11 @@
    "bedrooms": "Studio – 3 Bedrooms",
    "status": "Pre-launch",
    "deposit": "20% Contract | NOW 10% Grounbreaking | Q1 2027 10% Top Off | Q1 2028 60% At Closing | Q1 2029",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "14",
+   "sold": "0%",
+   "absorption": "N/A",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -703,7 +875,11 @@
    "bedrooms": "3-6 Bed",
    "status": "Under Construction",
    "deposit": "10% with Contract 10% in 90 Days 10% in 6 months 10% in 6 Months thereafter",
-   "deposit_total": "40% Pre Closing"
+   "deposit_total": "40% Pre Closing",
+   "floors": "55",
+   "sold": "81%",
+   "absorption": "2.8%/mo",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -719,7 +895,11 @@
    "bedrooms": "1-4 + Garden Estate and Penthouse",
    "status": "Pre-sales",
    "deposit": "10% — At Contract 10% — 90 Days from Contract 10% — At Groundbreaking 10% — 9 Months Post- Groundbreaking 60% — At Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "53",
+   "sold": "0%",
+   "absorption": "N/A",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -735,7 +915,11 @@
    "bedrooms": "Studios – 1 Bedrooms",
    "status": "Pre-sales",
    "deposit": "10% at contract 10% december 2025 10% march 2026 Interest paid by deposit",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "26",
+   "sold": "77%",
+   "absorption": "4.5%/mo",
+   "rental": "No Restrictions"
   },
   {
    "area": "edgewater",
@@ -751,7 +935,11 @@
    "bedrooms": "1–3 Bedrooms + Penthouses",
    "status": "Under Construction",
    "deposit": "10% at reservation 10% at contract 10% at GB 10% at Podium 10% at Top-Off 50% at closing",
-   "deposit_total": "6% 2% at contract 2% at GB 2% at closing"
+   "deposit_total": "6% 2% at contract 2% at GB 2% at closing",
+   "floors": "35",
+   "sold": "10%",
+   "absorption": "0.6%/mo",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -767,7 +955,11 @@
    "bedrooms": "1–2 BR",
    "status": "Pre-sales",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "25",
+   "sold": "45%",
+   "absorption": "1.5%/mo",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -783,7 +975,11 @@
    "bedrooms": "1-4 Bed",
    "status": "Under Construction",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "55",
+   "sold": "60%",
+   "absorption": "1.1%/mo",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -799,7 +995,11 @@
    "bedrooms": "Studio - 2 bed",
    "status": "Delivered",
    "deposit": "the project is now in closings with a simplified structure of 10% down / 70% at closing for remaining units",
-   "deposit_total": "30% prior to closing (10% + 10% + 10%); 70% at closing"
+   "deposit_total": "30% prior to closing (10% + 10% + 10%); 70% at closing",
+   "floors": "9",
+   "sold": "97%",
+   "absorption": "2.4%/mo",
+   "rental": "No rental restrictions — flexible ownership, short-term rentals permitted"
   },
   {
    "area": "edgewater",
@@ -815,7 +1015,11 @@
    "bedrooms": "Studios – 3 Bedrooms (plus penthouses)",
    "status": "Pre-sales",
    "deposit": "10% at contract NOW • 10% 150 days after contract • 10% at groundbreaking (Fall 2026) • 10% one year after groundbreaking",
-   "deposit_total": "0.065"
+   "deposit_total": "0.065",
+   "floors": "8",
+   "sold": "33%",
+   "absorption": "6.5%/mo",
+   "rental": "No Restrictions"
   },
   {
    "area": "edgewater",
@@ -831,7 +1035,11 @@
    "bedrooms": "Studios - 3 Bedrooms",
    "status": "Under Construction",
    "deposit": "5% AT CONTRACT 5% 15 DAYS FROM CONTRACT DATE 10% 45 DAYS FROM CONTRACT DATE 10% 90 DAYS AFTER CONTRACT 10% AT 25th FLOOR POUR 10% AT TOP OFF 50% AT CLOSING",
-   "deposit_total": "7% paid 5% when deposits get to 20%"
+   "deposit_total": "7% paid 5% when deposits get to 20%",
+   "floors": "11",
+   "sold": "26%",
+   "absorption": "0.9%/mo",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -847,7 +1055,11 @@
    "bedrooms": "Studio - 2 bed (+ Duplex Loft Penthouses)",
    "status": "Pre-sales",
    "deposit": "20% at Contract 10% at Groundbreaking 10% at Top-Off 60% at Closing",
-   "deposit_total": "40% Pre-closing"
+   "deposit_total": "40% Pre-closing",
+   "floors": "8",
+   "sold": "12%",
+   "absorption": "2.3%/mo",
+   "rental": "30-day minimum rental stay; separate resident entrances and elevators from hotel"
   },
   {
    "area": "edgewater",
@@ -863,7 +1075,11 @@
    "bedrooms": "Studio–3 BR + Penthouses",
    "status": "Pre-sales",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "27",
+   "sold": "25%",
+   "absorption": "1.5%/mo",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -879,7 +1095,11 @@
    "bedrooms": "Studio – 3 Bedrooms",
    "status": "Under Construction",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "12",
+   "sold": "50%",
+   "absorption": "1.7%/mo",
+   "rental": ""
   },
   {
    "area": "edgewater",
@@ -895,7 +1115,11 @@
    "bedrooms": "1-4 Bed",
    "status": "Under Construction",
    "deposit": "20% At Contract 10% 90 Days After Contract 10% At Top Off (Q1 2027) 60% At Closing (Q1 2028)",
-   "deposit_total": "40% (pre-closing)"
+   "deposit_total": "40% (pre-closing)",
+   "floors": "40",
+   "sold": "50%",
+   "absorption": "2.9%/mo",
+   "rental": "No short-term rentals; owners may rent up to 2x per year, 3-month minimum"
   },
   {
    "area": "brickell",
@@ -911,7 +1135,11 @@
    "bedrooms": "2-5 Bed + Sky Villa",
    "status": "Under Construction",
    "deposit": "30% at Contract — NOW 10% at Top-Off — Est. Q4 2026 60% at Closing — Est. 2027",
-   "deposit_total": "40% pre-closing (30% + 10%)"
+   "deposit_total": "40% pre-closing (30% + 10%)",
+   "floors": "50",
+   "sold": "75%",
+   "absorption": "1.4%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -927,7 +1155,11 @@
    "bedrooms": "North: 2-4 bed (private); 1-2 bed (Hotel Collection)",
    "status": "Pre-sales",
    "deposit": "North Tower: 5% at Contract 5% 60 days after Contract 10% 90 days after 2nd deposit 10% at Groundbreaking 10% at Top Off (2028) 60% at Closing South Tower: 10% at Contract 10% 90 days after Contract 10% at Groundbreaking 10% at Top Off (2028) 60% at Closing",
-   "deposit_total": "40% prior to closing; 60% at closing"
+   "deposit_total": "40% prior to closing; 60% at closing",
+   "floors": "N/A",
+   "sold": "72%",
+   "absorption": "14.1%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -943,7 +1175,11 @@
    "bedrooms": "N/A",
    "status": "Pre-sales",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "N/A",
+   "sold": "10%",
+   "absorption": "2.0%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -959,7 +1195,11 @@
    "bedrooms": "Studios - 2 Bedrooms",
    "status": "Delivered",
    "deposit": "20% at contract 10% after 9 months 70% at Closing",
-   "deposit_total": "30%"
+   "deposit_total": "30%",
+   "floors": "17",
+   "sold": "93%",
+   "absorption": "2.3%/mo",
+   "rental": "no restrictions"
   },
   {
    "area": "brickell",
@@ -975,7 +1215,11 @@
    "bedrooms": "N/A",
    "status": "Under Construction",
    "deposit": "20% at Contract 10 % at Ground Breaking 10% at Top off 60% at Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "70",
+   "sold": "61%",
+   "absorption": "1.1%/mo",
+   "rental": "6M Min / 2X Per Year"
   },
   {
    "area": "brickell",
@@ -991,7 +1235,11 @@
    "bedrooms": "1 Bed + Den, 2 Bed + Den, 3 Bed, 4 Bed (Canaletto)",
    "status": "Pre-sales",
    "deposit": "20% at Contract 10% 90 days after Contract 10% at Rooftop 60% at Closing",
-   "deposit_total": "40% prior to closing; 60% at closing"
+   "deposit_total": "40% prior to closing; 60% at closing",
+   "floors": "80",
+   "sold": "80%",
+   "absorption": "2.7%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -1007,7 +1255,11 @@
    "bedrooms": "N/A",
    "status": "Delivered",
    "deposit": "20% at Contract 10% at Groundbreaking 10% at 12th Floor 10% at Top Off 50% at Closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "47",
+   "sold": "96%",
+   "absorption": "0.9%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -1023,7 +1275,11 @@
    "bedrooms": "Studio - 3 Bedrooms",
    "status": "Under Construction",
    "deposit": "10% at contract 10% 90 days from contract 5% 90 daya from contract 10% topoff 65% closings",
-   "deposit_total": "35%"
+   "deposit_total": "35%",
+   "floors": "45",
+   "sold": "13%",
+   "absorption": "0.8%/mo",
+   "rental": "Min 30 days / 12x per year"
   },
   {
    "area": "brickell",
@@ -1039,7 +1295,11 @@
    "bedrooms": "Studios - 3 Bedrooms",
    "status": "Under Construction",
    "deposit": "10% at contract 10% October 2026 10% June 2027 (Top Off)",
-   "deposit_total": "30%"
+   "deposit_total": "30%",
+   "floors": "1",
+   "sold": "0%",
+   "absorption": "N/A",
+   "rental": "Residences: no restrictions Offices minimum lease: 6 months"
   },
   {
    "area": "brickell",
@@ -1055,7 +1315,11 @@
    "bedrooms": "Studios - 2 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at contract 10% after 9 months 70% at Closing",
-   "deposit_total": "30%"
+   "deposit_total": "30%",
+   "floors": "18",
+   "sold": "50%",
+   "absorption": "N/A",
+   "rental": "no restrictions"
   },
   {
    "area": "brickell",
@@ -1071,7 +1335,11 @@
    "bedrooms": "Studio- 3 Bedrooms",
    "status": "Pre-sales",
    "deposit": "10K reservation → 20% contract → 10% groundbreaking → 10% 4th floor → 10% top-off → 50% closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "9",
+   "sold": "50%",
+   "absorption": "2.9%/mo",
+   "rental": "No restrictions"
   },
   {
    "area": "brickell",
@@ -1087,7 +1355,11 @@
    "bedrooms": "1-4 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at Contract 10% 30 days after contract 10% 90 days later 60% at Closing (Q2 2026)",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "45",
+   "sold": "85%",
+   "absorption": "2.9%/mo",
+   "rental": "3-month minimum, up to twice a year"
   },
   {
    "area": "brickell",
@@ -1103,7 +1375,11 @@
    "bedrooms": "Studios - 2 Bedrooms",
    "status": "Pre-sales",
    "deposit": "20% at contract 10% 6 months after contract 10% at GB 60% at closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "N/A",
+   "sold": "5%",
+   "absorption": "1.0%/mo",
+   "rental": "15 day minimum"
   },
   {
    "area": "brickell",
@@ -1119,7 +1395,11 @@
    "bedrooms": "Studios - 2 Bedrooms",
    "status": "Delivered",
    "deposit": "20% with contract 80% at closing",
-   "deposit_total": "30%"
+   "deposit_total": "30%",
+   "floors": "14",
+   "sold": "50%",
+   "absorption": "1.7%/mo",
+   "rental": "Rent 12 times a year/ 30 days"
   },
   {
    "area": "brickell",
@@ -1135,7 +1415,11 @@
    "bedrooms": "Studios - 2 Bedrooms",
    "status": "Under Construction",
    "deposit": "20% at contract 10% 90 days after 10% top off 60% closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "30",
+   "sold": "30%",
+   "absorption": "N/A",
+   "rental": "no restrictions"
   },
   {
    "area": "brickell",
@@ -1151,7 +1435,11 @@
    "bedrooms": "N/A",
    "status": "Under Construction",
    "deposit": "10% at contract 10% 60 days from contract 10% 9 months from contract 10% 18 months from contract 60% at closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "44",
+   "sold": "94%",
+   "absorption": "94.0%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -1167,7 +1455,11 @@
    "bedrooms": "N/A",
    "status": "Pre-sales",
    "deposit": "20% at Signing 10% at Groundbreaking 20$ Topoff Balance at closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "90",
+   "sold": "10%",
+   "absorption": "10.0%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -1183,7 +1475,11 @@
    "bedrooms": "1 Bedroom",
    "status": "Under Construction",
    "deposit": "20% at contract 10% at 60 days 10% at 120 days (or top-off) 60% at closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "N/A",
+   "sold": "65%",
+   "absorption": "12.7%/mo",
+   "rental": "Short-term rental / hotel program (fully managed) Personal use limited to 30 days/year"
   },
   {
    "area": "brickell",
@@ -1199,7 +1495,11 @@
    "bedrooms": "Studio - 6 Bedrooms",
    "status": "Pre-sales",
    "deposit": "10% at Reservation 10% at Contract 20% at Groundbreaking 10% at Top Off 50% at Closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "77",
+   "sold": "46%",
+   "absorption": "1.1%/mo",
+   "rental": ""
   },
   {
    "area": "brickell",
@@ -1215,7 +1515,11 @@
    "bedrooms": "N/A",
    "status": "Under Construction",
    "deposit": "20% at contract 10% 180 days from signed contract 10% at residence level 10% at top-off 50% balance due at closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "67",
+   "sold": "35%",
+   "absorption": "1.2%/mo",
+   "rental": ""
   },
   {
    "area": "coral-gables",
@@ -1231,7 +1535,11 @@
    "bedrooms": "2 - 4 Bed",
    "status": "Under Construction",
    "deposit": "5% at Reservation 15% at Contract 10% at Groundbreaking 10% at Top Off 60% at Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "11",
+   "sold": "25%",
+   "absorption": "1.5%/mo",
+   "rental": "1 yr"
   },
   {
    "area": "coral-gables",
@@ -1247,7 +1555,11 @@
    "bedrooms": "1 - 3 Bed",
    "status": "Under Construction",
    "deposit": "3% at Reservation 17% at Contract 20% at Groundbreaking 10% at Top Off 50% at Closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "12",
+   "sold": "25%",
+   "absorption": "1.5%/mo",
+   "rental": "2 times a year / 6 Months"
   },
   {
    "area": "coral-gables",
@@ -1263,7 +1575,11 @@
    "bedrooms": "2 - 4 Bed",
    "status": "Under Construction",
    "deposit": "10% Purchase Agreement | Now 10% 15 days after the signature of Purchase Agreement 10% (30%) Groundbreaking | Q2 2023 10% (40 %) Top off | 2024 60% Balance due at closing 2025 | Q3 of the year",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "3",
+   "sold": "90%",
+   "absorption": "2.2%/mo",
+   "rental": "1 year lease only"
   },
   {
    "area": "coral-gables",
@@ -1279,7 +1595,11 @@
    "bedrooms": "1-3 Bed",
    "status": "Under Construction",
    "deposit": "N/A",
-   "deposit_total": "N/A"
+   "deposit_total": "N/A",
+   "floors": "8",
+   "sold": "10%",
+   "absorption": "2.0%/mo",
+   "rental": ""
   },
   {
    "area": "coral-gables",
@@ -1295,7 +1615,11 @@
    "bedrooms": "1 - 3 Bed",
    "status": "Pre-sales",
    "deposit": "5% reservation 15% contract 10% groundbreaking 10% top off 60% closing (Q1- 2028)",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "9",
+   "sold": "25%",
+   "absorption": "1.5%/mo",
+   "rental": "1 yr"
   },
   {
    "area": "coral-gables",
@@ -1311,7 +1635,11 @@
    "bedrooms": "1 - 3 Bed",
    "status": "Under Construction",
    "deposit": "30% at Contract 10% at Top-Off 60% at Closing",
-   "deposit_total": "40%"
+   "deposit_total": "40%",
+   "floors": "12",
+   "sold": "70%",
+   "absorption": "2.4%/mo",
+   "rental": "3 day min"
   },
   {
    "area": "coral-gables",
@@ -1327,7 +1655,11 @@
    "bedrooms": "4 Bed",
    "status": "Under Construction",
    "deposit": "10% — At Contract 20% — At Groundbreaking 20% — At Top Off 50% — At Closing",
-   "deposit_total": "50%"
+   "deposit_total": "50%",
+   "floors": "3",
+   "sold": "10%",
+   "absorption": "0.6%/mo",
+   "rental": ""
   }
  ]
 }
