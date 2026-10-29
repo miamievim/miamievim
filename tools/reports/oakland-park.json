@@ -2,10 +2,11 @@
  "id": "oakland-park",
  "name": "Oakland Park",
  "county": "Broward",
- "meta": "Oakland Park mahalle raporu, Ekim 2026: medyan satış fiyatı $424.798, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Gelişen mutfak bölgesi, bira fabrikaları ve plaja birkaç dakikalık mesafesiyle Fort Lauderdale'in kuzeyinde dönüşen bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $424.798.",
+ "meta": "Oakland Park mahalle raporu, Ekim 2026: medyan satış fiyatı $425 bin, ortalama kira $1.925, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Gelişen mutfak bölgesi, bira fabrikaları ve plaja birkaç dakikalık mesafesiyle Fort Lauderdale'in kuzeyinde dönüşen bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $425 bin (Redfin).",
  "sales": {
   "median": 424798,
+  "median_approx": false,
   "median_chg": "yıllık +%1,9",
   "ppsf": 344,
   "src_short": "Redfin",
@@ -19,53 +20,61 @@
     "$344 / ft² ≈ $3.703 / m² <small>(yıllık +%0,4)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "84 gün <small>(bir yıl önce 128 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "172 <small>(yıllık −%4,6)</small>"
+    "Satılan konut (Eylül 2026)",
+    "172 <small>(bir yıl önce 180)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,9"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/13016/FL/Oakland-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Oakland Park Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/13016/FL/Oakland-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Oakland Park Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%1,9).",
+   "Medyan satış süresi bir yılda 128 günden 84 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,1 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 1908,
-  "chg": "yıllık −$142",
+  "avg": 1925,
+  "chg": "yıllık −$85",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.300"
+    "$1.306"
    ],
    [
     "1 yatak odalı",
-    "$1.650"
+    "$1.620"
    ],
    [
     "2 yatak odalı",
-    "$2.040"
+    "$2.012"
    ],
    [
     "3 yatak odalı",
-    "$3.400"
+    "$3.500"
+   ],
+   [
+    "4+ yatak odalı",
+    "$2.900"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$1.908"
+    "$1.925"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/oakland-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Oakland Park</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/oakland-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Oakland Park</a>, 26 Ekim 2026 güncellemesi (308 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 20.3054,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Oakland Park, Fort Lauderdale ile Wilton Manors'un kuzeyinde, şehir merkezini restoranlar ve bira fabrikalarıyla canlandıran \"Culinary Arts District\" projesiyle dönüşen bir şehir.",
@@ -122,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 5 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (kuş uçuşu yaklaşık 4 km)."
   ],
   [
    "Günlük hayat",
@@ -136,11 +145,9 @@
  "pros": [
   "Plaja ve şehir merkezine yakınlık",
   "Dönüşen yürünebilir şehir merkezi",
-  "Satış süresinde belirgin kısalma",
   "Uygun kiralar"
  ],
  "cons": [
-  "Vergi oranı 20 mill'in üzerinde",
   "Eski evlerde yenileme ve sigorta maliyeti",
   "Kanal kenarı kesimlerde sel bölgesi kontrolü",
   "Ana caddelerde trafik"
@@ -152,24 +159,24 @@
   ],
   [
    "Oakland Park bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $1.908; 2 yatak odalı $2.040 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $1.925; 1 yatak odalı $1.620, 2 yatak odalı $2.012 civarında."
   ],
   [
    "Oakland Park bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,3054 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,03. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,3054 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,03 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Oakland Park Housing Market (Ekim 2026)",
+   "Redfin: Oakland Park Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/13016/FL/Oakland-Park/housing-market"
   ],
   [
-   "Zillow: Oakland Park Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Oakland Park Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/oakland-park-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -177,5 +184,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Oakland Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Oakland Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Gelişen mutfak bölgesi, bira fabrikaları ve plaja birkaç dakikalık mesafesiyle Fort Lauderdale'in kuzeyinde dönüşen bir şehir."
 }

@@ -2,10 +2,11 @@
  "id": "margate",
  "name": "Margate",
  "county": "Broward",
- "meta": "Margate mahalle raporu, Ekim 2026: medyan satış fiyatı $318.848, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Kuzey Broward'da, uygun fiyatlı villa ve kondominyum siteleriyle bilinen yerleşik bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $318.848.",
+ "meta": "Margate mahalle raporu, Ekim 2026: medyan satış fiyatı $319 bin, ortalama kira $2.013, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Kuzey Broward'da, uygun fiyatlı villa ve kondominyum siteleriyle bilinen yerleşik bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $319 bin (Redfin).",
  "sales": {
   "median": 318848,
+  "median_approx": false,
   "median_chg": "yıllık −%6,2",
   "ppsf": 259,
   "src_short": "Redfin",
@@ -19,29 +20,33 @@
     "$259 / ft² ≈ $2.788 / m² <small>(yıllık +%3,6)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "78 gün <small>(bir yıl önce 86 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "164 <small>(yıllık −%17,8)</small>"
+    "Satılan konut (Eylül 2026)",
+    "164 <small>(bir yıl önce 199)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,3"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/10973/FL/Margate/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Margate Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/10973/FL/Margate/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Margate Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%6,2); fit kare fiyatı ise ters yönde hareket etti (+%3,6); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 86 günden 78 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,7 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2000,
-  "chg": "yıllık değişim yok",
+  "avg": 2013,
+  "chg": "yıllık +$13",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.395"
+    "$1.390"
    ],
    [
     "1 yatak odalı",
@@ -49,23 +54,27 @@
    ],
    [
     "2 yatak odalı",
-    "$1.922"
+    "$1.950"
    ],
    [
     "3 yatak odalı",
-    "$3.400"
+    "$3.250"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.279"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.000"
+    "$2.013"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/margate-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Margate</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/margate-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Margate</a>, 26 Ekim 2026 güncellemesi (191 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 21.6343,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Margate, 1950'lerde kurulan ve kuzey Broward'ın merkezinde yer alan yerleşik bir şehir. Kanallar ve göllerle çevrili siteler, şehrin konut dokusunun önemli bir parçasıdır.",
@@ -118,7 +127,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Pompano Beach (yaklaşık 10 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (kuş uçuşu yaklaşık 7 km)."
   ],
   [
    "Günlük hayat",
@@ -131,15 +140,14 @@
  ],
  "pros": [
   "Broward'da uygun giriş fiyatları",
-  "Fit kare fiyatında yıllık artış",
   "Merkezi kuzey Broward konumu",
   "Kiralık stok mevcut"
  ],
  "cons": [
-  "Yüksek vergi oranı (21,63 mill)",
   "Eski sitelerde özel aidat riski ve site kuralları",
   "Plaja uzak",
-  "Toplu taşıma sınırlı"
+  "Toplu taşıma sınırlı",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (21,63 mill)"
  ],
  "faq": [
   [
@@ -148,24 +156,24 @@
   ],
   [
    "Margate bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.000; 2 yatak odalı $1.922 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.013; 1 yatak odalı $1.500, 2 yatak odalı $1.950 civarında."
   ],
   [
    "Margate bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 21,6343 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,16. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 21,6343 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,16 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Margate Housing Market (Ekim 2026)",
+   "Redfin: Margate Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/10973/FL/Margate/housing-market"
   ],
   [
-   "Zillow: Margate Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Margate Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/margate-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -173,5 +181,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Margate raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Margate raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Kuzey Broward'da, uygun fiyatlı villa ve kondominyum siteleriyle bilinen yerleşik bir şehir."
 }

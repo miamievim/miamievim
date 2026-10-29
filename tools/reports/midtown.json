@@ -1,0 +1,206 @@
+{
+ "id": "midtown",
+ "name": "Midtown",
+ "county": "Miami-Dade",
+ "meta": "Midtown mahalle raporu, Ekim 2026: medyan satış fiyatı $605 bin, ortalama kira $2.823, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Yürünebilir alışveriş caddeleri ve yeni nesil kondominyumlarıyla Wynwood ile Design District arasındaki planlı bölge. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $605 bin (Redfin).",
+ "lead": "Yürünebilir alışveriş caddeleri ve yeni nesil kondominyumlarıyla Wynwood ile Design District arasındaki planlı bölge.",
+ "sales": {
+  "median": 604831,
+  "median_approx": false,
+  "median_chg": "yıllık −%22",
+  "ppsf": 588,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$604.831 <small>(yıllık −%22)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$588 / ft² ≈ $6.329 / m² <small>(yıllık −%19,7)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "140 gün <small>(bir yıl önce 131 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "131 <small>(bir yıl önce 110)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,6"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/352222/FL/Miami/Midtown-Miami/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Midtown Miami Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%22); fit kare fiyatı da geriledi (−%19,7).",
+   "Medyan satış süresi bir yılda 131 günden 140 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %5,4 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 2823,
+  "chg": "yıllık +$123",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.265"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.499"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.800"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.900"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.650"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.823"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33127/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33127 posta kodu</a>, 26 Ekim 2026 güncellemesi (575 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33127 posta kodunun ortalamaları kullanıldı; posta kodu Midtown dışında komşu alanları da kapsayabilir."
+  ]
+ },
+ "tax": {
+  "mills": 19.9878,
+  "src_short": "Miami-Dade PA, 2025"
+ },
+ "character": [
+  "Midtown Miami, Wynwood ile Design District arasında, eski Florida East Coast demiryolu depo alanında 2000'lerde planlanan karma kullanımlı bir bölge. Mağazalar, restoranlar ve market zincirleri yürünebilir sokaklar boyunca kondominyum bloklarının zemin katlarında yer alır.",
+  "Konut stoku modern kondominyumlar ve çok katlı townhouse'lardan oluşur; bölgenin kenarlarında eklektik tarzda tarihî müstakil evler de bulunur. Doğusunda Edgewater ve körfez, batısında Wynwood'un galerileri yer alır."
+ ],
+ "places": [
+  [
+   "The Shops at Midtown Miami",
+   "Market, mağaza ve restoranlarla bölgenin alışveriş alanı."
+  ],
+  [
+   "Midtown Boulevard",
+   "Kafe ve restoranlarla yürünebilir ana cadde."
+  ],
+  [
+   "Wynwood",
+   "Batıda galeriler ve sokak sanatı."
+  ],
+  [
+   "Design District",
+   "Kuzeyde lüks alışveriş ve müzeler."
+  ],
+  [
+   "Gizli köşe: Buena Vista Avenue",
+   "Bölgenin kuzeyinde tarihî evlerle sakin bir yürüyüş rotası."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Midtown için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kıyıdan içeride yer alan bölgede risk Edgewater'a göre genellikle daha düşüktür; ancak risk adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell",
+   "yaklaşık 6 km · 10–15 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 11 km · 15 dakika"
+  ],
+  [
+   "Miami Beach",
+   "yaklaşık 10 km · 15–20 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Miami Trolley hatları ve Metrobus; Downtown'daki MiamiCentral'dan Brightline."
+  ],
+  [
+   "Günlük hayat",
+   "Market, restoran ve hizmetler yürüme mesafesinde."
+  ]
+ ],
+ "projects": [
+  [
+   "Midtown Park",
+   "288 daire, 27 kat; ön satış",
+   "2028",
+   "/yeni-projeler/"
+  ]
+ ],
+ "projects_notes": [],
+ "pros": [
+  "Yürünebilir alışveriş ve günlük hizmetler",
+  "Wynwood, Design District ve Edgewater'a yakınlık",
+  "Görece yeni kondominyum stoku",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,4 altında kapanıyor"
+ ],
+ "cons": [
+  "Yeni arzla birlikte kira ve satış rekabeti",
+  "Eski binalarda SIRS ve özel aidat riski",
+  "Yoğun trafik ve otopark sıkıntısı",
+  "Uzun satış süresi (medyan 140 gün)"
+ ],
+ "faq": [
+  [
+   "Midtown bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $604.831 (yıllık −%22), fit kare fiyatı $588."
+  ],
+  [
+   "Midtown bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $2.823; 1 yatak odalı $2.499, 2 yatak odalı $2.800 civarında."
+  ],
+  [
+   "Midtown bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 19,9878 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Midtown Miami Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/neighborhood/352222/FL/Miami/Midtown-Miami/housing-market"
+  ],
+  [
+   "Zillow: 33127 posta kodu Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33127/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "Cervera Real Estate: Development Market Study, Q3 2026 (Haziran 2026); proje listesi Yeni Projeler sayfasında",
+   "/yeni-projeler/"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Midtown raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

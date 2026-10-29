@@ -2,12 +2,13 @@
  "id": "greenacres",
  "name": "Greenacres",
  "county": "Palm Beach",
- "meta": "Greenacres mahalle raporu, Ekim 2026: medyan satış fiyatı $274.869, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Lake Worth Beach'in batısında, uygun fiyatlı kondominyum ve müstakil evleriyle merkezi bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $274.869.",
+ "meta": "Greenacres mahalle raporu, Ekim 2026: medyan satış fiyatı $275 bin, ortalama kira $2.128, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Lake Worth Beach'in batısında, uygun fiyatlı kondominyum ve müstakil evleriyle merkezi bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $275 bin (Redfin).",
  "sales": {
   "median": 274869,
+  "median_approx": false,
   "median_chg": "yıllık −%5,9",
-  "ppsf": 203,
+  "ppsf": 205,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,32 +17,36 @@
    ],
    [
     "Fit kare fiyatı",
-    "$203 / ft² ≈ $2.185 / m² <small>(yıllık −%7,9)</small>"
+    "$205 / ft² ≈ $2.207 / m² <small>(yıllık −%7,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "93 gün <small>(bir yıl önce 100 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "137 <small>(yıllık +%0,8)</small>"
+    "Satılan konut (Eylül 2026)",
+    "137 <small>(bir yıl önce 136)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/6980/FL/Greenacres/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Greenacres Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/6980/FL/Greenacres/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Greenacres Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%5,9); fit kare fiyatı da geriledi (−%7,2).",
+   "Medyan satış süresi bir yılda 100 günden 93 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,3 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2100,
-  "chg": "yıllık +$50",
+  "avg": 2128,
+  "chg": "yıllık +$128",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.500"
+    "$1.489"
    ],
    [
     "1 yatak odalı",
@@ -56,17 +61,20 @@
     "$2.650"
    ],
    [
+    "4+ yatak odalı",
+    "$3.728"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$2.100"
+    "$2.128"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/greenacres-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Greenacres</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/greenacres-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Greenacres</a>, 26 Ekim 2026 güncellemesi (129 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
-  "mills": 18.5598,
-  "mills_hi": 19.1089,
-  "src_short": "PAPA 2025"
+  "mills": 19.1071,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Greenacres, 1926'da kurulan ve West Palm Beach ile Boynton Beach arasında merkezi bir konumda yer alan bir şehir. Konut stoku 1970–80'lerden kalma kondominyum siteleri, townhouse'lar ve müstakil evlerden oluşur.",
@@ -93,7 +101,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Greenacres için 2025 toplam vergi oranı 18,5598–19,1089 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,86–1,91. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.560–$19.109. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Greenacres için 2025 toplam vergi oranı 19,1071 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,91. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.107. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -123,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (yaklaşık 9 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (kuş uçuşu yaklaşık 7 km)."
   ],
   [
    "Günlük hayat",
@@ -136,12 +144,9 @@
  ],
  "pros": [
   "Palm Beach County'de uygun giriş fiyatları",
-  "Merkezi konum",
-  "Görece uygun kiralar ($2.100)",
-  "Satışlar ilan fiyatına yakın (%96,7)"
+  "Merkezi konum"
  ],
  "cons": [
-  "Fiyatlarda yıllık düşüş (−%5,9)",
   "Eski sitelerde özel aidat riski",
   "Plaja uzak",
   "Araç bağımlı yaşam"
@@ -149,28 +154,32 @@
  "faq": [
   [
    "Greenacres bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $274.869 (yıllık −%5,9), fit kare fiyatı $203."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $274.869 (yıllık −%5,9), fit kare fiyatı $205."
   ],
   [
    "Greenacres bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.100; 2 yatak odalı $1.950 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.128; 1 yatak odalı $1.400, 2 yatak odalı $1.950 civarında."
   ],
   [
    "Greenacres bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 18,5598–19,1089 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,86–1,91. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 19,1071 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,91 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Greenacres Housing Market (Ekim 2026)",
+   "Redfin: Greenacres Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/6980/FL/Greenacres/housing-market"
   ],
   [
-   "Zillow: Greenacres Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Greenacres Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/greenacres-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -178,5 +187,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Greenacres raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Greenacres raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Lake Worth Beach'in batısında, uygun fiyatlı kondominyum ve müstakil evleriyle merkezi bir şehir."
 }

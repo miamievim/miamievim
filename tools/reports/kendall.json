@@ -2,68 +2,82 @@
  "id": "kendall",
  "name": "Kendall",
  "county": "Miami-Dade",
- "meta": "Kendall mahalle raporu, Ekim 2026: medyan satış fiyatı $596.667, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Dadeland alışveriş merkezi, büyük hastaneleri ve geniş banliyö mahalleleriyle güneybatı Miami-Dade'in merkezi. Zillow'a göre medyan satış fiyatı $596.667 (Ağustos 2026).",
+ "meta": "Kendall mahalle raporu, Ekim 2026: medyan satış fiyatı $612 bin, ortalama kira $2.200, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Dadeland alışveriş merkezi, büyük hastaneleri ve geniş banliyö mahalleleriyle güneybatı Miami-Dade'in merkezi. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $612 bin (Redfin).",
  "sales": {
-  "median": 596667,
-  "median_chg": "Ağustos 2026",
-  "ppsf": null,
-  "src_short": "Zillow",
+  "median": 612208,
+  "median_approx": false,
+  "median_chg": "yıllık +%16,6",
+  "ppsf": 401,
+  "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$596.667 <small>(Ağustos 2026)</small>"
+    "$612.208 <small>(yıllık +%16,6)</small>"
    ],
    [
-    "Tipik ev değeri (ZHVI)",
-    "$534.853 <small>(yıllık +%0,4, Eylül 2026)</small>"
+    "Fit kare fiyatı",
+    "$401 / ft² ≈ $4.316 / m² <small>(yıllık +%10,8)</small>"
    ],
    [
-    "Satışa kadar geçen medyan süre",
-    "46 gün <small>(Eylül 2026)</small>"
+    "Medyan satış süresi",
+    "69 gün <small>(bir yıl önce 71 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "195 <small>(bir yıl önce 186)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
-    "%96,5"
+    "%95,5"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/kendall-fl/home-values/\" target=\"_blank\" rel=\"noopener\">Zillow Home Values, Kendall</a>, Ekim 2026 erişimi.",
+  "src": "<a href=\"https://www.redfin.com/city/23443/FL/Kendall/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Kendall Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Bu bölge için Redfin verisine erişilemediği için Zillow'un ev değeri endeksi (ZHVI) ve medyan satış fiyatı kullanıldı. ZHVI, satılan evlerin değil bölgedeki tipik bir evin tahmini değerini gösterir; fit kare fiyatı bu kaynakta yayımlanmaz."
+   "Medyan satış fiyatı bir yılda yükseldi (+%16,6); fit kare fiyatı da yükseldi (+%10,8).",
+   "Medyan satış süresi 69 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %4,5 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
-  "avg": 2230,
-  "chg": "yıllık −$100",
+  "avg": 2200,
+  "chg": "yıllık −$150",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.386"
+    "$1.294"
    ],
    [
     "1 yatak odalı",
-    "$1.844"
+    "$1.850"
    ],
    [
     "2 yatak odalı",
-    "$2.300"
+    "$2.200"
    ],
    [
     "3 yatak odalı",
-    "$3.300"
+    "$3.250"
+   ],
+   [
+    "4+ yatak odalı",
+    "$17.900"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.230"
+    "$2.200"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33176/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33176</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33176/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33176 posta kodu</a>, 26 Ekim 2026 güncellemesi (189 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33176 posta kodunun ortalamaları kullanıldı; posta kodu Kendall dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 16.9317,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Kendall, güneybatı Miami-Dade'de, herhangi bir belediyeye bağlı olmayan (unincorporated) geniş bir banliyö bölgesi. Kendall Drive boyunca alışveriş merkezleri, hastaneler ve ofisler sıralanır; Dadeland bölgesi yoğun ve yürünebilir bir alt merkezdir.",
@@ -90,7 +104,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Kendall (belediyeye bağlı olmayan Miami-Dade) için 2025 toplam vergi oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.932. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Kendall için 2025 toplam vergi oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.932. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -132,10 +146,10 @@
   "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Kendall için kayıtlı büyük ölçekli proje bulunmuyor."
  ],
  "pros": [
-  "Bu raporlardaki en düşük vergi oranlarından biri (16,93 mill)",
   "Hastaneler, okullar ve alışverişe yakınlık",
   "Metrorail bağlantısı (Dadeland)",
-  "Geniş konut seçeneği"
+  "Geniş konut seçeneği",
+  "Bölgedeki düşük toplam vergi oranlarından biri (16,93 mill)"
  ],
  "cons": [
   "Kendall Drive ve Palmetto'da yoğun trafik",
@@ -146,28 +160,28 @@
  "faq": [
   [
    "Kendall bölgesinde ev fiyatları ne kadar?",
-   "Zillow verisine göre medyan satış fiyatı $596.667 (Ağustos 2026); tipik ev değeri (ZHVI) Eylül 2026 itibarıyla $534.853."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $612.208 (yıllık +%16,6), fit kare fiyatı $401."
   ],
   [
    "Kendall bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.230; 2 yatak odalı $2.300 civarında."
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $2.200; 1 yatak odalı $1.850, 2 yatak odalı $2.200 civarında."
   ],
   [
    "Kendall bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 16,9317 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,69 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Zillow: Kendall Home Values (Ekim 2026)",
-   "https://www.zillow.com/kendall-fl/home-values/"
+   "Redfin: Kendall Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/city/23443/FL/Kendall/housing-market"
   ],
   [
-   "Zillow: ZIP 33176 Rental Market Trends (17 Ekim 2026)",
+   "Zillow: 33176 posta kodu Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/33176/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -175,5 +189,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Kendall raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Kendall raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Dadeland alışveriş merkezi, büyük hastaneleri ve geniş banliyö mahalleleriyle güneybatı Miami-Dade'in merkezi."
 }

@@ -2,10 +2,11 @@
  "id": "opa-locka",
  "name": "Opa-locka",
  "county": "Miami-Dade",
- "meta": "Opa-locka mahalle raporu, Ekim 2026: medyan satış fiyatı $497.763, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Batı Yarımküre'nin en büyük Mağribi Canlanması (Moorish Revival) mimari koleksiyonuna sahip tarihî bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $497.763.",
+ "meta": "Opa-locka mahalle raporu, Ekim 2026: medyan satış fiyatı $498 bin, ortalama kira $1.650, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Batı Yarımküre'nin en büyük Mağribi Canlanması (Moorish Revival) mimari koleksiyonuna sahip tarihî bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $498 bin (Redfin).",
  "sales": {
   "median": 497763,
+  "median_approx": false,
   "median_chg": "yıllık +%30,1",
   "ppsf": 318,
   "src_short": "Redfin",
@@ -19,53 +20,61 @@
     "$318 / ft² ≈ $3.423 / m² <small>(yıllık −%25,4)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "81 gün <small>(bir yıl önce 68 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "25 <small>(yıllık +%41,1)</small>"
+    "Satılan konut (Eylül 2026)",
+    "25 <small>(bir yıl önce 18)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%97,8"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/13314/FL/Opa-locka/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Opa-locka Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/13314/FL/Opa-locka/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Opa locka Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%30,1); fit kare fiyatı ise ters yönde hareket etti (−%25,4); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 68 günden 81 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %2,2 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 1723,
-  "chg": "yıllık −$77",
+  "avg": 1650,
+  "chg": "yıllık −$150",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.100"
+    "$1.150"
    ],
    [
     "1 yatak odalı",
-    "$1.450"
+    "$1.400"
    ],
    [
     "2 yatak odalı",
-    "$1.850"
+    "$1.800"
    ],
    [
     "3 yatak odalı",
-    "$2.500"
+    "$2.850"
+   ],
+   [
+    "4+ yatak odalı",
+    "$3.150"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$1.723"
+    "$1.650"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/opa-locka-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Opa-locka</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/opa-locka-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Opa-locka</a>, 26 Ekim 2026 güncellemesi (79 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 24.0024,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Opa-locka, 1926'da havacılık öncüsü Glenn Curtiss tarafından \"Binbir Gece Masalları\" temasıyla planlanan bir şehir. Kubbeli ve minareli belediye binası başta olmak üzere birçok yapı Ulusal Tarihî Yerler Kaydı'ndadır.",
@@ -132,14 +141,11 @@
  "pros": [
   "Tarihî mimari doku",
   "Uygun giriş fiyatları",
-  "Tri-Rail bağlantısı",
-  "Satışlar ilan fiyatına çok yakın"
+  "Tri-Rail bağlantısı"
  ],
  "cons": [
-  "Yüksek vergi oranı (24,00 mill)",
   "Eski evlerde yenileme ve sigorta maliyeti",
-  "Fit kare fiyatında yıllık düşüş",
-  "Satış sayısı az"
+  "Bölgedeki yüksek toplam vergi oranlarından biri (24,00 mill)"
  ],
  "faq": [
   [
@@ -148,24 +154,24 @@
   ],
   [
    "Opa-locka bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $1.723; 2 yatak odalı $1.850 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $1.650; 1 yatak odalı $1.400, 2 yatak odalı $1.800 civarında."
   ],
   [
    "Opa-locka bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 24,0024 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,40. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 24,0024 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,40 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Opa-locka Housing Market (Ekim 2026)",
+   "Redfin: Opa locka Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/13314/FL/Opa-locka/housing-market"
   ],
   [
-   "Zillow: Opa-locka Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Opa-locka Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/opa-locka-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -173,5 +179,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Opa-locka raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Opa-locka raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Batı Yarımküre'nin en büyük Mağribi Canlanması (Moorish Revival) mimari koleksiyonuna sahip tarihî bir şehir."
 }

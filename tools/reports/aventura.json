@@ -2,10 +2,11 @@
  "id": "aventura",
  "name": "Aventura",
  "county": "Miami-Dade",
- "meta": "Aventura mahalle raporu, Ekim 2026: medyan satış fiyatı $457 bin, ortalama kira $3.200, emlak vergisi, sel bölgesi, Brightline ve yeni projeler. Kaynaklı ve tarihli veriler.",
- "short": "Intracoastal kıyısında kuleler, golf sahaları ve Aventura Mall'un çevresinde kurulu kompakt bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $457 bin; satış sayısı yıllık %15 arttı.",
+ "meta": "Aventura mahalle raporu, Ekim 2026: medyan satış fiyatı $457 bin, ortalama kira $3.200, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Intracoastal kıyısında kuleler, golf sahaları ve Aventura Mall'un çevresinde kurulu kompakt bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $457 bin (Redfin).",
  "sales": {
   "median": 456782,
+  "median_approx": false,
   "median_chg": "yıllık −%3,8",
   "ppsf": 333,
   "src_short": "Redfin",
@@ -19,26 +20,28 @@
     "$333 / ft² ≈ $3.584 / m² <small>(yıllık −%8,1)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "137 gün <small>(bir yıl önce 165 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "214 <small>(yıllık +%15,2)</small>"
+    "214 <small>(bir yıl önce 186)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%93,1"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/709/FL/Aventura/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Aventura Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/709/FL/Aventura/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Aventura Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Fiyatlar hafif gerilerken satış sayısının %15,2 artması ve satış süresinin 165 günden 137 güne inmesi, alıcıların fiyat düzeltmesine olumlu yanıt verdiğini gösteriyor. Stokun büyük kısmı 1980–2000 arası inşa edilmiş kondominyumlar; bina yaşı aidat ve özel aidat riskinde belirleyici."
+   "Medyan satış fiyatı bir yılda geriledi (−%3,8); fit kare fiyatı da geriledi (−%8,1).",
+   "Medyan satış süresi bir yılda 165 günden 137 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %6,9 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
   "avg": 3200,
-  "chg": "yıllık −$40",
+  "chg": "yıllık değişim yok",
   "src_short": "Zillow",
   "rows": [
    [
@@ -47,26 +50,33 @@
    ],
    [
     "1 yatak odalı",
-    "$2.250"
+    "$2.200"
    ],
    [
     "2 yatak odalı",
-    "$3.150"
+    "$3.200"
    ],
    [
     "3 yatak odalı",
-    "$5.800"
+    "$5.500"
+   ],
+   [
+    "4+ yatak odalı",
+    "$15.150"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$3.200"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/aventura-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Aventura</a>, 16 Ekim 2026 güncellemesi."
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/aventura-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Aventura</a>, 26 Ekim 2026 güncellemesi (674 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 16.7488,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Aventura, Miami-Dade'in kuzeydoğusunda, Intracoastal Waterway kıyısında 1995'te belediye olarak kurulmuş kompakt bir şehir. Şehrin merkezinde ülkenin en büyük alışveriş merkezlerinden Aventura Mall, çevresinde ise yüksek katlı kondominyumlar, ofisler ve sağlık kuruluşları yer alır.",
@@ -147,45 +157,44 @@
  ],
  "pros": [
   "Brightline istasyonu ve FLL havalimanına yakınlık",
-  "Görece düşük vergi oranı (16,75 mill)",
-  "Artan satış sayısı ve kısalan satış süresi",
-  "Alışveriş, sağlık ve golf olanakları bir arada"
+  "Alışveriş, sağlık ve golf olanakları bir arada",
+  "Bölgedeki düşük toplam vergi oranlarından biri (16,75 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,9 altında kapanıyor"
  ],
  "cons": [
   "Eski kondominyum stokunda SIRS ve özel aidat riski",
   "Biscayne Boulevard'da yoğun trafik",
-  "Plaja doğrudan erişim yok (Sunny Isles 5 dakika)",
   "Intracoastal kıyısında sel sigortası maliyeti"
  ],
  "faq": [
   [
-   "Aventura'da daire fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $456.782 (yıllık −%3,8), fit kare fiyatı $333 (yıllık −%8,1)."
+   "Aventura bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $456.782 (yıllık −%3,8), fit kare fiyatı $333."
   ],
   [
-   "Aventura'da kiralar ne kadar?",
-   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $3.200; 1 yatak odalı $2.250, 2 yatak odalı $3.150 civarında."
+   "Aventura bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $3.200; 1 yatak odalı $2.200, 2 yatak odalı $3.200 civarında."
+  ],
+  [
+   "Aventura bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 16,7488 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,67 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Aventura'dan Miami'ye nasıl gidilir?",
    "Araçla Brickell'e trafiksiz koşullarda 35–45 dakika; Brightline Aventura istasyonundan Miami'ye (MiamiCentral) tren bağlantısı da var."
-  ],
-  [
-   "Aventura'da emlak vergisi ne kadar?",
-   "2025 için toplam oran 16,7488 mill; yani vergi değerinin yaklaşık %1,67'si. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Aventura Housing Market (Ekim 2026)",
+   "Redfin: Aventura Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/709/FL/Aventura/housing-market"
   ],
   [
-   "Zillow: Aventura Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Aventura Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/aventura-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -197,5 +206,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Aventura raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Aventura raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Intracoastal kıyısında kuleler, golf sahaları ve Aventura Mall'un çevresinde kurulu kompakt bir şehir."
 }

@@ -2,74 +2,81 @@
  "id": "coral-gables",
  "name": "Coral Gables",
  "county": "Miami-Dade",
- "meta": "Coral Gables mahalle raporu, Ekim 2026: medyan satış fiyatı $1,4M, ortalama kira $3.600, emlak vergisi oranı, sel bölgesi, yeni projeler ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Akdeniz mimarisi, ağaçlı bulvarlar ve sıkı imar kurallarıyla planlı bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $1,4 milyon; fit kare fiyatı bir yılda %16,4 yükseldi.",
+ "meta": "Coral Gables mahalle raporu, Ekim 2026: medyan satış fiyatı $1,4 milyon, ortalama kira $3.850, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Akdeniz mimarisi, ağaçlı bulvarlar ve sıkı imar kurallarıyla planlı bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,4 milyon (Redfin).",
  "sales": {
-  "median": 1400000,
-  "median_chg": "yıllık +%7,5",
+  "median": 1399334,
+  "median_approx": false,
+  "median_chg": "yıllık +%7,6",
   "ppsf": 819,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$1.400.000 <small>(yıllık +%7,5)</small>"
+    "$1.399.334 <small>(yıllık +%7,6)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$819 / ft² ≈ $8.816 / m² <small>(yıllık +%16,4)</small>"
    ],
    [
-    "Ortalama satış süresi",
-    "98 gün"
+    "Medyan satış süresi",
+    "87 gün <small>(bir yıl önce 82 gün)</small>"
    ],
    [
-    "Satılan konut (Ağustos 2026)",
-    "159 <small>(yıllık +%5,3)</small>"
+    "Satılan konut (Eylül 2026)",
+    "148 <small>(bir yıl önce 148)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
-    "%94,4"
+    "%94,8"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/3707/FL/Coral-Gables/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coral Gables Housing Market</a>, Ekim 2026 erişimi (son 3 ay verisi; müstakil ev, townhouse ve daire birlikte).",
+  "src": "<a href=\"https://www.redfin.com/city/3707/FL/Coral-Gables/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coral Gables Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Fit kare fiyatındaki artışın medyan fiyattan hızlı olması, satılan mülklerin ortalamada daha küçük ama daha değerli konumlarda olduğuna işaret ediyor. Satışlar ilan fiyatının ortalama %5,6 altında kapanıyor; pazarlık payı var ama sınırlı."
+   "Medyan satış fiyatı bir yılda yükseldi (+%7,6); fit kare fiyatı da yükseldi (+%16,4).",
+   "Medyan satış süresi 87 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %5,2 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
-  "avg": 3600,
-  "chg": "yıllık −$100",
+  "avg": 3850,
+  "chg": "yıllık +$250",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.785"
+    "$1.800"
    ],
    [
     "1 yatak odalı",
-    "$2.100"
+    "$2.200"
    ],
    [
     "2 yatak odalı",
-    "$3.500"
+    "$3.600"
    ],
    [
     "3 yatak odalı",
-    "$6.900"
+    "$7.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$16.198"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$3.600"
+    "$3.850"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/coral-gables-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Coral Gables</a>, 2 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/coral-gables-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Coral Gables</a>, 26 Ekim 2026 güncellemesi (371 aktif kiralık ilan).",
   "notes": [
-   "RentCafe, büyük yönetimli apartman komplekslerini baz aldığı için daha yüksek bir ortalama veriyor: $4.414 (30 Eylül 2026, yıllık +%8,72). İki kaynak arasındaki fark, yeni ve hizmetli binaların kira primini gösteriyor."
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 18.1852,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Coral Gables, 1920'lerde George Merrick tarafından planlanmış bir şehir. Akdeniz Canlanması (Mediterranean Revival) mimarisi, banyan ağaçlarıyla gölgelenen bulvarlar ve tarihî giriş kapıları şehrin kimliğini oluşturur. Bina yüksekliği, cephe rengi ve hatta çatı malzemesi belediye kurallarıyla belirlenir; bu, mahallenin görünümünü onlarca yıldır korumasını sağlıyor.",
@@ -164,9 +171,10 @@
  ],
  "pros": [
   "Sıkı imar kuralları sayesinde korunan mimari doku ve yeşil alanlar",
-  "Fit kare fiyatında güçlü yıllık artış (+%16,4)",
   "Havalimanına ve Brickell'e yakınlık",
-  "Kanallardan körfeze erişimi olan tekne yerleri"
+  "Kanallardan körfeze erişimi olan tekne yerleri",
+  "Bölgedeki düşük toplam vergi oranlarından biri (18,19 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,2 altında kapanıyor"
  ],
  "cons": [
   "Tadilat ve yeni yapı izinleri belediyede uzun ve detaylı süreçlerden geçer",
@@ -176,16 +184,16 @@
  ],
  "faq": [
   [
-   "Coral Gables'ta ev fiyatları ne kadar?",
-   "Redfin verisine göre Ekim 2026 itibarıyla medyan satış fiyatı $1.400.000 (yıllık +%7,5), fit kare fiyatı $819 (yıllık +%16,4). Müstakil evler, townhouse ve daireler bu medyana birlikte dahildir; fiyat mülk tipine göre büyük farklılık gösterir."
+   "Coral Gables bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $1.399.334 (yıllık +%7,6), fit kare fiyatı $819."
   ],
   [
-   "Coral Gables'ta kiralar ne kadar?",
-   "Zillow'a göre (2 Ekim 2026) ortalama kira aylık $3.600; 1 yatak odalı daire $2.100, 2 yatak odalı $3.500 civarında. Yeni ve hizmetli binalarda kiralar daha yüksektir."
+   "Coral Gables bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $3.850; 1 yatak odalı $2.200, 2 yatak odalı $3.600 civarında."
   ],
   [
-   "Coral Gables'ta emlak vergisi ne kadar?",
-   "2025 için toplam oran 18,1852 mill; yani vergi değerinin yaklaşık %1,82'si. Vergi değeri satın almadan sonra yeniden belirlenir. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "Coral Gables bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 18,1852 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,82 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Coral Gables'ta kısa süreli kiralama yapılabilir mi?",
@@ -194,19 +202,15 @@
  ],
  "sources": [
   [
-   "Redfin: Coral Gables Housing Market (Ekim 2026)",
+   "Redfin: Coral Gables Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/3707/FL/Coral-Gables/housing-market"
   ],
   [
-   "Zillow: Coral Gables Rental Market Trends (2 Ekim 2026)",
+   "Zillow: Coral Gables Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/coral-gables-fl/"
   ],
   [
-   "RentCafe: Coral Gables Average Rent (30 Eylül 2026)",
-   "https://www.rentcafe.com/average-rent-market-trends/us/fl/coral-gables/"
-  ],
-  [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -226,5 +230,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Coral Gables raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Coral Gables raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
+ "lead": "Akdeniz mimarisi, ağaçlı bulvarlar ve sıkı imar kurallarıyla planlı bir şehir."
 }

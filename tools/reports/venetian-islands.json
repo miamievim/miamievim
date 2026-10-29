@@ -1,0 +1,198 @@
+{
+ "id": "venetian-islands",
+ "name": "Venetian Islands",
+ "county": "Miami-Dade",
+ "meta": "Venetian Islands mahalle raporu, Ekim 2026: medyan satış fiyatı $1,9 milyon, ortalama kira $3.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Venetian Causeway ile birbirine bağlanan, Downtown ile Miami Beach arasında Biscayne Körfezi'nin ortasındaki altı yapay ada. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,9 milyon (Redfin).",
+ "lead": "Venetian Causeway ile birbirine bağlanan, Downtown ile Miami Beach arasında Biscayne Körfezi'nin ortasındaki altı yapay ada.",
+ "sales": {
+  "median": 1874475,
+  "median_approx": false,
+  "median_chg": "yıllık +%13,9",
+  "ppsf": 1250,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$1.874.475 <small>(yıllık +%13,9)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "yaklaşık $1.250 / ft² ≈ $13.455 / m² <small>(yıllık −%11,8)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "89 gün <small>(bir yıl önce 130 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "32 <small>(bir yıl önce 14)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%92,2"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/145851/FL/Miami-Beach/Venetian-Islands/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Venetian Islands Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%13,9); fit kare fiyatı ise ters yönde hareket etti (−%11,8); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 130 günden 89 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %7,8 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 3500,
+  "chg": "yıllık +$205",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.250"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.900"
+   ],
+   [
+    "2 yatak odalı",
+    "$7.283"
+   ],
+   [
+    "3 yatak odalı",
+    "$17.502"
+   ],
+   [
+    "4+ yatak odalı",
+    "$71.336"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33139/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33139 posta kodu</a>, 26 Ekim 2026 güncellemesi (1.150 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33139 posta kodunun ortalamaları kullanıldı; posta kodu Venetian Islands dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
+ },
+ "tax": {
+  "mills": 18.7601,
+  "src_short": "Miami-Dade PA, 2025",
+  "mills_hi": 19.9878
+ },
+ "character": [
+  "Venetian Islands, Biscayne Körfezi'nde, batıdan doğuya Biscayne Island, San Marco, San Marino, Di Lido, Rivo Alto ve Belle Isle'dan oluşan altı yapay adanın adıdır. Adalar, 1920'lerde inşa edilen Venetian Causeway ile hem Downtown Miami'ye hem Miami Beach'e bağlanır.",
+  "Biscayne Island ve San Marco Island City of Miami, diğer dört ada Miami Beach sınırları içindedir. Konut stoku ağırlıkla su cepheli müstakil evlerden oluşur; Belle Isle ve batı adalarında kondominyumlar da bulunur.",
+  "Venetian Causeway araçlar için ücretlidir ve yürüyüş ile bisiklet için Miami'nin en sevilen rotalarından biridir."
+ ],
+ "places": [
+  [
+   "Venetian Causeway",
+   "Adaları birbirine bağlayan, yürüyüş ve bisiklet için manzaralı köprü yolu."
+  ],
+  [
+   "Belle Isle Park",
+   "Doğu ucundaki adada küçük mahalle parkı."
+  ],
+  [
+   "Lincoln Road",
+   "Doğuda, köprünün Miami Beach ucunda alışveriş caddesi."
+  ],
+  [
+   "Margaret Pace Park",
+   "Batıda, Edgewater'da körfez kıyısı park."
+  ],
+  [
+   "Gizli köşe: Gün doğumunda causeway",
+   "Downtown silüetine ve körfeze bakan sabah yürüyüşü."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Venetian Islands için 2025 toplam vergi oranı 18,7601–19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88–2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.760–19.988. Adaların Miami Beach sınırları içindeki kesiminde oran 18,7601 mill, City of Miami sınırları içindeki kesiminde 19,9878 mill. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Körfez ortasındaki adaların tamamı yüksek riskli kıyı bölgelerindedir (AE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Downtown Miami",
+   "yaklaşık 4 km · 10 dakika"
+  ],
+  [
+   "South Beach (Lincoln Road)",
+   "yaklaşık 2 km · 5 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 16 km · 20–25 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Toplu taşıma sınırlı; Venetian Causeway yürüyüş ve bisiklet yoluyla Downtown ve Miami Beach'e bağlanır."
+  ],
+  [
+   "Günlük hayat",
+   "Adalar tamamen konut amaçlıdır; günlük ihtiyaçlar için South Beach veya Edgewater kullanılır."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Adalarda yeni yapı alanı çok sınırlıdır; arz büyük ölçüde mevcut evlerin el değiştirmesi ve yeniden inşasıyla sağlanır."
+ ],
+ "pros": [
+  "Su cepheli evler ve tekne erişimi",
+  "Downtown ile South Beach arasında merkezi konum",
+  "Ticari trafiği olmayan sakin adalar",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %7,8 altında kapanıyor"
+ ],
+ "cons": [
+  "Kıyı bölgesi sel riski ve yüksek sigorta maliyeti",
+  "Causeway ücretli ve tek ulaşım yolu"
+ ],
+ "faq": [
+  [
+   "Venetian Islands bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $1.874.475 (yıllık +%13,9), fit kare fiyatı yaklaşık $1.250."
+  ],
+  [
+   "Venetian Islands bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $3.500; 1 yatak odalı $2.900, 2 yatak odalı $7.283 civarında."
+  ],
+  [
+   "Venetian Islands bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran konuma göre 18,7601–19,9878 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,88–2,00 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Venetian Islands Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/neighborhood/145851/FL/Miami-Beach/Venetian-Islands/housing-market"
+  ],
+  [
+   "Zillow: 33139 posta kodu Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33139/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Venetian Islands raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

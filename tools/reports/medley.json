@@ -2,39 +2,40 @@
  "id": "medley",
  "name": "Medley",
  "county": "Miami-Dade",
- "meta": "Medley mahalle raporu, Ekim 2026: medyan satış fiyatı $659.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Depolar, lojistik ve sanayi tesislerinin ağırlıkta olduğu, konut stoku çok sınırlı bir kasaba. Satış sayısı çok az olduğu için fiyat verisi anlamlı değildir.",
+ "meta": "Medley mahalle raporu, Ekim 2026: medyan satış fiyatı yaklaşık $665 bin, ortalama kira $6.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Depolar, lojistik ve sanayi tesislerinin ağırlıkta olduğu, konut stoku çok sınırlı bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı yaklaşık $665 bin (Redfin).",
  "sales": {
-  "median": 659000,
-  "median_chg": "yıllık −%26,6",
+  "median": 665000,
+  "median_approx": true,
+  "median_chg": "",
   "ppsf": 322,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$659.000 <small>(yıllık −%26,6)</small>"
+    "yaklaşık $665.000"
    ],
    [
     "Fit kare fiyatı",
     "$322 / ft² ≈ $3.466 / m²"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "49 gün"
    ],
    [
-    "Satılan konut",
+    "Satılan konut (son dönem)",
     "1"
    ],
    [
-    "Satış / ilan fiyatı oranı",
-    "%98,4"
+    "Satış / ilan fiyatı",
+    "ilan fiyatının ortalama %1,6 altında"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/11179/FL/Medley/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Medley Housing Market</a>, Ekim 2026 erişimi (Mayıs 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/11179/FL/Medley/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Medley Housing Market</a>, 28 Ekim 2026 erişimi (Mayıs 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Son dönemde yalnızca 1 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir.",
-   "Redfin bu bölge için en son Mayıs 2026 verisini yayımlamıştır; satış sayısı çok az olduğu için güncelleme seyrek yapılır."
+   "Satışlar ortalamada ilan fiyatının %1,6 altında kapanıyor.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
   ]
  },
  "rent": {
@@ -43,18 +44,38 @@
   "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "$1.600"
+   ],
+   [
+    "1 yatak odalı",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
+    "2 yatak odalı",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
+    "3 yatak odalı",
+    "$6.500"
+   ],
+   [
+    "4+ yatak odalı",
+    "$8.800"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$6.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/medley-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Medley</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/medley-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Medley</a>, 26 Ekim 2026 güncellemesi (5 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 5 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (5 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
   "mills": 18.8727,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Medley, Miami Uluslararası Havalimanı'nın kuzeybatısında, büyük ölçüde sanayi, depo ve lojistik tesislerinden oluşan bir kasaba. Bölge, Miami'nin ithalat-ihracat ve dağıtım ekonomisinde önemli bir rol oynar.",
@@ -107,7 +128,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Metrorail Transfer (yaklaşık 9 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Metrorail Palmetto (sınıra çok yakın)."
   ],
   [
    "Günlük hayat",
@@ -120,39 +141,39 @@
  ],
  "pros": [
   "Havalimanı ve lojistik merkezlerine yakınlık",
-  "Görece makul vergi oranı (18,87 mill)"
+  "Likit piyasa: medyan satış süresi 49 gün"
  ],
  "cons": [
-  "Konut stoku ve satış sayısı çok sınırlı",
   "Sanayi alanlarına komşu konutlar ve ağır araç trafiği",
   "Kiralık ilan yok denecek kadar az",
-  "Fiyat verisi güncel değil"
+  "Fiyat verisi güncel değil",
+  "Satış sayısı az; fiyat verisi oynak"
  ],
  "faq": [
   [
    "Medley bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Mayıs 2026 itibarıyla son 3 ayda medyan satış fiyatı $659.000 (yıllık −%26,6), fit kare fiyatı $322. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+   "Redfin verisine göre Mayıs 2026 itibarıyla son 3 ayda medyan satış fiyatı yaklaşık $665.000, fit kare fiyatı $322."
   ],
   [
    "Medley bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $6.500."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $6.500."
   ],
   [
    "Medley bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 18,8727 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 18,8727 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,89 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Medley Housing Market (Ekim 2026)",
+   "Redfin: Medley Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/11179/FL/Medley/housing-market"
   ],
   [
-   "Zillow: Medley Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Medley Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/medley-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -160,5 +181,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Medley raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Medley raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Depolar, lojistik ve sanayi tesislerinin ağırlıkta olduğu, konut stoku çok sınırlı bir kasaba."
 }

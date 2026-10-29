@@ -138,7 +138,7 @@ def build(d, nav, footer, detail=False):
     m2 = s['ppsf'] * 10.7639 if s.get('ppsf') else None
     tax_pct = t['mills'] / 10
     stats = ''.join([
-        stat('Medyan satış fiyatı', money(s['median']) if s.get('median') else 'Yayımlanmıyor', (f"{E(s['median_chg'])} · {E(s['src_short'])}") if s.get('median') else 'satış çok nadir'),
+        stat('Medyan satış fiyatı', (('≈ ' if s.get('median_approx') else '') + money(s['median'])) if s.get('median') else 'Yayımlanmıyor', (f"{E(s['median_chg'])} · {E(s['src_short'])}") if s.get('median') else 'satış çok nadir'),
         stat('Metrekare fiyatı', (money(m2) + ' / m²') if m2 else '—', (f"{money(s['ppsf'])} / ft² · " + E(s['src_short'])) if m2 else E(s['src_short'])),
         stat('Ortalama kira', (money(r['avg']) + ' / ay') if r.get('avg') else 'Yetersiz veri', (f"{E(r['chg'])} · {E(r['src_short'])}") if r.get('avg') else 'kiralık ilan sayısı az'),
         stat('Emlak vergisi', (f"≈ %{tax_pct:.2f}–{t['mills_hi']/10:.2f}" if t.get('mills_hi') else f"≈ %{tax_pct:.2f}").replace('.', ','), f"vergi değerinin yıllık oranı · {E(t['src_short'])}"),

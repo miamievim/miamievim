@@ -2,10 +2,11 @@
  "id": "pembroke-pines",
  "name": "Pembroke Pines",
  "county": "Broward",
- "meta": "Pembroke Pines mahalle raporu, Ekim 2026: medyan satış fiyatı $471.525, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Broward'ın en büyük banliyölerinden biri: göl kenarı siteler, parklar ve Miami ile Fort Lauderdale arasında merkezi konum. Ekim 2026 itibarıyla medyan satış fiyatı $471.525; ev ortalama 74 günde satılıyor.",
+ "meta": "Pembroke Pines mahalle raporu, Ekim 2026: medyan satış fiyatı $472 bin, ortalama kira $2.605, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Broward'ın en büyük banliyölerinden biri: göl kenarı siteler, parklar ve Miami ile Fort Lauderdale arasında merkezi konum. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $472 bin (Redfin).",
  "sales": {
   "median": 471525,
+  "median_approx": false,
   "median_chg": "yıllık −%6,5",
   "ppsf": 290,
   "src_short": "Redfin",
@@ -16,56 +17,64 @@
    ],
    [
     "Fit kare fiyatı",
-    "$290 / ft² ≈ $3.122 / m² <small>(yıllık −%2,0)</small>"
+    "$290 / ft² ≈ $3.122 / m² <small>(yıllık −%2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "74 gün <small>(bir yıl önce 84 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "494 <small>(yıllık −%2,6)</small>"
+    "Satılan konut (Eylül 2026)",
+    "494 <small>(bir yıl önce 507)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,9"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/14437/FL/Pembroke-Pines/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pembroke Pines Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/14437/FL/Pembroke-Pines/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pembroke Pines Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%6,5); fit kare fiyatı da geriledi (−%2).",
+   "Medyan satış süresi bir yılda 84 günden 74 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,1 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2600,
-  "chg": "yıllık −$90",
+  "avg": 2605,
+  "chg": "yıllık −$14",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.300"
+    "$1.241"
    ],
    [
     "1 yatak odalı",
-    "$1.750"
+    "$1.751"
    ],
    [
     "2 yatak odalı",
-    "$2.250"
+    "$2.245"
    ],
    [
     "3 yatak odalı",
-    "$3.300"
+    "$3.325"
+   ],
+   [
+    "4+ yatak odalı",
+    "$5.341"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.600"
+    "$2.605"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pembroke-pines-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pembroke Pines</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pembroke-pines-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pembroke Pines</a>, 26 Ekim 2026 güncellemesi (571 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 18.8931,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Pembroke Pines, Broward County'nin güneybatısında, 1960'ta kurulan ve bugün ilçenin en kalabalık şehirlerinden biri olan geniş bir banliyö. Şehrin dokusunu göller etrafına kurulmuş planlı siteler, kapılı topluluklar ve geniş caddeler belirler.",
@@ -122,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Opa-locka (yaklaşık 20 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Opa-locka (kuş uçuşu yaklaşık 15 km)."
   ],
   [
    "Günlük hayat",
@@ -135,13 +144,10 @@
  ],
  "pros": [
   "Merkezi konum: Miami ve Fort Lauderdale'e eşit mesafe",
-  "Yüksek satış/ilan oranı ve hızlı satışlar",
-  "Geniş müstakil ev ve townhouse seçeneği",
-  "Broward ortalamasına göre makul vergi oranı (18,89 mill)"
+  "Geniş müstakil ev ve townhouse seçeneği"
  ],
  "cons": [
   "Toplu taşıma sınırlı; araç zorunlu",
-  "Plaja 30 dakikadan uzak",
   "Sitelerde HOA aidatları ve kuralları",
   "Pines Boulevard ve otoyol girişlerinde yoğun trafik"
  ],
@@ -152,24 +158,24 @@
   ],
   [
    "Pembroke Pines bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.600; 2 yatak odalı $2.250 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.605; 1 yatak odalı $1.751, 2 yatak odalı $2.245 civarında."
   ],
   [
    "Pembroke Pines bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 18,8931 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 18,8931 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,89 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Pembroke Pines Housing Market (Ekim 2026)",
+   "Redfin: Pembroke Pines Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/14437/FL/Pembroke-Pines/housing-market"
   ],
   [
-   "Zillow: Pembroke Pines Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Pembroke Pines Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/pembroke-pines-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -177,5 +183,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Pembroke Pines raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Pembroke Pines raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Broward'ın en büyük banliyölerinden biri: göl kenarı siteler, parklar ve Miami ile Fort Lauderdale arasında merkezi konum."
 }

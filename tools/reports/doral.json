@@ -2,10 +2,11 @@
  "id": "doral",
  "name": "Doral",
  "county": "Miami-Dade",
- "meta": "Doral mahalle raporu, Ekim 2026: medyan satış fiyatı $634 bin, ortalama kira $3.261, emlak vergisi, sel bölgesi, Downtown Doral ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Havalimanının hemen batısında, iş merkezleri, golf sahaları ve planlı sitelerle büyüyen bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $634 bin; fiyatlar yatay, satış süresi kısalıyor.",
+ "meta": "Doral mahalle raporu, Ekim 2026: medyan satış fiyatı $634 bin, ortalama kira $3.300, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Havalimanının hemen batısında, iş merkezleri, golf sahaları ve planlı sitelerle büyüyen bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $634 bin (Redfin).",
  "sales": {
   "median": 634198,
+  "median_approx": false,
   "median_chg": "yıllık +%0,7",
   "ppsf": 367,
   "src_short": "Redfin",
@@ -19,26 +20,28 @@
     "$367 / ft² ≈ $3.950 / m² <small>(yıllık +%0,8)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "90 gün <small>(bir yıl önce 97 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "195 <small>(yıllık −%3,0)</small>"
+    "195 <small>(bir yıl önce 201)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,5"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/4639/FL/Doral/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Doral Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/4639/FL/Doral/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Doral Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Doral, bu raporlardaki en dengeli piyasalardan biri: fiyatlar yatay, satış/ilan oranı %96,5 ile yüksek ve satış süresi 90 güne indi. Müstakil ev, townhouse ve kondominyumdan oluşan karma stok, fiyatı farklı segmentlere yayıyor."
+   "Medyan satış fiyatı bir yıl öncesiyle hemen hemen aynı seviyede.",
+   "Medyan satış süresi bir yılda 97 günden 90 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,5 altında kapanıyor."
   ]
  },
  "rent": {
-  "avg": 3261,
-  "chg": "yıllık −$129",
+  "avg": 3300,
+  "chg": "yıllık −$90",
   "src_short": "Zillow",
   "rows": [
    [
@@ -47,7 +50,7 @@
    ],
    [
     "1 yatak odalı",
-    "$2.286"
+    "$2.261"
    ],
    [
     "2 yatak odalı",
@@ -55,18 +58,23 @@
    ],
    [
     "3 yatak odalı",
-    "$3.500"
+    "$3.600"
+   ],
+   [
+    "4+ yatak odalı",
+    "$7.950"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$3.261"
+    "$3.300"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/doral-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Doral</a>, 16 Ekim 2026 güncellemesi."
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/doral-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Doral</a>, 26 Ekim 2026 güncellemesi (573 aktif kiralık ilan).",
+  "notes": []
  },
  "tax": {
   "mills": 17.2203,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Doral, 2003'te belediye olarak kurulan, Miami Uluslararası Havalimanı'nın hemen batısında yer alan genç bir şehir. Lojistik, ithalat-ihracat ve kurumsal ofislerin yoğunlaştığı bölge, Latin Amerika ile iş yapan şirketlerin önemli bir merkezidir.",
@@ -144,9 +152,8 @@
  ],
  "pros": [
   "Havalimanına çok yakın, iş merkezleriyle iç içe",
-  "Dengeli fiyatlar ve yüksek satış/ilan oranı (%96,5)",
-  "Miami şehrine göre daha düşük vergi oranı (17,22 mill)",
-  "Planlı siteler, parklar ve yeni okul yatırımları"
+  "Planlı siteler, parklar ve yeni okul yatırımları",
+  "Bölgedeki düşük toplam vergi oranlarından biri (17,22 mill)"
  ],
  "cons": [
   "Ana yollarda yoğun trafik",
@@ -156,16 +163,16 @@
  ],
  "faq": [
   [
-   "Doral'da ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $634.198 (yıllık +%0,7), fit kare fiyatı $367."
+   "Doral bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $634.198 (yıllık +%0,7), fit kare fiyatı $367."
   ],
   [
-   "Doral'da kiralar ne kadar?",
-   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $3.261; 1 yatak odalı $2.286, 2 yatak odalı $2.750, 3 yatak odalı $3.500 civarında."
+   "Doral bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $3.300; 1 yatak odalı $2.261, 2 yatak odalı $2.750 civarında."
   ],
   [
-   "Doral'da emlak vergisi ne kadar?",
-   "2025 için toplam oran 17,2203 mill; yani vergi değerinin yaklaşık %1,72'si. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "Doral bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 17,2203 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,72 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Doral havalimanına ne kadar yakın?",
@@ -174,15 +181,15 @@
  ],
  "sources": [
   [
-   "Redfin: Doral Housing Market (Ekim 2026)",
+   "Redfin: Doral Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/4639/FL/Doral/housing-market"
   ],
   [
-   "Zillow: Doral Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Doral Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/doral-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -195,5 +202,6 @@
   ]
  ],
  "wa": "Merhaba Aleyna Hanım, Doral raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
- "projects_notes": []
+ "projects_notes": [],
+ "lead": "Havalimanının hemen batısında, iş merkezleri, golf sahaları ve planlı sitelerle büyüyen bir şehir."
 }

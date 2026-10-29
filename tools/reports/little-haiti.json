@@ -1,0 +1,196 @@
+{
+ "id": "little-haiti",
+ "name": "Little Haiti",
+ "county": "Miami-Dade",
+ "meta": "Little Haiti mahalle raporu, Ekim 2026: medyan satış fiyatı $500 bin, ortalama kira $2.151, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Little Haiti Cultural Complex, renkli duvar resimleri ve bağımsız galerileriyle Design District'in kuzey komşusu. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $500 bin (Redfin).",
+ "lead": "Little Haiti Cultural Complex, renkli duvar resimleri ve bağımsız galerileriyle Design District'in kuzey komşusu.",
+ "sales": {
+  "median": 499860,
+  "median_approx": false,
+  "median_chg": "yıllık +%8",
+  "ppsf": 288,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$499.860 <small>(yıllık +%8)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$288 / ft² ≈ $3.100 / m² <small>(yıllık +%9,5)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "106 gün <small>(bir yıl önce 72 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "21 <small>(bir yıl önce 24)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%92,4"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/146131/FL/Miami/Little-Haiti/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Little Haiti Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%8); fit kare fiyatı da yükseldi (+%9,5).",
+   "Medyan satış süresi bir yılda 72 günden 106 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %7,6 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 2151,
+  "chg": "yıllık +$51",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.300"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.600"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.100"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$3.800"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.151"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33150/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33150 posta kodu</a>, 26 Ekim 2026 güncellemesi (260 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33150 posta kodunun ortalamaları kullanıldı; posta kodu Little Haiti dışında komşu alanları da kapsayabilir."
+  ]
+ },
+ "tax": {
+  "mills": 19.9878,
+  "src_short": "Miami-Dade PA, 2025"
+ },
+ "character": [
+  "Little Haiti, Miami şehri sınırları içinde, Design District'in kuzeyinde, yaklaşık NE 54th Street ile NE 79th Street arasında uzanan bir mahalle. Haiti ve Karayip kültürünün izlerini taşıyan restoranlar, pazarlar ve duvar resimleri mahallenin karakterini oluşturur.",
+  "Little Haiti Cultural Complex Afro-Karayip sanatı, dans ve tiyatro etkinliklerine ev sahipliği yapar; yanındaki Caribbean Marketplace yerel ürünlerin satıldığı kapalı pazardır. Son yıllarda küçük bağımsız galeriler, plak dükkânları ve müzik mekânları bölgeye ilgi çekiyor.",
+  "Konut stoku ağırlıkla tek katlı müstakil evler, dubleksler ve küçük apartmanlardan oluşur; Design District ve Upper East Side'a yakınlık bölgeyi dönüşüm baskısı altına sokuyor."
+ ],
+ "places": [
+  [
+   "Little Haiti Cultural Complex",
+   "Sanat galerisi, tiyatro ve etkinlik alanı."
+  ],
+  [
+   "Caribbean Marketplace",
+   "Yerel el sanatları ve ürünlerin satıldığı kapalı pazar."
+  ],
+  [
+   "NE 2nd Avenue",
+   "Restoranlar, dükkânlar ve duvar resimleriyle ana cadde."
+  ],
+  [
+   "Design District",
+   "Güneyde lüks alışveriş ve müzeler."
+  ],
+  [
+   "Gizli köşe: Sounds of Little Haiti",
+   "Kültür merkezinde düzenlenen ücretsiz müzik etkinlikleri."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Little Haiti için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Little River kıyısına yakın kesimlerde risk daha yüksektir; iç kesimlerde risk adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell",
+   "yaklaşık 9 km · 15–20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 12 km · 20 dakika"
+  ],
+  [
+   "Design District",
+   "yaklaşık 2 km · 5 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrobus ve ücretsiz Miami Trolley hatları."
+  ],
+  [
+   "Günlük hayat",
+   "Ana caddeler çevresinde market ve hizmetler; günlük hayat için çoğunlukla araç gerekir."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Bölgedeki diğer yeni projeleri ve fiyat listelerini görüşmede birlikte değerlendirebiliriz."
+ ],
+ "pros": [
+  "Güçlü kültürel kimlik ve sanat sahnesi",
+  "Design District ve Upper East Side'a yakınlık",
+  "Çevresine göre daha uygun giriş fiyatları",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %7,6 altında kapanıyor"
+ ],
+ "cons": [
+  "Eski evlerde yenileme ve sigorta maliyeti",
+  "Mahalleden mahalleye belirgin fark"
+ ],
+ "faq": [
+  [
+   "Little Haiti bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $499.860 (yıllık +%8), fit kare fiyatı $288."
+  ],
+  [
+   "Little Haiti bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $2.151; 1 yatak odalı $1.600, 2 yatak odalı $2.100 civarında."
+  ],
+  [
+   "Little Haiti bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 19,9878 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Little Haiti Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/neighborhood/146131/FL/Miami/Little-Haiti/housing-market"
+  ],
+  [
+   "Zillow: 33150 posta kodu Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33150/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Little Haiti raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

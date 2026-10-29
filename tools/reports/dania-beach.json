@@ -2,10 +2,11 @@
  "id": "dania-beach",
  "name": "Dania Beach",
  "county": "Broward",
- "meta": "Dania Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $369.824, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Broward'ın en eski şehri; plajı, balıkçı iskelesi ve Fort Lauderdale havalimanına komşu konumuyla. Ekim 2026 itibarıyla medyan satış fiyatı $369.824.",
+ "meta": "Dania Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $370 bin, ortalama kira $2.075, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Broward'ın en eski şehri; plajı, balıkçı iskelesi ve Fort Lauderdale havalimanına komşu konumuyla. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $370 bin (Redfin).",
  "sales": {
   "median": 369824,
+  "median_approx": false,
   "median_chg": "yıllık −%9,8",
   "ppsf": 271,
   "src_short": "Redfin",
@@ -19,33 +20,37 @@
     "$271 / ft² ≈ $2.917 / m² <small>(yıllık −%15,8)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "120 gün <small>(bir yıl önce 120 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "86 <small>(yıllık −%18,6)</small>"
+    "Satılan konut (Eylül 2026)",
+    "86 <small>(bir yıl önce 106)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,0"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/4241/FL/Dania-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Dania Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/4241/FL/Dania-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Dania Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%9,8); fit kare fiyatı da geriledi (−%15,8).",
+   "Medyan satış süresi 120 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %4,0 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 2015,
-  "chg": "yıllık −$175",
+  "avg": 2075,
+  "chg": "yıllık −$146",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.828"
+    "$1.694"
    ],
    [
     "1 yatak odalı",
-    "$1.700"
+    "$1.678"
    ],
    [
     "2 yatak odalı",
@@ -53,20 +58,26 @@
    ],
    [
     "3 yatak odalı",
-    "$3.760"
+    "$3.750"
+   ],
+   [
+    "4+ yatak odalı",
+    "$11.000"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.015"
+    "$2.075"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/dania-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Dania Beach</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/dania-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Dania Beach</a>, 26 Ekim 2026 güncellemesi (219 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 19.0362,
-  "mills_hi": 20.1948,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025",
+  "mills_hi": 20.1948
  },
  "character": [
   "Dania Beach, 1904'te kurulan ve Broward County'nin en eski şehri olan küçük bir kıyı şehri. Doğuda John U. Lloyd Beach State Park ve Dania Beach iskelesi, batıda ise Fort Lauderdale havalimanı ve Port Everglades'e komşu konumu şehrin karakterini belirler.",
@@ -93,7 +104,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Dania Beach için 2025 toplam vergi oranı 19,0362–20,1948 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90–2,02. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.036–$20.195. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Dania Beach için 2025 toplam vergi oranı 19,0362–20,1948 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90–2,02. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.036–20.195. Oran, şehir içindeki vergi bölgesine (taxing district) göre bu aralıkta değişir; adresinizin oranını emlak değerleme ofisinin sitesinden kontrol edebilirsiniz. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -123,7 +134,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale Havalimanı (yaklaşık 3 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale Airport (kuş uçuşu yaklaşık 2 km)."
   ],
   [
    "Günlük hayat",
@@ -142,9 +153,7 @@
  ],
  "cons": [
   "Havalimanı uçuş rotalarına yakın kesimlerde gürültü",
-  "Kıyı ve kanal kesimlerinde sel riski",
-  "Fiyatlarda yıllık düşüş",
-  "Uzun satış süresi (120 gün)"
+  "Kıyı ve kanal kesimlerinde sel riski"
  ],
  "faq": [
   [
@@ -153,24 +162,24 @@
   ],
   [
    "Dania Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.015; 2 yatak odalı $2.250 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.075; 1 yatak odalı $1.678, 2 yatak odalı $2.250 civarında."
   ],
   [
    "Dania Beach bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 19,0362–20,1948 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90–2,02. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran konuma göre 19,0362–20,1948 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,90–2,02 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Dania Beach Housing Market (Ekim 2026)",
+   "Redfin: Dania Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/4241/FL/Dania-Beach/housing-market"
   ],
   [
-   "Zillow: Dania Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Dania Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/dania-beach-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -178,5 +187,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Dania Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Dania Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Broward'ın en eski şehri; plajı, balıkçı iskelesi ve Fort Lauderdale havalimanına komşu konumuyla."
 }

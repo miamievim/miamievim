@@ -2,12 +2,13 @@
  "id": "sunrise",
  "name": "Sunrise",
  "county": "Broward",
- "meta": "Sunrise mahalle raporu, Ekim 2026: medyan satış fiyatı $374.822, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Sawgrass Mills alışveriş merkezi ve Florida Panthers'ın arenasıyla bilinen, uygun fiyatlı seçenekler sunan bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $374.822.",
+ "meta": "Sunrise mahalle raporu, Ekim 2026: medyan satış fiyatı $375 bin, ortalama kira $2.509, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Sawgrass Mills alışveriş merkezi ve Florida Panthers'ın arenasıyla bilinen, uygun fiyatlı seçenekler sunan bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $375 bin (Redfin).",
  "sales": {
   "median": 374822,
+  "median_approx": false,
   "median_chg": "yıllık +%5,6",
-  "ppsf": 232,
+  "ppsf": 230,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,27 +17,31 @@
    ],
    [
     "Fit kare fiyatı",
-    "$232 / ft² ≈ $2.497 / m² <small>(yıllık −%11,5)</small>"
+    "$230 / ft² ≈ $2.476 / m² <small>(yıllık −%12)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "82 gün <small>(bir yıl önce 92 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "308 <small>(yıllık +%4,0)</small>"
+    "Satılan konut (Eylül 2026)",
+    "308 <small>(bir yıl önce 296)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,5"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/17814/FL/Sunrise/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sunrise Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/17814/FL/Sunrise/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sunrise Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%5,6); fit kare fiyatı ise ters yönde hareket etti (−%12); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 92 günden 82 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,5 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2550,
-  "chg": "yıllık +$100",
+  "avg": 2509,
+  "chg": "yıllık +$59",
   "src_short": "Zillow",
   "rows": [
    [
@@ -53,19 +58,23 @@
    ],
    [
     "3 yatak odalı",
-    "$3.105"
+    "$3.200"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.791"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.550"
+    "$2.509"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/sunrise-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Sunrise</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/sunrise-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Sunrise</a>, 26 Ekim 2026 güncellemesi (440 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 20.4527,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Sunrise, Broward'ın batısında, 1960'larda kurulan ve bugün bölgenin önemli alışveriş ve eğlence merkezlerinden biri hâline gelen bir şehir. Sawgrass Mills ve Amerant Bank Arena şehrin batı ucunda bir cazibe merkezi oluşturur.",
@@ -122,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale (yaklaşık 16 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale (kuş uçuşu yaklaşık 12 km)."
   ],
   [
    "Günlük hayat",
@@ -140,36 +149,34 @@
   "Kiralık stok geniş"
  ],
  "cons": [
-  "Vergi oranı 20 mill'in üzerinde",
   "Eski kondominyum sitelerinde özel aidat riski",
-  "Fit kare fiyatında yıllık düşüş",
   "Plaja uzak"
  ],
  "faq": [
   [
    "Sunrise bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $374.822 (yıllık +%5,6), fit kare fiyatı $232."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $374.822 (yıllık +%5,6), fit kare fiyatı $230."
   ],
   [
    "Sunrise bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.550; 2 yatak odalı $2.100 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.509; 1 yatak odalı $1.750, 2 yatak odalı $2.100 civarında."
   ],
   [
    "Sunrise bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,4527 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,05. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,4527 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,05 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Sunrise Housing Market (Ekim 2026)",
+   "Redfin: Sunrise Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/17814/FL/Sunrise/housing-market"
   ],
   [
-   "Zillow: Sunrise Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Sunrise Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/sunrise-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -177,5 +184,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Sunrise raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Sunrise raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Sawgrass Mills alışveriş merkezi ve Florida Panthers'ın arenasıyla bilinen, uygun fiyatlı seçenekler sunan bir şehir."
 }

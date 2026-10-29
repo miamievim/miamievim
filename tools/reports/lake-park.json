@@ -2,10 +2,11 @@
  "id": "lake-park",
  "name": "Lake Park",
  "county": "Palm Beach",
- "meta": "Lake Park mahalle raporu, Ekim 2026: medyan satış fiyatı $479.772, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Intracoastal kıyısındaki marinası ve Park Avenue'daki küçük merkeziyle Riviera Beach'in kuzeyinde bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $479.772.",
+ "meta": "Lake Park mahalle raporu, Ekim 2026: medyan satış fiyatı $480 bin, ortalama kira $3.450, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Intracoastal kıyısındaki marinası ve Park Avenue'daki küçük merkeziyle Riviera Beach'in kuzeyinde bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $480 bin (Redfin).",
  "sales": {
   "median": 479772,
+  "median_approx": false,
   "median_chg": "yıllık +%1,2",
   "ppsf": 362,
   "src_short": "Redfin",
@@ -19,24 +20,28 @@
     "$362 / ft² ≈ $3.897 / m² <small>(yıllık −%45,4)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "60 gün <small>(bir yıl önce 96 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "25 <small>(yıllık +%15,4)</small>"
+    "Satılan konut (Eylül 2026)",
+    "25 <small>(bir yıl önce 22)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,1"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/9792/FL/Lake-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lake Park Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/9792/FL/Lake-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lake Park Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%1,2); fit kare fiyatı ise ters yönde hareket etti (−%45,4); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 96 günden 60 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,9 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
   "avg": 3450,
-  "chg": "yıllık +$1.255",
+  "chg": "yıllık +$1.250",
   "src_short": "Zillow",
   "rows": [
    [
@@ -45,24 +50,31 @@
    ],
    [
     "1 yatak odalı",
-    "$1.850"
+    "$1.700"
    ],
    [
     "2 yatak odalı",
     "$2.200"
    ],
    [
+    "3 yatak odalı",
+    "$10.900"
+   ],
+   [
+    "4+ yatak odalı",
+    "$5.584"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$3.450"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lake-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lake Park</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lake-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lake Park</a>, 26 Ekim 2026 güncellemesi (91 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
-  "mills": 20.8179,
-  "mills_hi": 21.367,
-  "src_short": "PAPA 2025"
+  "mills": 20.8161,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Lake Park, 1920'lerde Kelsey City adıyla planlanan ve Palm Beach County'nin ilk planlı yerleşimlerinden biri olan küçük bir kasaba. Park Avenue boyunca restoranlar ve küçük işletmeler bulunur.",
@@ -89,7 +101,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Lake Park için 2025 toplam vergi oranı 20,8179–21,3670 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,08–2,14. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.818–$21.367. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Lake Park için 2025 toplam vergi oranı 20,8161 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,08. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.816. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -119,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 6 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (kuş uçuşu yaklaşık 5 km)."
   ],
   [
    "Günlük hayat",
@@ -131,16 +143,16 @@
   "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Lake Park için kayıtlı büyük ölçekli proje bulunmuyor."
  ],
  "pros": [
-  "Hızlı satışlar (60 gün)",
   "Marina ve Intracoastal'a erişim",
   "Palm Beach Gardens ve West Palm Beach'e yakınlık",
-  "Küçük ve yürünebilir merkez"
+  "Küçük ve yürünebilir merkez",
+  "Likit piyasa: medyan satış süresi 60 gün"
  ],
  "cons": [
   "Az sayıda satış; rakamlar oynak",
-  "Fit kare fiyatında sert yıllık düşüş",
   "Kanal kenarında sel riski",
-  "Mahalleden mahalleye fark"
+  "Mahalleden mahalleye fark",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (20,82 mill)"
  ],
  "faq": [
   [
@@ -149,24 +161,28 @@
   ],
   [
    "Lake Park bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $3.450; 2 yatak odalı $2.200 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $3.450; 1 yatak odalı $1.700, 2 yatak odalı $2.200 civarında."
   ],
   [
    "Lake Park bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 20,8179–21,3670 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,08–2,14. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,8161 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,08 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Lake Park Housing Market (Ekim 2026)",
+   "Redfin: Lake Park Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/9792/FL/Lake-Park/housing-market"
   ],
   [
-   "Zillow: Lake Park Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Lake Park Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/lake-park-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -178,5 +194,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Lake Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Lake Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Intracoastal kıyısındaki marinası ve Park Avenue'daki küçük merkeziyle Riviera Beach'in kuzeyinde bir kasaba."
 }

@@ -2,10 +2,11 @@
  "id": "west-park",
  "name": "West Park",
  "county": "Broward",
- "meta": "West Park mahalle raporu, Ekim 2026: medyan satış fiyatı $434.793, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Miami-Dade sınırında, konut ağırlıklı küçük bir şehir; Broward'ın en hızlı satış yapan piyasalarından biri. Ekim 2026 itibarıyla medyan satış fiyatı $434.793.",
+ "meta": "West Park mahalle raporu, Ekim 2026: medyan satış fiyatı $435 bin, ortalama kira $2.200, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Miami-Dade sınırında, konut ağırlıklı küçük bir şehir; Broward'ın en hızlı satış yapan piyasalarından biri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $435 bin (Redfin).",
  "sales": {
   "median": 434793,
+  "median_approx": false,
   "median_chg": "yıllık +%5,4",
   "ppsf": 334,
   "src_short": "Redfin",
@@ -19,24 +20,28 @@
     "$334 / ft² ≈ $3.595 / m² <small>(yıllık +%0,8)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "67 gün <small>(bir yıl önce 66 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "44 <small>(yıllık +%118,4)</small>"
+    "Satılan konut (Eylül 2026)",
+    "44 <small>(bir yıl önce 20)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%98,1"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/19391/FL/West-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, West Park Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/19391/FL/West-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, West Park Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%5,4).",
+   "Medyan satış süresi 67 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %1,9 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2150,
-  "chg": "yıllık −$450",
+  "avg": 2200,
+  "chg": "yıllık −$380",
   "src_short": "Zillow",
   "rows": [
    [
@@ -45,7 +50,7 @@
    ],
    [
     "1 yatak odalı",
-    "$1.490"
+    "$1.500"
    ],
    [
     "2 yatak odalı",
@@ -56,16 +61,20 @@
     "$2.800"
    ],
    [
+    "4+ yatak odalı",
+    "$3.747"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$2.150"
+    "$2.200"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/west-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, West Park</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/west-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, West Park</a>, 26 Ekim 2026 güncellemesi (74 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 20.8379,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "West Park, 2005'te kurulan, Broward'ın en genç şehirlerinden biri. Miramar, Pembroke Park ve Hollywood arasında yer alır; konut ağırlıklı mahallelerden oluşur.",
@@ -118,7 +127,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Hollywood (yaklaşık 6 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Hollywood (kuş uçuşu yaklaşık 4 km)."
   ],
   [
    "Günlük hayat",
@@ -130,16 +139,13 @@
   "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) West Park için kayıtlı büyük ölçekli proje bulunmuyor."
  ],
  "pros": [
-  "Satışlar ilan fiyatına çok yakın (%98,1)",
   "Miami'ye kısa mesafe",
-  "Satış sayısında güçlü artış",
   "Uygun kiralar"
  ],
  "cons": [
-  "Vergi oranı 20 mill'in üzerinde",
-  "Kiralarda yıllık düşüş",
   "Plaja doğrudan erişim yok",
-  "Toplu taşıma sınırlı"
+  "Toplu taşıma sınırlı",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (20,84 mill)"
  ],
  "faq": [
   [
@@ -148,24 +154,24 @@
   ],
   [
    "West Park bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.150; 2 yatak odalı $2.000 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.200; 1 yatak odalı $1.500, 2 yatak odalı $2.000 civarında."
   ],
   [
    "West Park bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,8379 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,08. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,8379 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,08 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: West Park Housing Market (Ekim 2026)",
+   "Redfin: West Park Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/19391/FL/West-Park/housing-market"
   ],
   [
-   "Zillow: West Park Rental Market Trends (17 Ekim 2026)",
+   "Zillow: West Park Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/west-park-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -173,5 +179,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, West Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, West Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Miami-Dade sınırında, konut ağırlıklı küçük bir şehir; Broward'ın en hızlı satış yapan piyasalarından biri."
 }

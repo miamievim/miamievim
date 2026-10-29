@@ -2,39 +2,45 @@
  "id": "coconut-grove",
  "name": "Coconut Grove",
  "county": "Miami-Dade",
- "meta": "Coconut Grove mahalle raporu, Ekim 2026: medyan satış fiyatı $1,89M, ortalama kira $4.200, emlak vergisi, sel bölgesi, Four Seasons ve yeni projeler. Kaynaklı ve tarihli veriler.",
- "short": "Miami'nin en eski yerleşim alanlarından biri: yoğun ağaç örtüsü, körfez kıyısında marinalar ve yürünebilir bir merkez. Ekim 2026 itibarıyla medyan satış fiyatı $1,89 milyon.",
+ "meta": "Coconut Grove mahalle raporu, Ekim 2026: medyan satış fiyatı yaklaşık $1,9 milyon, ortalama kira $4.400, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Miami'nin en eski yerleşim alanlarından biri: yoğun ağaç örtüsü, körfez kıyısında marinalar ve yürünebilir bir merkez. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı yaklaşık $1,9 milyon (Redfin).",
  "sales": {
   "median": 1890000,
+  "median_approx": true,
   "median_chg": "yıllık +%9,3",
   "ppsf": 1100,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$1.890.000 <small>(yıllık +%9,3)</small>"
+    "yaklaşık $1.890.000 <small>(yıllık +%9,3)</small>"
    ],
    [
     "Fit kare fiyatı",
-    "$1.100 / ft² ≈ $11.840 / m² <small>(yıllık +%20,9)</small>"
+    "yaklaşık $1.100 / ft² ≈ $11.840 / m² <small>(yıllık +%20,9)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "110 gün"
    ],
    [
+    "Satılan konut (son dönem)",
+    "32"
+   ],
+   [
     "Satış / ilan fiyatı",
-    "ilan fiyatının yaklaşık %6 altında"
+    "ilan fiyatının ortalama %6,2 altında"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/neighborhood/219259/FL/Miami/Coconut-Grove/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coconut Grove Housing Market</a>, Ekim 2026 erişimi (son 3 ay verisi). Fit kare fiyatı Redfin'de yuvarlanmış olarak (~$1,1K) verilmektedir.",
+  "src": "<a href=\"https://www.redfin.com/neighborhood/219259/FL/Miami/Coconut-Grove/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coconut Grove Housing Market</a>, 28 Ekim 2026 erişimi (son 3 ay; Redfin bu mahalle için yuvarlanmış değer yayımlıyor).",
   "notes": [
-   "Fit kare fiyatında yıllık %20,9'luk artış, yeni teslim edilen lüks projelerin ve körfez cepheli satışların ortalamayı yukarı çektiğini gösteriyor. Satış süresi uzun (110 gün); doğru fiyatlanmamış ilanlar piyasada bekliyor."
+   "Medyan satış fiyatı bir yılda yükseldi (+%9,3); fit kare fiyatı da yükseldi (+%20,9).",
+   "Satışlar ortalamada ilan fiyatının %6,2 altında kapanıyor."
   ]
  },
  "rent": {
-  "avg": 4200,
-  "chg": "yıllık +$300",
+  "avg": 4400,
+  "chg": "yıllık +$400",
   "src_short": "Zillow",
   "rows": [
    [
@@ -43,29 +49,34 @@
    ],
    [
     "1 yatak odalı",
-    "$2.335"
+    "$2.400"
    ],
    [
     "2 yatak odalı",
-    "$3.800"
+    "$4.000"
    ],
    [
     "3 yatak odalı",
-    "$7.950"
+    "$7.900"
+   ],
+   [
+    "4+ yatak odalı",
+    "$24.563"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$4.200"
+    "$4.400"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33133/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33133</a>, 16 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33133/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33133 posta kodu</a>, 26 Ekim 2026 güncellemesi (341 aktif kiralık ilan).",
   "notes": [
-   "Stüdyo kirasının 1 yatak odalıdan yüksek görünmesi, stüdyo ilan sayısının az olmasından kaynaklanıyor; bu satırı gösterge olarak değerlendirin. ZIP 33133, Coconut Grove'un tamamını ve çevresinin bir kısmını kapsar."
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33133 posta kodunun ortalamaları kullanıldı; posta kodu Coconut Grove dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 19.9878,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Coconut Grove, Miami şehrinin sınırları içinde kendine özgü bir köy dokusu taşır. 19. yüzyılın sonlarından kalma evler, sık tropikal ağaç örtüsü ve kıvrımlı sokaklar mahalleye şehrin geri kalanından farklı, daha sakin bir ritim verir.",
@@ -97,7 +108,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Miami şehri için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Coconut Grove için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -173,19 +184,20 @@
   "Yeni lüks projelerle güçlenen fiyat seviyesi"
  ],
  "cons": [
-  "Medyan fiyat Miami ortalamasının belirgin şekilde üstünde",
-  "Körfez kıyısına yakın mülklerde sel sigortası maliyeti",
-  "Miami şehri vergi oranı (19,99 mill) bu raporlardaki en yüksek oranlardan biri",
-  "Satış süresi uzun; satıcılar için doğru fiyatlama kritik"
+  "Körfez kıyısına yakın mülklerde sel sigortası maliyeti"
  ],
  "faq": [
   [
-   "Coconut Grove'da ev fiyatları ne kadar?",
-   "Redfin verisine göre Ekim 2026 itibarıyla medyan satış fiyatı yaklaşık $1,89 milyon (yıllık +%9,3), fit kare fiyatı yaklaşık $1.100 (yıllık +%20,9)."
+   "Coconut Grove bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre son 3 ayda medyan satış fiyatı yaklaşık $1.890.000 (yıllık +%9,3), fit kare fiyatı yaklaşık $1.100."
   ],
   [
-   "Coconut Grove'da kiralar ne kadar?",
-   "Zillow'a göre ZIP 33133'te (16 Ekim 2026) ortalama kira aylık $4.200; 2 yatak odalı daireler $3.800 civarında."
+   "Coconut Grove bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $4.400; 1 yatak odalı $2.400, 2 yatak odalı $4.000 civarında."
+  ],
+  [
+   "Coconut Grove bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 19,9878 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Coconut Grove sel riski açısından nasıl?",
@@ -198,15 +210,15 @@
  ],
  "sources": [
   [
-   "Redfin: Coconut Grove Housing Market (Ekim 2026)",
+   "Redfin: Coconut Grove Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/neighborhood/219259/FL/Miami/Coconut-Grove/housing-market"
   ],
   [
-   "Zillow: ZIP 33133 Rental Market Trends (16 Ekim 2026)",
+   "Zillow: 33133 posta kodu Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/33133/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -222,5 +234,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Coconut Grove raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Coconut Grove raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
+ "lead": "Miami'nin en eski yerleşim alanlarından biri: yoğun ağaç örtüsü, körfez kıyısında marinalar ve yürünebilir bir merkez."
 }

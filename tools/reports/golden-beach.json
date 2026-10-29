@@ -2,38 +2,41 @@
  "id": "golden-beach",
  "name": "Golden Beach",
  "county": "Miami-Dade",
- "meta": "Golden Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $12.900.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Okyanus cepheli malikânelerden oluşan, girişleri kontrollü ve sakinlerine özel plajı olan küçük bir kasaba. Satış sayısı çok az olduğu için fiyatlar her mülke göre belirlenir.",
+ "meta": "Golden Beach mahalle raporu, Ekim 2026: medyan satış fiyatı yaklaşık $12,9 milyon, ortalama kira $29.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus cepheli malikânelerden oluşan, girişleri kontrollü ve sakinlerine özel plajı olan küçük bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı yaklaşık $12,9 milyon (Redfin).",
  "sales": {
   "median": 12900000,
+  "median_approx": true,
   "median_chg": "yıllık +%165,2",
   "ppsf": 2890,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$12.900.000 <small>(yıllık +%165,2)</small>"
+    "yaklaşık $12.900.000 <small>(yıllık +%165,2)</small>"
    ],
    [
     "Fit kare fiyatı",
-    "$2.890 / ft² ≈ $31.108 / m²"
+    "yaklaşık $2.890 / ft² ≈ $31.108 / m²"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "175 gün"
    ],
    [
-    "Satılan konut",
+    "Satılan konut (son dönem)",
     "2"
    ],
    [
-    "Satış / ilan fiyatı oranı",
-    "%90,2"
+    "Satış / ilan fiyatı",
+    "ilan fiyatının ortalama %8,1 altında"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/6726/FL/Golden-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Golden Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/6726/FL/Golden-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Golden Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Son dönemde yalnızca 2 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+   "Medyan satış fiyatı bir yılda yükseldi (+%165,2).",
+   "Satışlar ortalamada ilan fiyatının %8,1 altında kapanıyor.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
   ]
  },
  "rent": {
@@ -42,18 +45,38 @@
   "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
+    "1 yatak odalı",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
+    "2 yatak odalı",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
+    "3 yatak odalı",
+    "$55.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$68.333"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$29.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/golden-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Golden Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/golden-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Golden Beach</a>, 26 Ekim 2026 güncellemesi (9 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 8 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (9 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
   "mills": 23.4227,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Golden Beach, Sunny Isles Beach ile Hallandale Beach arasında, okyanus ile Intracoastal arasında uzanan küçük bir kasaba. Kasaba yalnızca müstakil evlerden oluşur; yüksek katlı yapı ve ticari alan yoktur.",
@@ -106,7 +129,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline Aventura (yaklaşık 3 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline Aventura (kuş uçuşu yaklaşık 3 km)."
   ],
   [
    "Günlük hayat",
@@ -123,36 +146,37 @@
   "Aventura ve FLL havalimanına yakınlık"
  ],
  "cons": [
-  "Çok yüksek giriş fiyatı; satış sayısı çok az",
-  "Yüksek vergi oranı (23,42 mill)",
   "Bariyer adası: sel ve fırtına riski",
-  "Ticari alan yok"
+  "Ticari alan yok",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (23,42 mill)",
+  "Uzun satış süresi (medyan 175 gün)",
+  "Satış sayısı az; fiyat verisi oynak"
  ],
  "faq": [
   [
    "Golden Beach bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $12.900.000 (yıllık +%165,2), fit kare fiyatı $2.890. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı yaklaşık $12.900.000 (yıllık +%165,2), fit kare fiyatı yaklaşık $2.890."
   ],
   [
    "Golden Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $29.500."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $29.500."
   ],
   [
    "Golden Beach bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 23,4227 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,34. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 23,4227 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,34 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Golden Beach Housing Market (Ekim 2026)",
+   "Redfin: Golden Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/6726/FL/Golden-Beach/housing-market"
   ],
   [
-   "Zillow: Golden Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Golden Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/golden-beach-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -160,5 +184,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Golden Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Golden Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Okyanus cepheli malikânelerden oluşan, girişleri kontrollü ve sakinlerine özel plajı olan küçük bir kasaba."
 }

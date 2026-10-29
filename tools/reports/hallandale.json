@@ -2,12 +2,13 @@
  "id": "hallandale",
  "name": "Hallandale Beach",
  "county": "Broward",
- "meta": "Hallandale Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $265 bin, ortalama kira $2.600, emlak vergisi, sel bölgesi, Oasis Hallandale ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Broward'ın en güney ucunda, okyanus ile Intracoastal arasında uygun fiyatlı kıyı yaşamı. Ekim 2026 itibarıyla medyan satış fiyatı $265 bin ile bu raporlardaki en düşük seviyelerden biri.",
+ "meta": "Hallandale Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $265 bin, ortalama kira $2.600, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Broward'ın en güney ucunda, okyanus ile Intracoastal arasında uygun fiyatlı kıyı yaşamı. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $265 bin (Redfin).",
  "sales": {
   "median": 264874,
+  "median_approx": false,
   "median_chg": "yıllık −%9,44",
-  "ppsf": 273,
+  "ppsf": 270,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,30 +17,32 @@
    ],
    [
     "Fit kare fiyatı",
-    "$273 / ft² ≈ $2.939 / m² <small>(yıllık −%12,5)</small>"
+    "$270 / ft² ≈ $2.906 / m² <small>(yıllık −%13,5)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "124 gün <small>(bir yıl önce 126 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "208 <small>(yıllık +%16,3)</small>"
+    "208 <small>(bir yıl önce 179)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%92,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/7264/FL/Hallandale-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hallandale Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/7264/FL/Hallandale-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hallandale Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Düşük medyan fiyat, stokun büyük kısmının 1960–80'lerde inşa edilmiş kondominyumlardan oluşmasını yansıtıyor. Bu binalarda Florida'nın yeni denetim ve yedek akçe kuralları özel aidat riskini artırabilir; düşük satış fiyatı her zaman düşük toplam maliyet anlamına gelmez. Satışlar ilan fiyatının ortalama %7,3 altında kapanıyor."
+   "Medyan satış fiyatı bir yılda geriledi (−%9,44); fit kare fiyatı da geriledi (−%13,5).",
+   "Medyan satış süresi 124 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %7,3 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
   "avg": 2600,
-  "chg": "yıllık −$100",
-  "src_short": "Zillow · 33009",
+  "chg": "yıllık değişim yok",
+  "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
@@ -47,29 +50,34 @@
    ],
    [
     "1 yatak odalı",
-    "$1.990"
+    "$1.950"
    ],
    [
     "2 yatak odalı",
-    "$2.860"
+    "$2.850"
    ],
    [
     "3 yatak odalı",
     "$4.950"
    ],
    [
+    "4+ yatak odalı",
+    "$17.930"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$2.600"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33009/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33009</a>, 16 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33009/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33009 posta kodu</a>, 26 Ekim 2026 güncellemesi (1.018 aktif kiralık ilan).",
   "notes": [
-   "ZIP 33009, Hallandale Beach'in büyük kısmını kapsar; okyanus cepheli yeni kulelerde kiralar bu ortalamanın belirgin şekilde üzerindedir."
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33009 posta kodunun ortalamaları kullanıldı; posta kodu Hallandale Beach dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 20.6717,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Hallandale Beach, Miami-Dade sınırının hemen kuzeyinde, Aventura ile Hollywood arasında yer alan kıyı şehri. Okyanus ile Intracoastal arasındaki dar şeritte yüksek katlı kondominyumlar, batı tarafında ise daha alçak yapılar ve müstakil ev mahalleleri bulunur.",
@@ -153,45 +161,42 @@
  ],
  "pros": [
   "Okyanusa yakın yaşamda bu raporlardaki en düşük giriş fiyatlarından biri",
-  "Satış sayısında yıllık %16,3 artış",
   "FLL havalimanı ve Aventura'ya yakınlık",
-  "Kiralık stok geniş (1.000'i aşkın ilan)"
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %7,3 altında kapanıyor"
  ],
  "cons": [
   "Eski kondominyum stokunda yüksek özel aidat riski",
-  "Bu raporlardaki en yüksek vergi oranlarından biri (20,67 mill)",
-  "Kıyı bölgesi sel riski ve sigorta maliyeti",
-  "Fiyatlarda yıllık düşüş (−%9,44)"
+  "Kıyı bölgesi sel riski ve sigorta maliyeti"
  ],
  "faq": [
   [
-   "Hallandale Beach'te daire fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $264.874 (yıllık −%9,44), fit kare fiyatı $273."
+   "Hallandale Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $264.874 (yıllık −%9,44), fit kare fiyatı $270."
   ],
   [
-   "Hallandale Beach'te kiralar ne kadar?",
-   "Zillow'a göre ZIP 33009'da (16 Ekim 2026) ortalama kira aylık $2.600; 1 yatak odalı $1.990, 2 yatak odalı $2.860 civarında."
+   "Hallandale Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $2.600; 1 yatak odalı $1.950, 2 yatak odalı $2.850 civarında."
+  ],
+  [
+   "Hallandale Beach bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 20,6717 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,07 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Hallandale Beach'te ucuz daire almak mantıklı mı?",
    "Fiyat düşük olsa da eski binalarda SIRS ve milestone denetimi sonrası yüksek özel aidatlar gündeme gelebilir. Teklif öncesinde bina raporlarını, bütçeyi ve rezerv durumunu mutlaka inceleyin. Bu bilgi yatırım tavsiyesi değildir."
-  ],
-  [
-   "Hallandale Beach'te emlak vergisi ne kadar?",
-   "Broward County Property Appraiser'a göre 2025 toplam oranı 20,6717 mill; yani vergi değerinin yaklaşık %2,07'si. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Hallandale Beach Housing Market (Ekim 2026)",
+   "Redfin: Hallandale Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/7264/FL/Hallandale-Beach/housing-market"
   ],
   [
-   "Zillow: ZIP 33009 Rental Market Trends (16 Ekim 2026)",
+   "Zillow: 33009 posta kodu Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/33009/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -204,5 +209,6 @@
   ]
  ],
  "wa": "Merhaba Aleyna Hanım, Hallandale Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
- "projects_notes": []
+ "projects_notes": [],
+ "lead": "Broward'ın en güney ucunda, okyanus ile Intracoastal arasında uygun fiyatlı kıyı yaşamı."
 }

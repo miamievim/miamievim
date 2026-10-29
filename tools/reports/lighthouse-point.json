@@ -1,0 +1,199 @@
+{
+ "id": "lighthouse-point",
+ "name": "Lighthouse Point",
+ "county": "Broward",
+ "meta": "Lighthouse Point mahalle raporu, Ekim 2026: medyan satış fiyatı $825 bin, ortalama kira $3.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Intracoastal'a açılan derin su kanalları ve özel iskeleli evleriyle tekne sahiplerinin tercih ettiği küçük bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $825 bin (Redfin).",
+ "lead": "Intracoastal'a açılan derin su kanalları ve özel iskeleli evleriyle tekne sahiplerinin tercih ettiği küçük bir şehir.",
+ "sales": {
+  "median": 824607,
+  "median_approx": false,
+  "median_chg": "yıllık −%13",
+  "ppsf": 580,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$824.607 <small>(yıllık −%13)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$580 / ft² ≈ $6.243 / m² <small>(yıllık +%14,9)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "107 gün <small>(bir yıl önce 138 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "80 <small>(bir yıl önce 52)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,8"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/10323/FL/Lighthouse-Point/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lighthouse Point Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%13); fit kare fiyatı ise ters yönde hareket etti (+%14,9); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 138 günden 107 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %6,2 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 3000,
+  "chg": "yıllık +$50",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.695"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.440"
+   ],
+   [
+    "3 yatak odalı",
+    "$6.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$24.675"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lighthouse-point-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lighthouse Point</a>, 26 Ekim 2026 güncellemesi (70 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
+ },
+ "tax": {
+  "mills": 18.8914,
+  "src_short": "Broward PA, 2025"
+ },
+ "character": [
+  "Lighthouse Point, Pompano Beach ile Deerfield Beach arasında, Intracoastal Waterway'in batı kıyısında yer alan küçük bir şehir. Adını Hillsboro Inlet'teki tarihî deniz fenerinden alır.",
+  "Konut stoku ağırlıkla kanallara cepheli müstakil evlerden oluşur; evlerin önemli bir kısmında özel iskele bulunur ve Hillsboro Inlet üzerinden okyanusa çıkış birkaç dakikadır. Federal Highway boyunca restoranlar ve dükkânlar sıralanır."
+ ],
+ "places": [
+  [
+   "Hillsboro Inlet",
+   "Teknelerin okyanusa açıldığı geçit; balıkçı tekneleri ve yat kulüpleri."
+  ],
+  [
+   "Dan Witt Park",
+   "Şehrin tenis ve spor tesisleri."
+  ],
+  [
+   "Pompano Beach Fishing Pier",
+   "Güneyde okyanusa uzanan iskele."
+  ],
+  [
+   "Deerfield Beach",
+   "Kuzeyde plaj ve yürüyüş yolu."
+  ],
+  [
+   "Gizli köşe: Hillsboro Inlet Lighthouse",
+   "1907 tarihli deniz feneri; koruma derneğinin düzenlediği turlarla ziyaret edilebilir."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Lighthouse Point için 2025 toplam vergi oranı 18,8914 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.891. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Kanal kenarındaki evlerin büyük kısmı yüksek riskli bölgelerdedir (AE). Deniz duvarı (seawall), iskele ve köprü yüksekliği kısıtlarını ekspertize dahil edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 25 km · 25 dakika"
+  ],
+  [
+   "Boca Raton",
+   "yaklaşık 12 km · 15 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 65 km · 55 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Broward County Transit otobüs hatları; Tri-Rail Pompano Beach ve Deerfield Beach istasyonları."
+  ],
+  [
+   "Günlük hayat",
+   "Günlük ihtiyaçlar Federal Highway boyunca; araç gerekir."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Bölgedeki diğer yeni projeleri ve fiyat listelerini görüşmede birlikte değerlendirebiliriz."
+ ],
+ "pros": [
+  "Derin su kanalları ve okyanusa hızlı çıkış",
+  "Özel iskeleli müstakil evler",
+  "Sakin ve konut ağırlıklı şehir",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,2 altında kapanıyor"
+ ],
+ "cons": [
+  "Kanal kenarı evlerde deniz duvarı ve sigorta maliyeti",
+  "Kiralık stok sınırlı"
+ ],
+ "faq": [
+  [
+   "Lighthouse Point bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $824.607 (yıllık −%13), fit kare fiyatı $580."
+  ],
+  [
+   "Lighthouse Point bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $3.000; 1 yatak odalı $1.695, 2 yatak odalı $2.440 civarında."
+  ],
+  [
+   "Lighthouse Point bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 18,8914 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,89 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "Lighthouse Point tekne sahipleri için neden tercih ediliyor?",
+   "Şehrin kanalları derin sudur ve Hillsboro Inlet üzerinden okyanusa çıkış kısa sürer; evlerin önemli bir kısmında özel iskele bulunur. Satın almadan önce iskele, deniz duvarı ve köprü yüksekliği kısıtlarını kontrol edin."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Lighthouse Point Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/city/10323/FL/Lighthouse-Point/housing-market"
+  ],
+  [
+   "Zillow: Lighthouse Point Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/lighthouse-point-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: Millage Rates (2025)",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Lighthouse Point raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

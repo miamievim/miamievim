@@ -2,38 +2,41 @@
  "id": "wilton-manors",
  "name": "Wilton Manors",
  "county": "Broward",
- "meta": "Wilton Manors mahalle raporu, Ekim 2026: medyan satış fiyatı $653 bin, ortalama kira $2.300, emlak vergisi, sel bölgesi ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Fort Lauderdale'in hemen kuzeyinde, nehir kollarıyla çevrili küçük ve canlı bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $653 bin; satış süresi 130 günden 79 güne indi.",
+ "meta": "Wilton Manors mahalle raporu, Ekim 2026: medyan satış fiyatı $653 bin, ortalama kira $2.300, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Fort Lauderdale'in hemen kuzeyinde, nehir kollarıyla çevrili küçük ve canlı bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $653 bin (Redfin).",
  "sales": {
   "median": 653189,
-  "median_chg": "yıllık +%9,0",
+  "median_approx": false,
+  "median_chg": "yıllık +%9",
   "ppsf": 368,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$653.189 <small>(yıllık +%9,0)</small>"
+    "$653.189 <small>(yıllık +%9)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$368 / ft² ≈ $3.961 / m² <small>(yıllık −%14,6)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "79 gün <small>(bir yıl önce 130 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "75 <small>(yıllık −%15,6)</small>"
+    "75 <small>(bir yıl önce 89)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/19676/FL/Wilton-Manors/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Wilton Manors Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/19676/FL/Wilton-Manors/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Wilton Manors Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Satış süresinin 79 güne inmesi ve %96,7'lik satış/ilan oranı, Wilton Manors'u bu raporlardaki en hızlı piyasalardan biri yapıyor. Medyan fiyat yükselirken fit kare fiyatının düşmesi, son dönemde daha büyük evlerin satıldığını gösteriyor."
+   "Medyan satış fiyatı bir yılda yükseldi (+%9); fit kare fiyatı ise ters yönde hareket etti (−%14,6); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 130 günden 79 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,3 altında kapanıyor."
   ]
  },
  "rent": {
@@ -43,30 +46,35 @@
   "rows": [
    [
     "Stüdyo",
-    "$1.595"
+    "$1.539"
    ],
    [
     "1 yatak odalı",
-    "$1.750"
+    "$1.683"
    ],
    [
     "2 yatak odalı",
-    "$2.300"
+    "$2.237"
    ],
    [
     "3 yatak odalı",
     "$4.300"
    ],
    [
+    "4+ yatak odalı",
+    "$5.725"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$2.300"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/wilton-manors-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Wilton Manors</a>, 16 Ekim 2026 güncellemesi."
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/wilton-manors-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Wilton Manors</a>, 26 Ekim 2026 güncellemesi (100 aktif kiralık ilan).",
+  "notes": []
  },
  "tax": {
   "mills": 20.4896,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Wilton Manors, Middle River'ın kollarıyla çevrili olduğu için \"Island City\" olarak anılan, yaklaşık 5 km²'lik küçük bir şehir. Wilton Drive boyunca restoranlar, barlar ve kafeler şehrin sosyal hayatının merkezidir.",
@@ -143,29 +151,27 @@
   ]
  ],
  "pros": [
-  "Bu raporlardaki en hızlı satış sürelerinden biri (79 gün)",
   "Yürünebilir ana cadde ve canlı sosyal hayat",
   "Fort Lauderdale merkezine ve FLL'ye yakınlık",
   "Müstakil ev ağırlıklı stok"
  ],
  "cons": [
-  "Yüksek vergi oranı (20,49 mill)",
   "Eski evlerde yenileme ve çatı/sigorta maliyeti",
   "Nehir kollarına yakın kesimlerde sel riski",
   "Küçük piyasa; seçenek sayısı sınırlı"
  ],
  "faq": [
   [
-   "Wilton Manors'ta ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $653.189 (yıllık +%9,0), fit kare fiyatı $368."
+   "Wilton Manors bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $653.189 (yıllık +%9), fit kare fiyatı $368."
   ],
   [
-   "Wilton Manors'ta kiralar ne kadar?",
-   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $2.300; 1 yatak odalı $1.750, 2 yatak odalı $2.300 civarında."
+   "Wilton Manors bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.300; 1 yatak odalı $1.683, 2 yatak odalı $2.237 civarında."
   ],
   [
-   "Wilton Manors'ta emlak vergisi ne kadar?",
-   "Broward County Property Appraiser'a göre 2025 toplam oranı 20,4896 mill; yani vergi değerinin yaklaşık %2,05'i. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "Wilton Manors bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 20,4896 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,05 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Wilton Manors Fort Lauderdale'e ne kadar uzak?",
@@ -174,15 +180,15 @@
  ],
  "sources": [
   [
-   "Redfin: Wilton Manors Housing Market (Ekim 2026)",
+   "Redfin: Wilton Manors Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/19676/FL/Wilton-Manors/housing-market"
   ],
   [
-   "Zillow: Wilton Manors Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Wilton Manors Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/wilton-manors-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -195,5 +201,6 @@
   ]
  ],
  "wa": "Merhaba Aleyna Hanım, Wilton Manors raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
- "projects_notes": []
+ "projects_notes": [],
+ "lead": "Fort Lauderdale'in hemen kuzeyinde, nehir kollarıyla çevrili küçük ve canlı bir şehir."
 }

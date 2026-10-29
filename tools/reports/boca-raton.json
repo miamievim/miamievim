@@ -2,12 +2,13 @@
  "id": "boca-raton",
  "name": "Boca Raton",
  "county": "Palm Beach",
- "meta": "Boca Raton mahalle raporu, Ekim 2026: medyan satış fiyatı $775 bin, ortalama kira $3.000, emlak vergisi, sel bölgesi, Glass House ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Bakımlı bir şehir merkezi, golf sahaları ve korunan plajlarıyla Palm Beach County'nin güney kapısı. Ekim 2026 itibarıyla medyan satış fiyatı $775 bin; fit kare fiyatı bir yılda %19,3 arttı.",
+ "meta": "Boca Raton mahalle raporu, Ekim 2026: medyan satış fiyatı $775 bin, ortalama kira $3.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Bakımlı bir şehir merkezi, golf sahaları ve korunan plajlarıyla Palm Beach County'nin güney kapısı. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $775 bin (Redfin).",
  "sales": {
   "median": 774631,
+  "median_approx": false,
   "median_chg": "yıllık +%8,3",
-  "ppsf": 466,
+  "ppsf": 462,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,29 +17,31 @@
    ],
    [
     "Fit kare fiyatı",
-    "$466 / ft² ≈ $5.016 / m² <small>(yıllık +%19,3)</small>"
+    "$462 / ft² ≈ $4.973 / m² <small>(yıllık +%18,3)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "78 gün <small>(bir yıl önce 90 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "501 <small>(yıllık +%6,5)</small>"
+    "501 <small>(bir yıl önce 470)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/1903/FL/Boca-Raton/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Boca Raton Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/1903/FL/Boca-Raton/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Boca Raton Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Boca Raton, fiyat artışı, artan satış sayısı ve kısalan satış süresini bir arada gösteren güçlü piyasalardan biri. Fit kare fiyatındaki %19,3'lük artış, şehir merkezindeki yeni projeler ve golf/kulüp topluluklarındaki lüks satışlarla destekleniyor."
+   "Medyan satış fiyatı bir yılda yükseldi (+%8,3); fit kare fiyatı da yükseldi (+%18,3).",
+   "Medyan satış süresi bir yılda 90 günden 78 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %5,3 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
   "avg": 3000,
-  "chg": "yıllık −$180",
+  "chg": "yıllık −$150",
   "src_short": "Zillow",
   "rows": [
    [
@@ -47,29 +50,34 @@
    ],
    [
     "1 yatak odalı",
-    "$1.900"
+    "$1.884"
    ],
    [
     "2 yatak odalı",
-    "$2.550"
+    "$2.500"
    ],
    [
     "3 yatak odalı",
     "$3.950"
    ],
    [
+    "4+ yatak odalı",
+    "$18.750"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$3.000"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/boca-raton-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Boca Raton</a>, 16 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/boca-raton-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Boca Raton</a>, 26 Ekim 2026 güncellemesi (1.127 aktif kiralık ilan).",
   "notes": [
-   "Stüdyo kirasının 1 yatak odalıdan yüksek görünmesi, stüdyo ilan sayısının az olmasından kaynaklanıyor; bu satırı gösterge olarak değerlendirin."
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
-  "mills": 16.909,
-  "src_short": "Boca Raton 2025-26"
+  "mills": 15.9229,
+  "src_short": "Palm Beach PA, 2025",
+  "mills_hi": 17.0029
  },
  "character": [
   "Boca Raton, 1920'lerde mimar Addison Mizner'in Akdeniz esintili tasarımlarıyla şekillenen ve bugün Palm Beach County'nin en büyük şehirlerinden biri olan bir kıyı şehri. Mizner Park'taki açık hava yaşam alanı, şehir merkezinin restoran, sinema ve kültür odağıdır.",
@@ -101,7 +109,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Boca Raton (şehir sınırları içi) için 2025 toplam vergi oranı 16,9090 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.909. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Boca Raton için 2025 toplam vergi oranı 15,9229–17,0029 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,59–1,70. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $15.923–17.003. Greater Boca Raton Beach & Park District sınırları içindeki mülklerde oran 17,0029 mill, dışındakilerde 15,9229 mill. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -153,29 +161,28 @@
   ]
  ],
  "pros": [
-  "Güçlü fiyat artışı ve hızlı satışlar (78 gün)",
-  "Görece düşük vergi oranı (16,91 mill)",
   "Brightline istasyonu ve iki havalimanına yakınlık",
-  "Korunan plajlar, parklar ve bakımlı şehir merkezi"
+  "Korunan plajlar, parklar ve bakımlı şehir merkezi",
+  "Bölgedeki düşük toplam vergi oranlarından biri (15,92 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,3 altında kapanıyor"
  ],
  "cons": [
-  "Miami'ye uzak (yaklaşık 1 saat)",
   "Golf ve kulüp topluluklarında yüksek üyelik ve aidat maliyetleri",
   "Sahil kesiminde sel riski ve sigorta maliyeti",
   "Şehir dışı \"Boca Raton\" adreslerinde farklı vergi ve hizmetler"
  ],
  "faq": [
   [
-   "Boca Raton'da ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $774.631 (yıllık +%8,3), fit kare fiyatı $466 (yıllık +%19,3)."
+   "Boca Raton bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $774.631 (yıllık +%8,3), fit kare fiyatı $462."
   ],
   [
-   "Boca Raton'da kiralar ne kadar?",
-   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $3.000; 1 yatak odalı $1.900, 2 yatak odalı $2.550 civarında."
+   "Boca Raton bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $3.000; 1 yatak odalı $1.884, 2 yatak odalı $2.500 civarında."
   ],
   [
-   "Boca Raton'da emlak vergisi ne kadar?",
-   "Boca Raton belediyesinin yayımladığı tabloya göre şehir sınırları içindeki toplam oran 16,9090 mill (2025-26); yani vergi değerinin yaklaşık %1,69'u. Şehir dışındaki \"Boca Raton\" adreslerinde oran farklıdır. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "Boca Raton bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran konuma göre 15,9229–17,0029 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,59–1,70 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Boca Raton'dan Miami'ye nasıl gidilir?",
@@ -184,12 +191,20 @@
  ],
  "sources": [
   [
-   "Redfin: Boca Raton Housing Market (Ekim 2026)",
+   "Redfin: Boca Raton Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/1903/FL/Boca-Raton/housing-market"
   ],
   [
-   "Zillow: Boca Raton Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Boca Raton Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/boca-raton-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
+   "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
    "City of Boca Raton: Taxes Explained (2025-26 oranları)",
@@ -209,5 +224,6 @@
   ]
  ],
  "wa": "Merhaba Aleyna Hanım, Boca Raton raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
- "projects_notes": []
+ "projects_notes": [],
+ "lead": "Bakımlı bir şehir merkezi, golf sahaları ve korunan plajlarıyla Palm Beach County'nin güney kapısı."
 }

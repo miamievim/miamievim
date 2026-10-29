@@ -2,44 +2,55 @@
  "id": "palmetto-bay",
  "name": "Palmetto Bay",
  "county": "Miami-Dade",
- "meta": "Palmetto Bay mahalle raporu, Ekim 2026: medyan satış fiyatı $1.209.550, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Geniş arsalı müstakil evleri, körfez kıyısındaki tarihî malikâneleri ve parklarıyla Pinecrest'in güneyinde bir köy. Zillow'a göre medyan satış fiyatı $1.209.550 (Ağustos 2026).",
+ "meta": "Palmetto Bay mahalle raporu, Ekim 2026: medyan satış fiyatı $1,2 milyon, ortalama kira $2.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Geniş arsalı müstakil evleri, körfez kıyısındaki tarihî malikâneleri ve parklarıyla Pinecrest'in güneyinde bir köy. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,2 milyon (Redfin).",
  "sales": {
-  "median": 1209550,
-  "median_chg": "Ağustos 2026",
-  "ppsf": null,
-  "src_short": "Zillow",
+  "median": 1241909,
+  "median_approx": false,
+  "median_chg": "yıllık +%13",
+  "ppsf": 506,
+  "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$1.209.550 <small>(Ağustos 2026)</small>"
+    "$1.241.909 <small>(yıllık +%13)</small>"
    ],
    [
-    "Tipik ev değeri (ZHVI)",
-    "$1.102.960 <small>(yıllık +%4,1, Eylül 2026)</small>"
+    "Fit kare fiyatı",
+    "$506 / ft² ≈ $5.447 / m² <small>(yıllık −%3,3)</small>"
    ],
    [
-    "Satışa kadar geçen medyan süre",
-    "56 gün <small>(Eylül 2026)</small>"
+    "Medyan satış süresi",
+    "82 gün <small>(bir yıl önce 85 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "83 <small>(bir yıl önce 70)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,6"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/home-values/41500/village-of-palmetto-bay-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Home Values, Palmetto Bay</a>, Ekim 2026 erişimi.",
+  "src": "<a href=\"https://www.redfin.com/city/14065/FL/Palmetto-Bay/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Palmetto Bay Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Bu bölge için Redfin verisine erişilemediği için Zillow'un ev değeri endeksi (ZHVI) ve medyan satış fiyatı kullanıldı. ZHVI, satılan evlerin değil bölgedeki tipik bir evin tahmini değerini gösterir; fit kare fiyatı bu kaynakta yayımlanmaz."
+   "Medyan satış fiyatı bir yılda yükseldi (+%13); fit kare fiyatı ise ters yönde hareket etti (−%3,3); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi 82 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %5,4 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
-  "avg": 2600,
-  "chg": "yıllık −$150",
+  "avg": 2500,
+  "chg": "yıllık −$275",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.322"
+    "$1.300"
    ],
    [
     "1 yatak odalı",
-    "$1.600"
+    "$1.500"
    ],
    [
     "2 yatak odalı",
@@ -47,19 +58,25 @@
    ],
    [
     "3 yatak odalı",
-    "$3.204"
+    "$3.200"
+   ],
+   [
+    "4+ yatak odalı",
+    "$3.634"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.600"
+    "$2.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33157/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33157</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33157/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33157 posta kodu</a>, 26 Ekim 2026 güncellemesi (212 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33157 posta kodunun ortalamaları kullanıldı; posta kodu Palmetto Bay dışında komşu alanları da kapsayabilir."
+  ]
  },
  "tax": {
   "mills": 17.3245,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Palmetto Bay, 2002'de belediye olan ve Pinecrest'in güneyinde, US-1 ile Biscayne Körfezi arasında uzanan bir köy. Geniş arsalar, büyük ağaçlar ve sakin sokaklar köyün karakterini belirler.",
@@ -116,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline MiamiCentral (yaklaşık 28 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Metrorail Dadeland South (kuş uçuşu yaklaşık 7 km)."
   ],
   [
    "Günlük hayat",
@@ -129,41 +146,40 @@
  ],
  "pros": [
   "Geniş arsalar ve yeşil doku",
-  "Görece düşük vergi oranı (17,32 mill)",
   "Körfez kıyısı ve tarihî parklar",
-  "Pinecrest'e göre daha uygun fiyatlar"
+  "Pinecrest'e göre daha uygun fiyatlar",
+  "Bölgedeki düşük toplam vergi oranlarından biri (17,32 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,4 altında kapanıyor"
  ],
  "cons": [
-  "Miami şehir merkezine 35–45 dakika",
   "Körfeze yakın kesimlerde sel riski",
-  "US-1 trafiği",
   "Kiralık stok sınırlı"
  ],
  "faq": [
   [
    "Palmetto Bay bölgesinde ev fiyatları ne kadar?",
-   "Zillow verisine göre medyan satış fiyatı $1.209.550 (Ağustos 2026); tipik ev değeri (ZHVI) Eylül 2026 itibarıyla $1.102.960."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $1.241.909 (yıllık +%13), fit kare fiyatı $506."
   ],
   [
    "Palmetto Bay bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.600; 2 yatak odalı $2.000 civarında."
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $2.500; 1 yatak odalı $1.500, 2 yatak odalı $2.000 civarında."
   ],
   [
    "Palmetto Bay bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 17,3245 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,73. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 17,3245 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,73 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Zillow: Palmetto Bay Home Values (Ekim 2026)",
-   "https://www.zillow.com/home-values/41500/village-of-palmetto-bay-fl/"
+   "Redfin: Palmetto Bay Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/city/14065/FL/Palmetto-Bay/housing-market"
   ],
   [
-   "Zillow: ZIP 33157 Rental Market Trends (17 Ekim 2026)",
+   "Zillow: 33157 posta kodu Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/33157/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -171,5 +187,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Palmetto Bay raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Palmetto Bay raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Geniş arsalı müstakil evleri, körfez kıyısındaki tarihî malikâneleri ve parklarıyla Pinecrest'in güneyinde bir köy."
 }

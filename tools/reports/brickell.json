@@ -2,43 +2,45 @@
  "id": "brickell",
  "name": "Brickell",
  "county": "Miami-Dade",
- "meta": "Brickell mahalle raporu, Ekim 2026: medyan satış fiyatı $615 bin, ortalama kira $4.100, emlak vergisi, sel bölgesi, Cipriani, Mandarin Oriental ve yeni projeler. Kaynaklı ve tarihli veriler.",
- "short": "Miami'nin finans merkezi ve en yoğun kondominyum bölgesi. Ekim 2026 itibarıyla medyan satış fiyatı $615 bin; medyan düşerken fit kare fiyatı yükseliyor.",
+ "meta": "Brickell mahalle raporu, Ekim 2026: medyan satış fiyatı yaklaşık $660 bin, ortalama kira $4.100, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Miami'nin finans merkezi ve en yoğun kondominyum bölgesi. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı yaklaşık $660 bin (Redfin).",
  "sales": {
-  "median": 615000,
-  "median_chg": "yıllık −%9,6",
-  "ppsf": 635,
+  "median": 660000,
+  "median_approx": true,
+  "median_chg": "yıllık +%18,4",
+  "ppsf": 585,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$615.000 <small>(yıllık −%9,56)</small>"
+    "yaklaşık $660.000 <small>(yıllık +%18,4)</small>"
    ],
    [
     "Fit kare fiyatı",
-    "$635 / ft² ≈ $6.835 / m² <small>(yıllık +%4,1)</small>"
+    "$585 / ft² ≈ $6.297 / m² <small>(yıllık −%4,8)</small>"
    ],
    [
-    "Ortalama satış süresi",
-    "150 gün"
+    "Medyan satış süresi",
+    "146 gün"
    ],
    [
-    "Satılan konut",
-    "71"
+    "Satılan konut (son dönem)",
+    "56"
    ],
    [
     "Satış / ilan fiyatı",
-    "ilan fiyatının yaklaşık %6 altında"
+    "ilan fiyatının ortalama %5,5 altında"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/neighborhood/91805/FL/Miami/Brickell/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Brickell Housing Market</a>, Ekim 2026 erişimi (son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/neighborhood/91805/FL/Miami/Brickell/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Brickell Housing Market</a>, 28 Ekim 2026 erişimi (son 3 ay; Redfin bu mahalle için yuvarlanmış değer yayımlıyor).",
   "notes": [
-   "Medyan fiyat düşerken fit kare fiyatının artması, son dönemde daha küçük dairelerin satıldığını gösteriyor; birim değerler geri çekilmiyor. 150 günlük ortalama satış süresi ve ilan fiyatının yaklaşık %6 altında kapanan satışlar, alıcıya pazarlık alanı tanıyan bir piyasaya işaret ediyor."
+   "Medyan satış fiyatı bir yılda yükseldi (+%18,4); fit kare fiyatı ise ters yönde hareket etti (−%4,8); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Satışlar ortalamada ilan fiyatının %5,5 altında kapanıyor."
   ]
  },
  "rent": {
   "avg": 4100,
-  "chg": "yıllık −$30",
+  "chg": "yıllık −$50",
   "src_short": "Zillow",
   "rows": [
    [
@@ -51,25 +53,31 @@
    ],
    [
     "2 yatak odalı",
-    "$5.200"
+    "$5.150"
    ],
    [
     "3 yatak odalı",
-    "$9.500"
+    "$9.150"
+   ],
+   [
+    "4+ yatak odalı",
+    "$41.333"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$4.100"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33131/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33131</a>, 15 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33131/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33131 posta kodu</a>, 26 Ekim 2026 güncellemesi (1.105 aktif kiralık ilan).",
   "notes": [
-   "RentCafe, yönetimli apartman komplekslerine göre ortalamayı $3.780 olarak veriyor (14 Eylül 2026, yıllık +%3,45): stüdyo $2.551, 1 yatak odalı $3.310, 2 yatak odalı $4.076. ZIP 33131, Brickell'in çekirdeğini ve Brickell Key'i kapsar."
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33131 posta kodunun ortalamaları kullanıldı; posta kodu Brickell dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 19.9878,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025",
+  "mills_hi": 20.3778
  },
  "character": [
   "Brickell, Miami'nin finans ve iş merkezi. Uluslararası bankaların ve hukuk firmalarının ofisleri, Biscayne Körfezi boyunca uzanan yüksek kuleler ve yoğun bir kondominyum stoku mahallenin karakterini belirler.",
@@ -101,7 +109,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Miami şehri için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Brickell için 2025 toplam vergi oranı 19,9878–20,3778 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00–2,04. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988–20.378. Miami Downtown Development Authority (DDA) sınırları içindeki mülklerde oran 20,3778 mill, dışındakilerde 19,9878 mill. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -173,23 +181,27 @@
  "pros": [
   "Araçsız yaşanabilir, yürünebilir yoğun şehir merkezi",
   "Geniş kiracı talebi ve çok sayıda tam hizmetli bina",
-  "Toplu taşıma ve Brightline erişimi",
-  "Alıcı lehine pazarlık alanı (uzun satış süresi)"
+  "Toplu taşıma ve Brightline erişimi"
  ],
  "cons": [
   "Yeni projelerle birlikte artan daire arzı",
   "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
   "Kıyı bölgesi sel riski ve sigorta maliyeti",
-  "Kısa süreli kiralama yalnızca buna izin veren binalarda mümkün"
+  "Kısa süreli kiralama yalnızca buna izin veren binalarda mümkün",
+  "Uzun satış süresi (medyan 146 gün)"
  ],
  "faq": [
   [
-   "Brickell'de daire fiyatları ne kadar?",
-   "Redfin verisine göre Ekim 2026 itibarıyla medyan satış fiyatı $615.000 (yıllık −%9,56), fit kare fiyatı $635 (yıllık +%4,1). Medyanın düşmesi daha küçük dairelerin satılmasından kaynaklanıyor; birim fiyatlar yükseliyor."
+   "Brickell bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre son 3 ayda medyan satış fiyatı yaklaşık $660.000 (yıllık +%18,4), fit kare fiyatı $585."
   ],
   [
-   "Brickell'de kiralar ne kadar?",
-   "Zillow'a göre ZIP 33131'de (15 Ekim 2026) ortalama kira aylık $4.100; 1 yatak odalı $3.400, 2 yatak odalı $5.200 civarında."
+   "Brickell bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $4.100; 1 yatak odalı $3.400, 2 yatak odalı $5.150 civarında."
+  ],
+  [
+   "Brickell bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran konuma göre 19,9878–20,3778 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00–2,04 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Brickell'de yatırım için daire alınır mı?",
@@ -202,19 +214,15 @@
  ],
  "sources": [
   [
-   "Redfin: Brickell Housing Market (Ekim 2026)",
+   "Redfin: Brickell Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/neighborhood/91805/FL/Miami/Brickell/housing-market"
   ],
   [
-   "Zillow: ZIP 33131 Rental Market Trends (15 Ekim 2026)",
+   "Zillow: 33131 posta kodu Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/33131/"
   ],
   [
-   "RentCafe: Brickell Average Rent (14 Eylül 2026)",
-   "https://www.rentcafe.com/average-rent-market-trends/us/fl/miami/brickell/"
-  ],
-  [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -226,5 +234,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Brickell raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Brickell raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
+ "lead": "Miami'nin finans merkezi ve en yoğun kondominyum bölgesi."
 }

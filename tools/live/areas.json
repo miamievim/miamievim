@@ -1,0 +1,486 @@
+{
+ "atlantis": {
+  "redfin": "Atlantis",
+  "zillow": "atlantis-fl"
+ },
+ "aventura": {
+  "redfin": "Aventura",
+  "zillow": "aventura-fl"
+ },
+ "bal-harbour": {
+  "redfin": "Bal-Harbour",
+  "zillow": "bal-harbour-fl"
+ },
+ "bay-harbor-islands": {
+  "redfin": "Bay-Harbor-Islands",
+  "zillow": "bay-harbor-islands-fl"
+ },
+ "belle-glade": {
+  "redfin": "Belle-Glade",
+  "zillow": "belle-glade-fl"
+ },
+ "biscayne-park": {
+  "redfin": "Biscayne-Park",
+  "zillow": "biscayne-park-fl"
+ },
+ "boca-raton": {
+  "redfin": "Boca-Raton",
+  "zillow": "boca-raton-fl"
+ },
+ "boynton-beach": {
+  "redfin": "Boynton-Beach",
+  "zillow": "boynton-beach-fl"
+ },
+ "brickell": {
+  "redfin": "Brickell",
+  "zillow": "33131"
+ },
+ "briny-breezes": {
+  "redfin": "Briny-Breezes",
+  "zillow": null
+ },
+ "cloud-lake": {
+  "redfin": "Cloud-Lake",
+  "zillow": "cloud-lake-fl"
+ },
+ "coconut-creek": {
+  "redfin": "Coconut-Creek",
+  "zillow": "coconut-creek-fl"
+ },
+ "coconut-grove": {
+  "redfin": "Coconut-Grove",
+  "zillow": "33133"
+ },
+ "cooper-city": {
+  "redfin": "Cooper-City",
+  "zillow": "cooper-city-fl"
+ },
+ "coral-gables": {
+  "redfin": "Coral-Gables",
+  "zillow": "coral-gables-fl"
+ },
+ "coral-springs": {
+  "redfin": "Coral-Springs",
+  "zillow": "coral-springs-fl"
+ },
+ "cutler-bay": {
+  "redfin": "Cutler-Bay",
+  "zillow": "cutler-bay-fl"
+ },
+ "dania-beach": {
+  "redfin": "Dania-Beach",
+  "zillow": "dania-beach-fl"
+ },
+ "davie": {
+  "redfin": "Davie",
+  "zillow": "davie-fl"
+ },
+ "deerfield": {
+  "redfin": "Deerfield-Beach",
+  "zillow": "deerfield-beach-fl"
+ },
+ "delray-beach": {
+  "redfin": "Delray-Beach",
+  "zillow": "delray-beach-fl"
+ },
+ "doral": {
+  "redfin": "Doral",
+  "zillow": "doral-fl"
+ },
+ "edgewater": {
+  "redfin": "Edgewater",
+  "zillow": "33137"
+ },
+ "el-portal": {
+  "redfin": "El-Portal",
+  "zillow": "el-portal-fl"
+ },
+ "fisher-island": {
+  "redfin": "Fisher-Island",
+  "zillow": "fisher-island-fl"
+ },
+ "florida-city": {
+  "redfin": "Florida-City",
+  "zillow": "florida-city-fl"
+ },
+ "fort-lauderdale": {
+  "redfin": "Fort-Lauderdale",
+  "zillow": "fort-lauderdale-fl"
+ },
+ "glen-ridge": {
+  "redfin": "Glen-Ridge",
+  "zillow": "glen-ridge-fl"
+ },
+ "golden-beach": {
+  "redfin": "Golden-Beach",
+  "zillow": "golden-beach-fl"
+ },
+ "golf": {
+  "redfin": "Golf",
+  "zillow": null
+ },
+ "greenacres": {
+  "redfin": "Greenacres",
+  "zillow": "greenacres-fl"
+ },
+ "gulf-stream": {
+  "redfin": "Gulf-Stream",
+  "zillow": "gulf-stream-fl"
+ },
+ "hallandale": {
+  "redfin": "Hallandale-Beach",
+  "zillow": "33009"
+ },
+ "haverhill": {
+  "redfin": "Haverhill",
+  "zillow": "haverhill-fl"
+ },
+ "hialeah-gardens": {
+  "redfin": "Hialeah-Gardens",
+  "zillow": "hialeah-gardens-fl"
+ },
+ "hialeah": {
+  "redfin": "Hialeah",
+  "zillow": "hialeah-fl"
+ },
+ "highland-beach": {
+  "redfin": "Highland-Beach",
+  "zillow": "highland-beach-fl"
+ },
+ "hillsboro-beach": {
+  "redfin": "Hillsboro-Beach",
+  "zillow": "hillsboro-beach-fl"
+ },
+ "hollywood": {
+  "redfin": "Hollywood",
+  "zillow": "hollywood-fl"
+ },
+ "homestead": {
+  "redfin": "Homestead",
+  "zillow": "homestead-fl"
+ },
+ "hypoluxo": {
+  "redfin": "Hypoluxo",
+  "zillow": "hypoluxo-fl"
+ },
+ "indian-creek": {
+  "redfin": "Indian-Creek",
+  "zillow": null
+ },
+ "juno-beach": {
+  "redfin": "Juno-Beach",
+  "zillow": "juno-beach-fl"
+ },
+ "jupiter-inlet-colony": {
+  "redfin": "Jupiter-Inlet-Colony",
+  "zillow": "jupiter-inlet-colony-fl"
+ },
+ "jupiter": {
+  "redfin": "Jupiter",
+  "zillow": "jupiter-fl"
+ },
+ "kendall": {
+  "redfin": "Kendall",
+  "zillow": "33176"
+ },
+ "key-biscayne": {
+  "redfin": "Key-Biscayne",
+  "zillow": "key-biscayne-fl"
+ },
+ "lake-clarke-shores": {
+  "redfin": "Lake-Clarke-Shores",
+  "zillow": "lake-clarke-shores-fl"
+ },
+ "lake-park": {
+  "redfin": "Lake-Park",
+  "zillow": "lake-park-fl"
+ },
+ "lake-worth-beach": {
+  "redfin": "Lake-Worth-Beach",
+  "zillow": "lake-worth-beach-fl"
+ },
+ "lantana": {
+  "redfin": "Lantana",
+  "zillow": "lantana-fl"
+ },
+ "lauderdale-by-the-sea": {
+  "redfin": "Lauderdale-by-the-Sea",
+  "zillow": "lauderdale-by-the-sea-fl"
+ },
+ "lauderdale-lakes": {
+  "redfin": "Lauderdale-Lakes",
+  "zillow": "lauderdale-lakes-fl"
+ },
+ "lauderhill": {
+  "redfin": "Lauderhill",
+  "zillow": "lauderhill-fl"
+ },
+ "little-havana": {
+  "redfin": "Little-Havana",
+  "zillow": "33135"
+ },
+ "loxahatchee-groves": {
+  "redfin": "Loxahatchee-Groves",
+  "zillow": "loxahatchee-groves-fl"
+ },
+ "manalapan": {
+  "redfin": "Manalapan",
+  "zillow": "manalapan-fl"
+ },
+ "mangonia-park": {
+  "redfin": "Mangonia-Park",
+  "zillow": "mangonia-park-fl"
+ },
+ "margate": {
+  "redfin": "Margate",
+  "zillow": "margate-fl"
+ },
+ "medley": {
+  "redfin": "Medley",
+  "zillow": "medley-fl"
+ },
+ "miami-gardens": {
+  "redfin": "Miami-Gardens",
+  "zillow": "miami-gardens-fl"
+ },
+ "miami-lakes": {
+  "redfin": "Miami-Lakes",
+  "zillow": "miami-lakes-fl"
+ },
+ "miami-shores": {
+  "redfin": "Miami-Shores",
+  "zillow": "miami-shores-fl"
+ },
+ "miami-springs": {
+  "redfin": "Miami-Springs",
+  "zillow": "miami-springs-fl"
+ },
+ "miramar": {
+  "redfin": "Miramar",
+  "zillow": "miramar-fl"
+ },
+ "north-bay-village": {
+  "redfin": "North-Bay-Village",
+  "zillow": "north-bay-village-fl"
+ },
+ "north-beach": {
+  "redfin": "North-Beach",
+  "zillow": "33141"
+ },
+ "north-lauderdale": {
+  "redfin": "North-Lauderdale",
+  "zillow": "north-lauderdale-fl"
+ },
+ "north-miami-beach": {
+  "redfin": "North-Miami-Beach",
+  "zillow": "north-miami-beach-fl"
+ },
+ "north-miami": {
+  "redfin": "North-Miami",
+  "zillow": "north-miami-fl"
+ },
+ "north-palm-beach": {
+  "redfin": "North-Palm-Beach",
+  "zillow": "north-palm-beach-fl"
+ },
+ "oakland-park": {
+  "redfin": "Oakland-Park",
+  "zillow": "oakland-park-fl"
+ },
+ "ocean-ridge": {
+  "redfin": "Ocean-Ridge",
+  "zillow": "ocean-ridge-fl"
+ },
+ "opa-locka": {
+  "redfin": "Opa-locka",
+  "zillow": "opa-locka-fl"
+ },
+ "pahokee": {
+  "redfin": "Pahokee",
+  "zillow": "pahokee-fl"
+ },
+ "palm-beach-gardens": {
+  "redfin": "Palm-Beach-Gardens",
+  "zillow": "palm-beach-gardens-fl"
+ },
+ "palm-beach-shores": {
+  "redfin": "Palm-Beach-Shores",
+  "zillow": "palm-beach-shores-fl"
+ },
+ "palm-beach": {
+  "redfin": "Palm-Beach",
+  "zillow": "palm-beach-fl"
+ },
+ "palm-springs": {
+  "redfin": "Palm-Springs",
+  "zillow": "palm-springs-fl"
+ },
+ "palmetto-bay": {
+  "redfin": "Palmetto-Bay",
+  "zillow": "33157"
+ },
+ "parkland": {
+  "redfin": "Parkland",
+  "zillow": "parkland-fl"
+ },
+ "pembroke-park": {
+  "redfin": "Pembroke-Park",
+  "zillow": "pembroke-park-fl"
+ },
+ "pembroke-pines": {
+  "redfin": "Pembroke-Pines",
+  "zillow": "pembroke-pines-fl"
+ },
+ "pinecrest": {
+  "redfin": "Pinecrest",
+  "zillow": "pinecrest-fl"
+ },
+ "plantation": {
+  "redfin": "Plantation",
+  "zillow": "plantation-fl"
+ },
+ "pompano": {
+  "redfin": "Pompano-Beach",
+  "zillow": "pompano-beach-fl"
+ },
+ "riviera-beach": {
+  "redfin": "Riviera-Beach",
+  "zillow": "riviera-beach-fl"
+ },
+ "royal-palm-beach": {
+  "redfin": "Royal-Palm-Beach",
+  "zillow": "royal-palm-beach-fl"
+ },
+ "sea-ranch-lakes": {
+  "redfin": "Sea-Ranch-Lakes",
+  "zillow": "sea-ranch-lakes-fl"
+ },
+ "south-bay": {
+  "redfin": "South-Bay",
+  "zillow": "south-bay-fl"
+ },
+ "south-beach": {
+  "redfin": "Flamingo-Lummus",
+  "zillow": "33139"
+ },
+ "south-palm-beach": {
+  "redfin": "South-Palm-Beach",
+  "zillow": "south-palm-beach-fl"
+ },
+ "southwest-ranches": {
+  "redfin": "Southwest-Ranches",
+  "zillow": "southwest-ranches-fl"
+ },
+ "sunny-isles": {
+  "redfin": "Sunny-Isles-Beach",
+  "zillow": "sunny-isles-beach-fl"
+ },
+ "sunrise": {
+  "redfin": "Sunrise",
+  "zillow": "sunrise-fl"
+ },
+ "sweetwater": {
+  "redfin": "Sweetwater",
+  "zillow": "sweetwater-fl"
+ },
+ "tamarac": {
+  "redfin": "Tamarac",
+  "zillow": "tamarac-fl"
+ },
+ "tequesta": {
+  "redfin": "Tequesta",
+  "zillow": "tequesta-fl"
+ },
+ "upper-east-side": {
+  "redfin": "Upper-Eastside",
+  "zillow": "33138"
+ },
+ "virginia-gardens": {
+  "redfin": "Virginia-Gardens",
+  "zillow": "virginia-gardens-fl"
+ },
+ "wellington": {
+  "redfin": "Wellington",
+  "zillow": "wellington-fl"
+ },
+ "west-miami": {
+  "redfin": "West-Miami",
+  "zillow": "west-miami-fl"
+ },
+ "west-palm-beach": {
+  "redfin": "West-Palm-Beach",
+  "zillow": "west-palm-beach-fl"
+ },
+ "west-park": {
+  "redfin": "West-Park",
+  "zillow": "west-park-fl"
+ },
+ "westlake": {
+  "redfin": "Westlake",
+  "zillow": "westlake-fl"
+ },
+ "weston": {
+  "redfin": "Weston",
+  "zillow": "weston-fl"
+ },
+ "wilton-manors": {
+  "redfin": "Wilton-Manors",
+  "zillow": "wilton-manors-fl"
+ },
+ "wynwood": {
+  "redfin": "Wynwood",
+  "zillow": "33127"
+ },
+ "south-miami": {
+  "redfin": "South-Miami",
+  "zillow": "south-miami-fl"
+ },
+ "design-district": {
+  "redfin": "Miami-Design-District",
+  "zillow": "33137"
+ },
+ "downtown-miami": {
+  "redfin": "Downtown-Miami",
+  "zillow": "33132"
+ },
+ "mid-beach": {
+  "redfin": "Mid-Beach",
+  "zillow": "33140"
+ },
+ "surfside": {
+  "redfin": "Surfside",
+  "zillow": "surfside-fl"
+ },
+ "lighthouse-point": {
+  "redfin": "Lighthouse-Point",
+  "zillow": "lighthouse-point-fl"
+ },
+ "sofi": {
+  "redfin": "South-Pointe",
+  "zillow": "33139"
+ },
+ "allapattah": {
+  "redfin": "Allapattah",
+  "zillow": "33142"
+ },
+ "little-haiti": {
+  "redfin": "Little-Haiti",
+  "zillow": "33150"
+ },
+ "midtown": {
+  "redfin": "Midtown-Miami",
+  "zillow": "33127"
+ },
+ "morningside": {
+  "redfin": "Morningside",
+  "zillow": "33137"
+ },
+ "venetian-islands": {
+  "redfin": "Venetian-Islands",
+  "zillow": "33139"
+ },
+ "hollywood-beach": {
+  "redfin": "Hollywood-Beach",
+  "zillow": "33019"
+ }
+}

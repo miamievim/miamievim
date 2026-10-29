@@ -2,10 +2,11 @@
  "id": "biscayne-park",
  "name": "Biscayne Park",
  "county": "Miami-Dade",
- "meta": "Biscayne Park mahalle raporu, Ekim 2026: medyan satış fiyatı $1.199.429, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Yoğun ağaç örtüsü ve müstakil evlerden oluşan küçük bir köy; Miami-Dade'in en yüksek vergi oranına sahip yerleşimi. Ekim 2026 itibarıyla medyan satış fiyatı $1.199.429.",
+ "meta": "Biscayne Park mahalle raporu, Ekim 2026: medyan satış fiyatı $1,2 milyon, ortalama kira $3.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Yoğun ağaç örtüsü ve müstakil evlerden oluşan küçük bir köy; Miami-Dade'in en yüksek vergi oranına sahip yerleşimi. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,2 milyon (Redfin).",
  "sales": {
   "median": 1199429,
+  "median_approx": false,
   "median_chg": "yıllık +%35,1",
   "ppsf": 552,
   "src_short": "Redfin",
@@ -19,24 +20,29 @@
     "$552 / ft² ≈ $5.942 / m² <small>(yıllık +%5,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "82 gün <small>(bir yıl önce 100 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "13 <small>(yıllık +%120,1)</small>"
+    "Satılan konut (Eylül 2026)",
+    "13 <small>(bir yıl önce 6)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,0"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/1728/FL/Biscayne-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Biscayne Park Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/1728/FL/Biscayne-Park/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Biscayne Park Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%35,1); fit kare fiyatı da yükseldi (+%5,2).",
+   "Medyan satış süresi bir yılda 100 günden 82 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %5,0 altında kapanıyor; pazarlık payı belirgin.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
+  ]
  },
  "rent": {
-  "avg": 3900,
-  "chg": "yıllık +$1.050",
+  "avg": 3500,
+  "chg": "yıllık +$660",
   "src_short": "Zillow",
   "rows": [
    [
@@ -56,18 +62,23 @@
     "$5.200"
    ],
    [
+    "4+ yatak odalı",
+    "$9.192"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$3.900"
+    "$3.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/biscayne-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Biscayne Park</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/biscayne-park-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Biscayne Park</a>, 26 Ekim 2026 güncellemesi (26 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 25 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (26 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 24.3227,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Biscayne Park, Miami Shores ile North Miami arasında, 1933'te kurulan ve yalnızca birkaç bin kişinin yaşadığı küçük bir köy. Köy binası olarak hâlâ kullanılan tarihî kütük ev (log cabin) köyün simgesidir.",
@@ -120,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (yaklaşık 7 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (kuş uçuşu yaklaşık 6 km)."
   ],
   [
    "Günlük hayat",
@@ -133,14 +144,13 @@
  ],
  "pros": [
   "Sakin, ağaçlı ve tamamen konut amaçlı yapı",
-  "Fiyatlarda güçlü yıllık artış",
-  "Miami şehir merkezine 20 dakika"
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,0 altında kapanıyor"
  ],
  "cons": [
-  "Bu raporlardaki en yüksek vergi oranı (24,32 mill)",
   "Satış ve kiralık ilan sayısı az",
   "Eski evlerde yenileme ve sigorta maliyeti",
-  "Ticari alan yok; günlük ihtiyaçlar için araç gerekir"
+  "Ticari alan yok; günlük ihtiyaçlar için araç gerekir",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (24,32 mill)"
  ],
  "faq": [
   [
@@ -149,24 +159,24 @@
   ],
   [
    "Biscayne Park bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $3.900; 2 yatak odalı $2.700 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $3.500; 1 yatak odalı $1.800, 2 yatak odalı $2.700 civarında."
   ],
   [
    "Biscayne Park bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 24,3227 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,43. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 24,3227 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,43 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Biscayne Park Housing Market (Ekim 2026)",
+   "Redfin: Biscayne Park Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/1728/FL/Biscayne-Park/housing-market"
   ],
   [
-   "Zillow: Biscayne Park Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Biscayne Park Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/biscayne-park-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -174,5 +184,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Biscayne Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Biscayne Park raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Yoğun ağaç örtüsü ve müstakil evlerden oluşan küçük bir köy; Miami-Dade'in en yüksek vergi oranına sahip yerleşimi."
 }

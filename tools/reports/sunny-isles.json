@@ -2,74 +2,81 @@
  "id": "sunny-isles",
  "name": "Sunny Isles Beach",
  "county": "Miami-Dade",
- "meta": "Sunny Isles Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $679 bin, ortalama kira $2.771, emlak vergisi, sel bölgesi, Bentley, St. Regis ve yeni projeler. Kaynaklı ve tarihli veriler.",
- "short": "Okyanus ile Intracoastal arasında, dar bir bariyer adasına sığmış gökdelenler şehri. Ekim 2026 itibarıyla medyan satış fiyatı $679.550; satış süresi uzuyor.",
+ "meta": "Sunny Isles Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $645 bin, ortalama kira $5.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus ile Intracoastal arasında, dar bir bariyer adasına sığmış gökdelenler şehri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $645 bin (Redfin).",
  "sales": {
-  "median": 679550,
-  "median_chg": "yıllık +%15,7",
-  "ppsf": 433,
+  "median": 644693,
+  "median_approx": false,
+  "median_chg": "yıllık −%7,6",
+  "ppsf": 438,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$679.550 <small>(yıllık +%15,7)</small>"
+    "$644.693 <small>(yıllık −%7,6)</small>"
    ],
    [
     "Fit kare fiyatı",
-    "$433 / ft² ≈ $4.661 / m² <small>(yıllık −%13,4)</small>"
+    "$438 / ft² ≈ $4.715 / m² <small>(yıllık −%12,4)</small>"
    ],
    [
-    "Ortalama satış süresi",
-    "189 gün"
+    "Medyan satış süresi",
+    "176 gün <small>(bir yıl önce 148 gün)</small>"
    ],
    [
-    "Bir yıl önceki satış süresi",
-    "148 gün"
-   ],
-   [
-    "Satılan konut",
-    "184 <small>(yıllık +%9,9)</small>"
+    "Satılan konut (Eylül 2026)",
+    "183 <small>(bir yıl önce 155)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
-    "%92,5"
+    "%92,8"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/17786/FL/Sunny-Isles-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sunny Isles Beach Housing Market</a>, Ekim 2026 erişimi (son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/17786/FL/Sunny-Isles-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sunny Isles Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Medyan fiyat yükselirken fit kare fiyatının düşmesi, son dönemde daha büyük dairelerin el değiştirdiğini gösteriyor. Satış süresinin bir yılda 148 günden 189 güne çıkması ve satışların ilan fiyatının ortalama %7,5 altında kapanması, alıcıya belirgin pazarlık gücü veriyor."
+   "Medyan satış fiyatı bir yılda geriledi (−%7,6); fit kare fiyatı da geriledi (−%12,4).",
+   "Medyan satış süresi bir yılda 148 günden 176 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %7,2 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
-  "avg": 2771,
-  "chg": "yıllık −%6,18",
-  "src_short": "RentCafe",
+  "avg": 5000,
+  "chg": "yıllık değişim yok",
+  "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "$1.950"
+   ],
+   [
     "1 yatak odalı",
-    "$2.321"
+    "$2.400"
    ],
    [
     "2 yatak odalı",
-    "$3.001"
+    "$4.989"
    ],
    [
     "3 yatak odalı",
-    "$4.305"
+    "$8.600"
    ],
    [
-    "Tüm daireler (ortalama)",
-    "$2.771"
+    "4+ yatak odalı",
+    "$24.108"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$5.000"
    ]
   ],
-  "src": "<a href=\"https://www.rentcafe.com/average-rent-market-trends/us/fl/sunny-isles-beach/\" target=\"_blank\" rel=\"noopener\">RentCafe, Sunny Isles Beach Average Rent</a>, 30 Eylül 2026 güncellemesi. Stüdyo için yeterli veri yok.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/sunny-isles-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Sunny Isles Beach</a>, 26 Ekim 2026 güncellemesi (903 aktif kiralık ilan).",
   "notes": [
-   "RentCafe ortalaması yönetimli apartman binalarına dayanır; okyanus cepheli lüks kondominyumlarda bireysel ev sahiplerinin istediği kiralar bu ortalamanın belirgin şekilde üstünde olabilir. Zillow'un ZIP 33160 verisi bu rapor için güncel olmadığından kullanılmadı."
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 16.7227,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Sunny Isles Beach, Atlantik Okyanusu ile Intracoastal Waterway arasında uzanan dar bir bariyer adası üzerinde yer alır. Okyanus kıyısı boyunca dizilen 40–60 katlı kuleler, şehre \"Florida'nın Riviera'sı\" lakabını kazandırdı.",
@@ -160,28 +167,28 @@
  ],
  "pros": [
   "Okyanus cepheli yaşam ve geniş kumsal",
-  "Bu raporlardaki en düşük vergi oranlarından biri (16,72 mill)",
   "FLL havalimanına ve Aventura'ya yakınlık",
-  "Uzayan satış süresi ile alıcıya pazarlık gücü"
+  "Bölgedeki düşük toplam vergi oranlarından biri (16,72 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %7,2 altında kapanıyor"
  ],
  "cons": [
   "Bariyer adası: sel ve fırtına riski, yüksek sigorta maliyeti",
   "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
   "Brickell ve Downtown'a trafik saatlerinde uzun yolculuk",
-  "Kiralarda yıllık düşüş (−%6,18)"
+  "Uzun satış süresi (medyan 176 gün)"
  ],
  "faq": [
   [
-   "Sunny Isles Beach'te daire fiyatları ne kadar?",
-   "Redfin verisine göre Ekim 2026 itibarıyla medyan satış fiyatı $679.550 (yıllık +%15,7), fit kare fiyatı $433 (yıllık −%13,4). Okyanus cepheli markalı binalarda fiyatlar bu medyanın çok üstündedir."
+   "Sunny Isles Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $644.693 (yıllık −%7,6), fit kare fiyatı $438."
   ],
   [
-   "Sunny Isles Beach'te kiralar ne kadar?",
-   "RentCafe'ye göre (30 Eylül 2026) ortalama kira aylık $2.771; 1 yatak odalı $2.321, 2 yatak odalı $3.001. Lüks kondominyumlarda bireysel ev sahiplerinin kiraları daha yüksektir."
+   "Sunny Isles Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $5.000; 1 yatak odalı $2.400, 2 yatak odalı $4.989 civarında."
   ],
   [
-   "Sunny Isles Beach'te emlak vergisi ne kadar?",
-   "2025 için toplam oran 16,7227 mill; yani vergi değerinin yaklaşık %1,67'si. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "Sunny Isles Beach bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 16,7227 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,67 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Sunny Isles Beach'te sel riski nasıl?",
@@ -190,15 +197,15 @@
  ],
  "sources": [
   [
-   "Redfin: Sunny Isles Beach Housing Market (Ekim 2026)",
+   "Redfin: Sunny Isles Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/17786/FL/Sunny-Isles-Beach/housing-market"
   ],
   [
-   "RentCafe: Sunny Isles Beach Average Rent (30 Eylül 2026)",
-   "https://www.rentcafe.com/average-rent-market-trends/us/fl/sunny-isles-beach/"
+   "Zillow: Sunny Isles Beach Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/sunny-isles-beach-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -214,5 +221,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Sunny Isles Beach raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Sunny Isles Beach raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
+ "lead": "Okyanus ile Intracoastal arasında, dar bir bariyer adasına sığmış gökdelenler şehri."
 }

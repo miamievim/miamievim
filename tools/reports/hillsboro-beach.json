@@ -2,10 +2,11 @@
  "id": "hillsboro-beach",
  "name": "Hillsboro Beach",
  "county": "Broward",
- "meta": "Hillsboro Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $539.743, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Okyanus ile Intracoastal arasında yaklaşık 5 km uzanan, kondominyum ve okyanus cepheli malikânelerden oluşan sakin bir sahil kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $539.743.",
+ "meta": "Hillsboro Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $540 bin, ortalama kira $5.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus ile Intracoastal arasında yaklaşık 5 km uzanan, kondominyum ve okyanus cepheli malikânelerden oluşan sakin bir sahil kasabası. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $540 bin (Redfin).",
  "sales": {
   "median": 539743,
+  "median_approx": false,
   "median_chg": "yıllık +%9,7",
   "ppsf": 589,
   "src_short": "Redfin",
@@ -19,20 +20,24 @@
     "$589 / ft² ≈ $6.340 / m² <small>(yıllık +%51,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "134 gün <small>(bir yıl önce 225 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "15 <small>(yıllık −%15,4)</small>"
+    "Satılan konut (Eylül 2026)",
+    "15 <small>(bir yıl önce 18)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/7892/FL/Hillsboro-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hillsboro Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/7892/FL/Hillsboro-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hillsboro Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%9,7); fit kare fiyatı da yükseldi (+%51,2).",
+   "Medyan satış süresi bir yılda 225 günden 134 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %5,3 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
   "avg": 5000,
@@ -40,15 +45,23 @@
   "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "1 yatak odalı",
     "$3.000"
    ],
    [
     "2 yatak odalı",
-    "$4.600"
+    "$4.911"
    ],
    [
     "3 yatak odalı",
+    "$10.000"
+   ],
+   [
+    "4+ yatak odalı",
     "$10.000"
    ],
    [
@@ -56,14 +69,14 @@
     "$5.000"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/hillsboro-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Hillsboro Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/hillsboro-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Hillsboro Beach</a>, 26 Ekim 2026 güncellemesi (25 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 25 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (25 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
   "mills": 17.7215,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Hillsboro Beach, Pompano Beach ile Deerfield Beach arasında, A1A boyunca uzanan dar bir bariyer adası şeridindeki küçük bir kasaba. Ticari alan neredeyse yoktur; kasaba tamamen konut amaçlıdır.",
@@ -120,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Deerfield Beach (yaklaşık 7 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Deerfield Beach (kuş uçuşu yaklaşık 5 km)."
   ],
   [
    "Günlük hayat",
@@ -133,14 +146,13 @@
  ],
  "pros": [
   "Okyanus ve Intracoastal cepheli sakin yaşam",
-  "Görece düşük vergi oranı (17,72 mill)",
   "Ticari yoğunluk yok",
-  "Satış süresinde belirgin kısalma"
+  "Bölgedeki düşük toplam vergi oranlarından biri (17,72 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,3 altında kapanıyor"
  ],
  "cons": [
   "Bariyer adası: sel ve fırtına riski",
   "Eski kondominyumlarda özel aidat riski",
-  "Satış sayısı az; fiyat verisi oynak",
   "Günlük ihtiyaçlar için ada dışına çıkmak gerekir"
  ],
  "faq": [
@@ -150,24 +162,24 @@
   ],
   [
    "Hillsboro Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $5.000; 2 yatak odalı $4.600 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $5.000; 1 yatak odalı $3.000, 2 yatak odalı $4.911 civarında."
   ],
   [
    "Hillsboro Beach bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 17,7215 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,77. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 17,7215 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,77 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Hillsboro Beach Housing Market (Ekim 2026)",
+   "Redfin: Hillsboro Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/7892/FL/Hillsboro-Beach/housing-market"
   ],
   [
-   "Zillow: Hillsboro Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Hillsboro Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/hillsboro-beach-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -175,5 +187,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Hillsboro Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Hillsboro Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Okyanus ile Intracoastal arasında yaklaşık 5 km uzanan, kondominyum ve okyanus cepheli malikânelerden oluşan sakin bir sahil kasabası."
 }

@@ -2,69 +2,81 @@
  "id": "juno-beach",
  "name": "Juno Beach",
  "county": "Palm Beach",
- "meta": "Juno Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $699.667, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Okyanus iskelesi, deniz kaplumbağası merkezi ve kıyı kondominyumlarıyla küçük bir sahil kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $699.667.",
+ "meta": "Juno Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $700 bin, ortalama kira $8.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus iskelesi, deniz kaplumbağası merkezi ve kıyı kondominyumlarıyla küçük bir sahil kasabası. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $700 bin (Redfin).",
  "sales": {
   "median": 699667,
-  "median_chg": "yıllık +%1,0",
+  "median_approx": false,
+  "median_chg": "yıllık +%1",
   "ppsf": 500,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$699.667 <small>(yıllık +%1,0)</small>"
+    "$699.667 <small>(yıllık +%1)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$500 / ft² ≈ $5.382 / m² <small>(yıllık +%87,5)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "111 gün <small>(bir yıl önce 114 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "17 <small>(yıllık −%4,1)</small>"
+    "Satılan konut (Eylül 2026)",
+    "17 <small>(bir yıl önce 18)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,5"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/9120/FL/Juno-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Juno Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/9120/FL/Juno-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Juno Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%1); fit kare fiyatı da yükseldi (+%87,5).",
+   "Medyan satış süresi 111 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %5,5 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 7000,
-  "chg": "yıllık +$1.200",
+  "avg": 8000,
+  "chg": "yıllık +$2.500",
   "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "1 yatak odalı",
-    "$2.600"
+    "$3.500"
    ],
    [
     "2 yatak odalı",
-    "$5.817"
+    "$5.478"
    ],
    [
     "3 yatak odalı",
-    "$9.956"
+    "$9.800"
+   ],
+   [
+    "4+ yatak odalı",
+    "$26.000"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$7.000"
+    "$8.000"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/juno-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Juno Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/juno-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Juno Beach</a>, 26 Ekim 2026 güncellemesi (50 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 53 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
-  "mills": 17.6274,
-  "mills_hi": 18.1765,
-  "src_short": "PAPA 2025"
+  "mills": 18.1569,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Juno Beach, Jupiter ile North Palm Beach arasında, A1A boyunca uzanan küçük bir kıyı kasabası. Kumsalları deniz kaplumbağalarının en yoğun yuvaladığı alanlardandır.",
@@ -91,7 +103,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Juno Beach için 2025 toplam vergi oranı 17,6274–18,1765 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,76–1,82. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.627–$18.176. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı, ilçe itfaiye vergisi ve Jupiter Inlet District oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Juno Beach için 2025 toplam vergi oranı 18,1569 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,82. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.157. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -121,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 18 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (kuş uçuşu yaklaşık 14 km)."
   ],
   [
    "Günlük hayat",
@@ -134,41 +146,44 @@
  ],
  "pros": [
   "Okyanus kıyısında yaşam",
-  "Palm Beach County'nin en düşük belediye oranlarından biri",
-  "Fit kare fiyatında güçlü artış",
-  "Palm Beach Gardens'a yakınlık"
+  "Palm Beach Gardens'a yakınlık",
+  "Bölgedeki düşük toplam vergi oranlarından biri (18,16 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,5 altında kapanıyor"
  ],
  "cons": [
   "Az sayıda satış; rakamlar oynak",
-  "Uzun satış süresi (111 gün)",
   "Kondominyumlarda SIRS ve özel aidat riski",
   "Kıyıda yüksek sigorta maliyeti"
  ],
  "faq": [
   [
    "Juno Beach bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $699.667 (yıllık +%1,0), fit kare fiyatı $500."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $699.667 (yıllık +%1), fit kare fiyatı $500."
   ],
   [
    "Juno Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $7.000; 2 yatak odalı $5.817 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $8.000; 1 yatak odalı $3.500, 2 yatak odalı $5.478 civarında."
   ],
   [
    "Juno Beach bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 17,6274–18,1765 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,76–1,82. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 18,1569 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,82 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Juno Beach Housing Market (Ekim 2026)",
+   "Redfin: Juno Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/9120/FL/Juno-Beach/housing-market"
   ],
   [
-   "Zillow: Juno Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Juno Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/juno-beach-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -180,5 +195,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Juno Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Juno Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Okyanus iskelesi, deniz kaplumbağası merkezi ve kıyı kondominyumlarıyla küçük bir sahil kasabası."
 }

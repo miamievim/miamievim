@@ -2,12 +2,13 @@
  "id": "palm-beach-gardens",
  "name": "Palm Beach Gardens",
  "county": "Palm Beach",
- "meta": "Palm Beach Gardens mahalle raporu, Ekim 2026: medyan satış fiyatı $729.653, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Golf sahalarıyla çevrili planlı siteleri, büyük alışveriş merkezleri ve PGA kimliğiyle kuzey Palm Beach'in en büyük şehirlerinden biri. Ekim 2026 itibarıyla medyan satış fiyatı $729.653.",
+ "meta": "Palm Beach Gardens mahalle raporu, Ekim 2026: medyan satış fiyatı $730 bin, ortalama kira $4.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Golf sahalarıyla çevrili planlı siteleri, büyük alışveriş merkezleri ve PGA kimliğiyle kuzey Palm Beach'in en büyük şehirlerinden biri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $730 bin (Redfin).",
  "sales": {
   "median": 729653,
+  "median_approx": false,
   "median_chg": "yıllık +%4,2",
-  "ppsf": 365,
+  "ppsf": 364,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,27 +17,31 @@
    ],
    [
     "Fit kare fiyatı",
-    "$365 / ft² ≈ $3.929 / m² <small>(yıllık +%2,0)</small>"
+    "$364 / ft² ≈ $3.918 / m² <small>(yıllık +%1,8)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "85 gün <small>(bir yıl önce 96 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "389 <small>(yıllık +%13,1)</small>"
+    "Satılan konut (Eylül 2026)",
+    "389 <small>(bir yıl önce 344)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,3"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/14007/FL/Palm-Beach-Gardens/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Palm Beach Gardens Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/14007/FL/Palm-Beach-Gardens/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Palm Beach Gardens Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%4,2); fit kare fiyatı da yükseldi (+%1,8).",
+   "Medyan satış süresi bir yılda 96 günden 85 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,7 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
   "avg": 4000,
-  "chg": "yıllık −$500",
+  "chg": "yıllık −$695",
   "src_short": "Zillow",
   "rows": [
    [
@@ -45,28 +50,34 @@
    ],
    [
     "1 yatak odalı",
-    "$2.250"
+    "$2.189"
    ],
    [
     "2 yatak odalı",
-    "$3.000"
+    "$3.150"
    ],
    [
     "3 yatak odalı",
-    "$4.200"
+    "$4.500"
+   ],
+   [
+    "4+ yatak odalı",
+    "$10.250"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$4.000"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/palm-beach-gardens-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Palm Beach Gardens</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/palm-beach-gardens-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Palm Beach Gardens</a>, 26 Ekim 2026 güncellemesi (380 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
-  "mills": 17.3135,
-  "mills_hi": 17.8626,
-  "src_short": "PAPA 2025"
+  "mills": 17.8608,
+  "src_short": "Palm Beach PA, 2025",
+  "mills_hi": 17.933
  },
  "character": [
   "Palm Beach Gardens, 1959'da planlı bir bahçe şehri olarak kurulan ve bugün PGA of America'nın merkeziyle golf dünyasının önemli adreslerinden biri. Şehrin büyük kısmı golf sahaları etrafında kurulmuş kapılı topluluklardan oluşur.",
@@ -93,7 +104,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Palm Beach Gardens için 2025 toplam vergi oranı 17,3135–17,8626 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,73–1,79. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.314–$17.863. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Palm Beach Gardens için 2025 toplam vergi oranı 17,8608–17,9330 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,79–1,79. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.861–17.933. Jupiter Inlet District sınırları içindeki kesimde oran 17,9330 mill, şehrin geri kalanında 17,8608 mill. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -123,7 +134,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 12 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (kuş uçuşu yaklaşık 10 km)."
   ],
   [
    "Günlük hayat",
@@ -136,41 +147,44 @@
  ],
  "pros": [
   "Golf ve kulüp yaşamı için geniş seçenek",
-  "Satış sayısında yıllık artış (+%13,1)",
   "Alışveriş, sağlık ve iş merkezlerine yakınlık",
-  "Plajlara (Juno Beach) kısa mesafe"
+  "Plajlara (Juno Beach) kısa mesafe",
+  "Bölgedeki düşük toplam vergi oranlarından biri (17,86 mill)"
  ],
  "cons": [
   "Kulüp üyelikleri ve HOA aidatları yüksek olabilir",
-  "Uzayan satış süresi (85 gün)",
   "Toplu taşıma sınırlı; araç zorunlu",
   "PGA Boulevard'da yoğun trafik"
  ],
  "faq": [
   [
    "Palm Beach Gardens bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $729.653 (yıllık +%4,2), fit kare fiyatı $365."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $729.653 (yıllık +%4,2), fit kare fiyatı $364."
   ],
   [
    "Palm Beach Gardens bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $4.000; 2 yatak odalı $3.000 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $4.000; 1 yatak odalı $2.189, 2 yatak odalı $3.150 civarında."
   ],
   [
    "Palm Beach Gardens bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 17,3135–17,8626 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,73–1,79. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran konuma göre 17,8608–17,9330 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,79–1,79 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Palm Beach Gardens Housing Market (Ekim 2026)",
+   "Redfin: Palm Beach Gardens Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/14007/FL/Palm-Beach-Gardens/housing-market"
   ],
   [
-   "Zillow: Palm Beach Gardens Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Palm Beach Gardens Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/palm-beach-gardens-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -178,5 +192,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Palm Beach Gardens raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Palm Beach Gardens raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Golf sahalarıyla çevrili planlı siteleri, büyük alışveriş merkezleri ve PGA kimliğiyle kuzey Palm Beach'in en büyük şehirlerinden biri."
 }

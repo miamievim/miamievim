@@ -2,10 +2,11 @@
  "id": "hypoluxo",
  "name": "Hypoluxo",
  "county": "Palm Beach",
- "meta": "Hypoluxo mahalle raporu, Ekim 2026: medyan satış fiyatı $307.354, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Lantana ile Boynton Beach arasında, Intracoastal kıyısında kondominyum ve müstakil evlerden oluşan küçük bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $307.354.",
+ "meta": "Hypoluxo mahalle raporu, Ekim 2026: medyan satış fiyatı $307 bin, ortalama kira $2.350, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Lantana ile Boynton Beach arasında, Intracoastal kıyısında kondominyum ve müstakil evlerden oluşan küçük bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $307 bin (Redfin).",
  "sales": {
   "median": 307354,
+  "median_approx": false,
   "median_chg": "yıllık +%7,1",
   "ppsf": 232,
   "src_short": "Redfin",
@@ -19,52 +20,63 @@
     "$232 / ft² ≈ $2.497 / m² <small>(yıllık −%2,1)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "98 gün <small>(bir yıl önce 110 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "18 <small>(yıllık +%40,6)</small>"
+    "Satılan konut (Eylül 2026)",
+    "18 <small>(bir yıl önce 13)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,4"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/8476/FL/Hypoluxo/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hypoluxo Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/8476/FL/Hypoluxo/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hypoluxo Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%7,1); fit kare fiyatı ise ters yönde hareket etti (−%2,1); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 110 günden 98 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,6 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 2500,
-  "chg": "yıllık değişim yok",
+  "avg": 2350,
+  "chg": "yıllık −$150",
   "src_short": "Zillow",
   "rows": [
+   [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
    [
     "1 yatak odalı",
     "$1.900"
    ],
    [
     "2 yatak odalı",
-    "$2.350"
+    "$2.333"
    ],
    [
     "3 yatak odalı",
     "$2.995"
    ],
    [
+    "4+ yatak odalı",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$2.500"
+    "$2.350"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/hypoluxo-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Hypoluxo</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/hypoluxo-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Hypoluxo</a>, 26 Ekim 2026 güncellemesi (29 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 29 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (29 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
-  "mills": 15.4598,
-  "mills_hi": 16.0089,
-  "src_short": "PAPA 2025"
+  "mills": 16.0071,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Hypoluxo, Palm Beach County'nin en eski yerleşim yerlerinden biri; 1870'lerde Intracoastal kıyısında kurulmuştur. Bugün kasaba Intracoastal ve US-1 arasındaki dar bir alanı kaplar.",
@@ -85,13 +97,13 @@
   ],
   [
    "Gizli köşe: Hypoluxo Island",
-   "Intracoastal içindeki sakin konut adası."
+   "Intracoastal'ın karşı kıyısındaki sakin konut adası."
   ]
  ],
  "costs": [
   [
    "Emlak vergisi",
-   "Hypoluxo için 2025 toplam vergi oranı 15,4598–16,0089 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,55–1,60. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $15.460–$16.009. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Hypoluxo için 2025 toplam vergi oranı 16,0071 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,60. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.007. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -121,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Boynton Beach (yaklaşık 6 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Boynton Beach (kuş uçuşu yaklaşık 2 km)."
   ],
   [
    "Günlük hayat",
@@ -134,12 +146,10 @@
  ],
  "pros": [
   "Görece uygun giriş fiyatları",
-  "Düşük belediye oranı",
   "Intracoastal kıyısında yaşam",
-  "Fiyatlarda yıllık artış (+%7,1)"
+  "Bölgedeki düşük toplam vergi oranlarından biri (16,01 mill)"
  ],
  "cons": [
-  "Uzun satış süresi (98 gün)",
   "Kondominyumlarda SIRS ve özel aidat riski",
   "Kanal ve lagün kenarında sel riski",
   "Kiralık stok sınırlı"
@@ -151,24 +161,28 @@
   ],
   [
    "Hypoluxo bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.500; 2 yatak odalı $2.350 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.350; 1 yatak odalı $1.900, 2 yatak odalı $2.333 civarında."
   ],
   [
    "Hypoluxo bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 15,4598–16,0089 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,55–1,60. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 16,0071 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,60 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Hypoluxo Housing Market (Ekim 2026)",
+   "Redfin: Hypoluxo Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/8476/FL/Hypoluxo/housing-market"
   ],
   [
-   "Zillow: Hypoluxo Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Hypoluxo Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/hypoluxo-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -176,5 +190,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Hypoluxo raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Hypoluxo raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Lantana ile Boynton Beach arasında, Intracoastal kıyısında kondominyum ve müstakil evlerden oluşan küçük bir kasaba."
 }

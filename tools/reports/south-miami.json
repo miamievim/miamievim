@@ -1,0 +1,199 @@
+{
+ "id": "south-miami",
+ "name": "South Miami",
+ "county": "Miami-Dade",
+ "meta": "South Miami mahalle raporu, Ekim 2026: medyan satış fiyatı $925 bin, ortalama kira $2.911, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Sunset Drive çevresindeki yürünebilir merkezi, Metrorail istasyonu ve ağaçlı konut sokaklarıyla Coral Gables'ın güney komşusu. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $925 bin (Redfin).",
+ "lead": "Sunset Drive çevresindeki yürünebilir merkezi, Metrorail istasyonu ve ağaçlı konut sokaklarıyla Coral Gables'ın güney komşusu.",
+ "sales": {
+  "median": 924560,
+  "median_approx": false,
+  "median_chg": "yıllık +%8,1",
+  "ppsf": 632,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$924.560 <small>(yıllık +%8,1)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$632 / ft² ≈ $6.803 / m² <small>(yıllık +%9,2)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "69 gün <small>(bir yıl önce 57 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "29 <small>(bir yıl önce 27)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%96,2"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/17298/FL/South-Miami/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, South Miami Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%8,1); fit kare fiyatı da yükseldi (+%9,2).",
+   "Medyan satış süresi bir yılda 57 günden 69 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %3,8 altında kapanıyor."
+  ]
+ },
+ "rent": {
+  "avg": 2911,
+  "chg": "yıllık −$234",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.550"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.000"
+   ],
+   [
+    "2 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "3 yatak odalı",
+    "$4.550"
+   ],
+   [
+    "4+ yatak odalı",
+    "$12.983"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.911"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/south-miami-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, South Miami</a>, 26 Ekim 2026 güncellemesi (62 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
+ },
+ "tax": {
+  "mills": 18.9727,
+  "src_short": "Miami-Dade PA, 2025"
+ },
+ "character": [
+  "South Miami, Coral Gables ile Pinecrest arasında, 1920'lerde belediye olan küçük bir şehir. Sunset Drive ve Red Road kesişimi çevresindeki şehir merkezi restoranlar, kafeler ve dükkânlarla yürünebilir bir yapıdadır.",
+  "Konut stoku ağırlıkla müstakil evlerden oluşur; merkeze yakın kesimlerde townhouse ve kondominyumlar da bulunur. University of Miami'nin Coral Gables kampüsü şehrin hemen kuzeydoğusundadır.",
+  "Metrorail South Miami istasyonu şehri Brickell ve Downtown'a raylı sistemle bağlar; US-1 boyunca uzanan The Underline yürüyüş ve bisiklet yolu da bu hattı izler."
+ ],
+ "places": [
+  [
+   "Sunset Drive",
+   "Restoran, kafe ve butiklerin sıralandığı yürünebilir şehir merkezi."
+  ],
+  [
+   "The Shops at Sunset Place",
+   "Merkezdeki açık hava alışveriş ve eğlence alanı."
+  ],
+  [
+   "University of Miami",
+   "Kuzeydoğuda, kampüs etkinlikleri ve Lowe Art Museum."
+  ],
+  [
+   "Metrorail South Miami istasyonu",
+   "Brickell ve Downtown'a doğrudan raylı bağlantı."
+  ],
+  [
+   "Gizli köşe: Fuchs Park",
+   "Ağaçlar arasında küçük ve sakin bir mahalle parkı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "South Miami için 2025 toplam vergi oranı 18,9727 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,90. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.973. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "İç kesimde yer alan şehirde risk adres bazında değişir; alçak kesimlerde sel bölgesini mutlaka kontrol edin. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 15 km · 20–25 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 14 km · 20 dakika; Metrorail ile de ulaşılabilir"
+  ],
+  [
+   "Coral Gables (Miracle Mile)",
+   "yaklaşık 5 km · 10 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrorail South Miami istasyonu ve Metrobus hatları."
+  ],
+  [
+   "Günlük hayat",
+   "Şehir merkezi yürünebilir; konut sokaklarında araç gerekir."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Bölgedeki diğer yeni projeleri ve fiyat listelerini görüşmede birlikte değerlendirebiliriz."
+ ],
+ "pros": [
+  "Yürünebilir şehir merkezi ve Metrorail istasyonu",
+  "University of Miami ve Coral Gables'a yakınlık",
+  "Ağaçlı konut sokakları"
+ ],
+ "cons": [
+  "Kiralık stok sınırlı",
+  "Eski evlerde yenileme ve sigorta maliyeti"
+ ],
+ "faq": [
+  [
+   "South Miami bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $924.560 (yıllık +%8,1), fit kare fiyatı $632."
+  ],
+  [
+   "South Miami bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.911; 1 yatak odalı $2.000, 2 yatak odalı $3.000 civarında."
+  ],
+  [
+   "South Miami bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 18,9727 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,90 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "South Miami ile Pinecrest arasındaki fark nedir?",
+   "South Miami daha kompakt ve yürünebilir bir merkeze ve Metrorail istasyonuna sahiptir. Pinecrest daha geniş parselli, sakin ve araç odaklı bir köydür."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: South Miami Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/city/17298/FL/South-Miami/housing-market"
+  ],
+  [
+   "Zillow: South Miami Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/south-miami-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, South Miami raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

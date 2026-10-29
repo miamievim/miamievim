@@ -2,12 +2,13 @@
  "id": "key-biscayne",
  "name": "Key Biscayne",
  "county": "Miami-Dade",
- "meta": "Key Biscayne mahalle raporu, Ekim 2026: medyan satış fiyatı $1,52M, ortalama kira $8.500, emlak vergisi, sel bölgesi, Silver Sands projesi ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Brickell'e köprüyle bağlı, iki büyük park arasında bir ada köyü. Ekim 2026 itibarıyla medyan satış fiyatı $1,52 milyon; bu raporlardaki en düşük vergi oranı burada.",
+ "meta": "Key Biscayne mahalle raporu, Ekim 2026: medyan satış fiyatı $1,5 milyon, ortalama kira $9.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Brickell'e köprüyle bağlı, iki büyük park arasında bir ada köyü. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,5 milyon (Redfin).",
  "sales": {
   "median": 1520276,
+  "median_approx": false,
   "median_chg": "yıllık −%10,3",
-  "ppsf": 958,
+  "ppsf": 971,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,31 +17,37 @@
    ],
    [
     "Fit kare fiyatı",
-    "$958 / ft² ≈ $10.312 / m² <small>(yıllık −%2,6)</small>"
+    "$971 / ft² ≈ $10.452 / m² <small>(yıllık −%1,3)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "92 gün <small>(bir yıl önce 92 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "68 <small>(yıllık +%21,5)</small>"
+    "68 <small>(bir yıl önce 56)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,0"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/9243/FL/Key-Biscayne/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Key Biscayne Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/9243/FL/Key-Biscayne/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Key Biscayne Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Medyan fiyat %10,3 gerilerken satılan konut sayısının %21,5 artması, son dönemde daha fazla sayıda ve görece daha uygun fiyatlı dairenin el değiştirdiğini gösteriyor. Fit kare fiyatı neredeyse yatay (−%2,6); adadaki birim değerler korunuyor."
+   "Medyan satış fiyatı bir yılda geriledi (−%10,3); fit kare fiyatı da geriledi (−%1,3).",
+   "Medyan satış süresi 92 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %5,0 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
-  "avg": 8500,
-  "chg": "yıllık +$600",
+  "avg": 9500,
+  "chg": "yıllık +$1.600",
   "src_short": "Zillow",
   "rows": [
+   [
+    "Stüdyo",
+    "$10.584"
+   ],
    [
     "1 yatak odalı",
     "$3.300"
@@ -51,21 +58,25 @@
    ],
    [
     "3 yatak odalı",
-    "$12.514"
+    "$13.500"
+   ],
+   [
+    "4+ yatak odalı",
+    "$72.500"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$8.500"
+    "$9.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/key-biscayne-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Key Biscayne</a>, 16 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/key-biscayne-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Key Biscayne</a>, 26 Ekim 2026 güncellemesi (206 aktif kiralık ilan).",
   "notes": [
-   "Stüdyo verisi çok az sayıda ilana dayandığı için tabloya alınmadı. Adada kiralık stokun önemli kısmı okyanus manzaralı büyük daireler ve müstakil evlerden oluştuğu için ortalama yüksek görünüyor."
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 15.5108,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Key Biscayne, Rickenbacker Causeway ile ana karaya bağlanan bir bariyer adası ve ayrı bir belediye (Village of Key Biscayne). Adanın kuzeyini Crandon Park, güneyini Bill Baggs Cape Florida State Park kaplar; yerleşim bu iki büyük parkın arasındaki bölgede yer alır.",
@@ -145,10 +156,10 @@
   "Adada yeni yapı alanı çok sınırlı olduğu için büyük ölçekli proje sayısı az; arz çoğunlukla mevcut binaların el değiştirmesiyle sağlanıyor."
  ],
  "pros": [
-  "Bu raporlardaki en düşük toplam vergi oranı (15,51 mill)",
   "İki büyük park ve doğal kumsallar",
   "Brickell'e yakın ama ondan ayrı, sakin ada yaşamı",
-  "Satış sayısında yıllık %21,5 artış"
+  "Bölgedeki düşük toplam vergi oranlarından biri (15,51 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,0 altında kapanıyor"
  ],
  "cons": [
   "Adaya tek giriş yolu (Rickenbacker Causeway); trafik ve fırtına tahliyesi",
@@ -158,16 +169,16 @@
  ],
  "faq": [
   [
-   "Key Biscayne'de ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $1.520.276 (yıllık −%10,3), fit kare fiyatı $958 (yıllık −%2,6)."
+   "Key Biscayne bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $1.520.276 (yıllık −%10,3), fit kare fiyatı $971."
   ],
   [
-   "Key Biscayne'de kiralar ne kadar?",
-   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $8.500; 1 yatak odalı $3.300, 2 yatak odalı $7.500 civarında."
+   "Key Biscayne bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $9.500; 1 yatak odalı $3.300, 2 yatak odalı $7.500 civarında."
   ],
   [
-   "Key Biscayne'de emlak vergisi ne kadar?",
-   "2025 için toplam oran 15,5108 mill; yani vergi değerinin yaklaşık %1,55'i. Bu, bu raporlardaki en düşük orandır. Bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "Key Biscayne bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 15,5108 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,55 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Key Biscayne'de yeni proje var mı?",
@@ -176,15 +187,15 @@
  ],
  "sources": [
   [
-   "Redfin: Key Biscayne Housing Market (Ekim 2026)",
+   "Redfin: Key Biscayne Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/9243/FL/Key-Biscayne/housing-market"
   ],
   [
-   "Zillow: Key Biscayne Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Key Biscayne Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/key-biscayne-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -196,5 +207,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Key Biscayne raporunu okudum. Bu mahalle hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Key Biscayne raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
+ "lead": "Brickell'e köprüyle bağlı, iki büyük park arasında bir ada köyü."
 }

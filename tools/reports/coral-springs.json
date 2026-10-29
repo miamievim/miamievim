@@ -2,10 +2,11 @@
  "id": "coral-springs",
  "name": "Coral Springs",
  "county": "Broward",
- "meta": "Coral Springs mahalle raporu, Ekim 2026: medyan satış fiyatı $634.698, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "1960'larda sıfırdan planlanan, parkları, spor tesisleri ve bakımlı mahalleleriyle bilinen bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $634.698; evler ortalama 60 günde satılıyor.",
+ "meta": "Coral Springs mahalle raporu, Ekim 2026: medyan satış fiyatı $635 bin, ortalama kira $2.300, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "1960'larda sıfırdan planlanan, parkları, spor tesisleri ve bakımlı mahalleleriyle bilinen bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $635 bin (Redfin).",
  "sales": {
   "median": 634698,
+  "median_approx": false,
   "median_chg": "yıllık +%4,5",
   "ppsf": 294,
   "src_short": "Redfin",
@@ -19,20 +20,24 @@
     "$294 / ft² ≈ $3.165 / m² <small>(yıllık +%2,8)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "60 gün <small>(bir yıl önce 86 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "350 <small>(yıllık −%12,4)</small>"
+    "Satılan konut (Eylül 2026)",
+    "350 <small>(bir yıl önce 400)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,6"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/3744/FL/Coral-Springs/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coral Springs Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/3744/FL/Coral-Springs/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Coral Springs Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%4,5); fit kare fiyatı da yükseldi (+%2,8).",
+   "Medyan satış süresi bir yılda 86 günden 60 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,4 altında kapanıyor."
+  ]
  },
  "rent": {
   "avg": 2300,
@@ -49,23 +54,27 @@
    ],
    [
     "2 yatak odalı",
-    "$2.069"
+    "$2.050"
    ],
    [
     "3 yatak odalı",
     "$2.800"
    ],
    [
+    "4+ yatak odalı",
+    "$5.467"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$2.300"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/coral-springs-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Coral Springs</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/coral-springs-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Coral Springs</a>, 26 Ekim 2026 güncellemesi (556 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 20.2856,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Coral Springs, 1963'te bir geliştirici tarafından planlı şehir olarak kurulan ve sıkı imar kurallarıyla görünümünü koruyan bir banliyö. Tabela ve cephe düzenlemeleri, geniş yeşil alanlar ve düzenli sokaklar şehrin karakterini belirler.",
@@ -122,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Pompano Beach (yaklaşık 17 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Pompano Beach (kuş uçuşu yaklaşık 14 km)."
   ],
   [
    "Günlük hayat",
@@ -135,12 +144,10 @@
  ],
  "pros": [
   "Bakımlı, planlı mahalleler ve çok sayıda park",
-  "Hızlı satışlar (60 gün)",
-  "Dengeli fiyat artışı",
-  "Sawgrass Expressway bağlantısı"
+  "Sawgrass Expressway bağlantısı",
+  "Likit piyasa: medyan satış süresi 60 gün"
  ],
  "cons": [
-  "Vergi oranı 20 mill'in üzerinde",
   "Plaja ve Miami'ye uzak",
   "Sitelerde HOA aidatları",
   "Toplu taşıma sınırlı"
@@ -152,24 +159,24 @@
   ],
   [
    "Coral Springs bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.300; 2 yatak odalı $2.069 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.300; 1 yatak odalı $1.700, 2 yatak odalı $2.050 civarında."
   ],
   [
    "Coral Springs bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,2856 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,03. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,2856 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,03 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Coral Springs Housing Market (Ekim 2026)",
+   "Redfin: Coral Springs Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/3744/FL/Coral-Springs/housing-market"
   ],
   [
-   "Zillow: Coral Springs Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Coral Springs Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/coral-springs-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -177,5 +184,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Coral Springs raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Coral Springs raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "1960'larda sıfırdan planlanan, parkları, spor tesisleri ve bakımlı mahalleleriyle bilinen bir şehir."
 }

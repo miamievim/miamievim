@@ -2,10 +2,11 @@
  "id": "plantation",
  "name": "Plantation",
  "county": "Broward",
- "meta": "Plantation mahalle raporu, Ekim 2026: medyan satış fiyatı $504.760, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Ağaçlı sokakları, kanalları ve olgun mahalleleriyle Fort Lauderdale'in batısında sakin bir banliyö. Ekim 2026 itibarıyla medyan satış fiyatı $504.760; evler ortalama 66 günde satılıyor.",
+ "meta": "Plantation mahalle raporu, Ekim 2026: medyan satış fiyatı $505 bin, ortalama kira $2.499, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Ağaçlı sokakları, kanalları ve olgun mahalleleriyle Fort Lauderdale'in batısında sakin bir banliyö. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $505 bin (Redfin).",
  "sales": {
   "median": 504760,
+  "median_approx": false,
   "median_chg": "yıllık +%1,1",
   "ppsf": 293,
   "src_short": "Redfin",
@@ -19,57 +20,67 @@
     "$293 / ft² ≈ $3.154 / m² <small>(yıllık −%0,68)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "66 gün <small>(bir yıl önce 85 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "300 <small>(yıllık −%0,13)</small>"
+    "Satılan konut (Eylül 2026)",
+    "300 <small>(bir yıl önce 300)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,6"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/14883/FL/Plantation/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Plantation Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/14883/FL/Plantation/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Plantation Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%1,1).",
+   "Medyan satış süresi bir yılda 85 günden 66 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,4 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2550,
-  "chg": "yıllık +$50",
+  "avg": 2499,
+  "chg": "yıllık −$1",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.794"
-   ],
-   [
-    "1 yatak odalı",
     "$1.800"
    ],
    [
+    "1 yatak odalı",
+    "$1.795"
+   ],
+   [
     "2 yatak odalı",
-    "$2.350"
+    "$2.322"
    ],
    [
     "3 yatak odalı",
-    "$3.250"
+    "$3.277"
+   ],
+   [
+    "4+ yatak odalı",
+    "$12.657"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.550"
+    "$2.499"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/plantation-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Plantation</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/plantation-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Plantation</a>, 26 Ekim 2026 güncellemesi (324 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 20.0675,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Plantation, 1950'lerde planlanmış, geniş arsalı müstakil evleri, gölgeli sokakları ve kanal ağıyla bilinen olgun bir banliyö. Jacaranda gibi golf çevresindeki topluluklar ve Plantation Acres'ın büyük arsaları şehrin farklı yüzlerini oluşturur.",
-  "Westfield Broward alışveriş merkezi ve Broward Boulevard çevresindeki ofisler günlük ihtiyaçları karşılar. Fort Lauderdale şehir merkezine ve havalimanına 15–20 dakikalık mesafe, şehri hem aileler hem çalışanlar için pratik bir seçenek yapar."
+  "Westfield Broward alışveriş merkezi ve Broward Boulevard çevresindeki ofisler günlük ihtiyaçları karşılar. Fort Lauderdale şehir merkezine ve havalimanına 15–20 dakikalık mesafe, şehri günlük ulaşım açısından pratik bir konum yapar."
  ],
  "places": [
   [
@@ -122,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale (yaklaşık 8 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale (kuş uçuşu yaklaşık 6 km)."
   ],
   [
    "Günlük hayat",
@@ -136,11 +147,9 @@
  "pros": [
   "Olgun mahalleler, geniş arsalar ve yeşil doku",
   "Fort Lauderdale ve havalimanına yakınlık",
-  "Hızlı satışlar (66 gün)",
   "Dengeli fiyat hareketi"
  ],
  "cons": [
-  "Vergi oranı 20 mill'in üzerinde",
   "Eski evlerde çatı ve sigorta maliyeti",
   "Kanal kenarı evlerde sel bölgesi kontrolü",
   "Toplu taşıma sınırlı"
@@ -152,24 +161,24 @@
   ],
   [
    "Plantation bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.550; 2 yatak odalı $2.350 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.499; 1 yatak odalı $1.795, 2 yatak odalı $2.322 civarında."
   ],
   [
    "Plantation bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,0675 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,01. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,0675 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,01 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Plantation Housing Market (Ekim 2026)",
+   "Redfin: Plantation Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/14883/FL/Plantation/housing-market"
   ],
   [
-   "Zillow: Plantation Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Plantation Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/plantation-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -177,5 +186,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Plantation raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Plantation raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Ağaçlı sokakları, kanalları ve olgun mahalleleriyle Fort Lauderdale'in batısında sakin bir banliyö."
 }

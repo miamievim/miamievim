@@ -2,21 +2,23 @@
  "id": "manalapan",
  "name": "Manalapan",
  "county": "Palm Beach",
- "meta": "Manalapan mahalle raporu, Ekim 2026: kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Okyanustan Intracoastal'a uzanan büyük malikâneleriyle Palm Beach County'nin en seçkin küçük kasabalarından biri.",
+ "meta": "Manalapan mahalle raporu, Ekim 2026: emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanustan Intracoastal'a uzanan büyük malikâneleriyle Palm Beach County'nin en seçkin küçük kasabalarından biri. Satışlar çok seyrek olduğu için güncel medyan fiyat yayımlanmıyor.",
  "sales": {
   "median": null,
   "median_chg": "",
   "ppsf": null,
-  "src_short": "",
+  "src_short": "Redfin",
   "rows": [
    [
     "Satış verisi",
-    "Yılda yalnızca birkaç satış gerçekleştiği için kamuya açık güvenilir bir medyan yayımlanmıyor."
+    "Eylül 2026 itibarıyla 3 satış kaydı var; tekil satışların fiyat aralığı çok geniş olduğu için medyan anlamlı değil."
    ]
   ],
-  "src": "Redfin ve Zillow, Ekim 2026 erişimi.",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/10869/FL/Manalapan/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Manalapan Housing Market</a>, 28 Ekim 2026 erişimi.",
+  "notes": [
+   "Satışlar çok seyrek olduğu için fiyatlar mülke göre belirlenir. Bu tür küçük yerleşimlerde değerlendirmeyi son benzer satışlar (comparable sales) üzerinden, adres bazında yapmak gerekir."
+  ]
  },
  "rent": {
   "avg": null,
@@ -24,19 +26,18 @@
   "src_short": "Zillow",
   "rows": [
    [
-    "Kiralık ilan sayısı",
-    "4"
+    "Kira verisi",
+    "Zillow’da yalnızca 4 aktif kiralık ilan var; ortalama kira anlamlı değil."
    ]
   ],
-  "src": "Zillow Rental Market Trends, 17 Ekim 2026.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/manalapan-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Manalapan</a>, 26 Ekim 2026 güncellemesi.",
   "notes": [
-   "Bu bölgede kiralık ilan sayısı ortalama hesaplamak için yetersiz. Kiralık ev arıyorsanız komşu bölgelerin raporlarına bakın ya da size uygun ilanları doğrudan isteyin."
+   "Kiralık stok çok küçük olduğu için kira, mülkün kendisine göre belirlenir; yakın yerleşimlerdeki benzer ilanlar daha iyi bir referanstır."
   ]
  },
  "tax": {
-  "mills": 18.7179,
-  "mills_hi": 19.267,
-  "src_short": "PAPA 2025"
+  "mills": 15.258,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Manalapan, Lantana ile Boynton Inlet arasında, bariyer adası üzerinde yer alan çok küçük bir kasaba. Konut stoku büyük ölçüde okyanus kıyısından Intracoastal'a kadar uzanan büyük arsalı malikânelerden oluşur.",
@@ -63,7 +64,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Manalapan için 2025 toplam vergi oranı 18,7179–19,2670 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,87–1,93. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.718–$19.267. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Manalapan için 2025 toplam vergi oranı 15,2580 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,53. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $15.258. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -93,7 +94,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Boynton Beach (yaklaşık 7 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Boynton Beach (kuş uçuşu yaklaşık 3 km)."
   ],
   [
    "Günlük hayat",
@@ -106,9 +107,9 @@
  ],
  "pros": [
   "Okyanustan Intracoastal'a uzanan benzersiz arsalar",
-  "Düşük belediye oranı",
   "Sakin ve gizli konum",
-  "Palm Beach ve Delray Beach'e kısa mesafe"
+  "Palm Beach ve Delray Beach'e kısa mesafe",
+  "Bölgedeki düşük toplam vergi oranlarından biri (15,26 mill)"
  ],
  "cons": [
   "Satış ve kira verisi çok sınırlı",
@@ -119,16 +120,32 @@
  "faq": [
   [
    "Manalapan bölgesinde ev fiyatları ne kadar?",
-   "Bu bölgede satış çok nadir gerçekleşir ve kamuya açık güvenilir bir medyan fiyat yayımlanmaz; fiyatlar her mülkün özelliklerine göre belirlenir."
+   "Satışlar çok seyrek olduğu için Redfin güncel bir medyan fiyat yayımlamıyor; fiyatlar mülke göre belirlenir ve son benzer satışlarla değerlendirilir."
+  ],
+  [
+   "Manalapan bölgesinde kiralar ne kadar?",
+   "Kiralık ilan sayısı çok az olduğu için güvenilir bir ortalama yok; kira mülke göre belirlenir."
   ],
   [
    "Manalapan bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 18,7179–19,2670 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,87–1,93. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 15,2580 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,53 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Redfin: Manalapan Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/city/10869/FL/Manalapan/housing-market"
+  ],
+  [
+   "Zillow: Manalapan Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/manalapan-fl/"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -140,5 +157,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Manalapan raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Manalapan raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Okyanustan Intracoastal'a uzanan büyük malikâneleriyle Palm Beach County'nin en seçkin küçük kasabalarından biri."
 }

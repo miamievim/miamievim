@@ -2,10 +2,11 @@
  "id": "riviera-beach",
  "name": "Riviera Beach",
  "county": "Palm Beach",
- "meta": "Riviera Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $424.298, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Okyanus kıyısındaki Singer Island kondominyumları, marinalar ve Port of Palm Beach'le iki yüzlü bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $424.298.",
+ "meta": "Riviera Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $424 bin, ortalama kira $2.700, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okyanus kıyısındaki Singer Island kondominyumları, marinalar ve Port of Palm Beach'le iki yüzlü bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $424 bin (Redfin).",
  "sales": {
   "median": 424298,
+  "median_approx": false,
   "median_chg": "yıllık +%14,7",
   "ppsf": 291,
   "src_short": "Redfin",
@@ -19,33 +20,37 @@
     "$291 / ft² ≈ $3.132 / m² <small>(yıllık +%4,5)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "131 gün <small>(bir yıl önce 101 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "126 <small>(yıllık −%13,7)</small>"
+    "Satılan konut (Eylül 2026)",
+    "126 <small>(bir yıl önce 146)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,6"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/15696/FL/Riviera-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Riviera Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/15696/FL/Riviera-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Riviera Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%14,7); fit kare fiyatı da yükseldi (+%4,5).",
+   "Medyan satış süresi bir yılda 101 günden 131 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %5,4 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
   "avg": 2700,
-  "chg": "yıllık −$700",
+  "chg": "yıllık −$500",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.400"
+    "$1.250"
    ],
    [
     "1 yatak odalı",
-    "$1.540"
+    "$1.600"
    ],
    [
     "2 yatak odalı",
@@ -53,23 +58,23 @@
    ],
    [
     "3 yatak odalı",
-    "$2.500"
+    "$2.650"
+   ],
+   [
+    "4+ yatak odalı",
+    "$2.975"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$2.700"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/riviera-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Riviera Beach</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": [
-   "2 yatak odalı ortalamanın 3 yatak odalının üzerinde olması, kiralık stokta Singer Island'daki okyanus kıyısı kondominyumların ağırlığından kaynaklanır.",
-   "Genel ortalamanın oda bazındaki rakamların üzerinde olması, kiralık stokta 4 ve daha fazla yatak odalı büyük evlerin ağırlığından kaynaklanır."
-  ]
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/riviera-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Riviera Beach</a>, 26 Ekim 2026 güncellemesi (382 aktif kiralık ilan).",
+  "notes": []
  },
  "tax": {
-  "mills": 20.6098,
-  "mills_hi": 21.1589,
-  "src_short": "PAPA 2025"
+  "mills": 20.608,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Riviera Beach, West Palm Beach'in kuzeyinde, Lake Worth Inlet'in iki yakasına yayılan bir şehir. Bariyer adası Singer Island okyanus kıyısı kondominyumları ve otelleriyle şehrin en bilinen kesimidir.",
@@ -96,7 +101,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Riviera Beach için 2025 toplam vergi oranı 20,6098–21,1589 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,06–2,12. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.610–$21.159. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Riviera Beach için 2025 toplam vergi oranı 20,6080 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,06. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.608. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -126,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 3 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (kuş uçuşu yaklaşık 3 km)."
   ],
   [
    "Günlük hayat",
@@ -138,14 +143,12 @@
   "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Riviera Beach için kayıtlı büyük ölçekli proje bulunmuyor."
  ],
  "pros": [
-  "Fiyatlarda güçlü yıllık artış (+%14,7)",
   "Singer Island'da okyanus kıyısı yaşam",
   "Peanut Island ve dalış noktalarına yakınlık",
-  "West Palm Beach'e kısa mesafe"
+  "West Palm Beach'e kısa mesafe",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,4 altında kapanıyor"
  ],
  "cons": [
-  "Palm Beach County'nin yüksek belediye oranlarından biri",
-  "Uzun satış süresi (131 gün)",
   "Ada ve ana kara arasında büyük fiyat farkı",
   "Kıyıda yüksek sigorta maliyeti"
  ],
@@ -156,24 +159,28 @@
   ],
   [
    "Riviera Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.700; 2 yatak odalı $3.500 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.700; 1 yatak odalı $1.600, 2 yatak odalı $3.500 civarında."
   ],
   [
    "Riviera Beach bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 20,6098–21,1589 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,06–2,12. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,6080 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,06 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Riviera Beach Housing Market (Ekim 2026)",
+   "Redfin: Riviera Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/15696/FL/Riviera-Beach/housing-market"
   ],
   [
-   "Zillow: Riviera Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Riviera Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/riviera-beach-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -181,5 +188,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Riviera Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Riviera Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Okyanus kıyısındaki Singer Island kondominyumları, marinalar ve Port of Palm Beach'le iki yüzlü bir şehir."
 }

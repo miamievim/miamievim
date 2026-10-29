@@ -1,0 +1,198 @@
+{
+ "id": "hollywood-beach",
+ "name": "Hollywood Beach",
+ "county": "Broward",
+ "meta": "Hollywood Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $450 bin, ortalama kira $4.135, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Yaklaşık 4 km'lik Broadwalk'u, okyanus kıyısı restoranları ve \"Old Florida\" havasıyla Hollywood'un sahil kesimi. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $450 bin (Redfin).",
+ "lead": "Yaklaşık 4 km'lik Broadwalk'u, okyanus kıyısı restoranları ve \"Old Florida\" havasıyla Hollywood'un sahil kesimi.",
+ "sales": {
+  "median": 449874,
+  "median_approx": false,
+  "median_chg": "yıllık +%4,6",
+  "ppsf": 398,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$449.874 <small>(yıllık +%4,6)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$398 / ft² ≈ $4.284 / m² <small>(yıllık −%14,6)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "116 gün <small>(bir yıl önce 153 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "97 <small>(bir yıl önce 107)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,6"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/55930/FL/Hollywood/Hollywood-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Hollywood Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%4,6); fit kare fiyatı ise ters yönde hareket etti (−%14,6); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 153 günden 116 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %6,4 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 4135,
+  "chg": "yıllık +$135",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.700"
+   ],
+   [
+    "1 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "2 yatak odalı",
+    "$4.800"
+   ],
+   [
+    "3 yatak odalı",
+    "$7.500"
+   ],
+   [
+    "4+ yatak odalı",
+    "$11.873"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.135"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33019/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33019 posta kodu</a>, 26 Ekim 2026 güncellemesi (695 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33019 posta kodunun ortalamaları kullanıldı; posta kodu Hollywood Beach dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
+ },
+ "tax": {
+  "mills": 20.8985,
+  "src_short": "Broward PA, 2025",
+  "mills_hi": 22.0571
+ },
+ "character": [
+  "Hollywood Beach, Hollywood şehrinin okyanus ile Intracoastal Waterway arasındaki sahil kesimidir. Okyanus boyunca uzanan Broadwalk; restoranlar, kafeler ve bisiklet yoluyla bölgenin simgesidir.",
+  "Alçak katlı eski binalar ve küçük oteller, \"Old Florida\" havasını korur; Margaritaville Hollywood Beach Resort ve The Diplomat gibi büyük oteller ile okyanus cepheli kondominyumlar ise bölgenin daha yeni yüzüdür. Konut stoku ağırlıkla kondominyumlardan oluşur."
+ ],
+ "places": [
+  [
+   "Hollywood Beach Broadwalk",
+   "Okyanus boyunca restoran, kafe ve bisiklet yoluyla uzanan yürüyüş yolu."
+  ],
+  [
+   "Margaritaville Hollywood Beach Resort",
+   "Broadwalk üzerinde otel, restoranlar ve etkinlikler."
+  ],
+  [
+   "Charnow Park",
+   "Broadwalk'ta oyun alanı ve su parkı."
+  ],
+  [
+   "Anne Kolb Nature Center",
+   "Batıda mangrovlar arasında kano rotaları ve seyir kulesi."
+  ],
+  [
+   "Gizli köşe: Broadwalk'ta gün doğumu",
+   "Kalabalık başlamadan okyanus kıyısında sabah yürüyüşü."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Hollywood Beach için 2025 toplam vergi oranı 20,8985–22,0571 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,09–2,21. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.898–22.057. Oran, şehir içindeki vergi bölgesine (taxing district) göre bu aralıkta değişir; adresinizin oranını emlak değerleme ofisinin sitesinden kontrol edebilirsiniz. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bariyer adası üzerindeki bölgenin tamamına yakını yüksek riskli kıyı bölgelerindedir (AE/VE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.browardschools.com/\" target=\"_blank\" rel=\"noopener\">Broward County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 10 km · 15 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 35 km · 35 dakika"
+  ],
+  [
+   "Aventura",
+   "yaklaşık 12 km · 15 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Hollywood Trolley ve Broward County Transit; Tri-Rail Hollywood istasyonu ana karada."
+  ],
+  [
+   "Günlük hayat",
+   "Broadwalk çevresi yürünebilir; büyük alışveriş için ana karaya araçla."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Hollywood genelindeki yeni projeler (Icon Beach Waterfront Residences dahil) Hollywood raporunda listelenir."
+ ],
+ "pros": [
+  "Güney Florida'nın en yaşanabilir plaj şeritlerinden biri",
+  "Miami Beach'e göre daha uygun fiyatlar",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,4 altında kapanıyor"
+ ],
+ "cons": [
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Eski kondominyumlarda özel aidat riski",
+  "Sezon döneminde kalabalık ve otopark sıkıntısı",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (20,90 mill)"
+ ],
+ "faq": [
+  [
+   "Hollywood Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $449.874 (yıllık +%4,6), fit kare fiyatı $398."
+  ],
+  [
+   "Hollywood Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $4.135; 1 yatak odalı $3.000, 2 yatak odalı $4.800 civarında."
+  ],
+  [
+   "Hollywood Beach bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran konuma göre 20,8985–22,0571 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,09–2,21 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Hollywood Beach Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/neighborhood/55930/FL/Hollywood/Hollywood-Beach/housing-market"
+  ],
+  [
+   "Zillow: 33019 posta kodu Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33019/"
+  ],
+  [
+   "Broward County Property Appraiser: Millage Rates (2025)",
+   "https://bcpa.net/millage.asp"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Hollywood Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

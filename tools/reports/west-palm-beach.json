@@ -2,12 +2,13 @@
  "id": "west-palm-beach",
  "name": "West Palm Beach",
  "county": "Palm Beach",
- "meta": "West Palm Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $443.539, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Palm Beach County'nin idari ve ticari merkezi: Intracoastal kıyısında yükselen şehir merkezi, Brightline istasyonu ve tarihî mahalleler. Ekim 2026 itibarıyla medyan satış fiyatı $443.539.",
+ "meta": "West Palm Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $444 bin, ortalama kira $2.396, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Palm Beach County'nin idari ve ticari merkezi: Intracoastal kıyısında yükselen şehir merkezi, Brightline istasyonu ve tarihî mahalleler. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $444 bin (Redfin).",
  "sales": {
   "median": 443539,
+  "median_approx": false,
   "median_chg": "yıllık +%3,1",
-  "ppsf": 305,
+  "ppsf": 310,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,32 +17,36 @@
    ],
    [
     "Fit kare fiyatı",
-    "$305 / ft² ≈ $3.283 / m² <small>(yıllık −%1,6)</small>"
+    "$310 / ft² ≈ $3.337 / m² <small>(yıllık %0)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "90 gün <small>(bir yıl önce 104 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "459 <small>(yıllık +%11,2)</small>"
+    "Satılan konut (Eylül 2026)",
+    "459 <small>(bir yıl önce 413)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/19373/FL/West-Palm-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, West Palm Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/19373/FL/West-Palm-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, West Palm Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%3,1).",
+   "Medyan satış süresi bir yılda 104 günden 90 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %5,3 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 2350,
-  "chg": "yıllık değişim yok",
+  "avg": 2396,
+  "chg": "yıllık +$26",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.600"
+    "$1.550"
    ],
    [
     "1 yatak odalı",
@@ -53,20 +58,26 @@
    ],
    [
     "3 yatak odalı",
-    "$2.888"
+    "$2.995"
+   ],
+   [
+    "4+ yatak odalı",
+    "$10.469"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.350"
+    "$2.396"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/west-palm-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, West Palm Beach</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/west-palm-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, West Palm Beach</a>, 26 Ekim 2026 güncellemesi (1.216 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
-  "mills": 20.4486,
-  "mills_hi": 20.9977,
-  "src_short": "PAPA 2025"
+  "mills": 20.4468,
+  "src_short": "Palm Beach PA, 2025",
+  "mills_hi": 21.4168
  },
  "character": [
   "West Palm Beach, Lake Worth Lagoon'un batı kıyısında, Palm Beach adasının karşısında yer alan ilçe merkezi. Clematis Street ve The Square (eski CityPlace) çevresindeki şehir merkezi son yıllarda yeni ofis kuleleri ve kondominyumlarla hızla dönüşüyor.",
@@ -93,7 +104,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "West Palm Beach için 2025 toplam vergi oranı 20,4486–20,9977 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,04–2,10. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.449–$20.998. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Şehir merkezi geliştirme bölgesi (West Palm Beach DDA) içindeki mülklere ayrıca 2,0 mill eklenir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "West Palm Beach için 2025 toplam vergi oranı 20,4468–21,4168 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,04–2,14. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.447–21.417. Downtown Development Authority (DDA) bölgesindeki mülklerde oran 21,4168 mill, şehrin geri kalanında 20,4468 mill. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -138,39 +149,41 @@
   "Brightline ile Miami, Fort Lauderdale ve Orlando bağlantısı",
   "Kültür, restoran ve iş merkezlerine yakınlık",
   "Tarihî mahallelerde karakterli evler",
-  "Bölgede satış sayısı yüksek, piyasa likit"
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,3 altında kapanıyor"
  ],
  "cons": [
-  "Palm Beach County'nin yüksek belediye oranlarından biri",
-  "Uzayan satış süresi (90 gün)",
   "Mahalleden mahalleye belirgin fiyat ve karakter farkı",
   "Şehir merkezinde yeni projelerle artan trafik"
  ],
  "faq": [
   [
    "West Palm Beach bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $443.539 (yıllık +%3,1), fit kare fiyatı $305."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $443.539 (yıllık +%3,1), fit kare fiyatı $310."
   ],
   [
    "West Palm Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.350; 2 yatak odalı $2.200 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.396; 1 yatak odalı $1.750, 2 yatak odalı $2.200 civarında."
   ],
   [
    "West Palm Beach bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 20,4486–20,9977 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,04–2,10. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran konuma göre 20,4468–21,4168 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,04–2,14 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: West Palm Beach Housing Market (Ekim 2026)",
+   "Redfin: West Palm Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/19373/FL/West-Palm-Beach/housing-market"
   ],
   [
-   "Zillow: West Palm Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: West Palm Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/west-palm-beach-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -178,5 +191,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, West Palm Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, West Palm Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Palm Beach County'nin idari ve ticari merkezi: Intracoastal kıyısında yükselen şehir merkezi, Brightline istasyonu ve tarihî mahalleler."
 }

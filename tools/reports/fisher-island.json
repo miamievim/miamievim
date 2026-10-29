@@ -2,10 +2,11 @@
  "id": "fisher-island",
  "name": "Fisher Island",
  "county": "Miami-Dade",
- "meta": "Fisher Island mahalle raporu, Ekim 2026: medyan satış fiyatı $4.098.048, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "South Beach'in güneyinde, yalnızca feribot ve tekneyle ulaşılabilen, ülkenin en yüksek gelirli bölgeleri arasında yer alan özel bir ada.",
+ "meta": "Fisher Island mahalle raporu, Ekim 2026: medyan satış fiyatı $4,1 milyon, ortalama kira $29.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "South Beach'in güneyinde, yalnızca feribot ve tekneyle ulaşılabilen, ülkenin en yüksek gelirli bölgeleri arasında yer alan özel bir ada. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $4,1 milyon (Redfin).",
  "sales": {
   "median": 4098048,
+  "median_approx": false,
   "median_chg": "yıllık −%67,2",
   "ppsf": 1300,
   "src_short": "Redfin",
@@ -16,31 +17,38 @@
    ],
    [
     "Fit kare fiyatı",
-    "$1.300 / ft² ≈ $13.993 / m² <small>(yıllık −%53,7)</small>"
+    "yaklaşık $1.300 / ft² ≈ $13.993 / m² <small>(yıllık −%53,7)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "219 gün <small>(bir yıl önce 492 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "3"
+    "Satılan konut (Eylül 2026)",
+    "3 <small>(bir yıl önce 3)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%91,0"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/22530/FL/Fisher-Island/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Fisher Island Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/22530/FL/Fisher-Island/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Fisher Island Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Son dönemde yalnızca 3 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+   "Medyan satış fiyatı bir yılda geriledi (−%67,2); fit kare fiyatı da geriledi (−%53,7).",
+   "Medyan satış süresi bir yılda 492 günden 219 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %9,0 altında kapanıyor; pazarlık payı belirgin.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
   ]
  },
  "rent": {
-  "avg": 28000,
-  "chg": "yıllık −$2.000",
+  "avg": 29000,
+  "chg": "yıllık −$1.000",
   "src_short": "Zillow",
   "rows": [
+   [
+    "Stüdyo",
+    "$7.900"
+   ],
    [
     "1 yatak odalı",
     "$20.000"
@@ -54,18 +62,20 @@
     "$30.000"
    ],
    [
+    "4+ yatak odalı",
+    "$65.000"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$28.000"
+    "$29.000"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/fisher-island-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Fisher Island</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": [
-   "Zillow'da bu bölge için yalnızca 36 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
-  ]
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/fisher-island-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Fisher Island</a>, 26 Ekim 2026 güncellemesi (35 aktif kiralık ilan).",
+  "notes": []
  },
  "tax": {
   "mills": 16.9317,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Fisher Island, Government Cut kanalının güneyinde, South Beach ile Virginia Key arasında yer alan özel bir ada. Adaya köprü yoktur; sakinler ve misafirler araç feribotu, tekne veya helikopterle ulaşır.",
@@ -92,7 +102,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Fisher Island (belediyeye bağlı olmayan Miami-Dade) için 2025 toplam vergi oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.932. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Fisher Island için 2025 toplam vergi oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $16.932. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -141,39 +151,41 @@
  "pros": [
   "Ülkenin en mahrem adalarından biri",
   "Okyanus ve körfez manzarası, özel plaj ve kulüp tesisleri",
-  "Bu raporlardaki düşük vergi oranlarından biri (16,93 mill)"
+  "Bölgedeki düşük toplam vergi oranlarından biri (16,93 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %9,0 altında kapanıyor"
  ],
  "cons": [
   "Çok yüksek giriş fiyatı ve yüksek kulüp/aidat maliyetleri",
   "Ana karaya bağımlılık feribot saatlerine bağlı",
-  "Satış sayısı çok az; fiyat verisi oynak",
-  "Kıyı bölgesi sel ve fırtına riski"
+  "Kıyı bölgesi sel ve fırtına riski",
+  "Uzun satış süresi (medyan 219 gün)",
+  "Satış sayısı az; fiyat verisi oynak"
  ],
  "faq": [
   [
    "Fisher Island bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $4.098.048 (yıllık −%67,2), fit kare fiyatı $1.300. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $4.098.048 (yıllık −%67,2), fit kare fiyatı yaklaşık $1.300."
   ],
   [
    "Fisher Island bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $28.000; 2 yatak odalı $19.900 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $29.000; 1 yatak odalı $20.000, 2 yatak odalı $19.900 civarında."
   ],
   [
    "Fisher Island bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 16,9317 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,69. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 16,9317 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,69 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Fisher Island Housing Market (Ekim 2026)",
+   "Redfin: Fisher Island Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/22530/FL/Fisher-Island/housing-market"
   ],
   [
-   "Zillow: Fisher Island Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Fisher Island Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/fisher-island-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -185,5 +197,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Fisher Island raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Fisher Island raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "South Beach'in güneyinde, yalnızca feribot ve tekneyle ulaşılabilen, ülkenin en yüksek gelirli bölgeleri arasında yer alan özel bir ada."
 }

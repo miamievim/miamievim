@@ -2,41 +2,46 @@
  "id": "lauderdale-by-the-sea",
  "name": "Lauderdale-by-the-Sea",
  "county": "Broward",
- "meta": "Lauderdale-by-the-Sea mahalle raporu, Ekim 2026: medyan satış fiyatı $554.736, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Alçak katlı yapıları, iskelesi ve kıyıdan yüzerek ulaşılabilen resifleriyle sakin bir sahil kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $554.736.",
+ "meta": "Lauderdale-by-the-Sea mahalle raporu, Ekim 2026: medyan satış fiyatı $555 bin, ortalama kira $2.600, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Alçak katlı yapıları, iskelesi ve kıyıdan yüzerek ulaşılabilen resifleriyle sakin bir sahil kasabası. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $555 bin (Redfin).",
  "sales": {
   "median": 554736,
-  "median_chg": "yıllık −%26,0",
+  "median_approx": false,
+  "median_chg": "yıllık −%26",
   "ppsf": 450,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$554.736 <small>(yıllık −%26,0)</small>"
+    "$554.736 <small>(yıllık −%26)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$450 / ft² ≈ $4.844 / m² <small>(yıllık −%1,3)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "91 gün <small>(bir yıl önce 145 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "46 <small>(yıllık −%29,7)</small>"
+    "Satılan konut (Eylül 2026)",
+    "46 <small>(bir yıl önce 65)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,6"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/10035/FL/Lauderdale-by-the-Sea/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lauderdale-by-the-Sea Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/10035/FL/Lauderdale-by-the-Sea/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lauderdale by the Sea Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%26); fit kare fiyatı da geriledi (−%1,3).",
+   "Medyan satış süresi bir yılda 145 günden 91 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %5,4 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 3000,
-  "chg": "yıllık −$925",
+  "avg": 2600,
+  "chg": "yıllık −$1.400",
   "src_short": "Zillow",
   "rows": [
    [
@@ -49,25 +54,30 @@
    ],
    [
     "2 yatak odalı",
-    "$4.275"
+    "$3.200"
    ],
    [
     "3 yatak odalı",
-    "$6.000"
+    "$6.068"
+   ],
+   [
+    "4+ yatak odalı",
+    "$8.500"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$3.000"
+    "$2.600"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lauderdale-by-the-sea-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lauderdale-by-the-Sea</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lauderdale-by-the-sea-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lauderdale-by-the-Sea</a>, 26 Ekim 2026 güncellemesi (19 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 19 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (19 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 18.1215,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Lauderdale-by-the-Sea, Fort Lauderdale'in kuzeyinde, yükseklik sınırlamalarıyla küçük kasaba havasını koruyan bir sahil yerleşimi. Kasaba merkezi Commercial Boulevard'ın okyanusa ulaştığı noktada, iskele ve restoranlarla buluşur.",
@@ -124,7 +134,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 7 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (kuş uçuşu yaklaşık 6 km)."
   ],
   [
    "Günlük hayat",
@@ -137,41 +147,40 @@
  ],
  "pros": [
   "Yürünebilir küçük sahil kasabası",
-  "Görece düşük vergi oranı (18,12 mill)",
   "Yükseklik sınırıyla korunan doku",
-  "Satış süresinde kısalma"
+  "Bölgedeki düşük toplam vergi oranlarından biri (18,12 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,4 altında kapanıyor"
  ],
  "cons": [
   "Kıyı bölgesi sel riski ve sigorta maliyeti",
   "Eski kondominyumlarda özel aidat riski",
-  "Medyan fiyatta sert yıllık düşüş (karışım etkisi)",
   "Kiralık veri sınırlı"
  ],
  "faq": [
   [
    "Lauderdale-by-the-Sea bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $554.736 (yıllık −%26,0), fit kare fiyatı $450."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $554.736 (yıllık −%26), fit kare fiyatı $450."
   ],
   [
    "Lauderdale-by-the-Sea bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $3.000; 2 yatak odalı $4.275 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.600; 1 yatak odalı $2.100, 2 yatak odalı $3.200 civarında."
   ],
   [
    "Lauderdale-by-the-Sea bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 18,1215 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,81. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 18,1215 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,81 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Lauderdale-by-the-Sea Housing Market (Ekim 2026)",
+   "Redfin: Lauderdale by the Sea Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/10035/FL/Lauderdale-by-the-Sea/housing-market"
   ],
   [
-   "Zillow: Lauderdale-by-the-Sea Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Lauderdale-by-the-Sea Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/lauderdale-by-the-sea-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -179,5 +188,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Lauderdale-by-the-Sea raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Lauderdale-by-the-Sea raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Alçak katlı yapıları, iskelesi ve kıyıdan yüzerek ulaşılabilen resifleriyle sakin bir sahil kasabası."
 }

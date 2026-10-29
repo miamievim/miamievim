@@ -4,7 +4,7 @@
 Rakamlar kaynak ve tarihleriyle birlikte burada tutulur; güncellerken kaynağı da güncelleyin.
 Kullanım: python3 tools/build_why_miami.py
 """
-import html, json, os, re, subprocess, sys
+import glob, html, json, os, re, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -169,7 +169,7 @@ def main():
       <div class="wm-strip wm-strip-3">{''.join(pic(x) for x in vpics)}</div>
       <div class="wm-value">
         <p>Güçlü uluslararası bağlantı, büyüyen nüfus ve yıl boyu süren talep, Miami\'yi hem oturmak hem yatırım için takip edilen bir pazar yapıyor. Yine de fiyat, kira ve maliyetler mahalleden mahalleye çok değişir: aynı bütçe iki farklı bölgede bambaşka bir aidat, sigorta ve vergi yükü anlamına gelebilir.</p>
-        <div class="wm-links"><a class="btn" href="/mahalle-raporlari/">108 bölgenin raporları</a><a class="btn btn-line" href="/yeni-projeler/">Yeni projeler</a><a class="btn btn-line" href="/yatirim/">Net getiri hesaplayıcısı</a></div>
+        <div class="wm-links"><a class="btn" href="/mahalle-raporlari/">{len(glob.glob(os.path.join(ROOT, "tools", "reports", "*.json")))} bölgenin raporları</a><a class="btn btn-line" href="/yeni-projeler/">Yeni projeler</a><a class="btn btn-line" href="/yatirim/">Net getiri hesaplayıcısı</a></div>
       </div>
     </div>
   </section>'''

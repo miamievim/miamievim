@@ -2,12 +2,13 @@
  "id": "lake-worth-beach",
  "name": "Lake Worth Beach",
  "county": "Palm Beach",
- "meta": "Lake Worth Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $404.807, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Tarihî bungalovları, sanat sahnesi ve okyanus kıyısındaki halk plajıyla eklektik bir kıyı şehri. Ekim 2026 itibarıyla medyan satış fiyatı $404.807.",
+ "meta": "Lake Worth Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $405 bin, ortalama kira $2.299, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Tarihî bungalovları, sanat sahnesi ve okyanus kıyısındaki halk plajıyla eklektik bir kıyı şehri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $405 bin (Redfin).",
  "sales": {
   "median": 404807,
+  "median_approx": false,
   "median_chg": "yıllık +%1,2",
-  "ppsf": 271,
+  "ppsf": 273,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,27 +17,31 @@
    ],
    [
     "Fit kare fiyatı",
-    "$271 / ft² ≈ $2.917 / m² <small>(yıllık −%8,1)</small>"
+    "$273 / ft² ≈ $2.939 / m² <small>(yıllık −%7,5)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "86 gün <small>(bir yıl önce 84 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "121 <small>(yıllık +%1,6)</small>"
+    "Satılan konut (Eylül 2026)",
+    "121 <small>(bir yıl önce 119)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,8"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/9913/FL/Lake-Worth-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lake Worth Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/9913/FL/Lake-Worth-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lake Worth Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%1,2); fit kare fiyatı ise ters yönde hareket etti (−%7,5); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi 86 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %5,2 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 2300,
-  "chg": "yıllık −$200",
+  "avg": 2299,
+  "chg": "yıllık −$101",
   "src_short": "Zillow",
   "rows": [
    [
@@ -49,24 +54,29 @@
    ],
    [
     "2 yatak odalı",
-    "$2.111"
+    "$2.100"
    ],
    [
     "3 yatak odalı",
-    "$3.100"
+    "$3.168"
+   ],
+   [
+    "4+ yatak odalı",
+    "$7.410"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.300"
+    "$2.299"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lake-worth-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lake Worth Beach</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/lake-worth-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Lake Worth Beach</a>, 26 Ekim 2026 güncellemesi (610 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
-  "mills": 21.6124,
-  "mills_hi": 22.1615,
-  "src_short": "PAPA 2025"
+  "mills": 21.6106,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Lake Worth Beach (2019'a kadar Lake Worth), West Palm Beach'in güneyinde, Lake Worth Lagoon'un batı kıyısında yer alan bir şehir. Şehir merkezi Lake ve Lucerne Avenue boyunca sanat galerileri, restoranlar ve tarihî binalarla doludur.",
@@ -93,7 +103,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Lake Worth Beach için 2025 toplam vergi oranı 21,6124–22,1615 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,16–2,22. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $21.612–$22.162. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Lake Worth Beach için 2025 toplam vergi oranı 21,6106 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,16. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $21.611. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -123,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (yaklaşık 1 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (sınıra çok yakın)."
   ],
   [
    "Günlük hayat",
@@ -138,39 +148,43 @@
   "Tarihî ve karakterli evler",
   "Plaja ve West Palm Beach'e yakınlık",
   "Yürünebilir sanat odaklı merkez",
-  "Tri-Rail istasyonu"
+  "Tri-Rail istasyonu",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,2 altında kapanıyor"
  ],
  "cons": [
-  "Fit kare fiyatında yıllık düşüş (−%8,1)",
   "Eski evlerde yenileme ve sigorta maliyeti",
   "Mahalleden mahalleye belirgin fark",
-  "Belediye vergisine ek borç servisi oranı"
+  "Bölgedeki yüksek toplam vergi oranlarından biri (21,61 mill)"
  ],
  "faq": [
   [
    "Lake Worth Beach bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $404.807 (yıllık +%1,2), fit kare fiyatı $271."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $404.807 (yıllık +%1,2), fit kare fiyatı $273."
   ],
   [
    "Lake Worth Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.300; 2 yatak odalı $2.111 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.299; 1 yatak odalı $1.650, 2 yatak odalı $2.100 civarında."
   ],
   [
    "Lake Worth Beach bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 21,6124–22,1615 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,16–2,22. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 21,6106 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,16 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Lake Worth Beach Housing Market (Ekim 2026)",
+   "Redfin: Lake Worth Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/9913/FL/Lake-Worth-Beach/housing-market"
   ],
   [
-   "Zillow: Lake Worth Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Lake Worth Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/lake-worth-beach-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -182,5 +196,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Lake Worth Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Lake Worth Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Tarihî bungalovları, sanat sahnesi ve okyanus kıyısındaki halk plajıyla eklektik bir kıyı şehri."
 }

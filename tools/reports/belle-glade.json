@@ -2,45 +2,53 @@
  "id": "belle-glade",
  "name": "Belle Glade",
  "county": "Palm Beach",
- "meta": "Belle Glade mahalle raporu, Ekim 2026: medyan satış fiyatı $329.843, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Okeechobee Gölü'nün güneydoğusunda, şeker kamışı tarlalarıyla çevrili bir tarım şehri. Ekim 2026 itibarıyla medyan satış fiyatı $329.843.",
+ "meta": "Belle Glade mahalle raporu, Ekim 2026: medyan satış fiyatı $330 bin, ortalama kira $1.050, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Okeechobee Gölü'nün güneydoğusunda, şeker kamışı tarlalarıyla çevrili bir tarım şehri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $330 bin (Redfin).",
  "sales": {
   "median": 329843,
-  "median_chg": "yıllık −%0,05",
+  "median_approx": false,
+  "median_chg": "yıllık −%0,048",
   "ppsf": 214,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$329.843 <small>(yıllık −%0,05)</small>"
+    "$329.843 <small>(yıllık −%0,048)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$214 / ft² ≈ $2.303 / m² <small>(yıllık −%7,4)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "48 gün <small>(bir yıl önce 78 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "7 <small>(yıllık +%42,2)</small>"
+    "Satılan konut (Eylül 2026)",
+    "7 <small>(bir yıl önce 5)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%98,2"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/1385/FL/Belle-Glade/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Belle Glade Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/1385/FL/Belle-Glade/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Belle Glade Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Son dönemde yalnızca 7 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+   "Medyan satış fiyatı bir yıl öncesiyle hemen hemen aynı seviyede; fit kare fiyatı da geriledi (−%7,4).",
+   "Medyan satış süresi bir yılda 78 günden 48 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %1,8 altında kapanıyor.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
   ]
  },
  "rent": {
-  "avg": 1100,
-  "chg": "yıllık −$25",
+  "avg": 1050,
+  "chg": "yıllık −$50",
   "src_short": "Zillow",
   "rows": [
+   [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
    [
     "1 yatak odalı",
     "$1.000"
@@ -51,22 +59,25 @@
    ],
    [
     "3 yatak odalı",
-    "$1.578"
+    "$1.528"
+   ],
+   [
+    "4+ yatak odalı",
+    "$2.198"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$1.100"
+    "$1.050"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/belle-glade-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Belle Glade</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/belle-glade-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Belle Glade</a>, 26 Ekim 2026 güncellemesi (28 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 26 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (28 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
-  "mills": 22.2598,
-  "mills_hi": 22.8089,
-  "src_short": "PAPA 2025"
+  "mills": 22.8071,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Belle Glade, Palm Beach County'nin batısında, Okeechobee Gölü'nün kıyısındaki \"Glades\" bölgesinin en büyük şehri. Ekonomisi şeker kamışı ve sebze tarımına dayanır.",
@@ -93,7 +104,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Belle Glade için 2025 toplam vergi oranı 22,2598–22,8089 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,23–2,28. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $22.260–$22.809. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Belle Glade için 2025 toplam vergi oranı 22,8071 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,28. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $22.807. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -123,7 +134,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (yaklaşık 77 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Mangonia Park (kuş uçuşu yaklaşık 59 km)."
   ],
   [
    "Günlük hayat",
@@ -137,40 +148,44 @@
  "pros": [
   "Çok uygun fiyatlar ve kiralar",
   "Göl ve doğa erişimi",
-  "Hızlı satışlar",
-  "Sakin tarım bölgesi"
+  "Sakin tarım bölgesi",
+  "Likit piyasa: medyan satış süresi 48 gün"
  ],
  "cons": [
-  "Yüksek toplam vergi oranı",
   "Kıyıya ve iş merkezlerine uzak",
   "Az sayıda satış; rakamlar oynak",
-  "Sınırlı alışveriş ve hizmet"
+  "Sınırlı alışveriş ve hizmet",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (22,81 mill)"
  ],
  "faq": [
   [
    "Belle Glade bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $329.843 (yıllık −%0,05), fit kare fiyatı $214. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $329.843 (yıllık −%0,048), fit kare fiyatı $214."
   ],
   [
    "Belle Glade bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $1.100; 2 yatak odalı $1.150 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $1.050; 1 yatak odalı $1.000, 2 yatak odalı $1.150 civarında."
   ],
   [
    "Belle Glade bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 22,2598–22,8089 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,23–2,28. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 22,8071 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,28 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Belle Glade Housing Market (Ekim 2026)",
+   "Redfin: Belle Glade Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/1385/FL/Belle-Glade/housing-market"
   ],
   [
-   "Zillow: Belle Glade Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Belle Glade Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/belle-glade-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -182,5 +197,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Belle Glade raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Belle Glade raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Okeechobee Gölü'nün güneydoğusunda, şeker kamışı tarlalarıyla çevrili bir tarım şehri."
 }

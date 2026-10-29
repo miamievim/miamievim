@@ -13,8 +13,11 @@
     if (btn) { btn.disabled = true; }
     var data = new FormData(f);
     if (!data.get('form-name') && f.getAttribute('name')) data.append('form-name', f.getAttribute('name'));
-    fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(data).toString() })
-      .then(function (r) { if (!r.ok) throw new Error(r.status); window.location.assign(target); })
-      .catch(function () { if (btn) btn.disabled = false; f.removeAttribute('data-netlify'); f.submit(); });
+    var body = new URLSearchParams(data).toString();
+    var post = function (url) { return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body }).then(function (r) { if (!r.ok) throw new Error(r.status); }); };
+    // Ziyaretçi her durumda formun kendi adresine gider; Netlify'ın kayıtlı başarı sayfasına asla düşmez.
+    post('/')
+      .catch(function () { return post(target).catch(function () {}); })
+      .then(function () { window.location.assign(target); });
   });
 })();

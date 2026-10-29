@@ -2,21 +2,23 @@
  "id": "golf",
  "name": "Golf",
  "county": "Palm Beach",
- "meta": "Golf mahalle raporu, Ekim 2026: kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Boynton Beach'in batısında, özel bir golf kulübü etrafında kurulmuş çok küçük bir köy.",
+ "meta": "Golf mahalle raporu, Ekim 2026: emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Boynton Beach'in batısında, özel bir golf kulübü etrafında kurulmuş çok küçük bir köy. Satışlar çok seyrek olduğu için güncel medyan fiyat yayımlanmıyor.",
  "sales": {
   "median": null,
   "median_chg": "",
   "ppsf": null,
-  "src_short": "",
+  "src_short": "Redfin",
   "rows": [
    [
     "Satış verisi",
-    "Yılda yalnızca birkaç satış gerçekleştiği için kamuya açık güvenilir bir medyan yayımlanmıyor."
+    "Redfin’deki son satış verisi Temmuz 2026 dönemine ait; son üç ayda güncel medyan yayımlanmıyor."
    ]
   ],
-  "src": "Redfin ve Zillow, Ekim 2026 erişimi.",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/6799/FL/Golf/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Golf Housing Market</a>, 28 Ekim 2026 erişimi.",
+  "notes": [
+   "Satışlar çok seyrek olduğu için fiyatlar mülke göre belirlenir. Bu tür küçük yerleşimlerde değerlendirmeyi son benzer satışlar (comparable sales) üzerinden, adres bazında yapmak gerekir."
+  ]
  },
  "rent": {
   "avg": null,
@@ -25,18 +27,17 @@
   "rows": [
    [
     "Kira verisi",
-    "Zillow bu bölge için ayrı bir kira piyasası sayfası yayımlamıyor."
+    "Zillow bu yerleşim için kira verisi yayımlamıyor."
    ]
   ],
-  "src": "Zillow Rental Market Trends, 17 Ekim 2026.",
+  "src": "Kira verisi yayımlanmıyor.",
   "notes": [
-   "Bu bölgede kiralık ilan sayısı ortalama hesaplamak için yetersiz. Kiralık ev arıyorsanız komşu bölgelerin raporlarına bakın ya da size uygun ilanları doğrudan isteyin."
+   "Kiralık stok çok küçük olduğu için kira, mülkün kendisine göre belirlenir; yakın yerleşimlerdeki benzer ilanlar daha iyi bir referanstır."
   ]
  },
  "tax": {
-  "mills": 18.805,
-  "mills_hi": 19.3541,
-  "src_short": "PAPA 2025"
+  "mills": 18.8032,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Golf, Boynton Beach ile Delray Beach arasında, özel Country Club of Florida etrafında kurulmuş çok küçük bir köy. Konut stoku golf sahası çevresindeki müstakil evlerden oluşur.",
@@ -63,7 +64,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Golf için 2025 toplam vergi oranı 18,8050–19,3541 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88–1,94. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.805–$19.354. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Golf için 2025 toplam vergi oranı 18,8032 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.803. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -93,7 +94,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Boynton Beach (yaklaşık 6 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Delray Beach (kuş uçuşu yaklaşık 6 km)."
   ],
   [
    "Günlük hayat",
@@ -119,16 +120,28 @@
  "faq": [
   [
    "Golf bölgesinde ev fiyatları ne kadar?",
-   "Bu bölgede satış çok nadir gerçekleşir ve kamuya açık güvenilir bir medyan fiyat yayımlanmaz; fiyatlar her mülkün özelliklerine göre belirlenir."
+   "Satışlar çok seyrek olduğu için Redfin güncel bir medyan fiyat yayımlamıyor; fiyatlar mülke göre belirlenir ve son benzer satışlarla değerlendirilir."
+  ],
+  [
+   "Golf bölgesinde kiralar ne kadar?",
+   "Zillow bu yerleşim için kira verisi yayımlamıyor; kira mülke göre belirlenir."
   ],
   [
    "Golf bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 18,8050–19,3541 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88–1,94. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 18,8032 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,88 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Redfin: Golf Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/city/6799/FL/Golf/housing-market"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -136,5 +149,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Golf raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Golf raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Boynton Beach'in batısında, özel bir golf kulübü etrafında kurulmuş çok küçük bir köy."
 }

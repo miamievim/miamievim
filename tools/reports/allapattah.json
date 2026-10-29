@@ -1,0 +1,197 @@
+{
+ "id": "allapattah",
+ "name": "Allapattah",
+ "county": "Miami-Dade",
+ "meta": "Allapattah mahalle raporu, Ekim 2026: medyan satış fiyatı $487 bin, ortalama kira $2.150, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Rubell Museum, Jackson Memorial Hastanesi'ne komşu sağlık bölgesi ve üç Metrorail istasyonuyla Wynwood'un batı komşusu. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $487 bin (Redfin).",
+ "lead": "Rubell Museum, Jackson Memorial Hastanesi'ne komşu sağlık bölgesi ve üç Metrorail istasyonuyla Wynwood'un batı komşusu.",
+ "sales": {
+  "median": 487363,
+  "median_approx": false,
+  "median_chg": "yıllık −%16",
+  "ppsf": 313,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$487.363 <small>(yıllık −%16)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$313 / ft² ≈ $3.369 / m² <small>(yıllık −%4,4)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "95 gün <small>(bir yıl önce 83 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "21 <small>(bir yıl önce 19)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%92,7"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/55740/FL/Miami/Allapattah/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Allapattah Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%16); fit kare fiyatı da geriledi (−%4,4).",
+   "Medyan satış süresi bir yılda 83 günden 95 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %7,3 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 2150,
+  "chg": "yıllık −$50",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$1.595"
+   ],
+   [
+    "1 yatak odalı",
+    "$1.600"
+   ],
+   [
+    "2 yatak odalı",
+    "$2.150"
+   ],
+   [
+    "3 yatak odalı",
+    "$3.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.009"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$2.150"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33142/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33142 posta kodu</a>, 26 Ekim 2026 güncellemesi (329 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33142 posta kodunun ortalamaları kullanıldı; posta kodu Allapattah dışında komşu alanları da kapsayabilir."
+  ]
+ },
+ "tax": {
+  "mills": 19.9878,
+  "src_short": "Miami-Dade PA, 2025"
+ },
+ "character": [
+  "Allapattah, Miami şehri sınırları içinde, Wynwood'un batısında ve Miami Nehri'nin kuzeyinde yer alan bir mahalle. Güney ucunda Jackson Memorial Hastanesi ve UHealth tesislerinin bulunduğu sağlık bölgesi (Health District) yer alır.",
+  "Rubell Museum, Kuzey Amerika'nın büyük özel çağdaş sanat koleksiyonlarından birini eski bir sanayi binasında sergiler; çevresindeki depolar galerilere ve atölyelere dönüşüyor. NW 17th Avenue çevresi Dominik ve Latin Amerika esintili dükkân ve restoranlarıyla bilinir.",
+  "Konut stoku tek katlı müstakil evler, dubleksler ve küçük apartmanlardan oluşur; Metrorail istasyonlarının çevresinde yeni kiralık bina projeleri artıyor."
+ ],
+ "places": [
+  [
+   "Rubell Museum",
+   "Eski bir sanayi binasında çağdaş sanat koleksiyonu."
+  ],
+  [
+   "Jackson Memorial Hastanesi",
+   "Güneyde, bölgenin büyük hastane ve tıp merkezi."
+  ],
+  [
+   "NW 17th Avenue",
+   "Restoranlar, pazarlar ve dükkânlarla mahallenin ticari aksı."
+  ],
+  [
+   "Wynwood",
+   "Doğuda galeriler, restoranlar ve gece hayatı."
+  ],
+  [
+   "Gizli köşe: Allapattah'ın meyve ve sebze pazarları",
+   "NW 20th Street çevresinde toptan ve perakende pazarlar."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Allapattah için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Miami Nehri ve kanallara yakın güney kesimlerde risk daha yüksektir; iç kesimlerde risk adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 6 km · 10–15 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 7 km · 15 dakika"
+  ],
+  [
+   "Downtown Miami",
+   "yaklaşık 5 km · 10 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Metrorail Allapattah, Santa Clara ve UHealth–Jackson istasyonları; Metrobus hatları."
+  ],
+  [
+   "Günlük hayat",
+   "Ana caddeler çevresinde market ve hizmetler; Metrorail ile şehir merkezine araçsız ulaşım."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Bölgedeki diğer yeni projeleri ve fiyat listelerini görüşmede birlikte değerlendirebiliriz."
+ ],
+ "pros": [
+  "Üç Metrorail istasyonu ve şehir merkezine yakınlık",
+  "Havalimanına ve sağlık bölgesine kısa mesafe",
+  "Wynwood'a göre daha uygun giriş fiyatları",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %7,3 altında kapanıyor"
+ ],
+ "cons": [
+  "Eski evlerde yenileme ve sigorta maliyeti",
+  "Mahalleden mahalleye belirgin fark",
+  "Ana caddelerde trafik"
+ ],
+ "faq": [
+  [
+   "Allapattah bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $487.363 (yıllık −%16), fit kare fiyatı $313."
+  ],
+  [
+   "Allapattah bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $2.150; 1 yatak odalı $1.600, 2 yatak odalı $2.150 civarında."
+  ],
+  [
+   "Allapattah bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 19,9878 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Allapattah Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/neighborhood/55740/FL/Miami/Allapattah/housing-market"
+  ],
+  [
+   "Zillow: 33142 posta kodu Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33142/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Allapattah raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

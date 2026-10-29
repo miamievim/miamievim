@@ -2,10 +2,11 @@
  "id": "parkland",
  "name": "Parkland",
  "county": "Broward",
- "meta": "Parkland mahalle raporu, Ekim 2026: medyan satış fiyatı $1.179.438, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Geniş arsaları, yeni lüks siteleri ve doğa koruma alanlarıyla Broward'ın en yüksek fiyatlı banliyölerinden biri. Ekim 2026 itibarıyla medyan satış fiyatı $1.179.438; satış sayısı bir yılda %39 arttı.",
+ "meta": "Parkland mahalle raporu, Ekim 2026: medyan satış fiyatı $1,2 milyon, ortalama kira $5.200, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Geniş arsaları, yeni lüks siteleri ve doğa koruma alanlarıyla Broward'ın en yüksek fiyatlı banliyölerinden biri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,2 milyon (Redfin).",
  "sales": {
   "median": 1179438,
+  "median_approx": false,
   "median_chg": "yıllık +%10,7",
   "ppsf": 358,
   "src_short": "Redfin",
@@ -19,52 +20,61 @@
     "$358 / ft² ≈ $3.853 / m² <small>(yıllık −%3,5)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "57 gün <small>(bir yıl önce 87 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "196 <small>(yıllık +%39,0)</small>"
+    "Satılan konut (Eylül 2026)",
+    "196 <small>(bir yıl önce 141)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,8"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/14281/FL/Parkland/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Parkland Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/14281/FL/Parkland/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Parkland Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%10,7); fit kare fiyatı ise ters yönde hareket etti (−%3,5); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 87 günden 57 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,2 altında kapanıyor."
+  ]
  },
  "rent": {
   "avg": 5200,
-  "chg": "yıllık −$500",
+  "chg": "yıllık −$300",
   "src_short": "Zillow",
   "rows": [
+   [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
    [
     "1 yatak odalı",
     "$1.825"
    ],
    [
     "2 yatak odalı",
-    "$2.705"
+    "$2.643"
    ],
    [
     "3 yatak odalı",
-    "$3.900"
+    "$3.850"
+   ],
+   [
+    "4+ yatak odalı",
+    "$9.583"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$5.200"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/parkland-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Parkland</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": [
-   "Zillow'da bu bölge için yalnızca 52 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin.",
-   "Genel ortalamanın oda bazındaki rakamların üzerinde olması, kiralık stokta 4 ve daha fazla yatak odalı büyük evlerin ağırlığından kaynaklanır."
-  ]
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/parkland-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Parkland</a>, 26 Ekim 2026 güncellemesi (52 aktif kiralık ilan).",
+  "notes": []
  },
  "tax": {
   "mills": 18.3944,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Parkland, kuzeybatı Broward'da, düşük yoğunluklu imar kurallarıyla yeşil karakterini koruyan bir şehir. Ticari yapılaşma bilinçli olarak sınırlıdır; şehir büyük ölçüde konut ve parklardan oluşur.",
@@ -121,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Pompano Beach (yaklaşık 14 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Pompano Beach (kuş uçuşu yaklaşık 11 km)."
   ],
   [
    "Günlük hayat",
@@ -134,9 +144,8 @@
  ],
  "pros": [
   "Geniş arsalar ve yeni lüks siteler",
-  "Satış sayısında güçlü artış (+%39)",
-  "Hızlı satışlar (57 gün)",
-  "Görece düşük vergi oranı (18,39 mill)"
+  "Bölgedeki düşük toplam vergi oranlarından biri (18,39 mill)",
+  "Likit piyasa: medyan satış süresi 57 gün"
  ],
  "cons": [
   "Yüksek giriş fiyatı",
@@ -151,24 +160,24 @@
   ],
   [
    "Parkland bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $5.200; 2 yatak odalı $2.705 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $5.200; 1 yatak odalı $1.825, 2 yatak odalı $2.643 civarında."
   ],
   [
    "Parkland bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 18,3944 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,84. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 18,3944 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,84 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Parkland Housing Market (Ekim 2026)",
+   "Redfin: Parkland Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/14281/FL/Parkland/housing-market"
   ],
   [
-   "Zillow: Parkland Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Parkland Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/parkland-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -176,5 +185,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Parkland raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Parkland raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Geniş arsaları, yeni lüks siteleri ve doğa koruma alanlarıyla Broward'ın en yüksek fiyatlı banliyölerinden biri."
 }

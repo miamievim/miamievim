@@ -2,10 +2,11 @@
  "id": "upper-east-side",
  "name": "Upper East Side",
  "county": "Miami-Dade",
- "meta": "Upper East Side mahalle raporu, Ekim 2026: medyan satış fiyatı $1.034.710, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Biscayne Boulevard boyunca MiMo mimarisi, körfez kıyısındaki tarihî mahalleleri ve restoranlarıyla Miami'nin en karakterli bölgelerinden biri. Ekim 2026 itibarıyla medyan satış fiyatı $1.034.710.",
+ "meta": "Upper East Side mahalle raporu, Ekim 2026: medyan satış fiyatı $1 milyon, ortalama kira $2.394, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Biscayne Boulevard boyunca MiMo mimarisi, körfez kıyısındaki tarihî mahalleleri ve restoranlarıyla Miami'nin en karakterli bölgelerinden biri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1 milyon (Redfin).",
  "sales": {
   "median": 1034710,
+  "median_approx": false,
   "median_chg": "yıllık −%1,9",
   "ppsf": 725,
   "src_short": "Redfin",
@@ -19,33 +20,37 @@
     "$725 / ft² ≈ $7.804 / m² <small>(yıllık +%12,4)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "115 gün <small>(bir yıl önce 140 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "42 <small>(yıllık −%18,0)</small>"
+    "Satılan konut (Eylül 2026)",
+    "42 <small>(bir yıl önce 51)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%93,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/neighborhood/146140/FL/Miami/Upper-Eastside/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Upper East Side Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/neighborhood/146140/FL/Miami/Upper-Eastside/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Upper Eastside Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%1,9); fit kare fiyatı ise ters yönde hareket etti (+%12,4); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 140 günden 115 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %6,3 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 2367,
-  "chg": "yıllık −$133",
+  "avg": 2394,
+  "chg": "yıllık −$106",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.439"
+    "$1.400"
    ],
    [
     "1 yatak odalı",
-    "$1.750"
+    "$1.795"
    ],
    [
     "2 yatak odalı",
@@ -53,19 +58,26 @@
    ],
    [
     "3 yatak odalı",
-    "$6.900"
+    "$6.250"
+   ],
+   [
+    "4+ yatak odalı",
+    "$40.714"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.367"
+    "$2.394"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33138/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33138</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33138/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33138 posta kodu</a>, 26 Ekim 2026 güncellemesi (307 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33138 posta kodunun ortalamaları kullanıldı; posta kodu Upper East Side dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 19.9878,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Upper East Side, Miami şehri sınırları içinde, Design District'in kuzeydoğusunda, Biscayne Boulevard ile Biscayne Körfezi arasında uzanan bir bölge. 1950–60'lardan kalma motelleri ve yapılarıyla MiMo (Miami Modern) Tarihî Bölgesi bulvarın kimliğini oluşturur.",
@@ -92,7 +104,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Miami şehri için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Upper East Side için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -122,7 +134,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline MiamiCentral (yaklaşık 8 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Metrorail Allapattah (kuş uçuşu yaklaşık 4 km)."
   ],
   [
    "Günlük hayat",
@@ -136,11 +148,10 @@
  "pros": [
   "Tarihî mimari ve körfez kıyısı mahalleleri",
   "Design District, Wynwood ve Miami Beach'e yakınlık",
-  "Fit kare fiyatında yıllık artış (+%12,4)",
-  "Gelişen restoran sahnesi"
+  "Gelişen restoran sahnesi",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,3 altında kapanıyor"
  ],
  "cons": [
-  "Miami şehri vergi oranı (19,99 mill)",
   "Körfeze yakın kesimlerde sel riski",
   "Eski evlerde yenileme ve sigorta maliyeti",
   "Biscayne Boulevard'da trafik"
@@ -152,24 +163,24 @@
   ],
   [
    "Upper East Side bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.367; 2 yatak odalı $2.500 civarında."
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $2.394; 1 yatak odalı $1.795, 2 yatak odalı $2.500 civarında."
   ],
   [
    "Upper East Side bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 19,9878 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Upper East Side Housing Market (Ekim 2026)",
+   "Redfin: Upper Eastside Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/neighborhood/146140/FL/Miami/Upper-Eastside/housing-market"
   ],
   [
-   "Zillow: ZIP 33138 Rental Market Trends (17 Ekim 2026)",
+   "Zillow: 33138 posta kodu Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/33138/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -177,5 +188,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Upper East Side raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Upper East Side raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Biscayne Boulevard boyunca MiMo mimarisi, körfez kıyısındaki tarihî mahalleleri ve restoranlarıyla Miami'nin en karakterli bölgelerinden biri."
 }

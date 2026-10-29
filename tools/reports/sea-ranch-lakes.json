@@ -2,38 +2,41 @@
  "id": "sea-ranch-lakes",
  "name": "Sea Ranch Lakes",
  "county": "Broward",
- "meta": "Sea Ranch Lakes mahalle raporu, Ekim 2026: medyan satış fiyatı $3.900.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Fort Lauderdale ile Lauderdale-by-the-Sea arasında, okyanus kıyısında kapılı ve yalnızca birkaç yüz evden oluşan küçük bir köy. Satış sayısı çok az olduğu için fiyatlar oynaktır.",
+ "meta": "Sea Ranch Lakes mahalle raporu, Ekim 2026: medyan satış fiyatı yaklaşık $3,9 milyon, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Fort Lauderdale ile Lauderdale-by-the-Sea arasında, okyanus kıyısında kapılı ve yalnızca birkaç yüz evden oluşan küçük bir köy. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı yaklaşık $3,9 milyon (Redfin).",
  "sales": {
   "median": 3900000,
+  "median_approx": true,
   "median_chg": "yıllık +%111,1",
   "ppsf": 1130,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$3.900.000 <small>(yıllık +%111,1)</small>"
+    "yaklaşık $3.900.000 <small>(yıllık +%111,1)</small>"
    ],
    [
     "Fit kare fiyatı",
-    "$1.130 / ft² ≈ $12.163 / m² <small>(yıllık +%72,2)</small>"
+    "yaklaşık $1.130 / ft² ≈ $12.163 / m² <small>(yıllık +%72,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "97 gün"
    ],
    [
-    "Satılan konut",
+    "Satılan konut (son dönem)",
     "2"
    ],
    [
-    "Satış / ilan fiyatı oranı",
-    "%92,9"
+    "Satış / ilan fiyatı",
+    "ilan fiyatının ortalama %7,1 altında"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/16589/FL/Sea-Ranch-Lakes/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sea Ranch Lakes Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/16589/FL/Sea-Ranch-Lakes/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Sea Ranch Lakes Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Son dönemde yalnızca 2 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+   "Medyan satış fiyatı bir yılda yükseldi (+%111,1); fit kare fiyatı da yükseldi (+%72,2).",
+   "Satışlar ortalamada ilan fiyatının %7,1 altında kapanıyor.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
   ]
  },
  "rent": {
@@ -42,18 +45,18 @@
   "src_short": "Zillow",
   "rows": [
    [
-    "Kiralık ilan sayısı",
-    "1"
+    "Kira verisi",
+    "Zillow’da yalnızca 1 aktif kiralık ilan var; ortalama kira anlamlı değil."
    ]
   ],
-  "src": "Zillow Rental Market Trends, 17 Ekim 2026.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/sea-ranch-lakes-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Sea Ranch Lakes</a>, 26 Ekim 2026 güncellemesi.",
   "notes": [
-   "Bu bölgede kiralık ilan sayısı ortalama hesaplamak için yetersiz. Kiralık ev arıyorsanız komşu bölgelerin raporlarına bakın ya da size uygun ilanları doğrudan isteyin."
+   "Kiralık stok çok küçük olduğu için kira, mülkün kendisine göre belirlenir; yakın yerleşimlerdeki benzer ilanlar daha iyi bir referanstır."
   ]
  },
  "tax": {
   "mills": 20.2215,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Sea Ranch Lakes, A1A üzerinde, kapılı girişi ve göl çevresine dizilmiş evleriyle Broward'ın en küçük belediyelerinden biri. Köy sakinlerine özel bir plaj kulübü bulunur.",
@@ -106,7 +109,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 6 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (kuş uçuşu yaklaşık 5 km)."
   ],
   [
    "Günlük hayat",
@@ -123,28 +126,35 @@
   "Lauderdale-by-the-Sea'nin restoranlarına yakınlık"
  ],
  "cons": [
-  "Satış sayısı çok az; fiyat verisi anlamlı değil",
   "Kıyı bölgesi sel ve fırtına riski",
-  "Vergi oranı 20 mill'in üzerinde",
-  "Kiralık seçenek neredeyse yok"
+  "Kiralık seçenek neredeyse yok",
+  "Satış sayısı az; fiyat verisi oynak"
  ],
  "faq": [
   [
    "Sea Ranch Lakes bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $3.900.000 (yıllık +%111,1), fit kare fiyatı $1.130. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı yaklaşık $3.900.000 (yıllık +%111,1), fit kare fiyatı yaklaşık $1.130."
+  ],
+  [
+   "Sea Ranch Lakes bölgesinde kiralar ne kadar?",
+   "Kiralık ilan sayısı çok az olduğu için güvenilir bir ortalama yok; kira mülke göre belirlenir."
   ],
   [
    "Sea Ranch Lakes bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 20,2215 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,02. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 20,2215 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,02 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Sea Ranch Lakes Housing Market (Ekim 2026)",
+   "Redfin: Sea Ranch Lakes Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/16589/FL/Sea-Ranch-Lakes/housing-market"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Zillow: Sea Ranch Lakes Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/sea-ranch-lakes-fl/"
+  ],
+  [
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -152,5 +162,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Sea Ranch Lakes raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Sea Ranch Lakes raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Fort Lauderdale ile Lauderdale-by-the-Sea arasında, okyanus kıyısında kapılı ve yalnızca birkaç yüz evden oluşan küçük bir köy."
 }

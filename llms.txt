@@ -13,7 +13,7 @@ Son güncelleme: 2026-10-18
 - E-posta: Aleynab@cervera.com
 - Diller: Türkçe, İngilizce, Fransızca
 - Eğitim: İstanbul Bilgi Üniversitesi (İşletme ve Ekonomi), Vanderbilt (Pazarlama), Istituto Marangoni (Lüks Marka Yönetimi)
-- Hizmet bölgeleri: Miami-Dade, Broward ve Palm Beach'in tamamı. Mahalle raporlarında ayrıntılı işlenen 108 bölge
+- Hizmet bölgeleri: Miami-Dade, Broward ve Palm Beach'in tamamı. Mahalle raporlarında ayrıntılı işlenen 121 bölge
 - Hizmetler: satın alma, yeni projeler (pre-construction ve markalı rezidanslar), kiralama, satış
 
 ## Basında
@@ -25,23 +25,27 @@ Son güncelleme: 2026-10-18
 - [Ücretsiz Miami Mahalle Rehberi](https://miamievim.com/mahalle-rehberi/): 22 mahallenin kira, fiyat, aidat, sigorta, sel bölgesi ve ulaşım karşılaştırması (Türkçe)
 - [Miami'de emlak yatırımı](https://miamievim.com/yatirim/): net getiri hesaplayıcısı; aidat, emlak vergisi, sigorta, kira kuralları ve FIRPTA
 - [Mahalle testi](https://miamievim.com/mahalle-testi/): Miami'ye yeni olanlar için 7 soruluk, şehri tanıyanlar için 9 soruluk iki test; size uygun üç Miami mahallesi
-- [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 108 bölgenin ücretsiz raporu (ad ve e-posta ile erişim)
+- [Mahalle raporları](https://miamievim.com/mahalle-raporlari/): 121 bölgenin ücretsiz raporu (ad ve e-posta ile erişim)
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
 - [Neden Miami?](https://miamievim.com/rehberler/neden-miami/): Florida'da eyalet gelir vergisi olmaması, MIA'nın 172 direkt uçuş noktası, İstanbul–Miami günlük direkt sefer, Miami-Dade nüfusu (2025), turizm, iklim ve yaşam; kaynaklı ve tarihli
 - [Yeni projeler](https://miamievim.com/yeni-projeler/): Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables'ta 83 yeni proje; tahmini teslim, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine (kaynak: Cervera Development Market Study, Q3 2026)
 
 ## Mahalle raporları
-108 bölgenin her biri için ayrı rapor: karakter, satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Rakamlar kaynak ve ay bilgisiyle verilir. Raporlar her ay güncellenir.
+121 bölgenin her biri için ayrı rapor: karakter, satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Rakamlar kaynak ve ay bilgisiyle verilir. Raporlar her ay güncellenir.
+- [Allapattah mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/allapattah/)
 - [Aventura mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/aventura/)
+- [Bal Harbour mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/bal-harbour/)
 - [Bay Harbor Islands mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/bay-harbor-islands/)
 - [Biscayne Park mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/biscayne-park/)
 - [Brickell mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/brickell/)
 - [Coconut Grove mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/coconut-grove/)
 - [Coral Gables mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/coral-gables/)
 - [Cutler Bay mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/cutler-bay/)
+- [Design District mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/design-district/)
 - [Doral mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/doral/)
-- [Downtown & Edgewater mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/edgewater/)
+- [Downtown Miami mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/downtown-miami/)
+- [Edgewater mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/edgewater/)
 - [El Portal mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/el-portal/)
 - [Fisher Island mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/fisher-island/)
 - [Florida City mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/florida-city/)
@@ -52,27 +56,34 @@ Son güncelleme: 2026-10-18
 - [Indian Creek mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/indian-creek/)
 - [Kendall mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/kendall/)
 - [Key Biscayne mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/key-biscayne/)
+- [Little Haiti mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/little-haiti/)
 - [Little Havana mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/little-havana/)
 - [Medley mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/medley/)
 - [Miami Gardens mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/miami-gardens/)
 - [Miami Lakes mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/miami-lakes/)
 - [Miami Shores mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/miami-shores/)
 - [Miami Springs mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/miami-springs/)
-- [Mid-Beach & North Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/north-beach/)
+- [Mid-Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/mid-beach/)
+- [Midtown mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/midtown/)
+- [Morningside mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/morningside/)
 - [North Bay Village mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/north-bay-village/)
+- [North Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/north-beach/)
 - [North Miami mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/north-miami/)
 - [North Miami Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/north-miami-beach/)
 - [Opa-locka mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/opa-locka/)
 - [Palmetto Bay mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/palmetto-bay/)
+- [Pinecrest mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/pinecrest/)
+- [SoFi (South of Fifth) mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/sofi/)
 - [South Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/south-beach/)
-- [South Miami & Pinecrest mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/pinecrest/)
+- [South Miami mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/south-miami/)
 - [Sunny Isles Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/sunny-isles/)
-- [Surfside & Bal Harbour mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/bal-harbour/)
+- [Surfside mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/surfside/)
 - [Sweetwater mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/sweetwater/)
 - [Upper East Side mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/upper-east-side/)
+- [Venetian Islands mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/venetian-islands/)
 - [Virginia Gardens mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/virginia-gardens/)
 - [West Miami mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/west-miami/)
-- [Wynwood & Design District mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/wynwood/)
+- [Wynwood mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/wynwood/)
 - [Coconut Creek mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/coconut-creek/)
 - [Cooper City mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/cooper-city/)
 - [Coral Springs mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/coral-springs/)
@@ -83,10 +94,11 @@ Son güncelleme: 2026-10-18
 - [Hallandale Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/hallandale/)
 - [Hillsboro Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/hillsboro-beach/)
 - [Hollywood mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/hollywood/)
+- [Hollywood Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/hollywood-beach/)
 - [Lauderdale Lakes mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/lauderdale-lakes/)
 - [Lauderdale-by-the-Sea mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/lauderdale-by-the-sea/)
 - [Lauderhill mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/lauderhill/)
-- [Lighthouse Point & Pompano mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/pompano/)
+- [Lighthouse Point mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/lighthouse-point/)
 - [Margate mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/margate/)
 - [Miramar mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/miramar/)
 - [North Lauderdale mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/north-lauderdale/)
@@ -95,6 +107,7 @@ Son güncelleme: 2026-10-18
 - [Pembroke Park mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/pembroke-park/)
 - [Pembroke Pines mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/pembroke-pines/)
 - [Plantation mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/plantation/)
+- [Pompano Beach mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/pompano/)
 - [Sea Ranch Lakes mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/sea-ranch-lakes/)
 - [Southwest Ranches mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/southwest-ranches/)
 - [Sunrise mahalle raporu (Ekim 2026)](https://miamievim.com/mahalle-raporlari/sunrise/)

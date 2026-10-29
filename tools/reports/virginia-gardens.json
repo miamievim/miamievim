@@ -2,66 +2,77 @@
  "id": "virginia-gardens",
  "name": "Virginia Gardens",
  "county": "Miami-Dade",
- "meta": "Virginia Gardens mahalle raporu, Ekim 2026: medyan satış fiyatı $645.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Miami Uluslararası Havalimanı'nın hemen kuzeyinde, müstakil evlerden oluşan küçük bir köy. Satış sayısı çok az olduğu için fiyatlar her eve göre belirlenir.",
+ "meta": "Virginia Gardens mahalle raporu, Ekim 2026: medyan satış fiyatı yaklaşık $645 bin, ortalama kira $1.750, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Miami Uluslararası Havalimanı'nın hemen kuzeyinde, müstakil evlerden oluşan küçük bir köy. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı yaklaşık $645 bin (Redfin).",
  "sales": {
   "median": 645000,
+  "median_approx": true,
   "median_chg": "yıllık −%0,82",
   "ppsf": 452,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$645.000 <small>(yıllık −%0,82)</small>"
+    "yaklaşık $645.000 <small>(yıllık −%0,82)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$452 / ft² ≈ $4.865 / m² <small>(yıllık +%84,5)</small>"
    ],
    [
-    "Ortalama satış süresi",
-    "31 gün <small>(bir yıl önce 32 gün)</small>"
+    "Medyan satış süresi",
+    "52 gün <small>(bir yıl önce 32 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "1"
-   ],
-   [
-    "Satış / ilan fiyatı oranı",
-    "%97,5"
+    "Satış / ilan fiyatı",
+    "ilan fiyatının ortalama %2,5 altında"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/18920/FL/Virginia-Gardens/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Virginia Gardens Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/18920/FL/Virginia-Gardens/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Virginia Gardens Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Son dönemde yalnızca 1 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+   "Medyan satış fiyatı bir yıl öncesiyle hemen hemen aynı seviyede; fit kare fiyatı da yükseldi (+%84,5).",
+   "Medyan satış süresi bir yılda 32 günden 52 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %2,5 altında kapanıyor."
   ]
  },
  "rent": {
-  "avg": 1950,
-  "chg": "yıllık −$150",
+  "avg": 1750,
+  "chg": "yıllık −$200",
   "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "1 yatak odalı",
-    "$1.800"
+    "$1.750"
    ],
    [
     "2 yatak odalı",
     "$2.400"
    ],
    [
+    "3 yatak odalı",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
+    "4+ yatak odalı",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$1.950"
+    "$1.750"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/virginia-gardens-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Virginia Gardens</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/virginia-gardens-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Virginia Gardens</a>, 26 Ekim 2026 güncellemesi (8 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 7 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (8 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
   "mills": 19.8727,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Virginia Gardens, Miami Springs ile Doral arasında, 1947'de kurulan ve yalnızca birkaç bin kişinin yaşadığı küçük bir köy. Konut stoku tek katlı müstakil evlerden oluşur.",
@@ -114,7 +125,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Hialeah Market (yaklaşık 6 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Metrorail Okeechobee (kuş uçuşu yaklaşık 3 km)."
   ],
   [
    "Günlük hayat",
@@ -128,7 +139,7 @@
  "pros": [
   "Havalimanına çok yakın",
   "Sakin, küçük ölçekli köy",
-  "Hızlı satışlar"
+  "Likit piyasa: medyan satış süresi 52 gün"
  ],
  "cons": [
   "Satış ve kiralık ilan sayısı çok az",
@@ -139,28 +150,28 @@
  "faq": [
   [
    "Virginia Gardens bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $645.000 (yıllık −%0,82), fit kare fiyatı $452. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı yaklaşık $645.000 (yıllık −%0,82), fit kare fiyatı $452."
   ],
   [
    "Virginia Gardens bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $1.950; 2 yatak odalı $2.400 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $1.750; 1 yatak odalı $1.750, 2 yatak odalı $2.400 civarında."
   ],
   [
    "Virginia Gardens bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 19,8727 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,99. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 19,8727 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,99 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Virginia Gardens Housing Market (Ekim 2026)",
+   "Redfin: Virginia Gardens Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/18920/FL/Virginia-Gardens/housing-market"
   ],
   [
-   "Zillow: Virginia Gardens Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Virginia Gardens Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/virginia-gardens-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -168,5 +179,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Virginia Gardens raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Virginia Gardens raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Miami Uluslararası Havalimanı'nın hemen kuzeyinde, müstakil evlerden oluşan küçük bir köy."
 }

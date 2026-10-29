@@ -2,10 +2,11 @@
  "id": "north-bay-village",
  "name": "North Bay Village",
  "county": "Miami-Dade",
- "meta": "North Bay Village mahalle raporu, Ekim 2026: medyan satış fiyatı $480.421, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "79th Street Causeway üzerindeki üç adada, körfez manzaralı kondominyumlar ve yeni projelerle dönüşen küçük bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $480.421.",
+ "meta": "North Bay Village mahalle raporu, Ekim 2026: medyan satış fiyatı $480 bin, ortalama kira $2.900, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "79th Street Causeway üzerindeki üç adada, körfez manzaralı kondominyumlar ve yeni projelerle dönüşen küçük bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $480 bin (Redfin).",
  "sales": {
   "median": 480421,
+  "median_approx": false,
   "median_chg": "yıllık +%2,8",
   "ppsf": 431,
   "src_short": "Redfin",
@@ -19,24 +20,28 @@
     "$431 / ft² ≈ $4.639 / m² <small>(yıllık +%8,3)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "144 gün <small>(bir yıl önce 170 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "37 <small>(yıllık +%8,8)</small>"
+    "Satılan konut (Eylül 2026)",
+    "37 <small>(bir yıl önce 34)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%92,9"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/12608/FL/North-Bay-Village/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Bay Village Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/12608/FL/North-Bay-Village/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Bay Village Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%2,8); fit kare fiyatı da yükseldi (+%8,3).",
+   "Medyan satış süresi bir yılda 170 günden 144 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %7,1 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 2816,
-  "chg": "yıllık −$234",
+  "avg": 2900,
+  "chg": "yıllık −$100",
   "src_short": "Zillow",
   "rows": [
    [
@@ -45,7 +50,7 @@
    ],
    [
     "1 yatak odalı",
-    "$2.256"
+    "$2.244"
    ],
    [
     "2 yatak odalı",
@@ -53,19 +58,25 @@
    ],
    [
     "3 yatak odalı",
-    "$4.950"
+    "$6.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$50.000"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.816"
+    "$2.900"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-bay-village-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Bay Village</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-bay-village-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Bay Village</a>, 26 Ekim 2026 güncellemesi (155 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 21.8955,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "North Bay Village, Miami ile Miami Beach'i bağlayan 79th Street Causeway üzerindeki üç adadan (North Bay, Harbor ve Treasure Island) oluşan küçük bir şehir. Neredeyse her konut körfez manzarasına sahiptir.",
@@ -122,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline MiamiCentral (yaklaşık 11 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Metrorail Allapattah (kuş uçuşu yaklaşık 7 km)."
   ],
   [
    "Günlük hayat",
@@ -154,13 +165,13 @@
   "Körfez manzarası ve tekne yaşamı",
   "Miami Beach ve şehir merkezine yakınlık",
   "Yeni projelerle yenilenen stok",
-  "Satış süresinde kısalma"
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %7,1 altında kapanıyor"
  ],
  "cons": [
   "Kıyı bölgesi: yüksek sel riski ve sigorta maliyeti",
   "Eski binalarda SIRS ve özel aidat riski",
-  "Vergi oranı 21,9 mill",
-  "Satışların ilan fiyatının ~%7 altında kapanması"
+  "Bölgedeki yüksek toplam vergi oranlarından biri (21,90 mill)",
+  "Uzun satış süresi (medyan 144 gün)"
  ],
  "faq": [
   [
@@ -169,24 +180,24 @@
   ],
   [
    "North Bay Village bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.816; 2 yatak odalı $3.000 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.900; 1 yatak odalı $2.244, 2 yatak odalı $3.000 civarında."
   ],
   [
    "North Bay Village bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 21,8955 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,19. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 21,8955 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,19 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: North Bay Village Housing Market (Ekim 2026)",
+   "Redfin: North Bay Village Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/12608/FL/North-Bay-Village/housing-market"
   ],
   [
-   "Zillow: North Bay Village Rental Market Trends (17 Ekim 2026)",
+   "Zillow: North Bay Village Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/north-bay-village-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -198,5 +209,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, North Bay Village raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, North Bay Village raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "79th Street Causeway üzerindeki üç adada, körfez manzaralı kondominyumlar ve yeni projelerle dönüşen küçük bir şehir."
 }

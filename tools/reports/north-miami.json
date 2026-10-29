@@ -2,12 +2,13 @@
  "id": "north-miami",
  "name": "North Miami",
  "county": "Miami-Dade",
- "meta": "North Miami mahalle raporu, Ekim 2026: medyan satış fiyatı $489.757, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Çağdaş sanat müzesi, körfez kıyısındaki üniversite kampüsü ve büyük karma kullanımlı projelerle dönüşen bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $489.757.",
+ "meta": "North Miami mahalle raporu, Ekim 2026: medyan satış fiyatı $490 bin, ortalama kira $2.172, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Çağdaş sanat müzesi, körfez kıyısındaki üniversite kampüsü ve büyük karma kullanımlı projelerle dönüşen bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $490 bin (Redfin).",
  "sales": {
   "median": 489757,
+  "median_approx": false,
   "median_chg": "yıllık +%16,6",
-  "ppsf": 312,
+  "ppsf": 318,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,27 +17,31 @@
    ],
    [
     "Fit kare fiyatı",
-    "$312 / ft² ≈ $3.358 / m² <small>(yıllık +%1,3)</small>"
+    "$318 / ft² ≈ $3.423 / m² <small>(yıllık +%3,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "107 gün <small>(bir yıl önce 98 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "99 <small>(yıllık −%9,61)</small>"
+    "Satılan konut (Eylül 2026)",
+    "99 <small>(bir yıl önce 109)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%93,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/12676/FL/North-Miami/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Miami Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/12676/FL/North-Miami/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Miami Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%16,6); fit kare fiyatı da yükseldi (+%3,2).",
+   "Medyan satış süresi bir yılda 98 günden 107 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %6,3 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 2185,
-  "chg": "yıllık +$85",
+  "avg": 2172,
+  "chg": "yıllık +$72",
   "src_short": "Zillow",
   "rows": [
    [
@@ -49,23 +54,29 @@
    ],
    [
     "2 yatak odalı",
-    "$2.383"
+    "$2.367"
    ],
    [
     "3 yatak odalı",
     "$3.600"
    ],
    [
+    "4+ yatak odalı",
+    "$6.500"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$2.185"
+    "$2.172"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-miami-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Miami</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-miami-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Miami</a>, 26 Ekim 2026 güncellemesi (394 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 22.1415,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "North Miami, Miami'nin kuzeyinde, Biscayne Körfezi ile I-95 arasında uzanan ve 1926'da kurulan bir şehir. Şehir merkezi NE 125th Street çevresinde restoran ve dükkânlarla toplanır; MOCA North Miami bu merkezin kültür odağıdır.",
@@ -122,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (yaklaşık 6 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (kuş uçuşu yaklaşık 5 km)."
   ],
   [
    "Günlük hayat",
@@ -135,41 +146,39 @@
  ],
  "pros": [
   "Miami ve Fort Lauderdale arasında merkezi konum",
-  "Medyan fiyatta yıllık artış (+%16,6)",
   "Körfeze ve doğa parklarına yakınlık",
-  "Uygun kiralar"
+  "Uygun kiralar",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,3 altında kapanıyor"
  ],
  "cons": [
-  "Yüksek vergi oranı (22,14 mill)",
-  "Uzayan satış süresi (107 gün)",
   "Kanal ve körfeze yakın kesimlerde sel riski",
-  "Biscayne Boulevard ve I-95'te trafik"
+  "Bölgedeki yüksek toplam vergi oranlarından biri (22,14 mill)"
  ],
  "faq": [
   [
    "North Miami bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $489.757 (yıllık +%16,6), fit kare fiyatı $312."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $489.757 (yıllık +%16,6), fit kare fiyatı $318."
   ],
   [
    "North Miami bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.185; 2 yatak odalı $2.383 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.172; 1 yatak odalı $1.700, 2 yatak odalı $2.367 civarında."
   ],
   [
    "North Miami bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 22,1415 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,21. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 22,1415 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,21 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: North Miami Housing Market (Ekim 2026)",
+   "Redfin: North Miami Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/12676/FL/North-Miami/housing-market"
   ],
   [
-   "Zillow: North Miami Rental Market Trends (17 Ekim 2026)",
+   "Zillow: North Miami Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/north-miami-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -177,5 +186,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, North Miami raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, North Miami raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Çağdaş sanat müzesi, körfez kıyısındaki üniversite kampüsü ve büyük karma kullanımlı projelerle dönüşen bir şehir."
 }

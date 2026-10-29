@@ -2,10 +2,11 @@
  "id": "little-havana",
  "name": "Little Havana",
  "county": "Miami-Dade",
- "meta": "Little Havana mahalle raporu, Ekim 2026: medyan satış fiyatı $582 bin, ortalama kira $1.995, emlak vergisi, sel bölgesi, yeni kiralık projeler ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Calle Ocho, canlı müzik ve tarihî tiyatrosuyla Miami'nin kültürel kalbi; Brickell'e birkaç dakika. Ekim 2026 itibarıyla ortalama kira $1.995 ile bu raporlardaki en uygun kira seviyelerinden biri.",
+ "meta": "Little Havana mahalle raporu, Ekim 2026: medyan satış fiyatı $582 bin, ortalama kira $1.975, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Calle Ocho, canlı müzik ve tarihî tiyatrosuyla Miami'nin kültürel kalbi; Brickell'e birkaç dakika. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $582 bin (Redfin).",
  "sales": {
   "median": 582337,
+  "median_approx": false,
   "median_chg": "yıllık +%40,3",
   "ppsf": 361,
   "src_short": "Redfin",
@@ -19,27 +20,30 @@
     "$361 / ft² ≈ $3.886 / m² <small>(yıllık +%9,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "62 gün <small>(bir yıl önce 107 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "10 <small>(yıllık −%32)</small>"
+    "10 <small>(bir yıl önce 15)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,0"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/neighborhood/55670/FL/Miami/Little-Havana/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Little Havana Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/neighborhood/55670/FL/Miami/Little-Havana/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Little Havana Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Satış sayısı düşük olduğu için medyan fiyattaki %40,3'lük artış oynaktır; fit kare fiyatındaki %9,2'lik artış daha güvenilir bir göstergedir. Satış süresinin 107 günden 62 güne inmesi talebin güçlendiğini gösteriyor."
+   "Medyan satış fiyatı bir yılda yükseldi (+%40,3); fit kare fiyatı da yükseldi (+%9,2).",
+   "Medyan satış süresi bir yılda 107 günden 62 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %5,0 altında kapanıyor; pazarlık payı belirgin.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
   ]
  },
  "rent": {
-  "avg": 1995,
-  "chg": "yıllık −$155",
-  "src_short": "Zillow · 33135",
+  "avg": 1975,
+  "chg": "yıllık −$125",
+  "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
@@ -47,7 +51,7 @@
    ],
    [
     "1 yatak odalı",
-    "$1.750"
+    "$1.725"
    ],
    [
     "2 yatak odalı",
@@ -55,21 +59,26 @@
    ],
    [
     "3 yatak odalı",
-    "$3.850"
+    "$3.700"
+   ],
+   [
+    "4+ yatak odalı",
+    "$5.467"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$1.995"
+    "$1.975"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33135/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, ZIP 33135</a>, 16 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33135/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33135 posta kodu</a>, 26 Ekim 2026 güncellemesi (260 aktif kiralık ilan).",
   "notes": [
-   "Yönetimli apartman binalarını baz alan RentCafe, Little Havana için ortalamayı $2.610 olarak veriyor (30 Eylül 2026); yeni binalardaki kiralar bu seviyeye daha yakın."
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33135 posta kodunun ortalamaları kullanıldı; posta kodu Little Havana dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 19.9878,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Little Havana, Miami'nin Küba mirasıyla özdeşleşmiş tarihî bölgesidir. SW 8th Street, yani Calle Ocho boyunca kafeler, puro dükkânları, sanat galerileri ve canlı müzik mekânları sıralanır; her ayın son cuma günü düzenlenen Viernes Culturales sokakları festivale çevirir.",
@@ -100,7 +109,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Miami şehri için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Little Havana için 2025 toplam vergi oranı 19,9878 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -155,22 +164,25 @@
   "Bu raporlardaki en uygun kira seviyelerinden biri",
   "Brickell, Downtown ve havalimanına yakınlık",
   "Güçlü kültürel kimlik ve canlı sokak hayatı",
-  "Satış süresinde belirgin kısalma (62 gün)"
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,0 altında kapanıyor"
  ],
  "cons": [
   "Satış verisi az; fiyat değişimleri oynak",
   "Eski binalarda bakım ve tadilat ihtiyacı",
-  "Miami şehri vergi oranı (19,99 mill)",
   "Etkinlik dönemlerinde yoğunluk ve gürültü"
  ],
  "faq": [
   [
-   "Little Havana'da ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $582.337 (yıllık +%40,3), fit kare fiyatı $361 (yıllık +%9,2). Satış sayısı düşük olduğu için medyan oynaktır."
+   "Little Havana bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $582.337 (yıllık +%40,3), fit kare fiyatı $361."
   ],
   [
-   "Little Havana'da kiralar ne kadar?",
-   "Zillow'a göre ZIP 33135'te (16 Ekim 2026) ortalama kira aylık $1.995; 1 yatak odalı $1.750, 2 yatak odalı $2.200 civarında."
+   "Little Havana bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $1.975; 1 yatak odalı $1.725, 2 yatak odalı $2.200 civarında."
+  ],
+  [
+   "Little Havana bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 19,9878 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Little Havana Brickell'e ne kadar uzak?",
@@ -183,19 +195,15 @@
  ],
  "sources": [
   [
-   "Redfin: Little Havana Housing Market (Ekim 2026)",
+   "Redfin: Little Havana Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/neighborhood/55670/FL/Miami/Little-Havana/housing-market"
   ],
   [
-   "Zillow: ZIP 33135 Rental Market Trends (16 Ekim 2026)",
+   "Zillow: 33135 posta kodu Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/33135/"
   ],
   [
-   "RentCafe: Little Havana Average Rent (30 Eylül 2026)",
-   "https://www.rentcafe.com/average-rent-market-trends/us/fl/miami/little-havana/"
-  ],
-  [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -212,5 +220,6 @@
   ]
  ],
  "wa": "Merhaba Aleyna Hanım, Little Havana raporunu okudum. Bu mahalle hakkında görüşmek istiyorum.",
- "projects_notes": []
+ "projects_notes": [],
+ "lead": "Calle Ocho, canlı müzik ve tarihî tiyatrosuyla Miami'nin kültürel kalbi; Brickell'e birkaç dakika."
 }

@@ -2,10 +2,11 @@
  "id": "miami-gardens",
  "name": "Miami Gardens",
  "county": "Miami-Dade",
- "meta": "Miami Gardens mahalle raporu, Ekim 2026: medyan satış fiyatı $512.706, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Hard Rock Stadium'a ev sahipliği yapan, müstakil ev ağırlıklı ve hızlı satış yapan bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $512.706; satışlar ilan fiyatına çok yakın kapanıyor.",
+ "meta": "Miami Gardens mahalle raporu, Ekim 2026: medyan satış fiyatı $513 bin, ortalama kira $2.800, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Hard Rock Stadium'a ev sahipliği yapan, müstakil ev ağırlıklı ve hızlı satış yapan bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $513 bin (Redfin).",
  "sales": {
   "median": 512706,
+  "median_approx": false,
   "median_chg": "yıllık +%4,6",
   "ppsf": 366,
   "src_short": "Redfin",
@@ -19,20 +20,24 @@
     "$366 / ft² ≈ $3.940 / m² <small>(yıllık +%7,6)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "59 gün <small>(bir yıl önce 67 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "189 <small>(yıllık +%6,7)</small>"
+    "Satılan konut (Eylül 2026)",
+    "189 <small>(bir yıl önce 177)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%97,7"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/11477/FL/Miami-Gardens/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Miami Gardens Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/11477/FL/Miami-Gardens/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Miami Gardens Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%4,6); fit kare fiyatı da yükseldi (+%7,6).",
+   "Medyan satış süresi bir yılda 67 günden 59 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %2,3 altında kapanıyor."
+  ]
  },
  "rent": {
   "avg": 2800,
@@ -45,27 +50,31 @@
    ],
    [
     "1 yatak odalı",
-    "$1.575"
+    "$1.500"
    ],
    [
     "2 yatak odalı",
-    "$2.300"
+    "$2.250"
    ],
    [
     "3 yatak odalı",
-    "$3.000"
+    "$3.100"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.567"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$2.800"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/miami-gardens-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Miami Gardens</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/miami-gardens-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Miami Gardens</a>, 26 Ekim 2026 güncellemesi (263 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 22.3921,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Miami Gardens, 2003'te kurulan ve Miami-Dade'in en kalabalık şehirlerinden biri olan bir yerleşim. Hard Rock Stadium; Miami Dolphins maçları, Miami Open tenis turnuvası ve Formula 1 Miami Grand Prix gibi büyük etkinliklerle şehri uluslararası sahneye taşır.",
@@ -122,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (yaklaşık 5 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Golden Glades (kuş uçuşu yaklaşık 4 km)."
   ],
   [
    "Günlük hayat",
@@ -134,16 +143,16 @@
   "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Miami Gardens için kayıtlı büyük ölçekli proje bulunmuyor."
  ],
  "pros": [
-  "Hızlı satışlar (59 gün) ve %97,7 satış/ilan oranı",
   "Müstakil ev ağırlıklı stok",
   "Otoyol bağlantıları güçlü",
-  "Broward ve Miami'ye eşit mesafe"
+  "Broward ve Miami'ye eşit mesafe",
+  "Likit piyasa: medyan satış süresi 59 gün"
  ],
  "cons": [
-  "Yüksek vergi oranı (22,39 mill)",
   "Etkinlik günlerinde stadyum çevresinde trafik",
   "Plaja uzak",
-  "Eski evlerde çatı ve sigorta maliyeti"
+  "Eski evlerde çatı ve sigorta maliyeti",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (22,39 mill)"
  ],
  "faq": [
   [
@@ -152,24 +161,24 @@
   ],
   [
    "Miami Gardens bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.800; 2 yatak odalı $2.300 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.800; 1 yatak odalı $1.500, 2 yatak odalı $2.250 civarında."
   ],
   [
    "Miami Gardens bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 22,3921 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,24. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 22,3921 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,24 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Miami Gardens Housing Market (Ekim 2026)",
+   "Redfin: Miami Gardens Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/11477/FL/Miami-Gardens/housing-market"
   ],
   [
-   "Zillow: Miami Gardens Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Miami Gardens Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/miami-gardens-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -177,5 +186,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Miami Gardens raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Miami Gardens raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Hard Rock Stadium'a ev sahipliği yapan, müstakil ev ağırlıklı ve hızlı satış yapan bir şehir."
 }

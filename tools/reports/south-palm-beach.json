@@ -2,10 +2,11 @@
  "id": "south-palm-beach",
  "name": "South Palm Beach",
  "county": "Palm Beach",
- "meta": "South Palm Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $389.814, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Lantana'nın karşısında, A1A boyunca okyanus kıyısı kondominyumlardan oluşan küçük bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $389.814.",
+ "meta": "South Palm Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $390 bin, ortalama kira $5.900, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Lantana'nın karşısında, A1A boyunca okyanus kıyısı kondominyumlardan oluşan küçük bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $390 bin (Redfin).",
  "sales": {
   "median": 389814,
+  "median_approx": false,
   "median_chg": "yıllık +%10,2",
   "ppsf": 285,
   "src_short": "Redfin",
@@ -16,55 +17,66 @@
    ],
    [
     "Fit kare fiyatı",
-    "$285 / ft² ≈ $3.068 / m² <small>(yıllık −%31,0)</small>"
+    "$285 / ft² ≈ $3.068 / m² <small>(yıllık −%31)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "103 gün <small>(bir yıl önce 179 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "19 <small>(yıllık −%3,5)</small>"
+    "Satılan konut (Eylül 2026)",
+    "19 <small>(bir yıl önce 20)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,5"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/17328/FL/South-Palm-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, South Palm Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/17328/FL/South-Palm-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, South Palm Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%10,2); fit kare fiyatı ise ters yönde hareket etti (−%31); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 179 günden 103 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,5 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 7000,
-  "chg": "yıllık +$2.500",
+  "avg": 5900,
+  "chg": "yıllık +$1.650",
   "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "1 yatak odalı",
-    "$2.795"
+    "$2.900"
    ],
    [
     "2 yatak odalı",
-    "$7.000"
+    "$6.000"
    ],
    [
     "3 yatak odalı",
     "$17.500"
    ],
    [
+    "4+ yatak odalı",
+    "$15.500"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$7.000"
+    "$5.900"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/south-palm-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, South Palm Beach</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/south-palm-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, South Palm Beach</a>, 26 Ekim 2026 güncellemesi (50 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 50 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
-  "mills": 19.1179,
-  "mills_hi": 19.667,
-  "src_short": "PAPA 2025"
+  "mills": 19.6652,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "South Palm Beach, Palm Beach adasının güneyinde, yaklaşık 1,5 kilometrelik bir şerit üzerinde yer alan küçük bir kasaba. Konut stoku neredeyse tamamen okyanus ve Intracoastal kıyısı kondominyumlarından oluşur.",
@@ -91,7 +103,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "South Palm Beach için 2025 toplam vergi oranı 19,1179–19,6670 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,91–1,97. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.118–$19.667. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları, belediye oranı ve ilçe itfaiye vergisi. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "South Palm Beach için 2025 toplam vergi oranı 19,6652 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,97. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.665. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -121,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (yaklaşık 6 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Lake Worth Beach (kuş uçuşu yaklaşık 4 km)."
   ],
   [
    "Günlük hayat",
@@ -133,10 +145,7 @@
   "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) South Palm Beach için kayıtlı büyük ölçekli proje bulunmuyor."
  ],
  "pros": [
-  "Okyanus kıyısında görece uygun kondominyumlar",
-  "Fiyatlarda yıllık artış (+%10,2)",
-  "Düşük belediye oranı",
-  "Satış süresi belirgin şekilde kısaldı (103 gün)"
+  "Okyanus kıyısında görece uygun kondominyumlar"
  ],
  "cons": [
   "Kondominyumlarda SIRS ve özel aidat riski",
@@ -151,24 +160,28 @@
   ],
   [
    "South Palm Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $7.000; 2 yatak odalı $7.000 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $5.900; 1 yatak odalı $2.900, 2 yatak odalı $6.000 civarında."
   ],
   [
    "South Palm Beach bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 19,1179–19,6670 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,91–1,97. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 19,6652 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,97 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: South Palm Beach Housing Market (Ekim 2026)",
+   "Redfin: South Palm Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/17328/FL/South-Palm-Beach/housing-market"
   ],
   [
-   "Zillow: South Palm Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: South Palm Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/south-palm-beach-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -180,5 +193,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, South Palm Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, South Palm Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Lantana'nın karşısında, A1A boyunca okyanus kıyısı kondominyumlardan oluşan küçük bir kasaba."
 }

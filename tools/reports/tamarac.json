@@ -2,12 +2,13 @@
  "id": "tamarac",
  "name": "Tamarac",
  "county": "Broward",
- "meta": "Tamarac mahalle raporu, Ekim 2026: medyan satış fiyatı $299.857, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Golf sahaları çevresindeki siteleri ve uygun fiyatlı villalarıyla merkezi Broward'da sakin bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $299.857.",
+ "meta": "Tamarac mahalle raporu, Ekim 2026: medyan satış fiyatı $300 bin, ortalama kira $2.069, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Golf sahaları çevresindeki siteleri ve uygun fiyatlı villalarıyla merkezi Broward'da sakin bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $300 bin (Redfin).",
  "sales": {
   "median": 299857,
+  "median_approx": false,
   "median_chg": "yıllık −%6,3",
-  "ppsf": 214,
+  "ppsf": 215,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,27 +17,31 @@
    ],
    [
     "Fit kare fiyatı",
-    "$214 / ft² ≈ $2.303 / m² <small>(yıllık −%5,7)</small>"
+    "$215 / ft² ≈ $2.314 / m² <small>(yıllık −%5,3)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "89 gün <small>(bir yıl önce 104 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "308 <small>(yıllık −%7,9)</small>"
+    "Satılan konut (Eylül 2026)",
+    "308 <small>(bir yıl önce 334)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,1"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/18064/FL/Tamarac/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Tamarac Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/18064/FL/Tamarac/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Tamarac Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%6,3); fit kare fiyatı da geriledi (−%5,3).",
+   "Medyan satış süresi bir yılda 104 günden 89 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,9 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2100,
-  "chg": "yıllık değişim yok",
+  "avg": 2069,
+  "chg": "yıllık −$119",
   "src_short": "Zillow",
   "rows": [
    [
@@ -45,7 +50,7 @@
    ],
    [
     "1 yatak odalı",
-    "$1.575"
+    "$1.600"
    ],
    [
     "2 yatak odalı",
@@ -53,19 +58,23 @@
    ],
    [
     "3 yatak odalı",
-    "$2.950"
+    "$2.995"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.300"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.100"
+    "$2.069"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/tamarac-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Tamarac</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/tamarac-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Tamarac</a>, 26 Ekim 2026 güncellemesi (289 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 21.0965,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Tamarac, 1963'te kurulan ve golf sahaları çevresine planlanmış sitelerle büyüyen bir şehir. Şehrin batı kesiminde daha yeni müstakil ev toplulukları, doğusunda ise yerleşik villa ve kondominyum siteleri bulunur.",
@@ -122,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 14 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (kuş uçuşu yaklaşık 10 km)."
   ],
   [
    "Günlük hayat",
@@ -140,36 +149,35 @@
   "Kiralık stok mevcut"
  ],
  "cons": [
-  "Yüksek vergi oranı (21,10 mill)",
   "Site kuralları ve yaş kısıtlamaları",
-  "Fiyatlarda yıllık düşüş",
-  "Plaja uzak"
+  "Plaja uzak",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (21,10 mill)"
  ],
  "faq": [
   [
    "Tamarac bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $299.857 (yıllık −%6,3), fit kare fiyatı $214."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $299.857 (yıllık −%6,3), fit kare fiyatı $215."
   ],
   [
    "Tamarac bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.100; 2 yatak odalı $2.000 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.069; 1 yatak odalı $1.600, 2 yatak odalı $2.000 civarında."
   ],
   [
    "Tamarac bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 21,0965 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,11. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 21,0965 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,11 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Tamarac Housing Market (Ekim 2026)",
+   "Redfin: Tamarac Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/18064/FL/Tamarac/housing-market"
   ],
   [
-   "Zillow: Tamarac Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Tamarac Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/tamarac-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -177,5 +185,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Tamarac raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Tamarac raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Golf sahaları çevresindeki siteleri ve uygun fiyatlı villalarıyla merkezi Broward'da sakin bir şehir."
 }

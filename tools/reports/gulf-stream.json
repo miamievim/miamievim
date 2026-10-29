@@ -2,10 +2,11 @@
  "id": "gulf-stream",
  "name": "Gulf Stream",
  "county": "Palm Beach",
- "meta": "Gulf Stream mahalle raporu, Ekim 2026: medyan satış fiyatı $4.792.718, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Delray Beach'in kuzeyinde, Akdeniz tarzı evleri ve tarihî golf kulübüyle çok küçük bir kıyı kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $4.792.718.",
+ "meta": "Gulf Stream mahalle raporu, Ekim 2026: medyan satış fiyatı $4,8 milyon, ortalama kira $15.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Delray Beach'in kuzeyinde, Akdeniz tarzı evleri ve tarihî golf kulübüyle çok küçük bir kıyı kasabası. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $4,8 milyon (Redfin).",
  "sales": {
   "median": 4792718,
+  "median_approx": false,
   "median_chg": "yıllık −%63,3",
   "ppsf": 1690,
   "src_short": "Redfin",
@@ -16,29 +17,32 @@
    ],
    [
     "Fit kare fiyatı",
-    "$1.690 / ft² ≈ $18.191 / m² <small>(yıllık −%51,2)</small>"
+    "yaklaşık $1.690 / ft² ≈ $18.191 / m² <small>(yıllık −%51,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "256 gün <small>(bir yıl önce 45 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "5 <small>(yıllık +%27,0)</small>"
+    "Satılan konut (Eylül 2026)",
+    "5 <small>(bir yıl önce 4)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%98,1"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/7218/FL/Gulf-Stream/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Gulf Stream Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/7218/FL/Gulf-Stream/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Gulf Stream Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Son dönemde yalnızca 5 satış gerçekleştiği için medyan fiyat ve yıllık değişim istatistiksel olarak anlamlı değildir; tek bir satış rakamları belirgin şekilde değiştirebilir."
+   "Medyan satış fiyatı bir yılda geriledi (−%63,3); fit kare fiyatı da geriledi (−%51,2).",
+   "Medyan satış süresi bir yılda 45 günden 256 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %1,9 altında kapanıyor.",
+   "Satış sayısı az olduğu için yüzde değişimler tek tek satışlardan güçlü biçimde etkilenir; bu rakamları kesin bir eğilim olarak değil, gösterge olarak okuyun."
   ]
  },
  "rent": {
   "avg": 15000,
-  "chg": "yıllık +$9.250",
+  "chg": "yıllık +$9.000",
   "src_short": "Zillow",
   "rows": [
    [
@@ -51,26 +55,30 @@
    ],
    [
     "2 yatak odalı",
-    "$7.456"
+    "$7.300"
    ],
    [
     "3 yatak odalı",
     "$18.000"
    ],
    [
+    "4+ yatak odalı",
+    "$100.000"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$15.000"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/gulf-stream-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Gulf Stream</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/gulf-stream-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Gulf Stream</a>, 26 Ekim 2026 güncellemesi (7 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 8 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (7 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
-  "mills": 15.9322,
-  "mills_hi": 16.4813,
-  "src_short": "PAPA 2025"
+  "mills": 15.9304,
+  "src_short": "Palm Beach PA, 2025"
  },
  "character": [
   "Gulf Stream, okyanus ile Intracoastal arasında, sıkı mimari kurallarıyla Bermuda ve Akdeniz tarzı görünümünü koruyan küçük bir kasaba. Gulf Stream Golf Club, Addison Mizner'in tasarladığı kulüp binasıyla kasabanın merkezidir.",
@@ -97,7 +105,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Gulf Stream için 2025 toplam vergi oranı 15,9322–16,4813 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,59–1,65. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $15.932–$16.481. Palm Beach County'de belediye bazında toplam oran yayımlanmadığı için bu aralık, Emlak Değerleme Dairesi'nin (PAPA) 2025 kesin oranlarının toplanmasıyla hesaplanmıştır: ilçe, okul bölgesi, su yönetimi ve sağlık bölgesi oranları ve belediye oranı. Alt sınır ilçe kütüphane vergisi (0,5491 mill) hariç, üst sınır dahildir; kendi kütüphanesi olan belediyelerde alt sınır geçerlidir. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Gulf Stream için 2025 toplam vergi oranı 15,9304 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,59. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $15.930. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -127,7 +135,7 @@
   ],
   [
    "Toplu taşıma",
-   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Delray Beach (yaklaşık 6 km)."
+   "Palm Tran otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Delray Beach (kuş uçuşu yaklaşık 5 km)."
   ],
   [
    "Günlük hayat",
@@ -140,41 +148,46 @@
  ],
  "pros": [
   "Okyanus ve Intracoastal arasında büyük arsalı evler",
-  "Düşük belediye oranı",
   "Delray Beach'e yakınlık",
-  "Korunan mimari karakter"
+  "Korunan mimari karakter",
+  "Bölgedeki düşük toplam vergi oranlarından biri (15,93 mill)"
  ],
  "cons": [
-  "Satış sayısı çok az; rakamlar anlamlı değil",
   "Çok yüksek fiyat seviyesi",
   "Sıkı mimari ve tadilat kuralları",
-  "Kıyıda yüksek sigorta maliyeti"
+  "Kıyıda yüksek sigorta maliyeti",
+  "Uzun satış süresi (medyan 256 gün)",
+  "Satış sayısı az; fiyat verisi oynak"
  ],
  "faq": [
   [
    "Gulf Stream bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $4.792.718 (yıllık −%63,3), fit kare fiyatı $1.690. Satış sayısı çok az olduğu için bu rakamlar oynaktır."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $4.792.718 (yıllık −%63,3), fit kare fiyatı yaklaşık $1.690."
   ],
   [
    "Gulf Stream bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $15.000; 2 yatak odalı $7.456 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $15.000; 1 yatak odalı $4.999, 2 yatak odalı $7.300 civarında."
   ],
   [
    "Gulf Stream bölgesinde emlak vergisi ne kadar?",
-   "Palm Beach County Property Appraiser verisine göre 2025 toplam oranı vergi bölgesine göre 15,9322–16,4813 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,59–1,65. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 15,9304 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,59 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Gulf Stream Housing Market (Ekim 2026)",
+   "Redfin: Gulf Stream Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/7218/FL/Gulf-Stream/housing-market"
   ],
   [
-   "Zillow: Gulf Stream Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Gulf Stream Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/gulf-stream-fl/"
   ],
   [
-   "Palm Beach County Property Appraiser: 2025 kesin millage oranları",
+   "Palm Beach County Property Appraiser: 2025 Proposed Total Millage Levy",
+   "https://pbcpao.gov/pdf/taxroll/2025_Proposed_Total_Millage_Rates_Levy.pdf"
+  ],
+  [
+   "Palm Beach County Property Appraiser: 2025 Final vs Proposed Millage Rates",
    "https://pbcpao.gov/pdf/taxroll/2025_Final_vs_Proposed_Millage_Rates.pdf"
   ],
   [
@@ -182,5 +195,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Gulf Stream raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Gulf Stream raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Delray Beach'in kuzeyinde, Akdeniz tarzı evleri ve tarihî golf kulübüyle çok küçük bir kıyı kasabası."
 }

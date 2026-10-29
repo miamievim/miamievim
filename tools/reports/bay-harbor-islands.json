@@ -2,10 +2,11 @@
  "id": "bay-harbor-islands",
  "name": "Bay Harbor Islands",
  "county": "Miami-Dade",
- "meta": "Bay Harbor Islands mahalle raporu, Ekim 2026: medyan satış fiyatı $679.676, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Biscayne Körfezi'nde iki küçük adadan oluşan, butik kondominyumları ve yürünebilir merkeziyle Bal Harbour'a komşu bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $679.676.",
+ "meta": "Bay Harbor Islands mahalle raporu, Ekim 2026: medyan satış fiyatı $680 bin, ortalama kira $4.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Biscayne Körfezi'nde iki küçük adadan oluşan, butik kondominyumları ve yürünebilir merkeziyle Bal Harbour'a komşu bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $680 bin (Redfin).",
  "sales": {
   "median": 679676,
+  "median_approx": false,
   "median_chg": "yıllık +%11,4",
   "ppsf": 782,
   "src_short": "Redfin",
@@ -19,49 +20,63 @@
     "$782 / ft² ≈ $8.417 / m² <small>(yıllık +%101,3)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "153 gün <small>(bir yıl önce 167 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "41 <small>(yıllık +%50,5)</small>"
+    "Satılan konut (Eylül 2026)",
+    "41 <small>(bir yıl önce 27)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%93,4"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/1062/FL/Bay-Harbor-Islands/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Bay Harbor Islands Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/1062/FL/Bay-Harbor-Islands/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Bay Harbor Islands Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%11,4); fit kare fiyatı da yükseldi (+%101,3).",
+   "Medyan satış süresi bir yılda 167 günden 153 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %6,6 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 4850,
-  "chg": "yıllık +$1.550",
+  "avg": 4500,
+  "chg": "yıllık +$1.150",
   "src_short": "Zillow",
   "rows": [
+   [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
    [
     "1 yatak odalı",
     "$2.800"
    ],
    [
     "2 yatak odalı",
-    "$5.700"
+    "$4.500"
    ],
    [
     "3 yatak odalı",
-    "$8.144"
+    "$8.351"
+   ],
+   [
+    "4+ yatak odalı",
+    "$17.000"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$4.850"
+    "$4.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/bay-harbor-islands-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Bay Harbor Islands</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/bay-harbor-islands-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Bay Harbor Islands</a>, 26 Ekim 2026 güncellemesi (115 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 18.481,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Bay Harbor Islands, Broad Causeway üzerinde, Bal Harbour ile ana kara arasında yer alan iki adadan oluşan küçük bir kasaba. Doğu adası alçak ve orta yükseklikte kondominyumlarla, batı adası ise müstakil evlerle kaplıdır.",
@@ -118,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline Aventura (yaklaşık 10 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline Aventura (kuş uçuşu yaklaşık 8 km)."
   ],
   [
    "Günlük hayat",
@@ -132,14 +147,13 @@
  "pros": [
   "Yürünebilir ada yaşamı",
   "Plajlara ve Bal Harbour'a yakınlık",
-  "Görece makul vergi oranı (18,48 mill)",
-  "Yeni butik projelerle yenilenen stok"
+  "Yeni butik projelerle yenilenen stok",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,6 altında kapanıyor"
  ],
  "cons": [
   "Kıyı bölgesi sel riski ve sigorta maliyeti",
   "Eski binalarda SIRS ve özel aidat riski",
-  "Uzun satış süresi (153 gün)",
-  "Fit kare verisi oynak"
+  "Uzun satış süresi (medyan 153 gün)"
  ],
  "faq": [
   [
@@ -148,24 +162,24 @@
   ],
   [
    "Bay Harbor Islands bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $4.850; 2 yatak odalı $5.700 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $4.500; 1 yatak odalı $2.800, 2 yatak odalı $4.500 civarında."
   ],
   [
    "Bay Harbor Islands bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 18,4810 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,85. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 18,4810 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,85 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Bay Harbor Islands Housing Market (Ekim 2026)",
+   "Redfin: Bay Harbor Islands Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/1062/FL/Bay-Harbor-Islands/housing-market"
   ],
   [
-   "Zillow: Bay Harbor Islands Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Bay Harbor Islands Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/bay-harbor-islands-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -173,5 +187,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Bay Harbor Islands raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Bay Harbor Islands raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Biscayne Körfezi'nde iki küçük adadan oluşan, butik kondominyumları ve yürünebilir merkeziyle Bal Harbour'a komşu bir kasaba."
 }

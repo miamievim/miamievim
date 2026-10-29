@@ -19,7 +19,7 @@ Wellington Jupiter Riviera Delray Manalapan Highland Briny Breezes Atlantis Have
 Lighthouse Pointe Point Hills Heights Ridge Sailfish Collins Lincoln Coconut Grove Gables Virginia Indian Creek
 Kravis Norton Flagler Clematis Mizner Mills Sawgrass Fontainebleau Faena Aventura Mall Shops Fair Wilton Manors
 Plantation Sunrise Tamarac Margate Hillsboro Dania Parkland Opa-locka Medley Sweetwater Kendall Doral Palmetto
-FIU University Institute Living Haute Elle English Français Leading Premium Companies Luxury Wildlife Wildlife Preserve Nature Natural Pier Marina Stadium District Cervera""".split()
+FIU University Institute Living Haute Elle English Français Leading Premium Companies Luxury Wildlife Wildlife Preserve Nature Natural Pier Marina Stadium District Cervera PortMiami Kaseya Pérez Frost Bascom Palmer Basel Bayfront Baptist""".split()
 
 
 def words():

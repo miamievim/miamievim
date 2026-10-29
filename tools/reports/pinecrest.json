@@ -1,77 +1,57 @@
 {
  "id": "pinecrest",
- "name": "South Miami & Pinecrest",
+ "name": "Pinecrest",
  "county": "Miami-Dade",
- "meta": "South Miami ve Pinecrest mahalle raporu, Ekim 2026: Pinecrest medyan satış fiyatı $2,7M, South Miami $925 bin; kiralar, emlak vergisi, sel bölgesi ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Geniş parseller, yoğun tropikal bitki örtüsü ve sakin sokaklarla bahçeli ev yaşamı. Ekim 2026 itibarıyla Pinecrest'te medyan satış fiyatı yaklaşık $2,7 milyon; satış süresi bir yılda yarıya indi.",
+ "meta": "Pinecrest mahalle raporu, Ekim 2026: medyan satış fiyatı $2,7 milyon, ortalama kira $4.695, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Geniş parseller, yoğun tropikal bitki örtüsü ve sakin sokaklarla bahçeli müstakil ev yaşamı. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $2,7 milyon (Redfin).",
+ "lead": "Geniş parseller, yoğun tropikal bitki örtüsü ve sakin sokaklarla bahçeli müstakil ev yaşamı.",
  "sales": {
   "median": 2698715,
+  "median_approx": false,
   "median_chg": "yıllık +%7,9",
-  "ppsf": 887,
-  "src_short": "Redfin · Pinecrest",
+  "ppsf": 861,
+  "src_short": "Redfin",
   "rows": [
-   [
-    "<strong>Pinecrest</strong>",
-    ""
-   ],
    [
     "Medyan satış fiyatı",
     "$2.698.715 <small>(yıllık +%7,9)</small>"
    ],
    [
     "Fit kare fiyatı",
-    "$887 / ft² ≈ $9.548 / m² <small>(yıllık +%35,8)</small>"
+    "$861 / ft² ≈ $9.268 / m² <small>(yıllık +%31,9)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "71 gün <small>(bir yıl önce 149 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "66 <small>(yıllık +%1,6)</small>"
+    "66 <small>(bir yıl önce 65)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,5"
-   ],
-   [
-    "<strong>South Miami</strong>",
-    ""
-   ],
-   [
-    "Medyan satış fiyatı",
-    "$924.560 <small>(yıllık +%8,1)</small>"
-   ],
-   [
-    "Fit kare fiyatı",
-    "$632 / ft² ≈ $6.803 / m² <small>(yıllık +%9,2)</small>"
-   ],
-   [
-    "Ortalama satış süresi",
-    "69 gün <small>(bir yıl önce 57 gün)</small>"
-   ],
-   [
-    "Satılan konut (Eylül 2026)",
-    "29"
-   ],
-   [
-    "Satış / ilan fiyatı oranı",
-    "%96,2"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/14661/FL/Pinecrest/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pinecrest Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi). <a href=\"https://www.redfin.com/city/17298/FL/South-Miami/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, South Miami Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/14661/FL/Pinecrest/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pinecrest Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Pinecrest'te satış süresinin 149 günden 71 güne inmesi ve satış/ilan oranının 4,1 puan yükselmesi, talebin güçlendiğini gösteriyor. Fit kare fiyatındaki %35,8'lik artış, son dönemde satılan yeni ve yenilenmiş evlerin ağırlığından da etkileniyor olabilir; bu bölgede tek tek ev özellikleri fiyatı ortalamadan çok daha fazla belirler."
+   "Medyan satış fiyatı bir yılda yükseldi (+%7,9); fit kare fiyatı da yükseldi (+%31,9).",
+   "Medyan satış süresi bir yılda 149 günden 71 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,5 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
   "avg": 4695,
-  "chg": "yıllık −$2.805",
-  "src_short": "Zillow · Pinecrest",
+  "chg": "yıllık −$3.505",
+  "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "1 yatak odalı",
-    "$1.890"
+    "$1.939"
    ],
    [
     "2 yatak odalı",
@@ -82,24 +62,27 @@
     "$4.695"
    ],
    [
+    "4+ yatak odalı",
+    "$35.700"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$4.695"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pinecrest-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pinecrest</a>, 16 Ekim 2026 güncellemesi. Stüdyo için yeterli veri yok.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pinecrest-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pinecrest</a>, 26 Ekim 2026 güncellemesi (76 aktif kiralık ilan).",
   "notes": [
-   "Pinecrest'teki kiralık ilan sayısı az (77 ilan) ve stok büyük ölçüde müstakil evlerden oluştuğu için ortalama ve yıllık değişim oynak. Bu satırları gösterge olarak değerlendirin; bahçeli müstakil evlerde kiralar ev büyüklüğüne göre çok değişir."
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
   ]
  },
  "tax": {
   "mills": 17.5257,
-  "mills_hi": 18.9727,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
-  "Pinecrest, 1996'da belediye olarak kurulmuş, geniş parsellere oturan müstakil evlerden oluşan yeşil bir yerleşim. Sokakların çoğunda kaldırımlar yerine ağaç gölgesi, bahçeler ve havuzlu evler hâkimdir; ticari alanlar ağırlıkla US-1 (South Dixie Highway) boyunca toplanır.",
-  "Komşu South Miami ise daha kompakt bir merkeze sahiptir: Sunset Drive çevresinde restoranlar, kafeler ve butikler yürünebilir bir şehir merkezi oluşturur. Metrorail istasyonu ve University of Miami kampüsüne yakınlık, South Miami'yi Pinecrest'e göre daha şehirli bir alternatif yapar.",
-  "Pinecrest'in doğu kesimi Biscayne Körfezi'ne yaklaşır; Old Cutler Road boyunca uzanan bu bölgede büyük arsalar ve su kenarı evler bulunur."
+  "Pinecrest, 1996'da belediye olarak kurulmuş, geniş parsellere oturan müstakil evlerden oluşan yeşil bir köy (Village of Pinecrest). Sokakların çoğunda ağaç gölgesi, bahçeler ve havuzlu evler hâkimdir; ticari alanlar ağırlıkla US-1 (South Dixie Highway) boyunca toplanır.",
+  "İmar yapısı düşük yoğunluklu müstakil konutu esas alır; apartman ve kondominyum stoku çok sınırlıdır. Doğu kesimi Old Cutler Road boyunca Biscayne Körfezi'ne yaklaşır; bu bölgede büyük arsalar ve su kenarı evler bulunur.",
+  "Kuzeyinde South Miami ve Coral Gables, batısında Kendall, güneyinde Palmetto Bay yer alır; Dadeland alışveriş bölgesi ve Metrorail istasyonları kısa sürüş mesafesindedir."
  ],
  "places": [
   [
@@ -107,12 +90,12 @@
    "Eski Parrot Jungle arazisinde, dev banyan ağaçları ve göletleriyle belediye bahçesi; konser ve etkinlik alanı."
   ],
   [
-   "Sunset Drive, South Miami",
-   "Restoran, kafe ve butiklerin sıralandığı yürünebilir merkez."
+   "Dadeland Mall",
+   "Kuzeybatıda, bölgenin en büyük alışveriş merkezlerinden biri; Metrorail ile bağlantılı."
   ],
   [
-   "Dadeland Mall",
-   "Bölgenin en büyük alışveriş merkezlerinden biri; Metrorail ile bağlantılı."
+   "Old Cutler Road",
+   "Banyan ağaçlarıyla gölgelenen, bisiklet ve yürüyüş için tarihî yol."
   ],
   [
    "The Underline",
@@ -126,7 +109,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Pinecrest ve South Miami için 2025 toplam vergi oranı 17,5257–18,9727 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,75–1,90. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.526–$18.973. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Pinecrest için 2025 toplam vergi oranı 17,5257 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,75. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $17.526. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -134,7 +117,7 @@
   ],
   [
    "Sigorta ve sel bölgesi",
-   "İç kesimlerin büyük bölümü düşük-orta riskli bölgelerdedir; Old Cutler Road'un doğusunda körfeze yakın kesimlerde yüksek riskli kıyı bölgeleri (AE/VE) bulunur. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+   "Körfeze yakın doğu kesimleri yüksek riskli bölgelerdedir (AE); US-1'in batısındaki iç kesimlerde risk adres bazında değişir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
   ],
   [
    "Okul ve güvenlik verisi",
@@ -152,76 +135,67 @@
   ],
   [
    "Coral Gables (Miracle Mile)",
-   "yaklaşık 8 km · 15 dakika"
+   "yaklaşık 9 km · 15 dakika"
   ],
   [
    "Toplu taşıma",
-   "Metrorail South Miami ve Dadeland North/South istasyonları US-1 boyunca."
+   "Metrobus hatları; US-1 boyunca Metrorail Dadeland North ve Dadeland South istasyonları."
   ],
   [
    "Günlük hayat",
-   "South Miami merkezi yürünebilir; Pinecrest büyük ölçüde araca bağımlı."
+   "Büyük ölçüde araca bağımlı; alışveriş ve hizmetler US-1 ve Dadeland çevresinde."
   ]
  ],
  "projects": [],
  "projects_notes": [
-  "Ekim 2026 itibarıyla takip ettiğimiz proje kaynaklarında (CondoBlackBook aylık güncellemeleri ve basın haberleri) bu bölge için büyük ölçekli yeni konut projesi yer almıyor. Pinecrest'in imar yapısı düşük yoğunluklu müstakil konutu esas alır."
+  "Pinecrest'in imar yapısı düşük yoğunluklu müstakil konutu esas alır; bölgede büyük ölçekli kondominyum projesi takip etmiyoruz. Yeni inşa müstakil ev seçeneklerini görüşmede birlikte değerlendirebiliriz."
  ],
  "pros": [
   "Geniş parseller, bahçe ve havuz imkânı",
-  "Pinecrest'te hızla kısalan satış süresi (71 gün)",
-  "South Miami'de Metrorail ve yürünebilir merkez",
-  "Miami-Dade ortalamasına göre makul vergi oranı (Pinecrest 17,53 mill)"
+  "Yoğun ağaç dokusu ve sakin konut sokakları",
+  "Dadeland, Coral Gables ve Metrorail'e yakınlık",
+  "Bölgedeki düşük toplam vergi oranlarından biri (17,53 mill)"
  ],
  "cons": [
-  "Pinecrest'te medyan fiyat $2,7 milyon seviyesinde; giriş eşiği yüksek",
-  "Kiralık stok sınırlı ve fiyatlar oynak",
-  "US-1 üzerinde yoğun trafik",
+  "Giriş eşiği yüksek; müstakil ev ağırlıklı pahalı stok",
+  "Kiralık stok sınırlı",
   "Körfeze yakın kesimlerde sel sigortası maliyeti"
  ],
  "faq": [
   [
-   "Pinecrest'te ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı yaklaşık $2.698.715 (yıllık +%7,9), fit kare fiyatı $887. Komşu South Miami'de medyan fiyat $924.560."
+   "Pinecrest bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $2.698.715 (yıllık +%7,9), fit kare fiyatı $861."
+  ],
+  [
+   "Pinecrest bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $4.695; 1 yatak odalı $1.939, 2 yatak odalı $2.400 civarında."
+  ],
+  [
+   "Pinecrest bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 17,5257 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,75 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Pinecrest ile South Miami arasındaki fark nedir?",
-   "Pinecrest geniş parselli, sakin ve araç odaklı bir yerleşimdir. South Miami daha kompakt, yürünebilir bir merkeze ve Metrorail istasyonuna sahiptir; fiyatlar da belirgin şekilde daha düşüktür."
-  ],
-  [
-   "Emlak vergisi ne kadar?",
-   "2025 için toplam oran Pinecrest'te 17,5257 mill (vergi değerinin yaklaşık %1,75'i), South Miami'de 18,9727 mill (yaklaşık %1,90). Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
-  ],
-  [
-   "Bölgede kiralık ev bulmak kolay mı?",
-   "Zillow'da Pinecrest için Ekim 2026 itibarıyla 77 kiralık ilan görünüyor; stok sınırlı ve çoğunlukla müstakil evlerden oluşuyor. Taşınma tarihinden en az 6–8 hafta önce aramaya başlamak gerekir."
+   "Pinecrest geniş parselli, sakin ve araç odaklı bir köydür. South Miami daha kompakt, yürünebilir bir merkeze (Sunset Drive) ve Metrorail istasyonuna sahiptir. İki şehrin güncel fiyatlarını ayrı raporlarda bulabilirsiniz."
   ]
  ],
  "sources": [
   [
-   "Redfin: Pinecrest Housing Market (Ekim 2026)",
+   "Redfin: Pinecrest Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/14661/FL/Pinecrest/housing-market"
   ],
   [
-   "Redfin: South Miami Housing Market (Ekim 2026)",
-   "https://www.redfin.com/city/17298/FL/South-Miami/housing-market"
-  ],
-  [
-   "Zillow: Pinecrest Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Pinecrest Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/pinecrest-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
-  ],
-  [
-   "CondoBlackBook: Ekim 2026 Miami-Dade proje güncellemesi",
-   "https://www.condoblackbook.com/blog/october-2026-miami-dade-luxury-preconstruction-condo-updates"
   ],
   [
    "FEMA Flood Map Service Center",
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, South Miami & Pinecrest raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Pinecrest raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
 }

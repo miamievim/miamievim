@@ -2,10 +2,11 @@
  "id": "southwest-ranches",
  "name": "Southwest Ranches",
  "county": "Broward",
- "meta": "Southwest Ranches mahalle raporu, Ekim 2026: medyan satış fiyatı $2.446.335, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Büyük arsalı çiftlik evleri, binicilik yolları ve kırsal karakteriyle Broward'ın batısında bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $2.446.335.",
+ "meta": "Southwest Ranches mahalle raporu, Ekim 2026: medyan satış fiyatı $2,4 milyon, ortalama kira $11.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Büyük arsalı çiftlik evleri, binicilik yolları ve kırsal karakteriyle Broward'ın batısında bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $2,4 milyon (Redfin).",
  "sales": {
   "median": 2446335,
+  "median_approx": false,
   "median_chg": "yıllık +%63,2",
   "ppsf": 480,
   "src_short": "Redfin",
@@ -19,29 +20,37 @@
     "$480 / ft² ≈ $5.167 / m² <small>(yıllık +%0,3)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "95 gün <small>(bir yıl önce 95 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "20 <small>(yıllık +%35,4)</small>"
+    "Satılan konut (Eylül 2026)",
+    "20 <small>(bir yıl önce 15)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%93,3"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/17461/FL/Southwest-Ranches/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Southwest Ranches Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/17461/FL/Southwest-Ranches/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Southwest Ranches Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%63,2).",
+   "Medyan satış süresi 95 gün ile geçen yılki seviyesine yakın.",
+   "Satışlar ortalamada ilan fiyatının %6,7 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
-  "avg": 8500,
-  "chg": "yıllık −$4.500",
+  "avg": 11500,
+  "chg": "yıllık −$2.000",
   "src_short": "Zillow",
   "rows": [
    [
+    "Stüdyo",
+    "<small>yeterli ilan yok</small>"
+   ],
+   [
     "1 yatak odalı",
-    "$1.200"
+    "<small>yeterli ilan yok</small>"
    ],
    [
     "2 yatak odalı",
@@ -52,19 +61,22 @@
     "$7.500"
    ],
    [
+    "4+ yatak odalı",
+    "$20.874"
+   ],
+   [
     "Tüm konutlar (ortalama)",
-    "$8.500"
+    "$11.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/southwest-ranches-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Southwest Ranches</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/southwest-ranches-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Southwest Ranches</a>, 26 Ekim 2026 güncellemesi (15 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 11 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin.",
-   "Genel ortalamanın oda bazındaki rakamların üzerinde olması, kiralık stokta 4 ve daha fazla yatak odalı büyük evlerin ağırlığından kaynaklanır."
+   "Kiralık ilan sayısı az (15 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
   "mills": 16.8379,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "Southwest Ranches, 2000 yılında kırsal yaşam tarzını korumak amacıyla kurulan bir kasaba. İmar kuralları büyük arsaları ve düşük yoğunluğu korur; birçok evde at ahırı, binicilik alanı veya meyve bahçesi bulunur.",
@@ -117,7 +129,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale Havalimanı (yaklaşık 22 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Fort Lauderdale Airport (kuş uçuşu yaklaşık 17 km)."
   ],
   [
    "Günlük hayat",
@@ -130,9 +142,10 @@
  ],
  "pros": [
   "Geniş arsalar ve kırsal yaşam",
-  "Bu raporlardaki düşük vergi oranlarından biri (16,84 mill)",
   "Binicilik imkânı",
-  "Düşük yoğunluk"
+  "Düşük yoğunluk",
+  "Bölgedeki düşük toplam vergi oranlarından biri (16,84 mill)",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,7 altında kapanıyor"
  ],
  "cons": [
   "Yüksek giriş fiyatı",
@@ -147,24 +160,24 @@
   ],
   [
    "Southwest Ranches bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $8.500; 2 yatak odalı $2.300 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $11.500; 2 yatak odalı $2.300 civarında."
   ],
   [
    "Southwest Ranches bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 16,8379 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,68. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 16,8379 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,68 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Southwest Ranches Housing Market (Ekim 2026)",
+   "Redfin: Southwest Ranches Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/17461/FL/Southwest-Ranches/housing-market"
   ],
   [
-   "Zillow: Southwest Ranches Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Southwest Ranches Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/southwest-ranches-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -172,5 +185,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Southwest Ranches raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Southwest Ranches raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Büyük arsalı çiftlik evleri, binicilik yolları ve kırsal karakteriyle Broward'ın batısında bir kasaba."
 }

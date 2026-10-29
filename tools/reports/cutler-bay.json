@@ -2,46 +2,51 @@
  "id": "cutler-bay",
  "name": "Cutler Bay",
  "county": "Miami-Dade",
- "meta": "Cutler Bay mahalle raporu, Ekim 2026: medyan satış fiyatı $581.000, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Biscayne Körfezi kıyısında, marinası ve uygun fiyatlı müstakil evleriyle güney Miami-Dade'de bir kasaba. Ekim 2026 itibarıyla medyan satış fiyatı $581.000; satışlar ilan fiyatına çok yakın.",
+ "meta": "Cutler Bay mahalle raporu, Ekim 2026: medyan satış fiyatı $581 bin, ortalama kira $2.750, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Biscayne Körfezi kıyısında, marinası ve uygun fiyatlı müstakil evleriyle güney Miami-Dade'de bir kasaba. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $581 bin (Redfin).",
  "sales": {
-  "median": 581000,
+  "median": 580723,
+  "median_approx": false,
   "median_chg": "yıllık −%0,73",
   "ppsf": 318,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$581.000 <small>(yıllık −%0,73)</small>"
+    "$580.723 <small>(yıllık −%0,73)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$318 / ft² ≈ $3.423 / m² <small>(yıllık +%2,6)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "76 gün <small>(bir yıl önce 69 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "125 <small>(yıllık −%10,1)</small>"
+    "Satılan konut (Eylül 2026)",
+    "125 <small>(bir yıl önce 139)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%97,5"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/4132/FL/Cutler-Bay/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Cutler Bay Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/4132/FL/Cutler-Bay/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Cutler Bay Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yıl öncesiyle hemen hemen aynı seviyede; fit kare fiyatı da yükseldi (+%2,6).",
+   "Medyan satış süresi bir yılda 69 günden 76 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %2,5 altında kapanıyor."
+  ]
  },
  "rent": {
   "avg": 2750,
-  "chg": "yıllık −$50",
+  "chg": "yıllık değişim yok",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.200"
+    "$1.272"
    ],
    [
     "1 yatak odalı",
@@ -53,19 +58,23 @@
    ],
    [
     "3 yatak odalı",
-    "$2.950"
+    "$2.900"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.600"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$2.750"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/cutler-bay-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Cutler Bay</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/cutler-bay-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Cutler Bay</a>, 26 Ekim 2026 güncellemesi (179 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 17.8559,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Cutler Bay, 2005'te belediye olan ve Biscayne Körfezi kıyısından US-1'e uzanan bir kasaba. Doğuda kanallara ve körfeze açılan evler, batıda planlı siteler bulunur.",
@@ -134,42 +143,39 @@
   "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Ekim 2026 itibarıyla takip ettiğimiz kaynaklarda (CondoBlackBook aylık güncellemeleri ve basın haberleri) Cutler Bay için kayıtlı büyük ölçekli proje bulunmuyor."
  ],
  "pros": [
-  "Görece düşük vergi oranı (17,86 mill)",
-  "Satışlar ilan fiyatına çok yakın (%97,5)",
   "Körfez ve marina erişimi",
-  "Uygun giriş fiyatları"
+  "Uygun giriş fiyatları",
+  "Bölgedeki düşük toplam vergi oranlarından biri (17,86 mill)"
  ],
  "cons": [
-  "Miami şehir merkezine uzak (40–50 dakika)",
   "Körfeze yakın kesimlerde sel ve fırtına riski",
-  "US-1 trafiği",
   "Eski evlerde çatı ve sigorta maliyeti"
  ],
  "faq": [
   [
    "Cutler Bay bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $581.000 (yıllık −%0,73), fit kare fiyatı $318."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $580.723 (yıllık −%0,73), fit kare fiyatı $318."
   ],
   [
    "Cutler Bay bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.750; 2 yatak odalı $2.200 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.750; 1 yatak odalı $1.600, 2 yatak odalı $2.200 civarında."
   ],
   [
    "Cutler Bay bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 17,8559 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,79. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 17,8559 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,79 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Cutler Bay Housing Market (Ekim 2026)",
+   "Redfin: Cutler Bay Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/4132/FL/Cutler-Bay/housing-market"
   ],
   [
-   "Zillow: Cutler Bay Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Cutler Bay Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/cutler-bay-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -177,5 +183,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Cutler Bay raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Cutler Bay raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Biscayne Körfezi kıyısında, marinası ve uygun fiyatlı müstakil evleriyle güney Miami-Dade'de bir kasaba."
 }

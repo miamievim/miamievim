@@ -1,0 +1,215 @@
+{
+ "id": "downtown-miami",
+ "name": "Downtown Miami",
+ "county": "Miami-Dade",
+ "meta": "Downtown Miami mahalle raporu, Ekim 2026: medyan satış fiyatı $580 bin, ortalama kira $4.311, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Müzeleri, körfez kıyısı parkları, Kaseya Center ve MiamiCentral istasyonuyla şehrin idari ve kültürel merkezi. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $580 bin (Redfin).",
+ "lead": "Müzeleri, körfez kıyısı parkları, Kaseya Center ve MiamiCentral istasyonuyla şehrin idari ve kültürel merkezi.",
+ "sales": {
+  "median": 579838,
+  "median_approx": false,
+  "median_chg": "yıllık +%0,4",
+  "ppsf": 585,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$579.838 <small>(yıllık +%0,4)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$585 / ft² ≈ $6.297 / m² <small>(yıllık −%4)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "153 gün <small>(bir yıl önce 135 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "257 <small>(bir yıl önce 268)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%94,3"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/548892/FL/Miami/Downtown-Miami/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Downtown Miami Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yıl öncesiyle hemen hemen aynı seviyede; fit kare fiyatı da geriledi (−%4).",
+   "Medyan satış süresi bir yılda 135 günden 153 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %5,7 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 4311,
+  "chg": "yıllık +$461",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.800"
+   ],
+   [
+    "1 yatak odalı",
+    "$3.400"
+   ],
+   [
+    "2 yatak odalı",
+    "$5.200"
+   ],
+   [
+    "3 yatak odalı",
+    "$9.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$26.667"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.311"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33132/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33132 posta kodu</a>, 26 Ekim 2026 güncellemesi (958 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33132 posta kodunun ortalamaları kullanıldı; posta kodu Downtown Miami dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
+ },
+ "tax": {
+  "mills": 19.9878,
+  "src_short": "Miami-Dade PA, 2025",
+  "mills_hi": 20.3778
+ },
+ "character": [
+  "Downtown Miami, Brickell'in kuzeyinde, Miami Nehri ile Arsht Center arasında uzanan şehir merkezidir. Belediye ve ilçe binaları, adliyeler ve şirket merkezleri burada toplanır; Biscayne Boulevard boyunca Bayfront Park, Pérez Art Museum Miami (PAMM), Frost Bilim Müzesi ve Kaseya Center yan yana dizilir.",
+  "MiamiCentral istasyonu Brightline ile Fort Lauderdale, West Palm Beach ve Orlando'ya, Tri-Rail ile banliyölere bağlantı sağlar; ücretsiz Metromover şehir merkezini Brickell ve Omni'ye bağlar. Miami Worldcenter bölgenin en büyük karma kullanımlı projesidir.",
+  "Konut stoku büyük ölçüde yüksek katlı kondominyumlardan oluşur; çok sayıda yeni markalı proje inşaat veya ön satış aşamasındadır."
+ ],
+ "places": [
+  [
+   "Pérez Art Museum Miami (PAMM)",
+   "Körfez kıyısında, asma bahçeli çağdaş sanat müzesi."
+  ],
+  [
+   "Frost Science Museum",
+   "Akvaryumu ve planetaryumuyla bilim müzesi."
+  ],
+  [
+   "Bayfront Park",
+   "Konserler ve etkinlikler için körfez kıyısı park."
+  ],
+  [
+   "Kaseya Center",
+   "Miami Heat maçları ve konserler."
+  ],
+  [
+   "Gizli köşe: Miami Riverwalk",
+   "Nehir ağzı boyunca, teknelerin geçişini izleyebileceğiniz yürüyüş yolu."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Downtown Miami için 2025 toplam vergi oranı 19,9878–20,3778 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,00–2,04. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $19.988–20.378. Miami Downtown Development Authority (DDA) sınırları içindeki mülklerde oran 20,3778 mill, dışındakilerde 19,9878 mill. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Körfez ve nehir kıyısındaki kesimler yüksek riskli bölgelerdedir (AE/VE). Yüksek katlı binalarda sel sigortası çoğunlukla binanın ortak poliçesindedir; dairenin iç kısmı için ayrıca poliçe gerekir. Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell",
+   "yaklaşık 2 km · 5–10 dakika; Metromover ile de ulaşılabilir"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 12 km · 15–20 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 45 km · 35–45 dakika; Brightline ile Fort Lauderdale istasyonuna yaklaşık 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Metromover, Metrorail, Tri-Rail ve Brightline (MiamiCentral), Metrobus."
+  ],
+  [
+   "Günlük hayat",
+   "Araçsız yaşanabilir; market, restoran ve hizmetler yürüme mesafesinde."
+  ]
+ ],
+ "projects": [
+  [
+   "Waldorf Astoria Residences Miami",
+   "İnşaat sürüyor",
+   "2028 2. çeyrek",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ]
+ ],
+ "projects_notes": [
+  "Cervera Real Estate'in Q3 2026 pazar raporu Downtown Miami'de 15 yeni projeyi takip ediyor; tamamını kat, teslim tarihi ve ödeme planıyla Yeni Projeler sayfamızda görebilirsiniz."
+ ],
+ "pros": [
+  "Metromover, Metrorail, Tri-Rail ve Brightline ile en güçlü toplu taşıma",
+  "Müzeler, parklar ve körfez manzarası",
+  "Araçsız yaşanabilir yoğun şehir merkezi",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,7 altında kapanıyor"
+ ],
+ "cons": [
+  "Yüksek yeni arz; kira ve yeniden satışta rekabet",
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Etkinlik günlerinde yoğunluk ve gürültü",
+  "Uzun satış süresi (medyan 153 gün)"
+ ],
+ "faq": [
+  [
+   "Downtown Miami bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $579.838 (yıllık +%0,4), fit kare fiyatı $585."
+  ],
+  [
+   "Downtown Miami bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $4.311; 1 yatak odalı $3.400, 2 yatak odalı $5.200 civarında."
+  ],
+  [
+   "Downtown Miami bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran konuma göre 19,9878–20,3778 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,00–2,04 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Downtown Miami Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/neighborhood/548892/FL/Miami/Downtown-Miami/housing-market"
+  ],
+  [
+   "Zillow: 33132 posta kodu Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33132/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Eylül 2026 Miami-Dade proje güncellemesi",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Cervera Real Estate: Development Market Study, Q3 2026 (Haziran 2026); proje listesi Yeni Projeler sayfasında",
+   "/yeni-projeler/"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Downtown Miami raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

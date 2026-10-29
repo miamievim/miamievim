@@ -1,0 +1,232 @@
+{
+ "id": "surfside",
+ "name": "Surfside",
+ "county": "Miami-Dade",
+ "meta": "Surfside mahalle raporu, Ekim 2026: medyan satış fiyatı $1,4 milyon, ortalama kira $4.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Harding Avenue çevresindeki küçük merkezi, okyanus cepheli butik projeleri ve müstakil ev sokaklarıyla Bal Harbour'un güney komşusu. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,4 milyon (Redfin).",
+ "lead": "Harding Avenue çevresindeki küçük merkezi, okyanus cepheli butik projeleri ve müstakil ev sokaklarıyla Bal Harbour'un güney komşusu.",
+ "sales": {
+  "median": 1374346,
+  "median_approx": false,
+  "median_chg": "yıllık +%6,3",
+  "ppsf": 975,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$1.374.346 <small>(yıllık +%6,3)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "$975 / ft² ≈ $10.495 / m² <small>(yıllık +%31)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "119 gün <small>(bir yıl önce 139 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "30 <small>(bir yıl önce 36)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,3"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/city/17903/FL/Surfside/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Surfside Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%6,3); fit kare fiyatı da yükseldi (+%31).",
+   "Medyan satış süresi bir yılda 139 günden 119 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %6,7 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 4000,
+  "chg": "yıllık +$300",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.250"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.800"
+   ],
+   [
+    "2 yatak odalı",
+    "$4.300"
+   ],
+   [
+    "3 yatak odalı",
+    "$9.000"
+   ],
+   [
+    "4+ yatak odalı",
+    "$17.750"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$4.000"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/surfside-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Surfside</a>, 26 Ekim 2026 güncellemesi (104 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
+ },
+ "tax": {
+  "mills": 18.6245,
+  "src_short": "Miami-Dade PA, 2025"
+ },
+ "character": [
+  "Surfside, Miami Beach ile Bal Harbour arasında, okyanus kıyısında yer alan küçük bir kasaba. Harding Avenue çevresindeki kafeler, restoranlar ve dükkânlar kasabaya mahalle ölçeğinde bir merkez kazandırır.",
+  "Okyanus cephesinde butik kondominyumlar ve oteller, Collins ve Harding caddelerinin batısında ise müstakil ev sokakları bulunur. Kasabanın yeni toplum merkezi ve yüzme tesisi okyanus kıyısındadır.",
+  "2021'deki Champlain Towers South çöküşü sonrası Florida'da kondominyum denetim ve yedek akçe yasaları sıkılaştırıldı; kasabada yeni projeler ve kapsamlı bina yenilemeleri bu dönemin ardından hızlandı."
+ ],
+ "places": [
+  [
+   "Harding Avenue",
+   "Kafe ve restoranlarla küçük kasaba merkezi."
+  ],
+  [
+   "Surfside Community Center",
+   "Okyanus kıyısında yüzme havuzu ve etkinlik alanı."
+  ],
+  [
+   "Bal Harbour Shops",
+   "Kuzeyde, birkaç dakika mesafede lüks alışveriş."
+  ],
+  [
+   "Okyanus kıyısı yürüyüş yolu",
+   "Kumsala paralel sakin rota."
+  ],
+  [
+   "Gizli köşe: 96th Street Park",
+   "Kasabanın batısında tenis kortları ve oyun alanlarıyla mahalle parkı."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "Surfside için 2025 toplam vergi oranı 18,6245 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,86. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.624. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bariyer adası üzerindeki kasabanın tamamına yakını yüksek riskli kıyı bölgelerindedir (AE/VE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 30 km · 30 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 23 km · 30 dakika"
+  ],
+  [
+   "Brickell",
+   "yaklaşık 20 km · 30 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Kasaba shuttle servisi ve Metrobus; ada dışı ulaşım için araç gerekir."
+  ],
+  [
+   "Günlük hayat",
+   "Harding Avenue çevresi yürünebilir; plaj birkaç blok mesafede."
+  ]
+ ],
+ "projects": [
+  [
+   "Surf Row Residences",
+   "İnşaat sürüyor; %50 ön satış",
+   "2027",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Ocean House Surfside",
+   "25 daire, 12 kat; inşaat sürüyor",
+   "2027 3. çeyrek",
+   "/yeni-projeler/"
+  ],
+  [
+   "The Delmore",
+   "37 daire, 12 kat; ön satış",
+   "2029 3. çeyrek",
+   "/yeni-projeler/"
+  ],
+  [
+   "Seaway The Surf Club",
+   "34 daire, 11 kat; teslim edildi",
+   "2026 1. çeyrek",
+   "/yeni-projeler/"
+  ]
+ ],
+ "projects_notes": [],
+ "pros": [
+  "Yürünebilir kasaba merkezi ve okyanusa yakınlık",
+  "Butik ölçekli yeni okyanus cepheli projeler",
+  "Bal Harbour ve Miami Beach'e kısa mesafe",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,7 altında kapanıyor"
+ ],
+ "cons": [
+  "Kıyı bölgesi sel riski ve yüksek sigorta maliyeti",
+  "Eski binalarda SIRS ve milestone kaynaklı özel aidat riski",
+  "Küçük piyasa: fiyat verisi oynak"
+ ],
+ "faq": [
+  [
+   "Surfside bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $1.374.346 (yıllık +%6,3), fit kare fiyatı $975."
+  ],
+  [
+   "Surfside bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $4.000; 1 yatak odalı $2.800, 2 yatak odalı $4.300 civarında."
+  ],
+  [
+   "Surfside bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 18,6245 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,86 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ],
+  [
+   "Surfside'da bina güvenliğini nasıl kontrol ederim?",
+   "Florida yasası kondominyumlarda milestone denetimi ve yapısal yedek akçe çalışması (SIRS) şartı getiriyor. Teklif öncesinde bu raporları, bina bütçesini ve planlanan özel aidatları yazılı olarak isteyin."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: Surfside Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/city/17903/FL/Surfside/housing-market"
+  ],
+  [
+   "Zillow: Surfside Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/surfside-fl/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "CondoBlackBook: Eylül 2026 Miami-Dade proje güncellemesi",
+   "https://www.condoblackbook.com/blog/september-2026-miami-dade-luxury-preconstruction-condo-updates"
+  ],
+  [
+   "Cervera Real Estate: Development Market Study, Q3 2026 (Haziran 2026); proje listesi Yeni Projeler sayfasında",
+   "/yeni-projeler/"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, Surfside raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

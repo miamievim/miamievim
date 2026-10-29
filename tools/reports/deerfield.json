@@ -2,43 +2,46 @@
  "id": "deerfield",
  "name": "Deerfield Beach",
  "county": "Broward",
- "meta": "Deerfield Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $325 bin, ortalama kira $2.400, emlak vergisi, sel bölgesi ve ulaşım. Kaynaklı ve tarihli veriler.",
- "short": "Boca Raton ile Pompano arasında, iskelesi ve yürüyüş yoluyla sakin bir sahil kasabası. Ekim 2026 itibarıyla medyan satış fiyatı $325 bin (yıllık +%14,0); satış sayısı artıyor.",
+ "meta": "Deerfield Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $325 bin, ortalama kira $2.417, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Boca Raton ile Pompano arasında, iskelesi ve yürüyüş yoluyla sakin bir sahil kasabası. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $325 bin (Redfin).",
  "sales": {
   "median": 324845,
-  "median_chg": "yıllık +%14,0",
+  "median_approx": false,
+  "median_chg": "yıllık +%14",
   "ppsf": 253,
   "src_short": "Redfin",
   "rows": [
    [
     "Medyan satış fiyatı",
-    "$324.845 <small>(yıllık +%14,0)</small>"
+    "$324.845 <small>(yıllık +%14)</small>"
    ],
    [
     "Fit kare fiyatı",
     "$253 / ft² ≈ $2.723 / m² <small>(yıllık +%6,1)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "89 gün <small>(bir yıl önce 102 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "350 <small>(yıllık +%12,3)</small>"
+    "350 <small>(bir yıl önce 312)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,1"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/4362/FL/Deerfield-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Deerfield Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/4362/FL/Deerfield-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Deerfield Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Deerfield Beach, okyanusa yakın yaşamda bu raporlardaki en uygun fiyatlı piyasalardan biri. Medyan fiyattaki artış, satış sayısındaki artış ve kısalan satış süresiyle birlikte talebin güçlendiğine işaret ediyor. Stokun önemli kısmı batıdaki büyük, eski kondominyum sitelerinden oluşur."
+   "Medyan satış fiyatı bir yılda yükseldi (+%14); fit kare fiyatı da yükseldi (+%6,1).",
+   "Medyan satış süresi bir yılda 102 günden 89 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,9 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
-  "avg": 2400,
-  "chg": "yıllık −$100",
+  "avg": 2417,
+  "chg": "yıllık +$17",
   "src_short": "Zillow",
   "rows": [
    [
@@ -47,27 +50,32 @@
    ],
    [
     "1 yatak odalı",
-    "$1.700"
+    "$1.703"
    ],
    [
     "2 yatak odalı",
-    "$2.275"
+    "$2.331"
    ],
    [
     "3 yatak odalı",
-    "$3.100"
+    "$3.011"
+   ],
+   [
+    "4+ yatak odalı",
+    "$3.767"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.400"
+    "$2.417"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/deerfield-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Deerfield Beach</a>, 16 Ekim 2026 güncellemesi."
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/deerfield-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Deerfield Beach</a>, 26 Ekim 2026 güncellemesi (450 aktif kiralık ilan).",
+  "notes": []
  },
  "tax": {
   "mills": 20.2694,
-  "mills_hi": 20.3944,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025",
+  "mills_hi": 20.3944
  },
  "character": [
   "Deerfield Beach, Broward County'nin en kuzeyinde, Palm Beach County sınırındaki kıyı şehri. Okyanus kıyısındaki yürüyüş yolu ve uluslararası balıkçı iskelesi, sahil kesimine küçük bir kasaba havası verir; plajı Blue Wave sertifikalı plajlar arasında yer alır.",
@@ -98,7 +106,7 @@
  "costs": [
   [
    "Emlak vergisi",
-   "Deerfield Beach için 2025 toplam vergi oranı 20,2694–20,3944 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,03–2,04. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.269–$20.394. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Deerfield Beach için 2025 toplam vergi oranı 20,2694–20,3944 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,03–2,04. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.269–20.394. Oran, şehir içindeki vergi bölgesine (taxing district) göre bu aralıkta değişir; adresinizin oranını emlak değerleme ofisinin sitesinden kontrol edebilirsiniz. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -145,45 +153,42 @@
  ],
  "pros": [
   "Okyanusa yakın yaşamda düşük giriş fiyatı",
-  "Satış sayısında ve fiyatta yıllık artış",
   "Sakin sahil kesimi, iskele ve yürüyüş yolu",
   "Boca Raton'a yakınlık, Tri-Rail bağlantısı"
  ],
  "cons": [
-  "Yüksek vergi oranı (20,27–20,39 mill)",
   "Eski büyük kondominyum sitelerinde özel aidat ve yaş kısıtlı site kuralları",
-  "Sahil kesiminde sel riski ve sigorta maliyeti",
-  "Miami'ye uzak (yaklaşık 1 saat)"
+  "Sahil kesiminde sel riski ve sigorta maliyeti"
  ],
  "faq": [
   [
-   "Deerfield Beach'te ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $324.845 (yıllık +%14,0), fit kare fiyatı $253 (yıllık +%6,1)."
+   "Deerfield Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $324.845 (yıllık +%14), fit kare fiyatı $253."
   ],
   [
-   "Deerfield Beach'te kiralar ne kadar?",
-   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $2.400; 1 yatak odalı $1.700, 2 yatak odalı $2.275 civarında."
+   "Deerfield Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.417; 1 yatak odalı $1.703, 2 yatak odalı $2.331 civarında."
+  ],
+  [
+   "Deerfield Beach bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran konuma göre 20,2694–20,3944 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,03–2,04 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ],
   [
    "Deerfield Beach'te sitelerde nelere dikkat etmeliyim?",
    "Batıdaki bazı büyük kondominyum siteleri 55 yaş üstü kuralıyla yönetilir ve kiralama kısıtları uygular. Teklif öncesinde site kurallarını, aidat bütçesini ve SIRS raporunu inceleyin."
-  ],
-  [
-   "Emlak vergisi ne kadar?",
-   "Broward County Property Appraiser'a göre 2025 toplam oranı vergi bölgesine göre 20,2694–20,3944 mill; yani vergi değerinin yaklaşık %2,03–2,04'ü. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Deerfield Beach Housing Market (Ekim 2026)",
+   "Redfin: Deerfield Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/4362/FL/Deerfield-Beach/housing-market"
   ],
   [
-   "Zillow: Deerfield Beach Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Deerfield Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/deerfield-beach-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -196,5 +201,6 @@
   ]
  ],
  "wa": "Merhaba Aleyna Hanım, Deerfield Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
- "projects_notes": []
+ "projects_notes": [],
+ "lead": "Boca Raton ile Pompano arasında, iskelesi ve yürüyüş yoluyla sakin bir sahil kasabası."
 }

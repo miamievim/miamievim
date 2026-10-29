@@ -1,19 +1,17 @@
 {
  "id": "pompano",
- "name": "Lighthouse Point & Pompano",
+ "name": "Pompano Beach",
  "county": "Broward",
- "meta": "Lighthouse Point ve Pompano Beach mahalle raporu, Ekim 2026: medyan satış fiyatları, kiralar, emlak vergisi, sel bölgesi, Waldorf Astoria Pompano ve ulaşım.",
- "short": "Derin su kanalları, tekne yaşamı ve yenilenen bir sahil şeridi. Ekim 2026 itibarıyla Pompano Beach'te medyan satış fiyatı $385 bin, Lighthouse Point'te $825 bin.",
+ "meta": "Pompano Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $385 bin, ortalama kira $2.475, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Yenilenen sahil şeridi, okyanusa uzanan balıkçı iskelesi ve markalı yeni kuleleriyle dönüşen bir kıyı şehri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $385 bin (Redfin).",
+ "lead": "Yenilenen sahil şeridi, okyanusa uzanan balıkçı iskelesi ve markalı yeni kuleleriyle dönüşen bir kıyı şehri.",
  "sales": {
   "median": 384817,
+  "median_approx": false,
   "median_chg": "yıllık +%9,9",
   "ppsf": 298,
-  "src_short": "Redfin · Pompano Beach",
+  "src_short": "Redfin",
   "rows": [
-   [
-    "<strong>Pompano Beach</strong>",
-    ""
-   ],
    [
     "Medyan satış fiyatı",
     "$384.817 <small>(yıllık +%9,9)</small>"
@@ -23,55 +21,33 @@
     "$298 / ft² ≈ $3.208 / m² <small>(yıllık +%18,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "101 gün <small>(bir yıl önce 124 gün)</small>"
    ],
    [
     "Satılan konut (Eylül 2026)",
-    "448 <small>(yıllık −%4,5)</small>"
+    "448 <small>(bir yıl önce 469)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%95,4"
-   ],
-   [
-    "<strong>Lighthouse Point</strong>",
-    ""
-   ],
-   [
-    "Medyan satış fiyatı",
-    "$824.607 <small>(yıllık −%13,0)</small>"
-   ],
-   [
-    "Fit kare fiyatı",
-    "$587 / ft² ≈ $6.318 / m² <small>(yıllık +%16,2)</small>"
-   ],
-   [
-    "Ortalama satış süresi",
-    "107 gün <small>(bir yıl önce 138 gün)</small>"
-   ],
-   [
-    "Satılan konut",
-    "80 <small>(yıllık +%54,3)</small>"
-   ],
-   [
-    "Satış / ilan fiyatı oranı",
-    "%93,8"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/15042/FL/Pompano-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pompano Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi). <a href=\"https://www.redfin.com/city/10323/FL/Lighthouse-Point/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Lighthouse Point Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "src": "<a href=\"https://www.redfin.com/city/15042/FL/Pompano-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Pompano Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
   "notes": [
-   "Pompano Beach'te fit kare fiyatındaki %18,2'lik artış, sahil şeridindeki yeni lüks projelerin bölgenin fiyat seviyesini yukarı taşıdığını gösteriyor. Lighthouse Point'te medyan fiyat düşerken birim fiyat artıyor: daha küçük evler satılıyor, değerler korunuyor."
+   "Medyan satış fiyatı bir yılda yükseldi (+%9,9); fit kare fiyatı da yükseldi (+%18,2).",
+   "Medyan satış süresi bir yılda 124 günden 101 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %4,6 altında kapanıyor; pazarlık payı belirgin."
   ]
  },
  "rent": {
   "avg": 2475,
   "chg": "yıllık +$75",
-  "src_short": "Zillow · Pompano Beach",
+  "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.550"
+    "$1.650"
    ],
    [
     "1 yatak odalı",
@@ -79,30 +55,32 @@
    ],
    [
     "2 yatak odalı",
-    "$2.392"
+    "$2.311"
    ],
    [
     "3 yatak odalı",
-    "$3.232"
+    "$3.200"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.616"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$2.475"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pompano-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pompano Beach</a>, 16 Ekim 2026 güncellemesi.",
-  "notes": [
-   "Lighthouse Point için Zillow ortalaması $3.000 (16 Ekim 2026, yıllık değişim yok); ilan sayısı az (71) ve stok ağırlıkla kanal kenarı müstakil evlerden oluşuyor."
-  ]
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/pompano-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Pompano Beach</a>, 26 Ekim 2026 güncellemesi (925 aktif kiralık ilan).",
+  "notes": []
  },
  "tax": {
-  "mills": 18.8914,
-  "mills_hi": 20.3823,
-  "src_short": "Broward PA 2025"
+  "mills": 20.2573,
+  "src_short": "Broward PA, 2025",
+  "mills_hi": 20.3823
  },
  "character": [
-  "Lighthouse Point, Intracoastal'a açılan derin su kanallarıyla tekne sahiplerinin tercih ettiği küçük bir şehir. Evlerin önemli bir kısmında özel iskele bulunur ve Hillsboro Inlet üzerinden okyanusa çıkış birkaç dakikadır.",
-  "Komşu Pompano Beach ise daha büyük ve çeşitli bir şehir: yenilenen sahil şeridi, okyanusa uzanan balıkçı iskelesi, amfitiyatro ve kültür merkeziyle dönüşüm geçiriyor. Sahil boyunca markalı yeni kuleler yükselirken iç kesimlerde daha uygun fiyatlı konut seçenekleri bulunur."
+  "Pompano Beach, Fort Lauderdale ile Deerfield Beach arasında, okyanustan Florida Turnpike'a uzanan geniş bir şehir. Yenilenen sahil şeridi, okyanusa uzanan balıkçı iskelesi, amfitiyatro ve kültür merkeziyle dönüşüm geçiriyor.",
+  "Sahil boyunca markalı yeni kuleler yükselirken Intracoastal'ın batısında kanal kenarı evler, iç kesimlerde ise daha uygun fiyatlı müstakil ev ve kondominyum seçenekleri bulunur. Kuzeydoğusunda Lighthouse Point ve Hillsboro Inlet yer alır."
  ],
  "places": [
   [
@@ -114,22 +92,22 @@
    "Yenilenen sahil yürüyüş yolu ve parkı."
   ],
   [
-   "Hillsboro Inlet",
-   "Teknelerin okyanusa açıldığı geçit; balıkçı tekneleri ve yat kulüpleri."
-  ],
-  [
    "Pompano Beach Amphitheater",
    "Açık hava konser alanı."
   ],
   [
-   "Gizli köşe: Hillsboro Inlet Lighthouse",
-   "1907 tarihli deniz feneri; koruma derneğinin düzenlediği turlarla ziyaret edilebilir."
+   "Hillsboro Inlet",
+   "Kuzeyde, teknelerin okyanusa açıldığı geçit."
+  ],
+  [
+   "Gizli köşe: Pompano Beach Cultural Center",
+   "Konserler, sergiler ve kütüphane bir arada."
   ]
  ],
  "costs": [
   [
    "Emlak vergisi",
-   "Lighthouse Point ve Pompano Beach için 2025 toplam vergi oranı 18,8914–20,3823 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,89–2,04. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.891–$20.382. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+   "Pompano Beach için 2025 toplam vergi oranı 20,2573–20,3823 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,03–2,04. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $20.257–20.382. Oran, şehir içindeki vergi bölgesine (taxing district) göre bu aralıkta değişir; adresinizin oranını emlak değerleme ofisinin sitesinden kontrol edebilirsiniz. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
   ],
   [
    "Site aidatı (HOA)",
@@ -174,55 +152,40 @@
    "https://floridayimby.com/?p=39690"
   ]
  ],
+ "projects_notes": [],
  "pros": [
-  "Derin su kanalları ve okyanusa hızlı çıkış",
-  "Pompano Beach'te fit kare fiyatında yıllık +%18,2",
   "Yenilenen sahil şeridi ve yeni markalı projeler",
   "Miami'ye göre daha uygun giriş fiyatları"
  ],
  "cons": [
-  "Pompano Beach vergi oranı yüksek (20,26–20,38 mill)",
   "Kanal kenarı evlerde deniz duvarı ve sigorta maliyeti",
-  "Eski kondominyumlarda özel aidat riski",
-  "Miami'ye uzak (yaklaşık 50 dakika)"
+  "Eski kondominyumlarda özel aidat riski"
  ],
  "faq": [
   [
-   "Pompano Beach'te ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla medyan satış fiyatı $384.817 (yıllık +%9,9), fit kare fiyatı $298 (yıllık +%18,2). Lighthouse Point'te medyan $824.607."
+   "Pompano Beach bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $384.817 (yıllık +%9,9), fit kare fiyatı $298."
   ],
   [
-   "Pompano Beach'te kiralar ne kadar?",
-   "Zillow'a göre (16 Ekim 2026) ortalama kira aylık $2.475; 1 yatak odalı $1.800, 2 yatak odalı $2.392 civarında."
+   "Pompano Beach bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.475; 1 yatak odalı $1.800, 2 yatak odalı $2.311 civarında."
   ],
   [
-   "Lighthouse Point tekne sahipleri için neden tercih ediliyor?",
-   "Şehrin kanalları derin sudur ve Hillsboro Inlet üzerinden okyanusa çıkış kısa sürer; evlerin önemli bir kısmında özel iskele bulunur. Satın almadan önce iskele, deniz duvarı ve köprü yüksekliği kısıtlarını kontrol edin."
-  ],
-  [
-   "Emlak vergisi ne kadar?",
-   "Broward County Property Appraiser'a göre 2025 toplam oranı Lighthouse Point'te 18,8914 mill (yaklaşık %1,89), Pompano Beach'te vergi bölgesine göre 20,2573–20,3823 mill (yaklaşık %2,03–2,04). Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "Pompano Beach bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran konuma göre 20,2573–20,3823 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,03–2,04 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Pompano Beach Housing Market (Ekim 2026)",
+   "Redfin: Pompano Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/15042/FL/Pompano-Beach/housing-market"
   ],
   [
-   "Redfin: Lighthouse Point Housing Market (Ekim 2026)",
-   "https://www.redfin.com/city/10323/FL/Lighthouse-Point/housing-market"
-  ],
-  [
-   "Zillow: Pompano Beach Rental Market Trends (16 Ekim 2026)",
+   "Zillow: Pompano Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/pompano-beach-fl/"
   ],
   [
-   "Zillow: Lighthouse Point Rental Market Trends (16 Ekim 2026)",
-   "https://www.zillow.com/rental-manager/market-trends/lighthouse-point-fl/"
-  ],
-  [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -234,6 +197,5 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Lighthouse Point & Pompano raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
- "projects_notes": []
+ "wa": "Merhaba Aleyna Hanım, Pompano Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
 }

@@ -65,7 +65,7 @@ def card(h, imglib):
     if imgs: gal += f'<figure class="hc-loc">{locator(h)}</figure>'
     credit = ('<p class="hc-credit">Fotoğraflar: ' + ' · '.join(f'<a href="{imglib.page(r)}" target="_blank" rel="noopener">{E(r[4])}, {E(r[5])}</a>' for r in imgs) + ', Wikimedia Commons</p>') if imgs else '<p class="hc-credit">Konum haritası şematiktir.</p>'
     s = d['sales']; rt = d['rent']; tx = d['tax']
-    stats = [('Medyan satış fiyatı', money(s['median']) if s.get('median') else 'Yayımlanmıyor'),
+    stats = [('Medyan satış fiyatı', (('≈ ' if s.get('median_approx') else '') + money(s['median'])) if s.get('median') else 'Yayımlanmıyor'),
              ('Ortalama kira', (money(rt['avg']) + ' / ay') if rt.get('avg') else 'Yetersiz veri'),
              ('Emlak vergisi', ('%' + f"{tx['mills'] / 10:.2f}".replace('.', ',') + (('–' + f"{tx['mills_hi'] / 10:.2f}".replace('.', ',')) if tx.get('mills_hi') else '')) + ' / yıl')]
     st = ''.join(f'<div><dt>{a}</dt><dd>{b}</dd></div>' for a, b in stats)

@@ -1,0 +1,198 @@
+{
+ "id": "sofi",
+ "name": "SoFi (South of Fifth)",
+ "county": "Miami-Dade",
+ "meta": "SoFi (South of Fifth) mahalle raporu, Ekim 2026: medyan satış fiyatı $1,1 milyon, ortalama kira $3.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "South Pointe Park, okyanus cepheli lüks kuleleri ve köklü restoranlarıyla South Beach'in en güneyindeki küçük ve prestijli bölge. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,1 milyon (Redfin).",
+ "lead": "South Pointe Park, okyanus cepheli lüks kuleleri ve köklü restoranlarıyla South Beach'in en güneyindeki küçük ve prestijli bölge.",
+ "sales": {
+  "median": 1057204,
+  "median_approx": false,
+  "median_chg": "yıllık −%33,9",
+  "ppsf": 1480,
+  "src_short": "Redfin",
+  "rows": [
+   [
+    "Medyan satış fiyatı",
+    "$1.057.204 <small>(yıllık −%33,9)</small>"
+   ],
+   [
+    "Fit kare fiyatı",
+    "yaklaşık $1.480 / ft² ≈ $15.931 / m² <small>(yıllık +%46,3)</small>"
+   ],
+   [
+    "Medyan satış süresi",
+    "134 gün <small>(bir yıl önce 123 gün)</small>"
+   ],
+   [
+    "Satılan konut (Eylül 2026)",
+    "41 <small>(bir yıl önce 34)</small>"
+   ],
+   [
+    "Satış / ilan fiyatı oranı",
+    "%93,3"
+   ]
+  ],
+  "src": "<a href=\"https://www.redfin.com/neighborhood/135782/FL/Miami-Beach/South-Pointe/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, South Pointe Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%33,9); fit kare fiyatı ise ters yönde hareket etti (+%46,3); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 123 günden 134 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %6,7 altında kapanıyor; pazarlık payı belirgin."
+  ]
+ },
+ "rent": {
+  "avg": 3500,
+  "chg": "yıllık +$205",
+  "src_short": "Zillow",
+  "rows": [
+   [
+    "Stüdyo",
+    "$2.250"
+   ],
+   [
+    "1 yatak odalı",
+    "$2.900"
+   ],
+   [
+    "2 yatak odalı",
+    "$7.283"
+   ],
+   [
+    "3 yatak odalı",
+    "$17.502"
+   ],
+   [
+    "4+ yatak odalı",
+    "$71.336"
+   ],
+   [
+    "Tüm konutlar (ortalama)",
+    "$3.500"
+   ]
+  ],
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/33139/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, 33139 posta kodu</a>, 26 Ekim 2026 güncellemesi (1.150 aktif kiralık ilan).",
+  "notes": [
+   "Zillow bu bölge için ayrı veri yayımlamadığından 33139 posta kodunun ortalamaları kullanıldı; posta kodu SoFi (South of Fifth) dışında komşu alanları da kapsayabilir.",
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
+ },
+ "tax": {
+  "mills": 18.7601,
+  "src_short": "Miami-Dade PA, 2025"
+ },
+ "character": [
+  "SoFi (South of Fifth), Miami Beach'in güney ucunda, 5. caddenin güneyinde kalan küçük bölgedir. Ocean Drive, Washington Avenue ve South Pointe Drive'ın güney kesimleri bu bölgededir.",
+  "Okyanus cepheli ultra lüks kondominyum kuleleri, penthouse'lar ve orta yükseklikte binalar; Joe's Stone Crab gibi köklü restoranlarla yan yanadır. South Pointe Park, Government Cut kanalından geçen gemileri izleyebileceğiniz park ve iskelesiyle bölgenin simgesidir.",
+  "South Beach'in kalabalık kesimlerine göre daha sakin bir yaşam sunar; Lincoln Road ve Art Deco bölgesi yürüme veya kısa bisiklet mesafesindedir."
+ ],
+ "places": [
+  [
+   "South Pointe Park",
+   "Adanın güney ucunda, gemilerin geçişini izleyebileceğiniz park ve iskele."
+  ],
+  [
+   "Joe's Stone Crab",
+   "1913'ten beri hizmet veren köklü restoran."
+  ],
+  [
+   "South Pointe Drive",
+   "Restoran ve kafelerle sakin cadde."
+  ],
+  [
+   "Ocean Drive",
+   "Kuzeyde Art Deco cepheleri ve okyanus kıyısı."
+  ],
+  [
+   "Gizli köşe: Gün batımında South Pointe iskelesi",
+   "Fisher Island ve Downtown silüetine bakan manzara."
+  ]
+ ],
+ "costs": [
+  [
+   "Emlak vergisi",
+   "SoFi (South of Fifth) için 2025 toplam vergi oranı 18,7601 mill; yani her $100 vergi değeri için yıllık yaklaşık $1,88. Örnek: vergi değeri $1.000.000 olan bir mülk için yıllık yaklaşık $18.760. Çöp, sokak aydınlatması gibi ek kalemler (non-ad valorem) bu tutara dahil değildir. Satın alma sonrası vergi değeri piyasa değerine yakın yeniden belirlenir; birincil konut (homestead) indirimi ve artış sınırı yalnızca sahibinin oturduğu evlerde uygulanır."
+  ],
+  [
+   "Site aidatı (HOA)",
+   "Aidat binadan binaya ve siteden siteye çok değişir; tek bir mahalle ortalaması yanıltıcı olur. 2022 sonrası Florida yasaları gereği kondominyumlarda <strong>yapısal yedek akçe çalışması (SIRS)</strong> ve <strong>milestone denetimi</strong> zorunludur. Teklif vermeden önce bu raporları, bütçeyi ve planlanan özel aidatları (special assessment) mutlaka isteyin."
+  ],
+  [
+   "Sigorta ve sel bölgesi",
+   "Bariyer adası üzerindeki bölgenin tamamı yüksek riskli kıyı bölgelerindedir (AE/VE). Konut ve sel sigortası Güney Florida'da önemli bir yıllık kalemdir; teklif vermeden önce adres bazında teklif alın. Sel bölgesini <a href=\"https://msc.fema.gov/portal/search\" target=\"_blank\" rel=\"noopener\">FEMA haritasından</a> adresle kontrol edebilirsiniz."
+  ],
+  [
+   "Okul ve güvenlik verisi",
+   "Okul bölgeleri ve okul bilgileri için <a href=\"https://www.dadeschools.net/\" target=\"_blank\" rel=\"noopener\">Miami-Dade County Public Schools</a>, suç istatistikleri için <a href=\"https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data\" target=\"_blank\" rel=\"noopener\">Florida Department of Law Enforcement (FDLE)</a> resmi kaynaklarına başvurun. Okul atamaları adrese göre belirlenir ve değişebilir."
+  ]
+ ],
+ "transport": [
+  [
+   "Brickell / Downtown",
+   "yaklaşık 10 km · 15–20 dakika"
+  ],
+  [
+   "Miami Uluslararası Havalimanı (MIA)",
+   "yaklaşık 20 km · 25 dakika"
+  ],
+  [
+   "Fort Lauderdale Havalimanı (FLL)",
+   "yaklaşık 45 km · 45 dakika"
+  ],
+  [
+   "Toplu taşıma",
+   "Ücretsiz Miami Beach Trolley hatları ve Metrobus."
+  ],
+  [
+   "Günlük hayat",
+   "Bölge yürünebilir; market ve restoranlar yakın."
+  ]
+ ],
+ "projects": [],
+ "projects_notes": [
+  "Bu raporda yalnızca kaynağı belirtilebilen kondominyum ve konut projeleri listelenir. Bölgedeki diğer yeni projeleri ve fiyat listelerini görüşmede birlikte değerlendirebiliriz."
+ ],
+ "pros": [
+  "Okyanus cepheli lüks yaşam ve South Pointe Park",
+  "South Beach'in kalabalığından uzak ama yürüme mesafesinde",
+  "Köklü restoranlar ve marina",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %6,7 altında kapanıyor"
+ ],
+ "cons": [
+  "Çok yüksek giriş fiyatı",
+  "Kıyı bölgesi sel riski ve sigorta maliyeti",
+  "Miami Beach'te sıkı kısa süreli kiralama kuralları"
+ ],
+ "faq": [
+  [
+   "SoFi (South of Fifth) bölgesinde ev fiyatları ne kadar?",
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $1.057.204 (yıllık −%33,9), fit kare fiyatı yaklaşık $1.480."
+  ],
+  [
+   "SoFi (South of Fifth) bölgesinde kiralar ne kadar?",
+   "Zillow'a göre (26 Ekim 2026) bu posta kodunda ortalama kira aylık $3.500; 1 yatak odalı $2.900, 2 yatak odalı $7.283 civarında."
+  ],
+  [
+   "SoFi (South of Fifth) bölgesinde emlak vergisi ne kadar?",
+   "2025 için toplam oran 18,7601 mill; yani yıllık vergi, vergi değerinin yaklaşık %1,88 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+  ]
+ ],
+ "sources": [
+  [
+   "Redfin: South Pointe Housing Market (Ekim 2026 erişimi)",
+   "https://www.redfin.com/neighborhood/135782/FL/Miami-Beach/South-Pointe/housing-market"
+  ],
+  [
+   "Zillow: 33139 posta kodu Rental Market Trends (26 Ekim 2026)",
+   "https://www.zillow.com/rental-manager/market-trends/33139/"
+  ],
+  [
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
+   "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
+  ],
+  [
+   "FEMA Flood Map Service Center",
+   "https://msc.fema.gov/portal/search"
+  ]
+ ],
+ "wa": "Merhaba Aleyna Hanım, SoFi (South of Fifth) raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+}

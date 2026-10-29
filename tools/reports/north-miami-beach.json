@@ -2,12 +2,13 @@
  "id": "north-miami-beach",
  "name": "North Miami Beach",
  "county": "Miami-Dade",
- "meta": "North Miami Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $379.819, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Ortaçağdan kalma İspanyol manastırı, Intracoastal kıyısındaki mahalleleri ve uygun fiyatlı kondominyumlarıyla Aventura'ya komşu bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $379.819.",
+ "meta": "North Miami Beach mahalle raporu, Ekim 2026: medyan satış fiyatı $380 bin, ortalama kira $2.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Ortaçağdan kalma İspanyol manastırı, Intracoastal kıyısındaki mahalleleri ve uygun fiyatlı kondominyumlarıyla Aventura'ya komşu bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $380 bin (Redfin).",
  "sales": {
   "median": 379819,
+  "median_approx": false,
   "median_chg": "yıllık −%25,5",
-  "ppsf": 331,
+  "ppsf": 334,
   "src_short": "Redfin",
   "rows": [
    [
@@ -16,32 +17,36 @@
    ],
    [
     "Fit kare fiyatı",
-    "$331 / ft² ≈ $3.563 / m² <small>(yıllık −%8,4)</small>"
+    "$334 / ft² ≈ $3.595 / m² <small>(yıllık −%7,7)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "142 gün <small>(bir yıl önce 108 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "121 <small>(yıllık +%59,2)</small>"
+    "Satılan konut (Eylül 2026)",
+    "121 <small>(bir yıl önce 76)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%94,3"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/12683/FL/North-Miami-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Miami Beach Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/12683/FL/North-Miami-Beach/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Miami Beach Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%25,5); fit kare fiyatı da geriledi (−%7,7).",
+   "Medyan satış süresi bir yılda 108 günden 142 güne çıktı; satışlar daha uzun sürüyor.",
+   "Satışlar ortalamada ilan fiyatının %5,7 altında kapanıyor; pazarlık payı belirgin."
+  ]
  },
  "rent": {
   "avg": 2500,
-  "chg": "yıllık +$200",
+  "chg": "yıllık +$100",
   "src_short": "Zillow",
   "rows": [
    [
     "Stüdyo",
-    "$1.200"
+    "$1.300"
    ],
    [
     "1 yatak odalı",
@@ -53,19 +58,25 @@
    ],
    [
     "3 yatak odalı",
-    "$3.978"
+    "$3.895"
+   ],
+   [
+    "4+ yatak odalı",
+    "$22.885"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$2.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-miami-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Miami Beach</a>, 17 Ekim 2026 güncellemesi.",
-  "notes": []
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-miami-beach-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Miami Beach</a>, 26 Ekim 2026 güncellemesi (500 aktif kiralık ilan).",
+  "notes": [
+   "4+ yatak odalı ortalaması, az sayıdaki büyük ve lüks ev ilanından etkileniyor."
+  ]
  },
  "tax": {
   "mills": 21.0415,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "North Miami Beach, adına rağmen okyanus kıyısında değil, Aventura ile North Miami arasında, Intracoastal Waterway'in batısında yer alan bir şehir. Eastern Shores gibi kanal kenarı mahalleleri tekne sahiplerine Intracoastal'a doğrudan erişim sunar.",
@@ -122,7 +133,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline Aventura (yaklaşık 4 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline Aventura (kuş uçuşu yaklaşık 3 km)."
   ],
   [
    "Günlük hayat",
@@ -147,40 +158,39 @@
  "pros": [
   "Aventura ve plajlara yakınlık",
   "Uygun giriş fiyatları",
-  "Satış sayısında güçlü artış",
-  "Intracoastal'a erişimli kanal evleri"
+  "Intracoastal'a erişimli kanal evleri",
+  "Alıcıya pazarlık payı: satışlar ilan fiyatının ortalama %5,7 altında kapanıyor"
  ],
  "cons": [
-  "Medyan fiyatta sert yıllık düşüş (karışım etkisi)",
-  "Uzun satış süresi (142 gün)",
   "Eski sitelerde özel aidat riski",
-  "Vergi oranı 21 mill'in üzerinde"
+  "Bölgedeki yüksek toplam vergi oranlarından biri (21,04 mill)",
+  "Uzun satış süresi (medyan 142 gün)"
  ],
  "faq": [
   [
    "North Miami Beach bölgesinde ev fiyatları ne kadar?",
-   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $379.819 (yıllık −%25,5), fit kare fiyatı $331."
+   "Redfin verisine göre Eylül 2026 itibarıyla son 3 ayda medyan satış fiyatı $379.819 (yıllık −%25,5), fit kare fiyatı $334."
   ],
   [
    "North Miami Beach bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.500; 2 yatak odalı $2.500 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.500; 1 yatak odalı $1.850, 2 yatak odalı $2.500 civarında."
   ],
   [
    "North Miami Beach bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 21,0415 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,10. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 21,0415 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,10 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: North Miami Beach Housing Market (Ekim 2026)",
+   "Redfin: North Miami Beach Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/12683/FL/North-Miami-Beach/housing-market"
   ],
   [
-   "Zillow: North Miami Beach Rental Market Trends (17 Ekim 2026)",
+   "Zillow: North Miami Beach Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/north-miami-beach-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -192,5 +202,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, North Miami Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, North Miami Beach raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Ortaçağdan kalma İspanyol manastırı, Intracoastal kıyısındaki mahalleleri ve uygun fiyatlı kondominyumlarıyla Aventura'ya komşu bir şehir."
 }

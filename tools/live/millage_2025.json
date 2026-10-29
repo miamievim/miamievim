@@ -1,0 +1,607 @@
+{
+ "greenacres": [
+  19.1071,
+  null,
+  "PAPA 2025"
+ ],
+ "hollywood": [
+  20.8985,
+  22.0571,
+  "Broward PA 2025"
+ ],
+ "fort-lauderdale": [
+  18.4464,
+  19.4143,
+  "Broward PA 2025"
+ ],
+ "sunny-isles": [
+  16.7227,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "coconut-creek": [
+  20.9953,
+  null,
+  "Broward PA 2025"
+ ],
+ "palm-beach-shores": [
+  19.5861,
+  null,
+  "PAPA 2025"
+ ],
+ "weston": [
+  16.2843,
+  17.4429,
+  "Broward PA 2025"
+ ],
+ "west-park": [
+  20.8379,
+  null,
+  "Broward PA 2025"
+ ],
+ "pahokee": [
+  22.8071,
+  null,
+  "PAPA 2025"
+ ],
+ "jupiter-inlet-colony": [
+  18.4393,
+  null,
+  "PAPA 2025"
+ ],
+ "pembroke-pines": [
+  18.8931,
+  null,
+  "Broward PA 2025"
+ ],
+ "ocean-ridge": [
+  18.2071,
+  null,
+  "PAPA 2025"
+ ],
+ "palm-springs": [
+  19.4083,
+  null,
+  "PAPA 2025"
+ ],
+ "palm-beach": [
+  14.869,
+  null,
+  "PAPA 2025"
+ ],
+ "jupiter": [
+  16.9938,
+  null,
+  "PAPA 2025"
+ ],
+ "hialeah": [
+  18.6468,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "virginia-gardens": [
+  19.8727,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "hialeah-gardens": [
+  19.7009,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "fisher-island": [
+  16.9317,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "plantation": [
+  20.0675,
+  null,
+  "Broward PA 2025"
+ ],
+ "wilton-manors": [
+  20.4896,
+  null,
+  "Broward PA 2025"
+ ],
+ "bay-harbor-islands": [
+  18.481,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "tequesta": [
+  19.3388,
+  null,
+  "PAPA 2025"
+ ],
+ "highland-beach": [
+  15.8455,
+  null,
+  "PAPA 2025"
+ ],
+ "north-palm-beach": [
+  19.658,
+  null,
+  "PAPA 2025"
+ ],
+ "hallandale": [
+  20.6717,
+  null,
+  "Broward PA 2025"
+ ],
+ "boynton-beach": [
+  20.058,
+  null,
+  "PAPA 2025"
+ ],
+ "key-biscayne": [
+  15.5108,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "indian-creek": [
+  20.5227,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "biscayne-park": [
+  24.3227,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "margate": [
+  21.6343,
+  null,
+  "Broward PA 2025"
+ ],
+ "coral-gables": [
+  18.1852,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "north-miami": [
+  22.1415,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "brickell": [
+  19.9878,
+  20.3778,
+  "Miami-Dade PA 2025"
+ ],
+ "west-miami": [
+  20.7927,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "north-lauderdale": [
+  21.4965,
+  null,
+  "Broward PA 2025"
+ ],
+ "south-bay": [
+  22.5741,
+  null,
+  "PAPA 2025"
+ ],
+ "wellington": [
+  18.7352,
+  null,
+  "PAPA 2025"
+ ],
+ "west-palm-beach": [
+  20.4468,
+  21.4168,
+  "PAPA 2025"
+ ],
+ "briny-breezes": [
+  16.5571,
+  null,
+  "PAPA 2025"
+ ],
+ "lauderdale-by-the-sea": [
+  18.1215,
+  null,
+  "Broward PA 2025"
+ ],
+ "wynwood": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "loxahatchee-groves": [
+  19.5216,
+  null,
+  "PAPA 2025"
+ ],
+ "sweetwater": [
+  18.5861,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "miami-gardens": [
+  22.3921,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "south-palm-beach": [
+  19.6652,
+  null,
+  "PAPA 2025"
+ ],
+ "lauderdale-lakes": [
+  23.1875,
+  null,
+  "Broward PA 2025"
+ ],
+ "palmetto-bay": [
+  17.3245,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "florida-city": [
+  21.4531,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "cloud-lake": [
+  16.2652,
+  null,
+  "PAPA 2025"
+ ],
+ "little-havana": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "lake-worth-beach": [
+  21.6106,
+  null,
+  "PAPA 2025"
+ ],
+ "glen-ridge": [
+  16.2652,
+  null,
+  "PAPA 2025"
+ ],
+ "opa-locka": [
+  24.0024,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "cutler-bay": [
+  17.8559,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "upper-east-side": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "westlake": [
+  20.8652,
+  null,
+  "PAPA 2025"
+ ],
+ "miami-shores": [
+  22.6746,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "hypoluxo": [
+  16.0071,
+  null,
+  "PAPA 2025"
+ ],
+ "hillsboro-beach": [
+  17.7215,
+  null,
+  "Broward PA 2025"
+ ],
+ "palm-beach-gardens": [
+  17.8608,
+  17.933,
+  "PAPA 2025"
+ ],
+ "south-beach": [
+  18.7601,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "riviera-beach": [
+  20.608,
+  null,
+  "PAPA 2025"
+ ],
+ "kendall": [
+  16.9317,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "miramar": [
+  20.0551,
+  null,
+  "Broward PA 2025"
+ ],
+ "lauderhill": [
+  22.7175,
+  null,
+  "Broward PA 2025"
+ ],
+ "lake-clarke-shores": [
+  22.1652,
+  null,
+  "PAPA 2025"
+ ],
+ "pinecrest": [
+  17.5257,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "belle-glade": [
+  22.8071,
+  null,
+  "PAPA 2025"
+ ],
+ "doral": [
+  17.2203,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "lantana": [
+  19.4661,
+  null,
+  "PAPA 2025"
+ ],
+ "miami-springs": [
+  21.8327,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "aventura": [
+  16.7488,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "atlantis": [
+  18.9571,
+  null,
+  "PAPA 2025"
+ ],
+ "cooper-city": [
+  18.7829,
+  null,
+  "Broward PA 2025"
+ ],
+ "oakland-park": [
+  20.3054,
+  null,
+  "Broward PA 2025"
+ ],
+ "sunrise": [
+  20.4527,
+  null,
+  "Broward PA 2025"
+ ],
+ "el-portal": [
+  23.2227,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "golden-beach": [
+  23.4227,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "north-bay-village": [
+  21.8955,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "juno-beach": [
+  18.1569,
+  null,
+  "PAPA 2025"
+ ],
+ "gulf-stream": [
+  15.9304,
+  null,
+  "PAPA 2025"
+ ],
+ "north-miami-beach": [
+  21.0415,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "north-beach": [
+  18.7601,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "edgewater": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "parkland": [
+  18.3944,
+  null,
+  "Broward PA 2025"
+ ],
+ "boca-raton": [
+  15.9229,
+  17.0029,
+  "PAPA 2025"
+ ],
+ "davie": [
+  18.7354,
+  19.894,
+  "Broward PA 2025"
+ ],
+ "homestead": [
+  20.9465,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "bal-harbour": [
+  16.8854,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "southwest-ranches": [
+  16.8379,
+  null,
+  "Broward PA 2025"
+ ],
+ "sea-ranch-lakes": [
+  20.2215,
+  null,
+  "Broward PA 2025"
+ ],
+ "delray-beach": [
+  18.45,
+  19.45,
+  "PAPA 2025"
+ ],
+ "mangonia-park": [
+  22.7071,
+  null,
+  "PAPA 2025"
+ ],
+ "tamarac": [
+  21.0965,
+  null,
+  "Broward PA 2025"
+ ],
+ "pembroke-park": [
+  21.4379,
+  null,
+  "Broward PA 2025"
+ ],
+ "coconut-grove": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "deerfield": [
+  20.2694,
+  20.3944,
+  "Broward PA 2025"
+ ],
+ "pompano": [
+  20.2573,
+  20.3823,
+  "Broward PA 2025"
+ ],
+ "miami-lakes": [
+  17.1804,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "golf": [
+  18.8032,
+  null,
+  "PAPA 2025"
+ ],
+ "dania-beach": [
+  19.0362,
+  20.1948,
+  "Broward PA 2025"
+ ],
+ "coral-springs": [
+  20.2856,
+  null,
+  "Broward PA 2025"
+ ],
+ "manalapan": [
+  15.258,
+  null,
+  "PAPA 2025"
+ ],
+ "medley": [
+  18.8727,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "haverhill": [
+  20.1652,
+  null,
+  "PAPA 2025"
+ ],
+ "lake-park": [
+  20.8161,
+  null,
+  "PAPA 2025"
+ ],
+ "royal-palm-beach": [
+  18.1852,
+  null,
+  "PAPA 2025"
+ ],
+ "south-miami": [
+  18.9727,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "surfside": [
+  18.6245,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "downtown-miami": [
+  19.9878,
+  20.3778,
+  "Miami-Dade PA 2025"
+ ],
+ "design-district": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "allapattah": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "little-haiti": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "midtown": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "morningside": [
+  19.9878,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "mid-beach": [
+  18.7601,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "sofi": [
+  18.7601,
+  null,
+  "Miami-Dade PA 2025"
+ ],
+ "venetian-islands": [
+  18.7601,
+  19.9878,
+  "Miami-Dade PA 2025"
+ ],
+ "lighthouse-point": [
+  18.8914,
+  null,
+  "Broward PA 2025"
+ ],
+ "hollywood-beach": [
+  20.8985,
+  22.0571,
+  "Broward PA 2025"
+ ]
+}

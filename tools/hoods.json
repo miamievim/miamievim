@@ -17,11 +17,19 @@
  },
  {
   "id": "pinecrest",
-  "name": "South Miami & Pinecrest",
+  "name": "Pinecrest",
   "county": "Miami-Dade",
-  "lat": 25.668,
-  "lng": -80.302,
+  "lat": 25.6651,
+  "lng": -80.308,
   "line": "Geniş arsalar ve bahçeli müstakil evler."
+ },
+ {
+  "id": "south-miami",
+  "name": "South Miami",
+  "county": "Miami-Dade",
+  "lat": 25.7076,
+  "lng": -80.2934,
+  "line": "Sunset Drive çevresinde yürünebilir merkez ve Metrorail."
  },
  {
   "id": "key-biscayne",
@@ -40,12 +48,60 @@
   "line": "Art Deco binalar, plaj ve Ocean Drive’ın enerjisi."
  },
  {
-  "id": "wynwood",
-  "name": "Wynwood & Design District",
+  "id": "sofi",
+  "name": "SoFi (South of Fifth)",
   "county": "Miami-Dade",
-  "lat": 25.806,
+  "lat": 25.77,
+  "lng": -80.134,
+  "line": "South Beach'in en güneyindeki prestijli küçük bölge."
+ },
+ {
+  "id": "venetian-islands",
+  "name": "Venetian Islands",
+  "county": "Miami-Dade",
+  "lat": 25.7905,
+  "lng": -80.16,
+  "line": "Venetian Causeway üzerinde körfez ortasında adalar."
+ },
+ {
+  "id": "wynwood",
+  "name": "Wynwood",
+  "county": "Miami-Dade",
+  "lat": 25.801,
+  "lng": -80.199,
+  "line": "Duvar resimleri, galeriler ve yeni kiralık binalar."
+ },
+ {
+  "id": "design-district",
+  "name": "Design District",
+  "county": "Miami-Dade",
+  "lat": 25.813,
+  "lng": -80.193,
+  "line": "Lüks markalar, tasarım ve çağdaş sanat."
+ },
+ {
+  "id": "midtown",
+  "name": "Midtown",
+  "county": "Miami-Dade",
+  "lat": 25.8075,
+  "lng": -80.193,
+  "line": "Yürünebilir alışveriş ve kondominyum blokları."
+ },
+ {
+  "id": "little-haiti",
+  "name": "Little Haiti",
+  "county": "Miami-Dade",
+  "lat": 25.83,
   "lng": -80.196,
-  "line": "Duvar resimleri, galeriler ve lüks butikler."
+  "line": "Karayip kültürü, galeriler ve Little Haiti Cultural Complex."
+ },
+ {
+  "id": "morningside",
+  "name": "Morningside",
+  "county": "Miami-Dade",
+  "lat": 25.829,
+  "lng": -80.183,
+  "line": "Körfez kıyısında tarihî Akdeniz tarzı evler."
  },
  {
   "id": "brickell",
@@ -57,11 +113,19 @@
  },
  {
   "id": "edgewater",
-  "name": "Downtown & Edgewater",
+  "name": "Edgewater",
   "county": "Miami-Dade",
-  "lat": 25.793,
+  "lat": 25.799,
   "lng": -80.188,
-  "line": "Biscayne Körfezi’nde en hızlı değişen silüet."
+  "line": "Biscayne Körfezi boyunca yükselen yeni nesil kuleler."
+ },
+ {
+  "id": "downtown-miami",
+  "name": "Downtown Miami",
+  "county": "Miami-Dade",
+  "lat": 25.7743,
+  "lng": -80.1937,
+  "line": "Müzeler, Kaseya Center ve MiamiCentral istasyonu."
  },
  {
   "id": "little-havana",
@@ -70,6 +134,14 @@
   "lat": 25.7656,
   "lng": -80.219,
   "line": "Calle Ocho ve Miami’nin Latin kalbi."
+ },
+ {
+  "id": "allapattah",
+  "name": "Allapattah",
+  "county": "Miami-Dade",
+  "lat": 25.815,
+  "lng": -80.224,
+  "line": "Rubell Museum, Jackson ve Metrorail istasyonları."
  },
  {
   "id": "doral",
@@ -81,19 +153,35 @@
  },
  {
   "id": "north-beach",
-  "name": "Mid-Beach & North Beach",
+  "name": "North Beach",
   "county": "Miami-Dade",
-  "lat": 25.845,
-  "lng": -80.1205,
-  "line": "Miami Beach’in daha sakin yüzü."
+  "lat": 25.864,
+  "lng": -80.1215,
+  "line": "Miami Beach'in daha sakin ve mahalle dokusundaki kuzeyi."
+ },
+ {
+  "id": "mid-beach",
+  "name": "Mid-Beach",
+  "county": "Miami-Dade",
+  "lat": 25.825,
+  "lng": -80.1225,
+  "line": "Tarihî oteller ve Indian Creek kıyısı."
  },
  {
   "id": "bal-harbour",
-  "name": "Surfside & Bal Harbour",
+  "name": "Bal Harbour",
   "county": "Miami-Dade",
-  "lat": 25.884,
-  "lng": -80.122,
-  "line": "Sakin sahil sokakları ve Bal Harbour Shops."
+  "lat": 25.8915,
+  "lng": -80.127,
+  "line": "Okyanus cepheli kuleler ve Bal Harbour Shops."
+ },
+ {
+  "id": "surfside",
+  "name": "Surfside",
+  "county": "Miami-Dade",
+  "lat": 25.8784,
+  "lng": -80.1256,
+  "line": "Harding Avenue çevresinde küçük kasaba merkezi."
  },
  {
   "id": "sunny-isles",
@@ -128,6 +216,14 @@
   "line": "Broadwalk boyunca bisikletle sahil hayatı."
  },
  {
+  "id": "hollywood-beach",
+  "name": "Hollywood Beach",
+  "county": "Broward",
+  "lat": 26.013,
+  "lng": -80.119,
+  "line": "Broadwalk, okyanus kıyısı ve \"Old Florida\" havası."
+ },
+ {
   "id": "weston",
   "name": "Weston",
   "county": "Broward",
@@ -153,11 +249,19 @@
  },
  {
   "id": "pompano",
-  "name": "Lighthouse Point & Pompano",
+  "name": "Pompano Beach",
   "county": "Broward",
-  "lat": 26.26,
-  "lng": -80.099,
-  "line": "Derin su kanalları ve tekne sahipleri için tasarlanmış evler."
+  "lat": 26.2379,
+  "lng": -80.1248,
+  "line": "Yenilenen sahil şeridi, iskele ve markalı yeni kuleler."
+ },
+ {
+  "id": "lighthouse-point",
+  "name": "Lighthouse Point",
+  "county": "Broward",
+  "lat": 26.2756,
+  "lng": -80.0873,
+  "line": "Derin su kanalları ve tekne sahipleri için evler."
  },
  {
   "id": "deerfield",

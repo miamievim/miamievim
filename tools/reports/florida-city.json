@@ -2,10 +2,11 @@
  "id": "florida-city",
  "name": "Florida City",
  "county": "Miami-Dade",
- "meta": "Florida City mahalle raporu, Ekim 2026: medyan satış fiyatı $379.719, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Miami-Dade'in en güneyindeki şehir: Everglades ve Florida Keys yolunun başlangıcı, uygun fiyatlı yeni müstakil evler. Ekim 2026 itibarıyla medyan satış fiyatı $379.719.",
+ "meta": "Florida City mahalle raporu, Ekim 2026: medyan satış fiyatı $380 bin, ortalama kira $2.600, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Miami-Dade'in en güneyindeki şehir: Everglades ve Florida Keys yolunun başlangıcı, uygun fiyatlı yeni müstakil evler. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $380 bin (Redfin).",
  "sales": {
   "median": 379719,
+  "median_approx": false,
   "median_chg": "yıllık −%4,8",
   "ppsf": 265,
   "src_short": "Redfin",
@@ -16,23 +17,27 @@
    ],
    [
     "Fit kare fiyatı",
-    "$265 / ft² ≈ $2.852 / m² <small>(yıllık −%4,0)</small>"
+    "$265 / ft² ≈ $2.852 / m² <small>(yıllık −%4)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "76 gün <small>(bir yıl önce 91 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "76 <small>(yıllık −%4,8)</small>"
+    "Satılan konut (Eylül 2026)",
+    "76 <small>(bir yıl önce 80)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,3"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/5920/FL/Florida-City/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Florida City Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/5920/FL/Florida-City/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, Florida City Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda geriledi (−%4,8); fit kare fiyatı da geriledi (−%4).",
+   "Medyan satış süresi bir yılda 91 günden 76 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,7 altında kapanıyor."
+  ]
  },
  "rent": {
   "avg": 2600,
@@ -45,27 +50,31 @@
    ],
    [
     "1 yatak odalı",
-    "$1.500"
+    "$1.350"
    ],
    [
     "2 yatak odalı",
-    "$2.000"
+    "$1.900"
    ],
    [
     "3 yatak odalı",
-    "$2.520"
+    "$2.533"
+   ],
+   [
+    "4+ yatak odalı",
+    "$3.200"
    ],
    [
     "Tüm konutlar (ortalama)",
     "$2.600"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/florida-city-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Florida City</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/florida-city-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, Florida City</a>, 26 Ekim 2026 güncellemesi (227 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 21.4531,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "Florida City, Miami-Dade'in en güneyinde, Homestead'in hemen güneyinde yer alan bir şehir. US-1'in Florida Keys'e uzanan bölümü ve Everglades Ulusal Parkı'na giden yol buradan başlar.",
@@ -122,7 +131,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Brightline MiamiCentral (yaklaşık 60 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Metrorail Dadeland South (kuş uçuşu yaklaşık 31 km)."
   ],
   [
    "Günlük hayat",
@@ -136,14 +145,12 @@
  "pros": [
   "Miami-Dade'de uygun giriş fiyatları",
   "Yeni müstakil ev ve townhouse projeleri",
-  "Everglades ve Keys'e yakınlık",
-  "Satışlar ilan fiyatına yakın"
+  "Everglades ve Keys'e yakınlık"
  ],
  "cons": [
-  "Miami şehir merkezine uzak (yaklaşık 1 saat)",
   "Alçak arazide sel ve fırtına riski",
-  "Vergi oranı 21,45 mill",
-  "Toplu taşıma sınırlı"
+  "Toplu taşıma sınırlı",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (21,45 mill)"
  ],
  "faq": [
   [
@@ -152,24 +159,24 @@
   ],
   [
    "Florida City bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.600; 2 yatak odalı $2.000 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.600; 1 yatak odalı $1.350, 2 yatak odalı $1.900 civarında."
   ],
   [
    "Florida City bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 21,4531 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,15. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 21,4531 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,15 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: Florida City Housing Market (Ekim 2026)",
+   "Redfin: Florida City Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/5920/FL/Florida-City/housing-market"
   ],
   [
-   "Zillow: Florida City Rental Market Trends (17 Ekim 2026)",
+   "Zillow: Florida City Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/florida-city-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -177,5 +184,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, Florida City raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, Florida City raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Miami-Dade'in en güneyindeki şehir: Everglades ve Florida Keys yolunun başlangıcı, uygun fiyatlı yeni müstakil evler."
 }

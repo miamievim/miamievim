@@ -2,10 +2,11 @@
  "id": "north-lauderdale",
  "name": "North Lauderdale",
  "county": "Broward",
- "meta": "North Lauderdale mahalle raporu, Ekim 2026: medyan satış fiyatı $349.584, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Konut ağırlıklı yapısı ve uygun fiyatlarıyla kuzey Broward'da küçük bir şehir. Ekim 2026 itibarıyla medyan satış fiyatı $349.584; satışlar ilan fiyatına çok yakın kapanıyor.",
+ "meta": "North Lauderdale mahalle raporu, Ekim 2026: medyan satış fiyatı $350 bin, ortalama kira $2.500, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Konut ağırlıklı yapısı ve uygun fiyatlarıyla kuzey Broward'da küçük bir şehir. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $350 bin (Redfin).",
  "sales": {
   "median": 349584,
+  "median_approx": false,
   "median_chg": "yıllık +%6,7",
   "ppsf": 256,
   "src_short": "Redfin",
@@ -19,24 +20,28 @@
     "$256 / ft² ≈ $2.756 / m² <small>(yıllık −%11,2)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "74 gün <small>(bir yıl önce 92 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "73 <small>(yıllık −%20,5)</small>"
+    "Satılan konut (Eylül 2026)",
+    "73 <small>(bir yıl önce 92)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%97,2"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/12669/FL/North-Lauderdale/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Lauderdale Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/12669/FL/North-Lauderdale/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, North Lauderdale Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%6,7); fit kare fiyatı ise ters yönde hareket etti (−%11,2); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 92 günden 74 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %2,8 altında kapanıyor."
+  ]
  },
  "rent": {
-  "avg": 2552,
-  "chg": "yıllık −$43",
+  "avg": 2500,
+  "chg": "yıllık −$2",
   "src_short": "Zillow",
   "rows": [
    [
@@ -45,7 +50,7 @@
    ],
    [
     "1 yatak odalı",
-    "$1.556"
+    "$1.550"
    ],
    [
     "2 yatak odalı",
@@ -53,19 +58,23 @@
    ],
    [
     "3 yatak odalı",
-    "$2.800"
+    "$2.700"
+   ],
+   [
+    "4+ yatak odalı",
+    "$4.148"
    ],
    [
     "Tüm konutlar (ortalama)",
-    "$2.552"
+    "$2.500"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-lauderdale-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Lauderdale</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/north-lauderdale-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, North Lauderdale</a>, 26 Ekim 2026 güncellemesi (146 aktif kiralık ilan).",
   "notes": []
  },
  "tax": {
   "mills": 21.4965,
-  "src_short": "Broward PA 2025"
+  "src_short": "Broward PA, 2025"
  },
  "character": [
   "North Lauderdale, 1963'te kurulan ve büyük ölçüde konut amaçlı gelişen küçük bir şehir. Tamarac, Margate ve Coconut Creek ile çevrili merkezi konumu, kuzey Broward'ın alışveriş ve iş merkezlerine kolay erişim sağlar.",
@@ -118,7 +127,7 @@
   ],
   [
    "Toplu taşıma",
-   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (yaklaşık 11 km)."
+   "Broward County Transit (BCT) otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Cypress Creek (kuş uçuşu yaklaşık 8 km)."
   ],
   [
    "Günlük hayat",
@@ -131,15 +140,12 @@
  ],
  "pros": [
   "Uygun giriş fiyatları",
-  "Satışlar ilan fiyatına çok yakın (%97,2)",
-  "Hızlı satışlar (74 gün)",
   "Merkezi konum"
  ],
  "cons": [
-  "Yüksek vergi oranı (21,50 mill)",
-  "Fit kare fiyatında yıllık düşüş",
   "Plaja uzak",
-  "Toplu taşıma sınırlı"
+  "Toplu taşıma sınırlı",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (21,50 mill)"
  ],
  "faq": [
   [
@@ -148,24 +154,24 @@
   ],
   [
    "North Lauderdale bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $2.552; 2 yatak odalı $2.167 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $2.500; 1 yatak odalı $1.550, 2 yatak odalı $2.167 civarında."
   ],
   [
    "North Lauderdale bölgesinde emlak vergisi ne kadar?",
-   "Broward County Property Appraiser verisine göre 2025 toplam oranı 21,4965 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,15. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 21,4965 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,15 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: North Lauderdale Housing Market (Ekim 2026)",
+   "Redfin: North Lauderdale Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/12669/FL/North-Lauderdale/housing-market"
   ],
   [
-   "Zillow: North Lauderdale Rental Market Trends (17 Ekim 2026)",
+   "Zillow: North Lauderdale Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/north-lauderdale-fl/"
   ],
   [
-   "Broward County Property Appraiser: 2025 millage oranları",
+   "Broward County Property Appraiser: Millage Rates (2025)",
    "https://bcpa.net/millage.asp"
   ],
   [
@@ -173,5 +179,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, North Lauderdale raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, North Lauderdale raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Konut ağırlıklı yapısı ve uygun fiyatlarıyla kuzey Broward'da küçük bir şehir."
 }

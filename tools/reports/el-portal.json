@@ -2,10 +2,11 @@
  "id": "el-portal",
  "name": "El Portal",
  "county": "Miami-Dade",
- "meta": "El Portal mahalle raporu, Ekim 2026: medyan satış fiyatı $1.139.457, kiralar, emlak vergisi, sel bölgesi, ulaşım ve yaşam. Kaynaklı ve tarihli veriler.",
- "short": "Little River kıyısında, tarihî evleri ve büyük ağaçlarıyla Miami'nin en küçük belediyelerinden biri. Ekim 2026 itibarıyla medyan satış fiyatı $1.139.457.",
+ "meta": "El Portal mahalle raporu, Ekim 2026: medyan satış fiyatı $1,1 milyon, ortalama kira $5.000, emlak vergisi, sel bölgesi, ulaşım ve yeni projeler. Kaynaklı ve tarihli veriler.",
+ "short": "Little River kıyısında, tarihî evleri ve büyük ağaçlarıyla Miami'nin en küçük belediyelerinden biri. Ekim 2026 itibarıyla son 3 ayın medyan satış fiyatı $1,1 milyon (Redfin).",
  "sales": {
   "median": 1139457,
+  "median_approx": false,
   "median_chg": "yıllık +%13,1",
   "ppsf": 607,
   "src_short": "Redfin",
@@ -19,20 +20,24 @@
     "$607 / ft² ≈ $6.534 / m² <small>(yıllık −%13,1)</small>"
    ],
    [
-    "Ortalama satış süresi",
+    "Medyan satış süresi",
     "62 gün <small>(bir yıl önce 133 gün)</small>"
    ],
    [
-    "Satılan konut",
-    "16 <small>(yıllık +%103,1)</small>"
+    "Satılan konut (Eylül 2026)",
+    "16 <small>(bir yıl önce 8)</small>"
    ],
    [
     "Satış / ilan fiyatı oranı",
     "%96,1"
    ]
   ],
-  "src": "<a href=\"https://www.redfin.com/city/5337/FL/El-Portal/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, El Portal Housing Market</a>, Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
-  "notes": []
+  "src": "<a href=\"https://www.redfin.com/city/5337/FL/El-Portal/housing-market\" target=\"_blank\" rel=\"noopener\">Redfin, El Portal Housing Market</a>, 28 Ekim 2026 erişimi (Eylül 2026 itibarıyla son 3 ay verisi).",
+  "notes": [
+   "Medyan satış fiyatı bir yılda yükseldi (+%13,1); fit kare fiyatı ise ters yönde hareket etti (−%13,1); bu genellikle son dönemde satılan konutların büyüklük veya tip karışımının değiştiğini gösterir.",
+   "Medyan satış süresi bir yılda 133 günden 62 güne indi; satışlar daha hızlı kapanıyor.",
+   "Satışlar ortalamada ilan fiyatının %3,9 altında kapanıyor."
+  ]
  },
  "rent": {
   "avg": 5000,
@@ -45,29 +50,33 @@
    ],
    [
     "1 yatak odalı",
-    "$1.700"
+    "$2.113"
    ],
    [
     "2 yatak odalı",
-    "$2.599"
+    "$2.521"
    ],
    [
     "3 yatak odalı",
     "$5.000"
    ],
    [
+    "4+ yatak odalı",
+    "$5.972"
+   ],
+   [
     "Tüm konutlar (ortalama)",
     "$5.000"
    ]
   ],
-  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/el-portal-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, El Portal</a>, 17 Ekim 2026 güncellemesi.",
+  "src": "<a href=\"https://www.zillow.com/rental-manager/market-trends/el-portal-fl/\" target=\"_blank\" rel=\"noopener\">Zillow Rental Market Trends, El Portal</a>, 26 Ekim 2026 güncellemesi (21 aktif kiralık ilan).",
   "notes": [
-   "Zillow'da bu bölge için yalnızca 20 kiralık ilan bulunduğu için ortalama ve yıllık değişim oynaktır; rakamları gösterge olarak değerlendirin."
+   "Kiralık ilan sayısı az (21 ilan); ortalamalar tek tek ilanlardan çok etkilenebilir."
   ]
  },
  "tax": {
   "mills": 23.2227,
-  "src_short": "Miami-Dade PA 2025"
+  "src_short": "Miami-Dade PA, 2025"
  },
  "character": [
   "El Portal, Miami Shores ile Little Haiti arasında, Little River boyunca uzanan ve 1937'de kurulan küçük bir köy. Nehir kıyısındaki evler ve büyük ağaçlar köyün sakin dokusunu oluşturur.",
@@ -120,7 +129,7 @@
   ],
   [
    "Toplu taşıma",
-   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Tri-Rail Metrorail Transfer (yaklaşık 9 km)."
+   "Metrobus otobüs hatları; en yakın raylı sistem istasyonu Metrorail Dr. Martin Luther King Jr. Plaza (kuş uçuşu yaklaşık 5 km)."
   ],
   [
    "Günlük hayat",
@@ -133,14 +142,13 @@
  ],
  "pros": [
   "Sakin, ağaçlı küçük köy",
-  "Satış süresinde belirgin kısalma",
   "Design District ve Downtown'a yakınlık"
  ],
  "cons": [
-  "Yüksek vergi oranı (23,22 mill)",
   "Nehir kenarı evlerde sel riski",
   "Satış ve kiralık ilan sayısı az",
-  "Eski evlerde yenileme maliyeti"
+  "Eski evlerde yenileme maliyeti",
+  "Bölgedeki yüksek toplam vergi oranlarından biri (23,22 mill)"
  ],
  "faq": [
   [
@@ -149,24 +157,24 @@
   ],
   [
    "El Portal bölgesinde kiralar ne kadar?",
-   "Zillow'a göre (17 Ekim 2026) ortalama kira aylık $5.000; 2 yatak odalı $2.599 civarında."
+   "Zillow'a göre (26 Ekim 2026) ortalama kira aylık $5.000; 1 yatak odalı $2.113, 2 yatak odalı $2.521 civarında."
   ],
   [
    "El Portal bölgesinde emlak vergisi ne kadar?",
-   "Miami-Dade Property Appraiser verisine göre 2025 toplam oranı 23,2227 mill; yani her $100 vergi değeri için yıllık yaklaşık $2,32. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
+   "2025 için toplam oran 23,2227 mill; yani yıllık vergi, vergi değerinin yaklaşık %2,32 kadarı. Bu bilgi genel niteliktedir, vergi tavsiyesi değildir."
   ]
  ],
  "sources": [
   [
-   "Redfin: El Portal Housing Market (Ekim 2026)",
+   "Redfin: El Portal Housing Market (Ekim 2026 erişimi)",
    "https://www.redfin.com/city/5337/FL/El-Portal/housing-market"
   ],
   [
-   "Zillow: El Portal Rental Market Trends (17 Ekim 2026)",
+   "Zillow: El Portal Rental Market Trends (26 Ekim 2026)",
    "https://www.zillow.com/rental-manager/market-trends/el-portal-fl/"
   ],
   [
-   "Miami-Dade Property Appraiser: 2025 Adopted Millage Chart",
+   "Miami-Dade Property Appraiser: 2025 Adopted Millage Rates",
    "https://www.miamidadepa.gov/resources-pa/library/reports/millage/2025-adopted-millage-chart.pdf"
   ],
   [
@@ -174,5 +182,6 @@
    "https://msc.fema.gov/portal/search"
   ]
  ],
- "wa": "Merhaba Aleyna Hanım, El Portal raporunu okudum. Bu bölge hakkında görüşmek istiyorum."
+ "wa": "Merhaba Aleyna Hanım, El Portal raporunu okudum. Bu bölge hakkında görüşmek istiyorum.",
+ "lead": "Little River kıyısında, tarihî evleri ve büyük ağaçlarıyla Miami'nin en küçük belediyelerinden biri."
 }
