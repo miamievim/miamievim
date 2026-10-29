@@ -403,9 +403,9 @@ h2 em,h1 em{font-style:italic}
 .ps-cta .btn-line{color:var(--ivory);border-color:var(--ivory);background:transparent}
 .ps-cta .btn-line:hover{background:var(--ivory);color:var(--ink)}
 @media (max-width:600px){.ps-cta{padding:20px}.ps-cta-btns .btn{flex:1 1 100%}}
-.home-portrait{display:block;margin-top:40px;max-width:420px}
+.home-portrait{display:block;margin-top:40px;max-width:320px}
 .home-portrait img{display:block;width:100%;height:auto}
-@media (max-width:900px){.home-portrait{max-width:340px;margin:28px auto 0}}
+@media (max-width:900px){.home-portrait{max-width:280px;margin:28px auto 0}}
 .img-credits{margin-top:28px;font-size:12px;font-weight:300;color:var(--stone)}
 .img-credits summary{cursor:pointer;letter-spacing:.2em;text-transform:uppercase;font-size:11px}
 .img-credits ol{margin:12px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
