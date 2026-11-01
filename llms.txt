@@ -2,7 +2,7 @@
 
 > miamievim.com, Miami ve Güney Florida'da (Miami-Dade, Broward, Palm Beach) Türkçe emlak danışmanlığı veren Aleyna Bozoklar'ın Türkçe web sitesidir. Aleyna Bozoklar, Cervera Real Estate (Miami, 1969'dan beri) bünyesinde çalışan lisanslı bir Realtor® Associate'tir. Türkçe, İngilizce ve Fransızca hizmet verir.
 
-Son güncelleme: 2026-10-18
+Son güncelleme: 2026-11-02
 
 ## Kimlik
 - Ad: Aleyna Bozoklar
@@ -29,7 +29,10 @@ Son güncelleme: 2026-10-18
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
 - [Neden Miami?](https://miamievim.com/rehberler/neden-miami/): Florida'da eyalet gelir vergisi olmaması, MIA'nın 172 direkt uçuş noktası, İstanbul–Miami günlük direkt sefer, Miami-Dade nüfusu (2025), turizm, iklim ve yaşam; kaynaklı ve tarihli
+- [Yabancı olarak Miami'de ev almak](https://miamievim.com/rehberler/yabanci-olarak-ev-almak/): Türkiye vatandaşları Florida'da konut alabilir (SB 264 kısıtı yalnızca 7 ülke için; Türkiye listede yok); teklif, emanet, denetim ve kapanış adımları; yabancıların kira geliri vergisi (%30 veya IRC 871(d) net esas), FIRPTA %15, veraset beyanı eşiği $60.000, E-2 vizesi ve konut alımı; resmi kaynaklı (Kasım 2026)
+- [Proje aşamasından daire almak](https://miamievim.com/rehberler/proje-asamasindan-daire-almak/): Florida'da geliştirici satışlarında depozitoların emanette tutulması (%10 eşiği, Fla. Stat. 718.202), 15 günlük cayma hakkı (718.503), imzadan önce incelenecek belgeler ve Miami'deki 83 projenin ödeme planı verisi (Cervera, Q3 2026)
 - [Yeni projeler](https://miamievim.com/yeni-projeler/): Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables'ta 83 yeni proje; tahmini teslim, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine (kaynak: Cervera Development Market Study, Q3 2026)
+- [İlan talebi](https://miamievim.com/ilanlar/): satılık ve kiralık güncel MLS ilanlarının bütçe ve kriterlere göre e-postayla istenmesi
 
 ## Mahalle raporları
 121 bölgenin her biri için ayrı rapor: karakter, satış fiyatları, kiralar, aidat, sigorta, sel bölgesi, ulaşım ve yeni projeler. Rakamlar kaynak ve ay bilgisiyle verilir. Raporlar her ay güncellenir.
