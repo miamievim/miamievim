@@ -2,7 +2,7 @@
 
 > miamievim.com, Miami ve Güney Florida'da (Miami-Dade, Broward, Palm Beach) Türkçe emlak danışmanlığı veren Aleyna Bozoklar'ın Türkçe web sitesidir. Aleyna Bozoklar, Cervera Real Estate (Miami, 1969'dan beri) bünyesinde çalışan lisanslı bir Realtor® Associate'tir. Türkçe, İngilizce ve Fransızca hizmet verir.
 
-Son güncelleme: 2026-10-18
+Son güncelleme: 2026-11-09
 
 ## Kimlik
 - Ad: Aleyna Bozoklar
@@ -29,6 +29,8 @@ Son güncelleme: 2026-10-18
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
 - [Neden Miami?](https://miamievim.com/rehberler/neden-miami/): Florida'da eyalet gelir vergisi olmaması, MIA'nın 172 direkt uçuş noktası, İstanbul–Miami günlük direkt sefer, Miami-Dade nüfusu (2025), turizm, iklim ve yaşam; kaynaklı ve tarihli
+- [Sahil kenarında ev almak: FEMA sel bölgeleri ve sel sigortası](https://miamievim.com/rehberler/sel-bolgeleri-ve-sel-sigortasi/): FEMA sel bölgeleri (A/AE, V/VE, X), adres sorgulama ve kot belgesi, kredili alımda sel sigortası zorunluluğu, Citizens'ın 1 Ocak 2027 sel şartı, NFIP teminat üst sınırları ($250.000 bina, $100.000 eşya) ve 30 günlük bekleme, Risk Rating 2.0 (%18 yıllık artış sınırı), Miami-Dade CRS Class 3 (%35'e varan indirim), satıcının sel beyanı (Fla. Stat. 689.302), NFIP yetki süresi 11 Aralık 2026; resmi kaynaklı (Kasım 2026)
+- [Amendment 3 kabul edildi: emlak vergisinde ne değişiyor?](https://miamievim.com/rehberler/amendment-3-emlak-vergisi/): 3 Kasım 2026'da %62,01 evet oyuyla kabul edilen Florida emlak vergisi değişikliği; homestead indirimi okul dışı vergilerde 2027'de $150.000, 2028'de $250.000; 1 Ocak 2027 sonrası yerleşenler için $50.000 ve bekleme süresi; homestead olmayan mülklerde artış sınırı %10'dan %5'e; etkisi Kasım 2027 faturalarında; resmi kaynaklı (Kasım 2026)
 - [Yeni projeler](https://miamievim.com/yeni-projeler/): Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables'ta 83 yeni proje; tahmini teslim, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine (kaynak: Cervera Development Market Study, Q3 2026)
 
 ## Mahalle raporları
