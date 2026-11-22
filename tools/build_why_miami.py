@@ -181,7 +181,7 @@ def main():
     <div class="wrap">
       <p class="eyebrow"><a href="/rehberler/">Rehberler</a> · Neden Miami?</p>
       <h1>Neden <em>Miami?</em></h1>
-      <nav class="subtabs" aria-label="Rehberler alt menüsü"><a href="/rehberler/">Tüm rehberler</a><a href="/rehberler/neden-miami/" aria-current="page">Neden Miami?</a></nav>
+      <nav class="subtabs" aria-label="Rehberler alt menüsü"><a href="/rehberler/">Tüm rehberler</a><a href="/rehberler/neden-miami/" aria-current="page">Neden Miami?</a><a href="/rehberler/kisa-donem-kiralama-kurallari/">Kısa dönem kiralama</a><a href="/rehberler/kira-getirisi-hesaplama/">Kira getirisi</a></nav>
     </div>
   </section>
 

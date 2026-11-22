@@ -2,7 +2,7 @@
 
 > miamievim.com, Miami ve Güney Florida'da (Miami-Dade, Broward, Palm Beach) Türkçe emlak danışmanlığı veren Aleyna Bozoklar'ın Türkçe web sitesidir. Aleyna Bozoklar, Cervera Real Estate (Miami, 1969'dan beri) bünyesinde çalışan lisanslı bir Realtor® Associate'tir. Türkçe, İngilizce ve Fransızca hizmet verir.
 
-Son güncelleme: 2026-10-18
+Son güncelleme: 2026-11-23
 
 ## Kimlik
 - Ad: Aleyna Bozoklar
@@ -29,6 +29,8 @@ Son güncelleme: 2026-10-18
 - [Hakkımda](https://miamievim.com/hakkimda/): Aleyna Bozoklar'ın eğitimi, geçmişi ve çalışma ilkeleri
 - [Rehberler](https://miamievim.com/rehberler/): Miami'de ev almak, kiralamak ve yaşamak üzerine haftalık Türkçe rehberler
 - [Neden Miami?](https://miamievim.com/rehberler/neden-miami/): Florida'da eyalet gelir vergisi olmaması, MIA'nın 172 direkt uçuş noktası, İstanbul–Miami günlük direkt sefer, Miami-Dade nüfusu (2025), turizm, iklim ve yaşam; kaynaklı ve tarihli
+- [Miami'de kısa dönem kiralama (Airbnb) kuralları](https://miamievim.com/rehberler/kisa-donem-kiralama-kurallari/): üç katman (eyalet, şehir, bina); Florida DBPR tatil kiralaması lisansı (yılda 3'ten fazla, 30 günden kısa kiralama; tek birim $170/yıl + $50 başvuru + $10 HEP; Miami-Dade yenileme 1 Ekim); Miami Beach'te 6 ay + 1 günden kısa kiralamaların müstakil evlerde ve bazı bölgelerdeki apartmanlarda yasak olması, BTR ve resort tax numarasının ilanda gösterilmesi; City of Miami'de Miami 21 konaklama bölgeleri ve dönüşüm süreci (CO, CU, dernek imzalı yönetim planı, DBPR, BTR); Miami-Dade Sec. 33-28; kondominyum beyannamesi ve Fla. Stat. 718.110(13); konaklama vergileri (Miami-Dade %6 + %1 + %6 = %13; Miami Beach yerel %7, Surfside/Bal Harbour %4; Broward %1 ek + %6; Palm Beach 2026'dan %0,5 ek + %6); 6 aydan uzun kiralama muafiyeti (Fla. Stat. 212.03); yabancıların kira vergisi; resmi kaynaklı (Kasım 2026)
+- [Kira getirisi nasıl hesaplanır? Brüt ve net getiri](https://miamievim.com/rehberler/kira-getirisi-hesaplama/): brüt getiri, net getiri (cap rate) ve nakit getirisi (cash-on-cash) formülleri; işletme giderleri ve toplam alım maliyeti; yatırım mülklerinde emlak vergisi (el değişiminde yeniden değerleme, %10 artış sınırı, Amendment 3 ile 2027'den %5, Florida DOR PTO 26-21); kira gelirinin vergileri (Florida'da eyalet gelir vergisi yok; yabancılarda brüt %30 veya IRC 871(d) net esas, W-8ECI, 1040-NR); FIRPTA %15; sık yapılan hatalar; resmi kaynaklı (Kasım 2026)
 - [Yeni projeler](https://miamievim.com/yeni-projeler/): Brickell, Downtown, Edgewater, Miami Beach, Coconut Grove ve Coral Gables'ta 83 yeni proje; tahmini teslim, ödeme planı, geliştirici ve mimar; fiyat listesi ve kat planı talep üzerine (kaynak: Cervera Development Market Study, Q3 2026)
 
 ## Mahalle raporları
